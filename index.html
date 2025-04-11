@@ -237,11 +237,15 @@
     }
 
     // Recent games render
-fetch("recent_games.json")
-  .then(res => res.json())
-  .then(games => {
+fetch("recent_games.json").then(res => res.json()),
+    fetch("team_logos.json").then(res => res.json())
+  ]).then(([games, logos]) => {
     const container = document.getElementById("recent-games");
+
     games.forEach(game => {
+      const homeLogo = logos[game.home.team]?.logo || "";
+      const awayLogo = logos[game.away.team]?.logo || "";
+
       container.innerHTML += `
         <div class="bg-card rounded-xl shadow p-3 text-sm space-y-2 w-full">
           <div class="flex justify-between items-center text-xs text-gray-400">
@@ -250,7 +254,7 @@ fetch("recent_games.json")
           </div>
           <div class="flex justify-between items-center">
             <div class="flex items-center gap-2">
-              <img src="${game.away.logo}" class="w-6 h-6" />
+              <img src="${awayLogo}" class="w-6 h-6" />
               <div class="flex flex-col">
                 <span class="font-bold text-base">${game.away.team}</span>
                 <span class="text-xs text-gray-400">${game.away.sog} SOG</span>
@@ -260,7 +264,7 @@ fetch("recent_games.json")
           </div>
           <div class="flex justify-between items-center">
             <div class="flex items-center gap-2">
-              <img src="${game.home.logo}" class="w-6 h-6" />
+              <img src="${homeLogo}" class="w-6 h-6" />
               <div class="flex flex-col">
                 <span class="font-bold text-base">${game.home.team}</span>
                 <span class="text-xs text-gray-400">${game.home.sog} SOG</span>
