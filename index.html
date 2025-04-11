@@ -66,16 +66,16 @@
 </section>
     
     <section>
-      <h2 class="text-xl font-semibold mb-2">Standings</h2>
-      <table class="min-w-full bg-card rounded shadow text-left">
-        <thead class="bg-gray-700 text-white">
-          <tr>
-            <th class="p-2">Team</th><th class="p-2">W</th><th class="p-2">L</th><th class="p-2">OTL</th><th class="p-2">PTS</th><th class="p-2">GF</th><th class="p-2">GA</th>
-          </tr>
-        </thead>
-        <tbody id="standings-body"></tbody>
-      </table>
-    </section>
+  <div class="flex justify-between items-center mb-2">
+    <h2 class="text-xl font-semibold">Standings</h2>
+    <select id="standings-filter" class="bg-gray-700 text-white p-1 rounded text-sm">
+      <option value="overall">Overall</option>
+      <option value="conference">By Conference</option>
+      <option value="division">By Division</option>
+    </select>
+  </div>
+  <div id="standings-tables" class="space-y-8"></div>
+</section>
 
     <section>
       <div class="flex justify-between items-center mb-2">
@@ -321,17 +321,68 @@ fetch("recent_games.json")
 
       renderGoalies(); updateGoalieSortArrows();
 
-      const standingsBody = document.getElementById('standings-body');
-      standings.sort((a,b) => b.points - a.points).forEach(t => {
-        standingsBody.innerHTML += `<tr class="animate-fadeSlide">
-          <td class="p-2">${t.team}</td>
-          <td class="p-2">${t.wins}</td>
-          <td class="p-2">${t.losses}</td>
-          <td class="p-2">${t.otl}</td>
-          <td class="p-2">${t.points}</td>
-          <td class="p-2">${t.gf}</td>
-          <td class="p-2">${t.ga}</td></tr>`;
-      });
+      const standingsContainer = document.getElementById("standings-tables");
+
+function groupStandings(type) {
+  if (type === "overall") {
+    return { "League": standings };
+  } else if (type === "conference") {
+    return standings.reduce((acc, team) => {
+      acc[team.conference] = acc[team.conference] || [];
+      acc[team.conference].push(team);
+      return acc;
+    }, {});
+  } else if (type === "division") {
+    return standings.reduce((acc, team) => {
+      const key = `${team.conference} - ${team.division}`;
+      acc[key] = acc[key] || [];
+      acc[key].push(team);
+      return acc;
+    }, {});
+  }
+}
+
+function renderStandings(type = "overall") {
+  const grouped = groupStandings(type);
+  standingsContainer.innerHTML = '';
+
+  Object.entries(grouped).forEach(([group, teams]) => {
+    teams.sort((a,b) => b.points - a.points);
+    const table = `
+      <div>
+        <h3 class="text-lg font-semibold mb-1">${group}</h3>
+        <table class="min-w-full bg-card rounded shadow text-left">
+          <thead class="bg-gray-700 text-white">
+            <tr>
+              <th class="p-2">Team</th>
+              <th class="p-2">W</th>
+              <th class="p-2">L</th>
+              <th class="p-2">OTL</th>
+              <th class="p-2">PTS</th>
+              <th class="p-2">GF</th>
+              <th class="p-2">GA</th>
+            </tr>
+          </thead>
+          <tbody>
+            ${teams.map(t => `
+              <tr class="animate-fadeSlide">
+                <td class="p-2">${t.team}</td>
+                <td class="p-2">${t.wins}</td>
+                <td class="p-2">${t.losses}</td>
+                <td class="p-2">${t.otl}</td>
+                <td class="p-2">${t.points}</td>
+                <td class="p-2">${t.gf}</td>
+                <td class="p-2">${t.ga}</td>
+              </tr>`).join('')}
+          </tbody>
+        </table>
+      </div>`;
+    standingsContainer.innerHTML += table;
+  });
+}
+
+document.getElementById("standings-filter").onchange = (e) => renderStandings(e.target.value);
+renderStandings();
     }
     fetchData();
   </script>
