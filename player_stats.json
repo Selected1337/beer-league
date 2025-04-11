@@ -12,15 +12,15 @@
     "gamesPlayed": 2
   },
   {
-    "saves": 4,
+    "saves": 6,
     "goalsAgainst": 4,
-    "shotsAgainst": 4,
+    "shotsAgainst": 6,
     "player": "Tendy41",
     "team": "MIS",
-    "goals": 9,
+    "goals": 11,
     "assists": 0,
-    "hits": 62,
-    "touches": 54,
-    "gamesPlayed": 2
+    "hits": 71,
+    "touches": 62,
+    "gamesPlayed": 3
   }
 ]
