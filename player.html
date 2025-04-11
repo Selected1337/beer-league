@@ -47,57 +47,46 @@
     const params = new URLSearchParams(window.location.search);
     const name = params.get("name");
 
-    fetch("team_logos.json")
-  .then(res => res.json())
-  .then(logos => {
-    const team = player.team;
-    const info = logos[team];
-
-    if (info) {
-      document.getElementById("player-team").textContent = info.name;
-      document.getElementById("team-logo").src = info.logo;
-      document.getElementById("team-banner").src = info.banner;
-      document.body.style.backgroundColor = info.color + "22";
-    }
-  });
-
     if (!name) {
       document.body.innerHTML = '<div class="text-center text-white text-2xl mt-20">Player not found.</div>';
     } else {
       document.getElementById("player-head").src = `https://minotar.net/avatar/${name}/100.png`;
       document.getElementById("player-name").textContent = name;
 
-      fetch("player_stats.json")
-        .then(res => res.json())
-        .then(data => {
-          const player = Array.isArray(data)
-            ? data.find(p => p.player === name)
-            : data[name];
+      Promise.all([
+        fetch("player_stats.json").then(res => res.json()),
+        fetch("team_logos.json").then(res => res.json())
+      ]).then(([players, logos]) => {
+        const player = Array.isArray(players)
+          ? players.find(p => p.player === name)
+          : players[name];
 
-          if (!player) {
-            document.body.innerHTML = '<div class="text-center text-white text-2xl mt-20">Player not found.</div>';
-            return;
-          }
+        if (!player) {
+          document.body.innerHTML = '<div class="text-center text-white text-2xl mt-20">Player not found.</div>';
+          return;
+        }
 
-          const team = player.team;
+        const team = player.team;
+        const teamInfo = logos[team];
+
+        // Theme + logos
+        if (teamInfo) {
+          document.getElementById("player-team").textContent = teamInfo.name;
+          document.getElementById("team-logo").src = teamInfo.logo;
+          document.getElementById("team-banner").src = teamInfo.banner;
+          document.body.style.backgroundColor = teamInfo.color + "22";
+        } else {
           document.getElementById("player-team").textContent = team;
+        }
 
-          // Inject colors and logo
-          const style = teamStyles[team];
-          if (style) {
-            document.getElementById("team-logo").src = style.logo;
-            document.getElementById("team-banner").src = style.banner;
-            document.querySelector("body").style.backgroundColor = style.color + "22";
-          }
-
-          // Stats
-          document.getElementById("stat-gp").textContent = player.gamesPlayed ?? 0;
-          document.getElementById("stat-goals").textContent = player.goals ?? 0;
-          document.getElementById("stat-assists").textContent = player.assists ?? 0;
-          document.getElementById("stat-pts").textContent = (player.goals + player.assists) ?? 0;
-          document.getElementById("stat-hits").textContent = player.hits ?? 0;
-          document.getElementById("stat-touches").textContent = player.touches ?? 0;
-        });
+        // Stats
+        document.getElementById("stat-gp").textContent = player.gamesPlayed ?? 0;
+        document.getElementById("stat-goals").textContent = player.goals ?? 0;
+        document.getElementById("stat-assists").textContent = player.assists ?? 0;
+        document.getElementById("stat-pts").textContent = (player.goals + player.assists) ?? 0;
+        document.getElementById("stat-hits").textContent = player.hits ?? 0;
+        document.getElementById("stat-touches").textContent = player.touches ?? 0;
+      });
     }
   </script>
 </body>
