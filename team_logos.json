@@ -1,0 +1,98 @@
+{
+  "OBO": {
+    "name": "Obsidian Outlaws",
+    "color": "#3a3a3a",
+    "logo": "https://media.discordapp.net/attachments/1249954785625374841/1360344532918731023/Layer_9.png?ex=67fac712&is=67f97592&hm=3d12d57ea676efb35170c0ab312f8dd7b5d5acc8b9d13136bfd71d776cdb92f2&=&format=webp&quality=lossless",
+    "banner": "https://placehold.co/1200x400/3a3a3a/ffffff?text=Obsidian+Outlaws"
+  },
+  "LLM": {
+    "name": "Lava Llamas",
+    "color": "#ff5500",
+    "logo": "https://media.discordapp.net/attachments/1249954785625374841/1360344533673447655/Layer_11.png?ex=67fac712&is=67f97592&hm=5efc854eb8cabae8ee3d95eeb4e8e3c2d0f6f582a30bb36931871674a3483531&=&format=webp&quality=lossless",
+    "banner": "https://placehold.co/1200x400/ff5500/ffffff?text=Lava+Llamas"
+  },
+  "MIS": {
+    "name": "Mooshroom Island Stampede",
+    "color": "#ff66cc",
+    "logo": "https://media.discordapp.net/attachments/1249954785625374841/1360344477126103080/Layer_3.png?ex=67fac705&is=67f97585&hm=d01eb5bf8de37ec3082451e3c052b0f38801ead6d1296d5298762bda941f5385&=&format=webp&quality=lossless",
+    "banner": "https://placehold.co/1200x400/ff66cc/000000?text=Mooshroom+Island"
+  },
+  "YET": {
+    "name": "Tiaga Yetis",
+    "color": "#99ddff",
+    "logo": "https://via.placeholder.com/32/99ddff/000000?text=YET",
+    "banner": "https://media.discordapp.net/attachments/1249954785625374841/1360344477742666038/Layer_5.png?ex=67fac705&is=67f97585&hm=25cf1e9fb64e903539e79eda3bb17e05b7ab6bbb29f50dcf67f89b4f7539705e&=&format=webp&quality=lossless"
+  },
+  "DRP": {
+    "name": "Dripstone Diggers",
+    "color": "#c2b280",
+    "logo": "https://media.discordapp.net/attachments/1249954785625374841/1360344477448798440/Layer_4.png?ex=67fac705&is=67f97585&hm=bca7d4326f42f470a0c6e420a939fd6c3c3a1bd87ff72fcd7656c6f4d968ed4b&=&format=webp&quality=lossless",
+    "banner": "https://placehold.co/1200x400/c2b280/000000?text=Dripstone+Diggers"
+  },
+  "GRZ": {
+    "name": "Granite Grizzlies",
+    "color": "#4b4b4b",
+    "logo": "https://media.discordapp.net/attachments/1249954785625374841/1360344478090527050/Layer_6.png?ex=67fac705&is=67f97585&hm=6549453544f305baac83eedad21ce77a97b713b231fce740e08ef06cea112192&=&format=webp&quality=lossless",
+    "banner": "https://placehold.co/1200x400/4b4b4b/ffffff?text=Granite+Grizzlies"
+  },
+  "MAV": {
+    "name": "Minecraft Mavericks",
+    "color": "#1f75fe",
+    "logo": "https://media.discordapp.net/attachments/1249954785625374841/1360344532142653531/Layer_7.png?ex=67fac712&is=67f97592&hm=ce5791df9599bd1ccc5d97feb8b87b2b98f632c58d986e06949dc547ce7bbaa2&=&format=webp&quality=lossless",
+    "banner": "https://placehold.co/1200x400/1f75fe/ffffff?text=Minecraft+Mavericks"
+  },
+  "MVL": {
+    "name": "Mossy Villagers",
+    "color": "#556b2f",
+    "logo": "https://media.discordapp.net/attachments/1249954785625374841/1360344532604162178/Layer_8.png?ex=67fac712&is=67f97592&hm=c02e4c0449254b9b4a39ccde913dc15756e8643916b05dec96bd691451422d50&=&format=webp&quality=lossless",
+    "banner": "https://placehold.co/1200x400/556b2f/ffffff?text=Mossy+Villagers"
+  },
+  "BLZ": {
+    "name": "Blazeburg Heat",
+    "color": "#ff3300",
+    "logo": "https://media.discordapp.net/attachments/1249954785625374841/1360344533262536874/Layer_10.png?ex=67fac712&is=67f97592&hm=745e0447e28803c82c8e348aea6de209e3dfb61e9a9003873557ed636f5626ca&=&format=webp&quality=lossless",
+    "banner": "https://placehold.co/1200x400/ff3300/ffffff?text=Blazeburg+Heat"
+  },
+  "CHC": {
+    "name": "Chicken Jockey Hockey Club",
+    "color": "#e0e0e0",
+    "logo": "https://media.discordapp.net/attachments/1249954785625374841/1360344476773777509/Layer_2.png?ex=67fac705&is=67f97585&hm=f461bf4c8b2d7dd80e00c967d995e05b5f2b66954a03ca5cbdde0388367026ef&=&format=webp&quality=lossless",
+    "banner": "https://placehold.co/1200x400/e0e0e0/000000?text=Chicken+Jockey+HC"
+  },
+  "BLS": {
+    "name": "Blackstone Dragons",
+    "color": "#1b1b1b",
+    "logo": "https://media.discordapp.net/attachments/1249954785625374841/1360344534021570681/Layer_12.png?ex=67fac712&is=67f97592&hm=3ed280ac9f96ad2e84911669e18f2920594d50b55bedcd6336192fcc96fa41d2&=&format=webp&quality=lossless",
+    "banner": "https://placehold.co/1200x400/1b1b1b/ffffff?text=Blackstone+Dragons"
+  },
+  "CRK": {
+    "name": "Crimson Krakens",
+    "color": "#dc143c",
+    "logo": "https://media.discordapp.net/attachments/1249954785625374841/1360344534482948167/Layer_13.png?ex=67fac713&is=67f97593&hm=6c4f6d5adbed80abd408746926fa6f7aaf1d4f00d53eff8da49d4a377e0061ec&=&format=webp&quality=lossless",
+    "banner": "https://placehold.co/1200x400/dc143c/ffffff?text=Crimson+Krakens"
+  },
+  "FCF": {
+    "name": "Fire Charge Falcons",
+    "color": "#ff8c00",
+    "logo": "https://media.discordapp.net/attachments/1249954785625374841/1360344554741567558/Layer_14.png?ex=67fac717&is=67f97597&hm=7f7fcee8413d58c712500258e1e781da1a21c9dd9a06fa8314febe4e26d9aa04&=&format=webp&quality=lossless",
+    "banner": "https://placehold.co/1200x400/ff8c00/000000?text=Fire+Charge+Falcons"
+  },
+  "SSP": {
+    "name": "Soul Sand Phantoms",
+    "color": "#5c4d4d",
+    "logo": "https://media.discordapp.net/attachments/1249954785625374841/1360344555014062183/Layer_15.png?ex=67fac717&is=67f97597&hm=ae5b4df3dc6cf4d2a8dadb8e57b500c178ade8dd153d95d2b481fc9d5a39f102&=&format=webp&quality=lossless",
+    "banner": "https://placehold.co/1200x400/5c4d4d/ffffff?text=Soul+Sand+Phantoms"
+  },
+  "ADD": {
+    "name": "Ancient Debris Devils",
+    "color": "#663399",
+    "logo": "https://media.discordapp.net/attachments/1249954785625374841/1360344555404394516/Layer_16.png?ex=67fac717&is=67f97597&hm=83bbcf6c0ccc3e729d3e9a0ba73966fdf51ac44ee61da5ac587b09d7c5a2ea5c&=&format=webp&quality=lossless",
+    "banner": "https://placehold.co/1200x400/663399/ffffff?text=Ancient+Debris+Devils"
+  },
+  "RAP": {
+    "name": "Redstone Raptors",
+    "color": "#b30000",
+    "logo": "https://media.discordapp.net/attachments/1249954785625374841/1360344476274397334/Layer_1.png?ex=67fac705&is=67f97585&hm=787fdf7adde49ffa513c51f522cbca50dcbfa007c182427ea31ba20a14ce9313&=&format=webp&quality=lossless",
+    "banner": "https://placehold.co/1200x400/b30000/ffffff?text=Redstone+Raptors"
+  }
+}
