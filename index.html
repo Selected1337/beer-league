@@ -57,42 +57,11 @@
       </div>
     </section>
 
-    <!-- Recent Games -->
+   <!-- Recent Games -->
 <section>
   <h2 class="text-xl font-semibold mb-4">Recent Games</h2>
-  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-
-    <!-- Game Card -->
-    <div class="bg-card rounded-xl shadow p-3 text-sm space-y-2 w-full">
-      <div class="flex justify-between items-center text-xs text-gray-400">
-        <span class="bg-gray-700 text-white px-2 py-0.5 rounded text-[10px]">FINAL</span>
-        <span class="text-[11px]">Apr 10</span>
-      </div>
-      <div class="flex justify-between items-center">
-        <div class="flex items-center gap-2">
-          <img src="https://www-league.nhlstatic.com/images/logos/teams-current-primary-light/19.svg" class="w-6 h-6" />
-          <div class="flex flex-col">
-            <span class="font-bold text-base">STL</span>
-            <span class="text-xs text-gray-400">32 SOG</span>
-          </div>
-        </div>
-        <span class="font-bold text-base">3</span>
-      </div>
-      <div class="flex justify-between items-center">
-        <div class="flex items-center gap-2">
-          <img src="https://www-league.nhlstatic.com/images/logos/teams-current-primary-light/21.svg" class="w-6 h-6" />
-          <div class="flex flex-col">
-            <span class="font-bold text-base">COL</span>
-            <span class="text-xs text-gray-400">41 SOG</span>
-          </div>
-        </div>
-        <span class="font-bold text-base">4</span>
-      </div>
-    </div>
-
-    <!-- Duplicate this for more games -->
-    <!-- You can add 8+ of these and they'll wrap in a 4-column grid -->
-
+  <div id="recent-games" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+    <!-- Game cards will be inserted here from JSON -->
   </div>
 </section>
     
@@ -267,6 +236,44 @@
       });
     }
 
+    // Recent games render
+fetch("recent_games.json")
+  .then(res => res.json())
+  .then(games => {
+    const container = document.getElementById("recent-games");
+    games.forEach(game => {
+      container.innerHTML += `
+        <div class="bg-card rounded-xl shadow p-3 text-sm space-y-2 w-full">
+          <div class="flex justify-between items-center text-xs text-gray-400">
+            <span class="bg-gray-700 text-white px-2 py-0.5 rounded text-[10px]">${game.status}</span>
+            <span class="text-[11px]">${game.date}</span>
+          </div>
+          <div class="flex justify-between items-center">
+            <div class="flex items-center gap-2">
+              <img src="${game.away.logo}" class="w-6 h-6" />
+              <div class="flex flex-col">
+                <span class="font-bold text-base">${game.away.team}</span>
+                <span class="text-xs text-gray-400">${game.away.sog} SOG</span>
+              </div>
+            </div>
+            <span class="font-bold text-base">${game.away.score}</span>
+          </div>
+          <div class="flex justify-between items-center">
+            <div class="flex items-center gap-2">
+              <img src="${game.home.logo}" class="w-6 h-6" />
+              <div class="flex flex-col">
+                <span class="font-bold text-base">${game.home.team}</span>
+                <span class="text-xs text-gray-400">${game.home.sog} SOG</span>
+              </div>
+            </div>
+            <span class="font-bold text-base">${game.home.score}</span>
+          </div>
+        </div>
+      `;
+    });
+  });
+
+
     async function fetchData() {
       const [players, goalies, standings] = await Promise.all([
         fetch(`player_stats.json?cacheBust=${Date.now()}`).then(res => res.json()),
@@ -328,6 +335,7 @@
     }
     fetchData();
   </script>
+  
 </body>
 </html>
 </html>
