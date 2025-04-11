@@ -3,14 +3,12 @@
     "date": "Apr 10",
     "status": "FINAL",
     "home": {
-      "team": "COL",
-      "logo": "https://www-league.nhlstatic.com/images/logos/teams-current-primary-light/21.svg",
+      "team": "MIS",
       "sog": 41,
       "score": 4
     },
     "away": {
-      "team": "STL",
-      "logo": "https://www-league.nhlstatic.com/images/logos/teams-current-primary-light/19.svg",
+      "team": "OBO",
       "sog": 32,
       "score": 3
     }
@@ -20,13 +18,11 @@
     "status": "FINAL",
     "home": {
       "team": "OBO",
-      "logo": "https://via.placeholder.com/24?text=OBO",
       "sog": 27,
       "score": 6
     },
     "away": {
       "team": "LLM",
-      "logo": "https://via.placeholder.com/24?text=LLM",
       "sog": 18,
       "score": 2
     }
