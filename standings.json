@@ -1,29 +1,178 @@
 [
   {
-    "team": "Team Canada",
-    "wins": 5,
-    "losses": 1,
+    "team": "Redstone Raptors",
+    "wins": 0,
+    "losses": 0,
     "otl": 0,
-    "points": 10,
-    "gf": 25,
-    "ga": 12
+    "points": 0,
+    "gf": 0,
+    "ga": 0,
+    "conference": "Overworld",
+    "division": "Grass"
   },
   {
-    "team": "Team USA",
-    "wins": 1,
-    "losses": 2,
+    "team": "Chicken Jockey Hockey Club",
+    "wins": 0,
+    "losses": 0,
     "otl": 0,
-    "points": 2,
-    "gf": 43,
-    "ga": 17
+    "points": 0,
+    "gf": 0,
+    "ga": 0,
+    "conference": "Overworld",
+    "division": "Grass"
   },
   {
-    "team": "Team FInland",
-    "wins": 3,
-    "losses": 2,
+    "team": "Mooshroom Island Stampede",
+    "wins": 0,
+    "losses": 0,
     "otl": 0,
-    "points": 6,
-    "gf": 11,
-    "ga": 23
+    "points": 0,
+    "gf": 0,
+    "ga": 0,
+    "conference": "Overworld",
+    "division": "Grass"
+  },
+  {
+    "team": "Tiaga Yetis",
+    "wins": 0,
+    "losses": 0,
+    "otl": 0,
+    "points": 0,
+    "gf": 0,
+    "ga": 0,
+    "conference": "Overworld",
+    "division": "Grass"
+  },
+  {
+    "team": "Dripstone Diggers",
+    "wins": 0,
+    "losses": 0,
+    "otl": 0,
+    "points": 0,
+    "gf": 0,
+    "ga": 0,
+    "conference": "Overworld",
+    "division": "Stone"
+  },
+  {
+    "team": "Granite Grizzlies",
+    "wins": 0,
+    "losses": 0,
+    "otl": 0,
+    "points": 0,
+    "gf": 0,
+    "ga": 0,
+    "conference": "Overworld",
+    "division": "Stone"
+  },
+  {
+    "team": "Minecraft Mavericks",
+    "wins": 0,
+    "losses": 0,
+    "otl": 0,
+    "points": 0,
+    "gf": 0,
+    "ga": 0,
+    "conference": "Overworld",
+    "division": "Stone"
+  },
+  {
+    "team": "Mossy Villagers",
+    "wins": 0,
+    "losses": 0,
+    "otl": 0,
+    "points": 0,
+    "gf": 0,
+    "ga": 0,
+    "conference": "Overworld",
+    "division": "Stone"
+  },
+  {
+    "team": "Obsidian Outlaws",
+    "wins": 0,
+    "losses": 0,
+    "otl": 0,
+    "points": 0,
+    "gf": 0,
+    "ga": 0,
+    "conference": "Nether",
+    "division": "Warped"
+  },
+  {
+    "team": "Blazeburg Heat",
+    "wins": 0,
+    "losses": 0,
+    "otl": 0,
+    "points": 0,
+    "gf": 0,
+    "ga": 0,
+    "conference": "Nether",
+    "division": "Crimson"
+  },
+  {
+    "team": "Lava Llamas",
+    "wins": 0,
+    "losses": 0,
+    "otl": 0,
+    "points": 0,
+    "gf": 0,
+    "ga": 0,
+    "conference": "Nether",
+    "division": "Crimson"
+  },
+  {
+    "team": "Blackstone Dragons",
+    "wins": 0,
+    "losses": 0,
+    "otl": 0,
+    "points": 0,
+    "gf": 0,
+    "ga": 0,
+    "conference": "Nether",
+    "division": "Warped"
+  },
+  {
+    "team": "Crimson Krakens",
+    "wins": 0,
+    "losses": 0,
+    "otl": 0,
+    "points": 0,
+    "gf": 0,
+    "ga": 0,
+    "conference": "Nether",
+    "division": "Crimson"
+  },
+  {
+    "team": "Fire Charge Falcons",
+    "wins": 0,
+    "losses": 0,
+    "otl": 0,
+    "points": 0,
+    "gf": 0,
+    "ga": 0,
+    "conference": "Nether",
+    "division": "Crimson"
+  },
+  {
+    "team": "Soul Sand Phantoms",
+    "wins": 0,
+    "losses": 0,
+    "otl": 0,
+    "points": 0,
+    "gf": 0,
+    "ga": 0,
+    "conference": "Nether",
+    "division": "Warped"
+  },
+  {
+    "team": "Ancient Debris Devils",
+    "wins": 0,
+    "losses": 0,
+    "otl": 0,
+    "points": 0,
+    "gf": 0,
+    "ga": 0,
+    "conference": "Nether",
+    "division": "Warped"
   }
 ]
