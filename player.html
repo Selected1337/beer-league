@@ -1,4 +1,3 @@
-<!-- player.html -->
 <!DOCTYPE html>
 <html lang="en" class="dark">
 <head>
@@ -6,43 +5,90 @@
   <title>Player Profile</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="https://cdn.tailwindcss.com"></script>
-  <script>
-    tailwind.config = {
-      darkMode: 'class',
-      theme: {
-        extend: {
-          colors: {
-            background: '#111827',
-            card: '#1f2937',
-            text: '#e5e7eb'
-          }
-        }
-      }
-    };
-  </script>
 </head>
-<body class="bg-background text-text min-h-screen">
-  <main class="max-w-3xl mx-auto px-6 py-10">
-    <div class="flex items-center gap-6 mb-8">
-      <img id="player-head" class="w-24 h-24 rounded-full border-4 border-gray-600" />
-      <h1 id="player-name" class="text-3xl font-bold"></h1>
+<body class="min-h-screen">
+  <main class="max-w-5xl mx-auto">
+    <!-- Banner -->
+    <div class="relative">
+      <img id="team-banner" src="https://placehold.co/1200x400" class="w-full object-cover rounded-b-lg shadow" />
+      <div id="banner-overlay" class="absolute top-4 left-6 flex items-center gap-4 bg-white/90 dark:bg-black/80 p-4 rounded shadow">
+        <img id="player-head" class="w-20 h-20 rounded-full border-4 border-gray-300" />
+        <div>
+          <h1 id="player-name" class="text-3xl font-bold text-black dark:text-white"></h1>
+          <div class="flex gap-2 text-lg text-gray-700 dark:text-gray-300 items-center">
+            <img id="team-logo" class="w-6 h-6" />
+            <span id="player-team" class="uppercase font-bold"></span>
+          </div>
+        </div>
+      </div>
     </div>
-    <div class="bg-card rounded-lg shadow p-6 space-y-2 text-lg">
-      <p><strong>Team:</strong> <span id="stat-team"></span></p>
-      <p><strong>Goals:</strong> <span id="stat-goals"></span></p>
-      <p><strong>Assists:</strong> <span id="stat-assists"></span></p>
-      <p><strong>Points:</strong> <span id="stat-pts"></span></p>
-      <p><strong>+/-:</strong> <span id="stat-plusMinus"></span></p>
-      <p><strong>Touches:</strong> <span id="stat-touches"></span></p>
+
+    <!-- Stats -->
+    <div class="grid md:grid-cols-2 gap-6 px-6 py-10">
+      <div class="bg-gray-100 dark:bg-card rounded-lg shadow p-6 text-sm space-y-6">
+        <h2 class="text-xl font-bold mb-2">2024-25 Season</h2>
+        <div class="grid grid-cols-3 sm:grid-cols-6 gap-2 text-center">
+          <div><span class="font-bold text-xl" id="stat-gp">0</span><div class="text-xs">GP</div></div>
+          <div><span class="font-bold text-xl" id="stat-goals">0</span><div class="text-xs">Goals</div></div>
+          <div><span class="font-bold text-xl" id="stat-assists">0</span><div class="text-xs">Assists</div></div>
+          <div><span class="font-bold text-xl" id="stat-pts">0</span><div class="text-xs">Points</div></div>
+          <div><span class="font-bold text-xl" id="stat-hits">0</span><div class="text-xs">Hits</div></div>
+          <div><span class="font-bold text-xl" id="stat-touches">0</span><div class="text-xs">Touches</div></div>
+        </div>
+      </div>
     </div>
-    <div class="mt-10">
-      <a href="index.html" class="text-blue-400 hover:underline">&larr; Back to stats</a>
+
+    <div class="text-center mb-10">
+      <a href="index.html" class="text-blue-500 hover:underline">&larr; Back to stats</a>
     </div>
   </main>
 
   <script>
     const params = new URLSearchParams(window.location.search);
     const name = params.get("name");
+
+    const teamStyles = {
+      "OBO": {
+        color: "#8b0000",
+        logo: "https://via.placeholder.com/32/8b0000/ffffff?text=OBO",
+        banner: "https://placehold.co/1200x400/8b0000/ffffff?text=Obsidian+Outlaws"
+      },
+      "LLM": {
+        color: "#ffaa00",
+        logo: "https://via.placeholder.com/32/ffaa00/000000?text=LLM",
+        banner: "https://placehold.co/1200x400/ffaa00/000000?text=Lava+Llamas"
+      },
+      "MIS": {
+        color: "#ff77aa",
+        logo: "https://via.placeholder.com/32/ff77aa/000?text=MIS",
+        banner: "https://placehold.co/1200x400/ff77aa/000?text=Mooshroom+Island"
+      },
+      "CHC": {
+        color: "#dddddd",
+        logo: "https://via.placeholder.com/32/cccccc/000?text=CHC",
+        banner: "https://placehold.co/1200x400/cccccc/000?text=Chicken+Jockey+Club"
+      },
+      "DRP": {
+        color: "#734f23",
+        logo: "https://via.placeholder.com/32/734f23/fff?text=DRP",
+        banner: "https://placehold.co/1200x400/734f23/fff?text=Dripstone+Diggers"
+      },
+      "GRZ": {
+        color: "#556b2f",
+        logo: "https://via.placeholder.com/32/556b2f/fff?text=GRZ",
+        banner: "https://placehold.co/1200x400/556b2f/fff?text=Granite+Grizzlies"
+      },
+      "MAV": {
+        color: "#004488",
+        logo: "https://via.placeholder.com/32/004488/fff?text=MAV",
+        banner: "https://placehold.co/1200x400/004488/fff?text=Minecraft+Mavericks"
+      },
+      "YET": {
+        color: "#66ccff",
+        logo: "https://via.placeholder.com/32/66ccff/000?text=YET",
+        banner: "https://placehold.co/1200x400/66ccff/000?text=Tiaga+Yetis"
+      }
+    };
 
     if (!name) {
       document.body.innerHTML = '<div class="text-center text-white text-2xl mt-20">Player not found.</div>';
@@ -52,17 +98,33 @@
 
       fetch("player_stats.json")
         .then(res => res.json())
-        .then(players => {
-          const player = players.find(p => p.player === name);
+        .then(data => {
+          const player = Array.isArray(data)
+            ? data.find(p => p.player === name)
+            : data[name];
+
           if (!player) {
             document.body.innerHTML = '<div class="text-center text-white text-2xl mt-20">Player not found.</div>';
             return;
           }
-          document.getElementById("stat-team").textContent = player.team;
-          document.getElementById("stat-goals").textContent = player.goals;
-          document.getElementById("stat-assists").textContent = player.assists;
-          document.getElementById("stat-pts").textContent = player.goals + player.assists;
-          document.getElementById("stat-plusMinus").textContent = player.plusMinus ?? 0;
+
+          const team = player.team;
+          document.getElementById("player-team").textContent = team;
+
+          // Inject colors and logo
+          const style = teamStyles[team];
+          if (style) {
+            document.getElementById("team-logo").src = style.logo;
+            document.getElementById("team-banner").src = style.banner;
+            document.querySelector("body").style.backgroundColor = style.color + "22";
+          }
+
+          // Stats
+          document.getElementById("stat-gp").textContent = player.gamesPlayed ?? 0;
+          document.getElementById("stat-goals").textContent = player.goals ?? 0;
+          document.getElementById("stat-assists").textContent = player.assists ?? 0;
+          document.getElementById("stat-pts").textContent = (player.goals + player.assists) ?? 0;
+          document.getElementById("stat-hits").textContent = player.hits ?? 0;
           document.getElementById("stat-touches").textContent = player.touches ?? 0;
         });
     }
