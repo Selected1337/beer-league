@@ -47,48 +47,19 @@
     const params = new URLSearchParams(window.location.search);
     const name = params.get("name");
 
-    const teamStyles = {
-      "OBO": {
-        color: "#8b0000",
-        logo: "https://via.placeholder.com/32/8b0000/ffffff?text=OBO",
-        banner: "https://placehold.co/1200x400/8b0000/ffffff?text=Obsidian+Outlaws"
-      },
-      "LLM": {
-        color: "#ffaa00",
-        logo: "https://via.placeholder.com/32/ffaa00/000000?text=LLM",
-        banner: "https://placehold.co/1200x400/ffaa00/000000?text=Lava+Llamas"
-      },
-      "MIS": {
-        color: "#ff77aa",
-        logo: "https://via.placeholder.com/32/ff77aa/000?text=MIS",
-        banner: "https://placehold.co/1200x400/ff77aa/000?text=Mooshroom+Island"
-      },
-      "CHC": {
-        color: "#dddddd",
-        logo: "https://via.placeholder.com/32/cccccc/000?text=CHC",
-        banner: "https://placehold.co/1200x400/cccccc/000?text=Chicken+Jockey+Club"
-      },
-      "DRP": {
-        color: "#734f23",
-        logo: "https://via.placeholder.com/32/734f23/fff?text=DRP",
-        banner: "https://placehold.co/1200x400/734f23/fff?text=Dripstone+Diggers"
-      },
-      "GRZ": {
-        color: "#556b2f",
-        logo: "https://via.placeholder.com/32/556b2f/fff?text=GRZ",
-        banner: "https://placehold.co/1200x400/556b2f/fff?text=Granite+Grizzlies"
-      },
-      "MAV": {
-        color: "#004488",
-        logo: "https://via.placeholder.com/32/004488/fff?text=MAV",
-        banner: "https://placehold.co/1200x400/004488/fff?text=Minecraft+Mavericks"
-      },
-      "YET": {
-        color: "#66ccff",
-        logo: "https://via.placeholder.com/32/66ccff/000?text=YET",
-        banner: "https://placehold.co/1200x400/66ccff/000?text=Tiaga+Yetis"
-      }
-    };
+    fetch("team_logos.json")
+  .then(res => res.json())
+  .then(logos => {
+    const team = player.team;
+    const info = logos[team];
+
+    if (info) {
+      document.getElementById("player-team").textContent = info.name;
+      document.getElementById("team-logo").src = info.logo;
+      document.getElementById("team-banner").src = info.banner;
+      document.body.style.backgroundColor = info.color + "22";
+    }
+  });
 
     if (!name) {
       document.body.innerHTML = '<div class="text-center text-white text-2xl mt-20">Player not found.</div>';
