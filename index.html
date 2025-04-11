@@ -279,6 +279,7 @@ Promise.all([
 });
 
 
+
     async function fetchData() {
       const [players, goalies, standings] = await Promise.all([
         fetch(`player_stats.json?cacheBust=${Date.now()}`).then(res => res.json()),
