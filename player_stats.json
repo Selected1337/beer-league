@@ -1,15 +1,15 @@
 [
   {
-    "saves": 2,
-    "goalsAgainst": 5,
-    "shotsAgainst": 2,
+    "saves": 8,
+    "goalsAgainst": 6,
+    "shotsAgainst": 8,
     "player": "Scp999v2",
     "team": "CHC",
     "goals": 7,
     "assists": 3,
-    "hits": 185,
-    "touches": 145,
-    "gamesPlayed": 4
+    "hits": 187,
+    "touches": 147,
+    "gamesPlayed": 5
   },
   {
     "saves": 2,
@@ -53,11 +53,11 @@
     "shotsAgainst": 3,
     "player": "Tendy41",
     "team": "CHC",
-    "goals": 5,
+    "goals": 6,
     "assists": 3,
-    "hits": 403,
-    "touches": 307,
-    "gamesPlayed": 4
+    "hits": 416,
+    "touches": 320,
+    "gamesPlayed": 5
   },
   {
     "saves": 0,
