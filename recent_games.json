@@ -4,13 +4,27 @@
     "status": "FINAL",
     "home": {
       "team": "OBO",
-      "sog": 2,
-      "score": 2
+      "sog": 3,
+      "score": 3
+    },
+    "away": {
+      "team": "LLM",
+      "sog": 0,
+      "score": 0
+    }
+  },
+  {
+    "date": "Apr 11",
+    "status": "FINAL",
+    "home": {
+      "team": "OBO",
+      "sog": 2.0,
+      "score": 2.0
     },
     "away": {
       "team": "MIS",
-      "sog": 0,
-      "score": 0
+      "sog": 0.0,
+      "score": 0.0
     }
   }
 ]
