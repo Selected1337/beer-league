@@ -1,26 +1,50 @@
 [
   {
-    "saves": 0,
-    "goalsAgainst": 2,
-    "shotsAgainst": 0,
-    "player": "Clifford82",
-    "team": "CRK",
-    "goals": 8,
-    "assists": 0,
-    "hits": 136,
-    "touches": 114,
+    "saves": 43,
+    "goalsAgainst": 18,
+    "shotsAgainst": 43,
+    "player": "ZaZPxl",
+    "team": "YET",
+    "goals": 2,
+    "assists": 1,
+    "hits": 47,
+    "touches": 38,
     "gamesPlayed": 2
   },
   {
-    "saves": 0,
-    "goalsAgainst": 0,
-    "shotsAgainst": 0,
+    "saves": 1,
+    "goalsAgainst": 5,
+    "shotsAgainst": 1,
+    "player": "Clifford82",
+    "team": "CRK",
+    "goals": 17,
+    "assists": 1,
+    "hits": 272,
+    "touches": 219,
+    "gamesPlayed": 3
+  },
+  {
+    "saves": 1,
+    "goalsAgainst": 1,
+    "shotsAgainst": 1,
     "player": "CookieMnstr1616",
     "team": "YET",
-    "goals": 5,
+    "goals": 6,
     "assists": 3,
-    "hits": 63,
-    "touches": 44,
+    "hits": 129,
+    "touches": 91,
+    "gamesPlayed": 3
+  },
+  {
+    "saves": 12,
+    "goalsAgainst": 7,
+    "shotsAgainst": 12,
+    "player": "_JacksonBlake",
+    "team": "CRK",
+    "goals": 3,
+    "assists": 2,
+    "hits": 65,
+    "touches": 55,
     "gamesPlayed": 2
   },
   {
@@ -29,10 +53,10 @@
     "shotsAgainst": 0,
     "player": "Tendy41",
     "team": "YET",
-    "goals": 6,
-    "assists": 1,
-    "hits": 128,
-    "touches": 106,
-    "gamesPlayed": 2
+    "goals": 11,
+    "assists": 2,
+    "hits": 234,
+    "touches": 190,
+    "gamesPlayed": 3
   }
 ]
