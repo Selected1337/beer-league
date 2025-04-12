@@ -4,13 +4,27 @@
     "status": "FINAL",
     "home": {
       "team": "DRP",
-      "sog": 8,
-      "score": 2
+      "sog": 0,
+      "score": 0
+    },
+    "away": {
+      "team": "MAV",
+      "sog": 0,
+      "score": 0
+    }
+  },
+  {
+    "date": "Apr 12",
+    "status": "FINAL",
+    "home": {
+      "team": "DRP",
+      "sog": 8.0,
+      "score": 2.0
     },
     "away": {
       "team": "SSP",
-      "sog": 4,
-      "score": 1
+      "sog": 4.0,
+      "score": 1.0
     }
   },
   {
