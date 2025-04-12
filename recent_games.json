@@ -1,16 +1,30 @@
 [
-    {
-        "date": "Apr 12",
-        "status": "FINAL",
-        "home": {
-            "team": "BLZ",
-            "sog": 2,
-            "score": 2
-        },
-        "away": {
-            "team": "CRK",
-            "sog": 12,
-            "score": 12
-        }
+  {
+    "date": "Apr 12",
+    "status": "FINAL",
+    "home": {
+      "team": "BLZ",
+      "sog": 0,
+      "score": 1
+    },
+    "away": {
+      "team": "CRK",
+      "sog": 0,
+      "score": 0
     }
+  },
+  {
+    "date": "Apr 12",
+    "status": "FINAL",
+    "home": {
+      "team": "BLZ",
+      "sog": 2.0,
+      "score": 2.0
+    },
+    "away": {
+      "team": "CRK",
+      "sog": 12.0,
+      "score": 12.0
+    }
+  }
 ]
