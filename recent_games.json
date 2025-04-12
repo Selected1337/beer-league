@@ -3,14 +3,28 @@
     "date": "Apr 12",
     "status": "FINAL",
     "home": {
-      "team": "FCF",
-      "sog": 3,
+      "team": "BLZ",
+      "sog": 11,
+      "score": 3
+    },
+    "away": {
+      "team": "MAV",
+      "sog": 6,
       "score": 0
+    }
+  },
+  {
+    "date": "Apr 12",
+    "status": "FINAL",
+    "home": {
+      "team": "FCF",
+      "sog": 3.0,
+      "score": 0.0
     },
     "away": {
       "team": "CRK",
-      "sog": 9,
-      "score": 1
+      "sog": 9.0,
+      "score": 1.0
     }
   },
   {
