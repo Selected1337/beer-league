@@ -1,63 +1,63 @@
 [
   {
     "saves": 0,
-    "goalsAgainst": 1,
+    "goalsAgainst": 2,
     "shotsAgainst": 0,
     "player": "Scp999v2",
     "team": "CHC",
-    "goals": 3,
-    "assists": 1,
-    "hits": 47,
-    "touches": 44,
-    "gamesPlayed": 2
+    "goals": 6,
+    "assists": 2,
+    "hits": 115,
+    "touches": 88,
+    "gamesPlayed": 3
   },
   {
-    "saves": 1,
-    "goalsAgainst": 1,
-    "shotsAgainst": 1,
+    "saves": 2,
+    "goalsAgainst": 2,
+    "shotsAgainst": 2,
     "player": "Clifford82",
     "team": "BLZ",
-    "goals": 10,
+    "goals": 20,
     "assists": 0,
-    "hits": 167,
-    "touches": 157,
-    "gamesPlayed": 2
+    "hits": 338,
+    "touches": 314,
+    "gamesPlayed": 3
   },
   {
-    "saves": 4,
-    "goalsAgainst": 2,
-    "shotsAgainst": 4,
+    "saves": 8,
+    "goalsAgainst": 4,
+    "shotsAgainst": 8,
     "player": "CookieMnstr1616",
     "team": "BLZ",
-    "goals": 1,
-    "assists": 2,
-    "hits": 65,
-    "touches": 44,
-    "gamesPlayed": 2
+    "goals": 2,
+    "assists": 4,
+    "hits": 130,
+    "touches": 88,
+    "gamesPlayed": 3
   },
   {
-    "saves": 19,
-    "goalsAgainst": 9,
-    "shotsAgainst": 19,
+    "saves": 38,
+    "goalsAgainst": 18,
+    "shotsAgainst": 38,
     "player": "rdubsss23",
     "team": "CHC",
     "goals": 0,
-    "assists": 3,
-    "hits": 33,
-    "touches": 29,
-    "gamesPlayed": 2
+    "assists": 6,
+    "hits": 66,
+    "touches": 58,
+    "gamesPlayed": 3
   },
   {
-    "saves": 1,
+    "saves": 2,
     "goalsAgainst": 0,
-    "shotsAgainst": 1,
+    "shotsAgainst": 2,
     "player": "Tendy41",
     "team": "CHC",
-    "goals": 2,
-    "assists": 1,
-    "hits": 149,
-    "touches": 115,
-    "gamesPlayed": 2
+    "goals": 4,
+    "assists": 2,
+    "hits": 298,
+    "touches": 230,
+    "gamesPlayed": 3
   },
   {
     "saves": 0,
@@ -67,8 +67,8 @@
     "team": "BLZ",
     "goals": 0,
     "assists": 0,
-    "hits": 6,
-    "touches": 6,
-    "gamesPlayed": 2
+    "hits": 24,
+    "touches": 12,
+    "gamesPlayed": 3
   }
 ]
