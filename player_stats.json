@@ -1,0 +1,74 @@
+[
+  {
+    "saves": 0,
+    "goalsAgainst": 1,
+    "shotsAgainst": 0,
+    "player": "Scp999v2",
+    "team": "CHC",
+    "goals": 3,
+    "assists": 1,
+    "hits": 47,
+    "touches": 44,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 1,
+    "goalsAgainst": 1,
+    "shotsAgainst": 1,
+    "player": "Clifford82",
+    "team": "BLZ",
+    "goals": 10,
+    "assists": 0,
+    "hits": 167,
+    "touches": 157,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 4,
+    "goalsAgainst": 2,
+    "shotsAgainst": 4,
+    "player": "CookieMnstr1616",
+    "team": "BLZ",
+    "goals": 1,
+    "assists": 2,
+    "hits": 65,
+    "touches": 44,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 19,
+    "goalsAgainst": 9,
+    "shotsAgainst": 19,
+    "player": "rdubsss23",
+    "team": "CHC",
+    "goals": 0,
+    "assists": 3,
+    "hits": 33,
+    "touches": 29,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 1,
+    "goalsAgainst": 0,
+    "shotsAgainst": 1,
+    "player": "Tendy41",
+    "team": "CHC",
+    "goals": 2,
+    "assists": 1,
+    "hits": 149,
+    "touches": 115,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
+    "player": "OnlyBirb",
+    "team": "BLZ",
+    "goals": 0,
+    "assists": 0,
+    "hits": 6,
+    "touches": 6,
+    "gamesPlayed": 2
+  }
+]
