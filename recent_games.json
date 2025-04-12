@@ -4,69 +4,13 @@
     "status": "FINAL",
     "home": {
       "team": "OBO",
-      "sog": 12,
+      "sog": 4,
+      "score": 1
+    },
+    "away": {
+      "team": "RAP",
+      "sog": 8,
       "score": 0
-    },
-    "away": {
-      "team": "RAP",
-      "sog": 2,
-      "score": 2
-    }
-  },
-  {
-    "date": "Apr 12",
-    "status": "FINAL",
-    "home": {
-      "team": "RAP",
-      "sog": 2.0,
-      "score": 2.0
-    },
-    "away": {
-      "team": "YET",
-      "sog": 9.0,
-      "score": 1.0
-    }
-  },
-  {
-    "date": "Apr 12",
-    "status": "FINAL",
-    "home": {
-      "team": "BLZ",
-      "sog": 2.0,
-      "score": 2.0
-    },
-    "away": {
-      "team": "CRK",
-      "sog": 11.0,
-      "score": 0.0
-    }
-  },
-  {
-    "date": "Apr 12",
-    "status": "FINAL",
-    "home": {
-      "team": "BLZ",
-      "sog": 0.0,
-      "score": 1.0
-    },
-    "away": {
-      "team": "CRK",
-      "sog": 0.0,
-      "score": 0.0
-    }
-  },
-  {
-    "date": "Apr 12",
-    "status": "FINAL",
-    "home": {
-      "team": "BLZ",
-      "sog": 2.0,
-      "score": 2.0
-    },
-    "away": {
-      "team": "CRK",
-      "sog": 12.0,
-      "score": 12.0
     }
   }
 ]
