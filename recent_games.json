@@ -3,14 +3,28 @@
     "date": "Apr 12",
     "status": "FINAL",
     "home": {
+      "team": "OBO",
+      "sog": 12,
+      "score": 0
+    },
+    "away": {
       "team": "RAP",
       "sog": 2,
       "score": 2
+    }
+  },
+  {
+    "date": "Apr 12",
+    "status": "FINAL",
+    "home": {
+      "team": "RAP",
+      "sog": 2.0,
+      "score": 2.0
     },
     "away": {
       "team": "YET",
-      "sog": 9,
-      "score": 1
+      "sog": 9.0,
+      "score": 1.0
     }
   },
   {
