@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "saves": 3,
+    "goalsAgainst": 1,
+    "shotsAgainst": 3,
+    "player": "Clifford82",
+    "team": "OBO",
+    "goals": 5,
+    "assists": 0,
+    "hits": 17,
+    "touches": 17,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 8,
+    "goalsAgainst": 5,
+    "shotsAgainst": 8,
+    "player": "Tendy41",
+    "team": "SSP",
+    "goals": 1,
+    "assists": 0,
+    "hits": 20,
+    "touches": 20,
+    "gamesPlayed": 2
+  }
+]
