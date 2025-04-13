@@ -1,16 +1,30 @@
 [
   {
+    "date": "Apr 13",
+    "status": "FINAL",
+    "home": {
+      "team": "CRK",
+      "sog": 20,
+      "score": 1
+    },
+    "away": {
+      "team": "YET",
+      "sog": 24,
+      "score": 3
+    }
+  },
+  {
     "date": "Apr 12",
     "status": "FINAL",
     "home": {
       "team": "CRK",
-      "sog": 24,
-      "score": 7
+      "sog": 24.0,
+      "score": 7.0
     },
     "away": {
       "team": "YET",
-      "sog": 19,
-      "score": 5
+      "sog": 19.0,
+      "score": 5.0
     }
   }
 ]
