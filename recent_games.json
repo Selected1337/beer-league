@@ -3,14 +3,28 @@
     "date": "Apr 12",
     "status": "FINAL",
     "home": {
+      "team": "CHC",
+      "sog": 0,
+      "score": 0
+    },
+    "away": {
+      "team": "ADD",
+      "sog": 0,
+      "score": 0
+    }
+  },
+  {
+    "date": "Apr 12",
+    "status": "FINAL",
+    "home": {
       "team": "DRP",
-      "sog": 3,
-      "score": 3
+      "sog": 3.0,
+      "score": 3.0
     },
     "away": {
       "team": "RAP",
-      "sog": 3,
-      "score": 3
+      "sog": 3.0,
+      "score": 3.0
     }
   },
   {
