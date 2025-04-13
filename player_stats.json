@@ -1,26 +1,26 @@
 [
   {
-    "saves": 2,
+    "saves": 4,
     "goalsAgainst": 2,
-    "shotsAgainst": 2,
+    "shotsAgainst": 4,
     "player": "Clifford82",
     "team": "OBO",
     "goals": 2,
     "assists": 0,
-    "hits": 13,
-    "touches": 13,
+    "hits": 30,
+    "touches": 30,
     "gamesPlayed": 2
   },
   {
-    "saves": 5,
-    "goalsAgainst": 2,
-    "shotsAgainst": 5,
+    "saves": 15,
+    "goalsAgainst": 1,
+    "shotsAgainst": 15,
     "player": "Tendy41",
     "team": "SSP",
-    "goals": 2,
+    "goals": 1,
     "assists": 0,
-    "hits": 10,
-    "touches": 10,
+    "hits": 22,
+    "touches": 22,
     "gamesPlayed": 2
   }
 ]
