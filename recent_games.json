@@ -4,13 +4,27 @@
     "status": "FINAL",
     "home": {
       "team": "CRK",
-      "sog": 35,
-      "score": 7
+      "sog": 33,
+      "score": 6
     },
     "away": {
       "team": "YET",
-      "sog": 30,
-      "score": 8
+      "sog": 21,
+      "score": 1
+    }
+  },
+  {
+    "date": "Apr 13",
+    "status": "FINAL",
+    "home": {
+      "team": "CRK",
+      "sog": 35.0,
+      "score": 7.0
+    },
+    "away": {
+      "team": "YET",
+      "sog": 30.0,
+      "score": 8.0
     }
   },
   {
