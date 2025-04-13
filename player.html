@@ -105,7 +105,7 @@
           return;
         }
 
-        const team = (player || goalie)?.team;
+        const team = player?.team ?? goalie?.team ?? "Unknown";
         const teamInfo = logos[team];
 
         if (teamInfo) {
