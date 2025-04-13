@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "player": "Clifford82",
+    "team": "OBO",
+    "gamesPlayed": 1,
+    "saves": 2,
+    "goalsAgainst": 2,
+    "shotsAgainst": 2,
+    "savePercentage": 1.0,
+    "goalsAgainstAverage": 2.0
+  },
+  {
+    "player": "Tendy41",
+    "team": "SSP",
+    "gamesPlayed": 1,
+    "saves": 5,
+    "goalsAgainst": 2,
+    "shotsAgainst": 5,
+    "savePercentage": 1.0,
+    "goalsAgainstAverage": 2.0
+  }
+]
