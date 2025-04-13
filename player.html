@@ -27,7 +27,7 @@
     <div class="grid md:grid-cols-2 gap-6 px-6 py-10">
       <!-- Skater Stats -->
       <div class="bg-gray-100 dark:bg-card rounded-lg shadow p-6 text-sm space-y-6">
-        <h2 class="text-xl font-bold mb-2">Skater Stats</h2>
+        <h2 class="text-xl font-bold mb-2">2024-25 Season</h2>
         <div class="grid grid-cols-3 sm:grid-cols-6 gap-2 text-center">
           <div><span class="font-bold text-xl" id="stat-gp">0</span><div class="text-xs">GP</div></div>
           <div><span class="font-bold text-xl" id="stat-goals">0</span><div class="text-xs">Goals</div></div>
@@ -39,7 +39,7 @@
       </div>
 
       <!-- Goalie Stats -->
-      <div id="goalie-panel" class="bg-gray-100 dark:bg-card rounded-lg shadow p-6 text-sm space-y-6 hidden">
+      <div id="goalie-panel" class="bg-gray-100 dark:bg-card rounded-lg shadow p-6 text-sm space-y-6">
         <h2 class="text-xl font-bold mb-2">Goalie Stats</h2>
         <div class="grid grid-cols-3 sm:grid-cols-6 gap-2 text-center">
           <div><span class="font-bold text-xl" id="gstat-gp">0</span><div class="text-xs">GP</div></div>
@@ -48,6 +48,20 @@
           <div><span class="font-bold text-xl" id="gstat-sa">0</span><div class="text-xs">SA</div></div>
           <div><span class="font-bold text-xl" id="gstat-sv">.000</span><div class="text-xs">SV%</div></div>
           <div><span class="font-bold text-xl" id="gstat-gaa">0.00</span><div class="text-xs">GAA</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Player Bio Panel -->
+    <div class="px-6 pb-10">
+      <div class="bg-gray-100 dark:bg-card rounded-lg shadow p-6 flex flex-col md:flex-row items-center gap-6">
+        <img id="player-body" src="" alt="Full Player Body" class="w-40 h-auto rounded" />
+        <div class="text-sm space-y-2">
+          <div><strong>Jersey #:</strong> <span id="player-jersey">N/A</span></div>
+          <div><strong>Nationality:</strong> <span id="player-nationality">N/A</span></div>
+          <div><strong>Draft Position:</strong> <span id="player-draft">N/A</span></div>
+          <div><strong>Championships:</strong> <span id="player-champs">0</span></div>
+          <div><strong>Awards:</strong> <span id="player-awards">None</span></div>
         </div>
       </div>
     </div>
@@ -66,12 +80,14 @@
     } else {
       document.getElementById("player-head").src = `https://minotar.net/avatar/${name}/100.png`;
       document.getElementById("player-name").textContent = name;
+      document.getElementById("player-body").src = `https://minotar.net/body/${name}/100.png`;
 
       Promise.all([
         fetch("player_stats.json").then(res => res.json()),
         fetch("goalie_stats.json").then(res => res.json()),
-        fetch("team_logos.json").then(res => res.json())
-      ]).then(([players, goalies, logos]) => {
+        fetch("team_logos.json").then(res => res.json()),
+        fetch("player_bios.json").then(res => res.json())
+      ]).then(([players, goalies, logos, bios]) => {
         const player = Array.isArray(players)
           ? players.find(p => p.player === name)
           : players[name];
@@ -80,15 +96,18 @@
           ? goalies.find(g => g.player === name)
           : goalies[name];
 
-        if (!player && !goalie) {
+        const bio = Array.isArray(bios)
+          ? bios.find(b => b.player === name)
+          : bios[name];
+
+        if (!player && !goalie && !bio) {
           document.body.innerHTML = '<div class="text-center text-white text-2xl mt-20">Player not found.</div>';
           return;
         }
 
-        const team = (player || goalie).team;
+        const team = (player || goalie)?.team;
         const teamInfo = logos[team];
 
-        // Theme + logos
         if (teamInfo) {
           document.getElementById("player-team").textContent = teamInfo.name;
           document.getElementById("team-logo").src = teamInfo.logo;
@@ -110,7 +129,6 @@
 
         // Goalie Stats
         document.getElementById("goalie-panel").classList.remove("hidden");
-
         if (goalie) {
           document.getElementById("gstat-gp").textContent = goalie.gamesPlayed ?? 0;
           document.getElementById("gstat-saves").textContent = goalie.saves ?? 0;
@@ -119,13 +137,21 @@
           document.getElementById("gstat-sv").textContent = (goalie.savePercentage ?? 0).toFixed(3);
           document.getElementById("gstat-gaa").textContent = (goalie.goalsAgainstAverage ?? 0).toFixed(2);
         } else {
-          // Show 0s if not found
           document.getElementById("gstat-gp").textContent = 0;
           document.getElementById("gstat-saves").textContent = 0;
           document.getElementById("gstat-ga").textContent = 0;
           document.getElementById("gstat-sa").textContent = 0;
           document.getElementById("gstat-sv").textContent = "0.000";
           document.getElementById("gstat-gaa").textContent = "0.00";
+        }
+
+        // Player Bio
+        if (bio) {
+          document.getElementById("player-jersey").textContent = bio.jersey ?? "N/A";
+          document.getElementById("player-nationality").textContent = bio.nationality ?? "N/A";
+          document.getElementById("player-draft").textContent = bio.draftPosition ?? "N/A";
+          document.getElementById("player-champs").textContent = bio.championships ?? 0;
+          document.getElementById("player-awards").textContent = bio.awards ?? "None";
         }
       });
     }
