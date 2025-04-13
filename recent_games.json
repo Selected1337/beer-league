@@ -4,13 +4,27 @@
     "status": "FINAL",
     "home": {
       "team": "DRP",
-      "sog": 0,
-      "score": 0
+      "sog": 3,
+      "score": 3
+    },
+    "away": {
+      "team": "RAP",
+      "sog": 3,
+      "score": 3
+    }
+  },
+  {
+    "date": "Apr 12",
+    "status": "FINAL",
+    "home": {
+      "team": "DRP",
+      "sog": 0.0,
+      "score": 0.0
     },
     "away": {
       "team": "MAV",
-      "sog": 0,
-      "score": 0
+      "sog": 0.0,
+      "score": 0.0
     }
   },
   {
