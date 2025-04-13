@@ -1,26 +1,14 @@
 [
   {
-    "saves": 0,
-    "goalsAgainst": 0,
-    "shotsAgainst": 0,
-    "player": "Scp999v2",
-    "team": "YET",
+    "saves": 12,
+    "goalsAgainst": 1,
+    "shotsAgainst": 12,
+    "player": "BigStew_",
+    "team": "CRK",
     "goals": 0,
-    "assists": 2,
-    "hits": 43,
-    "touches": 37,
-    "gamesPlayed": 2
-  },
-  {
-    "saves": 0,
-    "goalsAgainst": 0,
-    "shotsAgainst": 0,
-    "player": "Sammythewhale",
-    "team": "YET",
-    "goals": 4,
-    "assists": 0,
-    "hits": 171,
-    "touches": 157,
+    "assists": 1,
+    "hits": 28,
+    "touches": 25,
     "gamesPlayed": 2
   },
   {
@@ -36,18 +24,6 @@
     "gamesPlayed": 2
   },
   {
-    "saves": 12,
-    "goalsAgainst": 1,
-    "shotsAgainst": 12,
-    "player": "BigStew_",
-    "team": "CRK",
-    "goals": 0,
-    "assists": 1,
-    "hits": 28,
-    "touches": 25,
-    "gamesPlayed": 2
-  },
-  {
     "saves": 1,
     "goalsAgainst": 0,
     "shotsAgainst": 1,
@@ -57,6 +33,30 @@
     "assists": 1,
     "hits": 74,
     "touches": 64,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
+    "player": "Sammythewhale",
+    "team": "YET",
+    "goals": 4,
+    "assists": 0,
+    "hits": 171,
+    "touches": 157,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
+    "player": "Scp999v2",
+    "team": "YET",
+    "goals": 0,
+    "assists": 2,
+    "hits": 43,
+    "touches": 37,
     "gamesPlayed": 2
   },
   {
