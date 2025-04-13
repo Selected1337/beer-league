@@ -23,8 +23,9 @@
       </div>
     </div>
 
-    <!-- Stats -->
+    <!-- Stats Grid -->
     <div class="grid md:grid-cols-2 gap-6 px-6 py-10">
+      <!-- Skater Stats -->
       <div class="bg-gray-100 dark:bg-card rounded-lg shadow p-6 text-sm space-y-6">
         <h2 class="text-xl font-bold mb-2">2024-25 Season</h2>
         <div class="grid grid-cols-3 sm:grid-cols-6 gap-2 text-center">
@@ -34,6 +35,19 @@
           <div><span class="font-bold text-xl" id="stat-pts">0</span><div class="text-xs">Points</div></div>
           <div><span class="font-bold text-xl" id="stat-hits">0</span><div class="text-xs">Hits</div></div>
           <div><span class="font-bold text-xl" id="stat-touches">0</span><div class="text-xs">Touches</div></div>
+        </div>
+      </div>
+
+      <!-- Goalie Stats -->
+      <div id="goalie-panel" class="bg-gray-100 dark:bg-card rounded-lg shadow p-6 text-sm space-y-6 hidden">
+        <h2 class="text-xl font-bold mb-2">Goalie Stats</h2>
+        <div class="grid grid-cols-3 sm:grid-cols-6 gap-2 text-center">
+          <div><span class="font-bold text-xl" id="gstat-gp">0</span><div class="text-xs">GP</div></div>
+          <div><span class="font-bold text-xl" id="gstat-saves">0</span><div class="text-xs">Saves</div></div>
+          <div><span class="font-bold text-xl" id="gstat-ga">0</span><div class="text-xs">GA</div></div>
+          <div><span class="font-bold text-xl" id="gstat-sa">0</span><div class="text-xs">SA</div></div>
+          <div><span class="font-bold text-xl" id="gstat-sv">.000</span><div class="text-xs">SV%</div></div>
+          <div><span class="font-bold text-xl" id="gstat-gaa">0.00</span><div class="text-xs">GAA</div></div>
         </div>
       </div>
     </div>
@@ -55,18 +69,23 @@
 
       Promise.all([
         fetch("player_stats.json").then(res => res.json()),
+        fetch("goalie_stats.json").then(res => res.json()),
         fetch("team_logos.json").then(res => res.json())
-      ]).then(([players, logos]) => {
+      ]).then(([players, goalies, logos]) => {
         const player = Array.isArray(players)
           ? players.find(p => p.player === name)
           : players[name];
 
-        if (!player) {
+        const goalie = Array.isArray(goalies)
+          ? goalies.find(g => g.player === name)
+          : goalies[name];
+
+        if (!player && !goalie) {
           document.body.innerHTML = '<div class="text-center text-white text-2xl mt-20">Player not found.</div>';
           return;
         }
 
-        const team = player.team;
+        const team = (player || goalie).team;
         const teamInfo = logos[team];
 
         // Theme + logos
@@ -79,13 +98,35 @@
           document.getElementById("player-team").textContent = team;
         }
 
-        // Stats
-        document.getElementById("stat-gp").textContent = player.gamesPlayed ?? 0;
-        document.getElementById("stat-goals").textContent = player.goals ?? 0;
-        document.getElementById("stat-assists").textContent = player.assists ?? 0;
-        document.getElementById("stat-pts").textContent = (player.goals + player.assists) ?? 0;
-        document.getElementById("stat-hits").textContent = player.hits ?? 0;
-        document.getElementById("stat-touches").textContent = player.touches ?? 0;
+        // Skater Stats
+        if (player) {
+          document.getElementById("stat-gp").textContent = player.gamesPlayed ?? 0;
+          document.getElementById("stat-goals").textContent = player.goals ?? 0;
+          document.getElementById("stat-assists").textContent = player.assists ?? 0;
+          document.getElementById("stat-pts").textContent = (player.goals + player.assists) ?? 0;
+          document.getElementById("stat-hits").textContent = player.hits ?? 0;
+          document.getElementById("stat-touches").textContent = player.touches ?? 0;
+        }
+
+        // Goalie Stats
+        document.getElementById("goalie-panel").classList.remove("hidden");
+
+        if (goalie) {
+          document.getElementById("gstat-gp").textContent = goalie.gamesPlayed ?? 0;
+          document.getElementById("gstat-saves").textContent = goalie.saves ?? 0;
+          document.getElementById("gstat-ga").textContent = goalie.goalsAgainst ?? 0;
+          document.getElementById("gstat-sa").textContent = goalie.shotsAgainst ?? 0;
+          document.getElementById("gstat-sv").textContent = (goalie.savePercentage ?? 0).toFixed(3);
+          document.getElementById("gstat-gaa").textContent = (goalie.goalsAgainstAverage ?? 0).toFixed(2);
+        } else {
+          // Show 0s if not found
+          document.getElementById("gstat-gp").textContent = 0;
+          document.getElementById("gstat-saves").textContent = 0;
+          document.getElementById("gstat-ga").textContent = 0;
+          document.getElementById("gstat-sa").textContent = 0;
+          document.getElementById("gstat-sv").textContent = "0.000";
+          document.getElementById("gstat-gaa").textContent = "0.00";
+        }
       });
     }
   </script>
