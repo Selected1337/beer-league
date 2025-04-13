@@ -9,8 +9,22 @@
     },
     "away": {
       "team": "ADD",
-      "sog": 0,
-      "score": 0
+      "sog": 1,
+      "score": 1
+    }
+  },
+  {
+    "date": "Apr 12",
+    "status": "FINAL",
+    "home": {
+      "team": "CHC",
+      "sog": 0.0,
+      "score": 0.0
+    },
+    "away": {
+      "team": "ADD",
+      "sog": 0.0,
+      "score": 0.0
     }
   },
   {
