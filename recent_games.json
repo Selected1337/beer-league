@@ -4,13 +4,27 @@
     "status": "FINAL",
     "home": {
       "team": "OBO",
-      "sog": 17,
-      "score": 2
+      "sog": 3,
+      "score": 3
     },
     "away": {
       "team": "SSP",
-      "sog": 6,
-      "score": 2
+      "sog": 1,
+      "score": 1
+    }
+  },
+  {
+    "date": "Apr 13",
+    "status": "FINAL",
+    "home": {
+      "team": "OBO",
+      "sog": 17.0,
+      "score": 2.0
+    },
+    "away": {
+      "team": "SSP",
+      "sog": 6.0,
+      "score": 2.0
     }
   }
 ]
