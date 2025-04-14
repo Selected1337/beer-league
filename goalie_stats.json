@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "player": "ZaZPxl",
+    "team": "CHC",
+    "gamesPlayed": 1,
+    "saves": 30,
+    "goalsAgainst": 5,
+    "shotsAgainst": 35,
+    "savePercentage": 0.857,
+    "goalsAgainstAverage": 5.0
+  },
+  {
+    "player": "Tendy41",
+    "team": "GRZ",
+    "gamesPlayed": 1,
+    "saves": 24,
+    "goalsAgainst": 5,
+    "shotsAgainst": 29,
+    "savePercentage": 0.828,
+    "goalsAgainstAverage": 5.0
+  }
+]
