@@ -5,11 +5,11 @@
     "shotsAgainst": 0,
     "player": "_JacksonBlake",
     "team": "CHC",
-    "goals": 1,
-    "assists": 5,
-    "hits": 154,
-    "touches": 102,
-    "gamesPlayed": 4
+    "goals": 2,
+    "assists": 6,
+    "hits": 240,
+    "touches": 165,
+    "gamesPlayed": 5
   },
   {
     "saves": 0,
@@ -17,23 +17,23 @@
     "shotsAgainst": 0,
     "player": "Clifford82",
     "team": "CHC",
-    "goals": 8,
-    "assists": 1,
-    "hits": 271,
-    "touches": 205,
-    "gamesPlayed": 4
+    "goals": 12,
+    "assists": 2,
+    "hits": 386,
+    "touches": 297,
+    "gamesPlayed": 5
   },
   {
-    "saves": 27,
-    "goalsAgainst": 3,
-    "shotsAgainst": 27,
+    "saves": 55,
+    "goalsAgainst": 9,
+    "shotsAgainst": 55,
     "player": "CookieMnstr1616",
     "team": "GRZ",
     "goals": 1,
     "assists": 0,
-    "hits": 87,
-    "touches": 59,
-    "gamesPlayed": 3
+    "hits": 107,
+    "touches": 78,
+    "gamesPlayed": 4
   },
   {
     "saves": 0,
@@ -41,11 +41,11 @@
     "shotsAgainst": 0,
     "player": "OnlyBirb",
     "team": "GRZ",
-    "goals": 6,
-    "assists": 3,
-    "hits": 208,
-    "touches": 164,
-    "gamesPlayed": 4
+    "goals": 11,
+    "assists": 6,
+    "hits": 303,
+    "touches": 239,
+    "gamesPlayed": 5
   },
   {
     "saves": 25,
@@ -53,22 +53,22 @@
     "shotsAgainst": 25,
     "player": "Tendy41",
     "team": "GRZ",
-    "goals": 3,
-    "assists": 4,
-    "hits": 153,
-    "touches": 132,
-    "gamesPlayed": 4
+    "goals": 7,
+    "assists": 7,
+    "hits": 284,
+    "touches": 237,
+    "gamesPlayed": 5
   },
   {
-    "saves": 50,
-    "goalsAgainst": 11,
-    "shotsAgainst": 50,
+    "saves": 76,
+    "goalsAgainst": 20,
+    "shotsAgainst": 76,
     "player": "ZaZPxl",
     "team": "CHC",
-    "goals": 0,
+    "goals": 1,
     "assists": 0,
-    "hits": 50,
-    "touches": 48,
-    "gamesPlayed": 3
+    "hits": 79,
+    "touches": 73,
+    "gamesPlayed": 4
   }
 ]
