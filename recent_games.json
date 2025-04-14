@@ -4,13 +4,27 @@
     "status": "FINAL",
     "home": {
       "team": "GRZ",
-      "sog": 0,
-      "score": 0
+      "sog": 26,
+      "score": 6
     },
     "away": {
       "team": "CHC",
-      "sog": 2,
-      "score": 1
+      "sog": 30,
+      "score": 3
+    }
+  },
+  {
+    "date": "Apr 13",
+    "status": "FINAL",
+    "home": {
+      "team": "GRZ",
+      "sog": 0.0,
+      "score": 0.0
+    },
+    "away": {
+      "team": "CHC",
+      "sog": 2.0,
+      "score": 1.0
     }
   },
   {
