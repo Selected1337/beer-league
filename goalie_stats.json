@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "player": "CookieMnstr1616",
+    "team": "LLM",
+    "gamesPlayed": 1,
+    "saves": 29,
+    "goalsAgainst": 9,
+    "shotsAgainst": 38,
+    "savePercentage": 0.763,
+    "goalsAgainstAverage": 9.0
+  },
+  {
+    "player": "_JacksonBlake",
+    "team": "LLM",
+    "gamesPlayed": 1,
+    "saves": 0,
+    "goalsAgainst": 1,
+    "shotsAgainst": 1,
+    "savePercentage": 0.0,
+    "goalsAgainstAverage": 1.0
+  },
+  {
+    "player": "Tendy41",
+    "team": "CRK",
+    "gamesPlayed": 1,
+    "saves": 11,
+    "goalsAgainst": 1,
+    "shotsAgainst": 12,
+    "savePercentage": 0.917,
+    "goalsAgainstAverage": 1.0
+  }
+]
