@@ -2,22 +2,22 @@
   {
     "player": "CookieMnstr1616",
     "team": "LLM",
-    "gamesPlayed": 1,
-    "saves": 29,
-    "goalsAgainst": 9,
-    "shotsAgainst": 38,
-    "savePercentage": 0.763,
-    "goalsAgainstAverage": 9.0
+    "gamesPlayed": 2,
+    "saves": 55,
+    "goalsAgainst": 13,
+    "shotsAgainst": 68,
+    "savePercentage": 0.809,
+    "goalsAgainstAverage": 6.5
   },
   {
     "player": "_JacksonBlake",
     "team": "LLM",
-    "gamesPlayed": 1,
-    "saves": 0,
-    "goalsAgainst": 1,
-    "shotsAgainst": 1,
-    "savePercentage": 0.0,
-    "goalsAgainstAverage": 1.0
+    "gamesPlayed": 2,
+    "saves": 3,
+    "goalsAgainst": 6,
+    "shotsAgainst": 9,
+    "savePercentage": 0.333,
+    "goalsAgainstAverage": 3.0
   },
   {
     "player": "Tendy41",
@@ -27,6 +27,16 @@
     "goalsAgainst": 1,
     "shotsAgainst": 12,
     "savePercentage": 0.917,
+    "goalsAgainstAverage": 1.0
+  },
+  {
+    "player": "OnlyBirb",
+    "team": "CRK",
+    "gamesPlayed": 1,
+    "saves": 30,
+    "goalsAgainst": 1,
+    "shotsAgainst": 31,
+    "savePercentage": 0.968,
     "goalsAgainstAverage": 1.0
   }
 ]
