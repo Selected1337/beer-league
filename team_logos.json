@@ -1,97 +1,97 @@
 {
   "OBO": {
     "name": "Obsidian Outlaws",
-    "color": "#3a3a3a",
+    "color": "#5d0c6e",
     "logo": "https://i.postimg.cc/WzdSX1CS/Layer-9.png",
     "banner": "https://placehold.co/1200x400/3a3a3a/ffffff?text=Obsidian+Outlaws"
   },
   "LLM": {
     "name": "Lava Llamas",
-    "color": "#ff5500",
+    "color": "#d94a1a",
     "logo": "https://i.postimg.cc/5tWGyLTJ/Layer-11.png",
     "banner": "https://placehold.co/1200x400/ff5500/ffffff?text=Lava+Llamas"
   },
   "MIS": {
     "name": "Mooshroom Island Stampede",
-    "color": "#ff66cc",
+    "color": "#eb7878",
     "logo": "https://i.postimg.cc/nc6SSqHm/Layer-3.png",
     "banner": "https://placehold.co/1200x400/ff66cc/000000?text=Mooshroom+Island"
   },
   "YET": {
     "name": "Tiaga Yetis",
-    "color": "#99ddff",
+    "color": "#24e6ed",
     "logo": "https://i.postimg.cc/fbs2DZST/Layer-5.png",
     "banner": "https://media.discordapp.net/attachments/1249954785625374841/1360344477742666038/Layer_5.png?ex=67fac705&is=67f97585&hm=25cf1e9fb64e903539e79eda3bb17e05b7ab6bbb29f50dcf67f89b4f7539705e&=&format=webp&quality=lossless"
   },
   "DRP": {
     "name": "Dripstone Diggers",
-    "color": "#c2b280",
+    "color": "#543c2b",
     "logo": "https://i.postimg.cc/K8Bq64zH/Layer-4.png",
     "banner": "https://placehold.co/1200x400/c2b280/000000?text=Dripstone+Diggers"
   },
   "GRZ": {
     "name": "Granite Grizzlies",
-    "color": "#4b4b4b",
+    "color": "#0a2b13",
     "logo": "https://i.postimg.cc/0NCtN37G/Layer-6.png",
     "banner": "https://placehold.co/1200x400/4b4b4b/ffffff?text=Granite+Grizzlies"
   },
   "MAV": {
     "name": "Minecraft Mavericks",
-    "color": "#1f75fe",
+    "color": "#ab6811",
     "logo": "https://i.postimg.cc/ydYL3PTM/Layer-7.png",
     "banner": "https://placehold.co/1200x400/1f75fe/ffffff?text=Minecraft+Mavericks"
   },
   "MVL": {
     "name": "Mossy Villagers",
-    "color": "#556b2f",
+    "color": "#053b1f",
     "logo": "https://i.postimg.cc/j5gZH7gL/Layer-8.png",
     "banner": "https://placehold.co/1200x400/556b2f/ffffff?text=Mossy+Villagers"
   },
   "BLZ": {
     "name": "Blazeburg Heat",
-    "color": "#ff3300",
+    "color": "#ff7b00",
     "logo": "https://i.postimg.cc/JzkvRPTK/Layer-10.png",
     "banner": "https://placehold.co/1200x400/ff3300/ffffff?text=Blazeburg+Heat"
   },
   "CHC": {
     "name": "Chicken Jockey Hockey Club",
-    "color": "#e0e0e0",
+    "color": "#d9bf00",
     "logo": "https://i.postimg.cc/zD2cW960/Layer-2.png",
     "banner": "https://placehold.co/1200x400/e0e0e0/000000?text=Chicken+Jockey+HC"
   },
   "BLS": {
     "name": "Blackstone Dragons",
-    "color": "#1b1b1b",
+    "color": "#0a0a0a",
     "logo": "https://i.postimg.cc/1z0dq41q/Layer-12.png",
     "banner": "https://placehold.co/1200x400/1b1b1b/ffffff?text=Blackstone+Dragons"
   },
   "CRK": {
     "name": "Crimson Krakens",
-    "color": "#dc143c",
+    "color": "#5e0000",
     "logo": "https://i.postimg.cc/cHsbMZd5/Layer-13.png",
     "banner": "https://placehold.co/1200x400/dc143c/ffffff?text=Crimson+Krakens"
   },
   "FCF": {
     "name": "Fire Charge Falcons",
-    "color": "#ff8c00",
+    "color": "#8f4c15",
     "logo": "https://i.postimg.cc/4dBFWMd4/Layer-14.png",
     "banner": "https://placehold.co/1200x400/ff8c00/000000?text=Fire+Charge+Falcons"
   },
   "SSP": {
     "name": "Soul Sand Phantoms",
-    "color": "#5c4d4d",
+    "color": "#1c4d6b",
     "logo": "https://i.postimg.cc/3NqfTvmP/Layer-15.png",
     "banner": "https://placehold.co/1200x400/5c4d4d/ffffff?text=Soul+Sand+Phantoms"
   },
   "ADD": {
     "name": "Ancient Debris Devils",
-    "color": "#663399",
+    "color": "#877260",
     "logo": "https://i.postimg.cc/900gKpRd/Layer-16.png",
     "banner": "https://placehold.co/1200x400/663399/ffffff?text=Ancient+Debris+Devils"
   },
   "RAP": {
     "name": "Redstone Raptors",
-    "color": "#b30000",
+    "color": "#a81616",
     "logo": "https://i.postimg.cc/ZK9DLwhZ/Layer-1.png",
     "banner": "https://placehold.co/1200x400/b30000/ffffff?text=Redstone+Raptors"
   }
