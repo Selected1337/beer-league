@@ -2,12 +2,22 @@
   {
     "player": "ZaZPxl",
     "team": "CHC",
+    "gamesPlayed": 2,
+    "saves": 50,
+    "goalsAgainst": 11,
+    "shotsAgainst": 61,
+    "savePercentage": 0.82,
+    "goalsAgainstAverage": 5.5
+  },
+  {
+    "player": "CookieMnstr1616",
+    "team": "GRZ",
     "gamesPlayed": 1,
-    "saves": 30,
-    "goalsAgainst": 5,
-    "shotsAgainst": 35,
-    "savePercentage": 0.857,
-    "goalsAgainstAverage": 5.0
+    "saves": 27,
+    "goalsAgainst": 3,
+    "shotsAgainst": 30,
+    "savePercentage": 0.9,
+    "goalsAgainstAverage": 3.0
   },
   {
     "player": "Tendy41",
