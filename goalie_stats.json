@@ -1,5 +1,25 @@
 [
   {
+    "player": "ZaZPxl",
+    "team": "LLM",
+    "gamesPlayed": 1,
+    "saves": 27,
+    "goalsAgainst": 6,
+    "shotsAgainst": 33,
+    "savePercentage": 0.818,
+    "goalsAgainstAverage": 6.0
+  },
+  {
+    "player": "Clifford82",
+    "team": "CRK",
+    "gamesPlayed": 1,
+    "saves": 14,
+    "goalsAgainst": 2,
+    "shotsAgainst": 16,
+    "savePercentage": 0.875,
+    "goalsAgainstAverage": 2.0
+  },
+  {
     "player": "CookieMnstr1616",
     "team": "LLM",
     "gamesPlayed": 2,
