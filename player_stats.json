@@ -1,15 +1,15 @@
 [
   {
-    "saves": 0,
-    "goalsAgainst": 1,
-    "shotsAgainst": 0,
+    "saves": 3,
+    "goalsAgainst": 6,
+    "shotsAgainst": 3,
     "player": "_JacksonBlake",
     "team": "LLM",
     "goals": 0,
-    "assists": 1,
-    "hits": 71,
-    "touches": 46,
-    "gamesPlayed": 2
+    "assists": 2,
+    "hits": 116,
+    "touches": 75,
+    "gamesPlayed": 3
   },
   {
     "saves": 0,
@@ -17,35 +17,35 @@
     "shotsAgainst": 0,
     "player": "Clifford82",
     "team": "CRK",
-    "goals": 5,
-    "assists": 2,
-    "hits": 151,
-    "touches": 134,
-    "gamesPlayed": 2
+    "goals": 11,
+    "assists": 3,
+    "hits": 285,
+    "touches": 251,
+    "gamesPlayed": 3
   },
   {
-    "saves": 29,
-    "goalsAgainst": 9,
-    "shotsAgainst": 29,
+    "saves": 55,
+    "goalsAgainst": 13,
+    "shotsAgainst": 55,
     "player": "CookieMnstr1616",
     "team": "LLM",
-    "goals": 0,
+    "goals": 1,
     "assists": 0,
-    "hits": 35,
-    "touches": 30,
-    "gamesPlayed": 2
+    "hits": 72,
+    "touches": 55,
+    "gamesPlayed": 3
   },
   {
-    "saves": 0,
-    "goalsAgainst": 0,
-    "shotsAgainst": 0,
+    "saves": 30,
+    "goalsAgainst": 1,
+    "shotsAgainst": 30,
     "player": "OnlyBirb",
     "team": "CRK",
     "goals": 3,
-    "assists": 3,
-    "hits": 115,
-    "touches": 76,
-    "gamesPlayed": 2
+    "assists": 5,
+    "hits": 127,
+    "touches": 88,
+    "gamesPlayed": 3
   },
   {
     "saves": 11,
@@ -53,11 +53,11 @@
     "shotsAgainst": 11,
     "player": "Tendy41",
     "team": "CRK",
-    "goals": 1,
-    "assists": 0,
-    "hits": 20,
-    "touches": 18,
-    "gamesPlayed": 2
+    "goals": 2,
+    "assists": 3,
+    "hits": 150,
+    "touches": 124,
+    "gamesPlayed": 3
   },
   {
     "saves": 0,
@@ -67,8 +67,8 @@
     "team": "LLM",
     "goals": 1,
     "assists": 0,
-    "hits": 108,
-    "touches": 70,
-    "gamesPlayed": 2
+    "hits": 210,
+    "touches": 145,
+    "gamesPlayed": 3
   }
 ]
