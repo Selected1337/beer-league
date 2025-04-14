@@ -4,13 +4,27 @@
     "status": "FINAL",
     "home": {
       "team": "LLM",
-      "sog": 17,
+      "sog": 19,
       "score": 3
     },
     "away": {
       "team": "CRK",
-      "sog": 33,
-      "score": 6
+      "sog": 46,
+      "score": 10
+    }
+  },
+  {
+    "date": "Apr 13",
+    "status": "FINAL",
+    "home": {
+      "team": "LLM",
+      "sog": 17.0,
+      "score": 3.0
+    },
+    "away": {
+      "team": "CRK",
+      "sog": 33.0,
+      "score": 6.0
     }
   },
   {
