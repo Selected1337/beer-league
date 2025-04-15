@@ -6,22 +6,22 @@
     "player": "_JacksonBlake",
     "team": "GRZ",
     "goals": 2,
-    "assists": 0,
-    "hits": 61,
-    "touches": 40,
-    "gamesPlayed": 2
+    "assists": 1,
+    "hits": 140,
+    "touches": 97,
+    "gamesPlayed": 3
   },
   {
-    "saves": 23,
-    "goalsAgainst": 5,
-    "shotsAgainst": 23,
+    "saves": 49,
+    "goalsAgainst": 9,
+    "shotsAgainst": 49,
     "player": "CookieMnstr1616",
     "team": "GRZ",
     "goals": 0,
     "assists": 1,
-    "hits": 23,
-    "touches": 23,
-    "gamesPlayed": 2
+    "hits": 53,
+    "touches": 52,
+    "gamesPlayed": 3
   },
   {
     "saves": 0,
@@ -29,23 +29,23 @@
     "shotsAgainst": 0,
     "player": "Icespillermc",
     "team": "LLM",
-    "goals": 1,
-    "assists": 1,
-    "hits": 50,
-    "touches": 38,
-    "gamesPlayed": 2
+    "goals": 4,
+    "assists": 2,
+    "hits": 119,
+    "touches": 95,
+    "gamesPlayed": 3
   },
   {
-    "saves": 27,
-    "goalsAgainst": 4,
-    "shotsAgainst": 27,
+    "saves": 44,
+    "goalsAgainst": 8,
+    "shotsAgainst": 44,
     "player": "rdubsss23",
     "team": "LLM",
     "goals": 0,
     "assists": 0,
-    "hits": 23,
-    "touches": 18,
-    "gamesPlayed": 2
+    "hits": 54,
+    "touches": 49,
+    "gamesPlayed": 3
   },
   {
     "saves": 0,
@@ -53,11 +53,11 @@
     "shotsAgainst": 0,
     "player": "Sammythewhale",
     "team": "LLM",
-    "goals": 4,
-    "assists": 1,
-    "hits": 150,
-    "touches": 130,
-    "gamesPlayed": 2
+    "goals": 6,
+    "assists": 4,
+    "hits": 297,
+    "touches": 257,
+    "gamesPlayed": 3
   },
   {
     "saves": 0,
@@ -65,10 +65,10 @@
     "shotsAgainst": 0,
     "player": "Tendy41",
     "team": "GRZ",
-    "goals": 2,
+    "goals": 6,
     "assists": 0,
-    "hits": 166,
-    "touches": 119,
-    "gamesPlayed": 2
+    "hits": 307,
+    "touches": 231,
+    "gamesPlayed": 3
   }
 ]
