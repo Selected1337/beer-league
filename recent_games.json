@@ -1,1 +1,16 @@
-[]
+[
+  {
+    "date": "Apr 15",
+    "status": "FINAL",
+    "home": {
+      "team": "GRZ",
+      "sog": 31,
+      "score": 4
+    },
+    "away": {
+      "team": "LLM",
+      "sog": 28,
+      "score": 5
+    }
+  }
+]
