@@ -5,23 +5,23 @@
     "shotsAgainst": 0,
     "player": "MeatBagFranks",
     "team": "YET",
-    "goals": 1,
+    "goals": 3,
     "assists": 1,
-    "hits": 158,
-    "touches": 127,
-    "gamesPlayed": 3
+    "hits": 250,
+    "touches": 204,
+    "gamesPlayed": 4
   },
   {
-    "saves": 36,
-    "goalsAgainst": 9,
-    "shotsAgainst": 36,
+    "saves": 57,
+    "goalsAgainst": 13,
+    "shotsAgainst": 57,
     "player": "rdubsss23",
     "team": "ADD",
     "goals": 0,
     "assists": 0,
-    "hits": 59,
-    "touches": 57,
-    "gamesPlayed": 3
+    "hits": 92,
+    "touches": 87,
+    "gamesPlayed": 4
   },
   {
     "saves": 0,
@@ -29,11 +29,11 @@
     "shotsAgainst": 0,
     "player": "Sammythewhale",
     "team": "ADD",
-    "goals": 11,
-    "assists": 5,
-    "hits": 323,
-    "touches": 302,
-    "gamesPlayed": 3
+    "goals": 14,
+    "assists": 6,
+    "hits": 523,
+    "touches": 487,
+    "gamesPlayed": 4
   },
   {
     "saves": 0,
@@ -41,23 +41,23 @@
     "shotsAgainst": 0,
     "player": "Scp999v2",
     "team": "ADD",
-    "goals": 6,
-    "assists": 4,
-    "hits": 105,
-    "touches": 91,
-    "gamesPlayed": 3
+    "goals": 7,
+    "assists": 5,
+    "hits": 164,
+    "touches": 131,
+    "gamesPlayed": 4
   },
   {
-    "saves": 75,
-    "goalsAgainst": 17,
-    "shotsAgainst": 75,
+    "saves": 112,
+    "goalsAgainst": 21,
+    "shotsAgainst": 112,
     "player": "ShugShug22",
     "team": "YET",
     "goals": 1,
-    "assists": 0,
-    "hits": 76,
-    "touches": 75,
-    "gamesPlayed": 3
+    "assists": 2,
+    "hits": 107,
+    "touches": 106,
+    "gamesPlayed": 4
   },
   {
     "saves": 0,
@@ -65,10 +65,10 @@
     "shotsAgainst": 0,
     "player": "Tendy41",
     "team": "YET",
-    "goals": 5,
-    "assists": 0,
-    "hits": 224,
-    "touches": 185,
-    "gamesPlayed": 3
+    "goals": 8,
+    "assists": 2,
+    "hits": 351,
+    "touches": 286,
+    "gamesPlayed": 4
   }
 ]
