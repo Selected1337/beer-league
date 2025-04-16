@@ -1,16 +1,16 @@
 [
   {
-    "saves": 30,
-    "goalsAgainst": 3,
-    "shotsAgainst": 30,
+    "saves": 52,
+    "goalsAgainst": 6,
+    "shotsAgainst": 52,
     "player": "CookieMnstr1616",
     "team": "YET",
     "goals": 0,
     "assists": 0,
     "hits": 1,
-    "touches": 30,
+    "touches": 50,
     "penalties": 1,
-    "gamesPlayed": 2
+    "gamesPlayed": 3
   },
   {
     "saves": 0,
@@ -20,10 +20,10 @@
     "team": "YET",
     "goals": 2,
     "assists": 1,
-    "hits": 13,
-    "touches": 32,
-    "penalties": 10,
-    "gamesPlayed": 2
+    "hits": 28,
+    "touches": 77,
+    "penalties": 17,
+    "gamesPlayed": 3
   },
   {
     "saves": 0,
@@ -31,12 +31,12 @@
     "shotsAgainst": 0,
     "player": "Icespillermc",
     "team": "GRZ",
-    "goals": 0,
-    "assists": 0,
-    "hits": 14,
-    "touches": 45,
-    "penalties": 5,
-    "gamesPlayed": 2
+    "goals": 1,
+    "assists": 1,
+    "hits": 20,
+    "touches": 98,
+    "penalties": 10,
+    "gamesPlayed": 3
   },
   {
     "saves": 0,
@@ -44,25 +44,25 @@
     "shotsAgainst": 0,
     "player": "Pluds",
     "team": "YET",
-    "goals": 2,
+    "goals": 3,
     "assists": 1,
-    "hits": 40,
-    "touches": 78,
-    "penalties": 7,
-    "gamesPlayed": 2
+    "hits": 70,
+    "touches": 168,
+    "penalties": 11,
+    "gamesPlayed": 3
   },
   {
-    "saves": 22,
-    "goalsAgainst": 3,
-    "shotsAgainst": 22,
+    "saves": 51,
+    "goalsAgainst": 5,
+    "shotsAgainst": 51,
     "player": "rdubsss23",
     "team": "GRZ",
     "goals": 0,
-    "assists": 1,
-    "hits": 3,
-    "touches": 30,
+    "assists": 2,
+    "hits": 5,
+    "touches": 64,
     "penalties": 0,
-    "gamesPlayed": 2
+    "gamesPlayed": 3
   },
   {
     "saves": 0,
@@ -70,11 +70,11 @@
     "shotsAgainst": 0,
     "player": "Tendy41",
     "team": "GRZ",
-    "goals": 2,
-    "assists": 0,
-    "hits": 27,
-    "touches": 102,
-    "penalties": 3,
-    "gamesPlayed": 2
+    "goals": 4,
+    "assists": 1,
+    "hits": 52,
+    "touches": 194,
+    "penalties": 6,
+    "gamesPlayed": 3
   }
 ]
