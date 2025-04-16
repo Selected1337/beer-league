@@ -5,11 +5,11 @@
     "shotsAgainst": 0,
     "player": "_JacksonBlake",
     "team": "DRP",
-    "goals": 3,
+    "goals": 7,
     "assists": 2,
-    "hits": 145,
-    "touches": 107,
-    "gamesPlayed": 4
+    "hits": 214,
+    "touches": 151,
+    "gamesPlayed": 5
   },
   {
     "saves": 0,
@@ -17,23 +17,23 @@
     "shotsAgainst": 0,
     "player": "OnlyBirb",
     "team": "GRZ",
-    "goals": 11,
-    "assists": 1,
-    "hits": 245,
-    "touches": 190,
-    "gamesPlayed": 4
+    "goals": 12,
+    "assists": 5,
+    "hits": 402,
+    "touches": 319,
+    "gamesPlayed": 5
   },
   {
-    "saves": 36,
-    "goalsAgainst": 14,
-    "shotsAgainst": 36,
+    "saves": 56,
+    "goalsAgainst": 19,
+    "shotsAgainst": 56,
     "player": "rdubsss23",
     "team": "DRP",
     "goals": 0,
     "assists": 0,
-    "hits": 79,
-    "touches": 70,
-    "gamesPlayed": 4
+    "hits": 112,
+    "touches": 102,
+    "gamesPlayed": 5
   },
   {
     "saves": 0,
@@ -42,22 +42,22 @@
     "player": "Scp999v2",
     "team": "DRP",
     "goals": 0,
-    "assists": 2,
-    "hits": 116,
-    "touches": 98,
-    "gamesPlayed": 4
+    "assists": 3,
+    "hits": 160,
+    "touches": 131,
+    "gamesPlayed": 5
   },
   {
-    "saves": 47,
-    "goalsAgainst": 6,
-    "shotsAgainst": 47,
+    "saves": 64,
+    "goalsAgainst": 7,
+    "shotsAgainst": 64,
     "player": "ShugShug22",
     "team": "GRZ",
     "goals": 0,
     "assists": 3,
-    "hits": 62,
-    "touches": 60,
-    "gamesPlayed": 3
+    "hits": 85,
+    "touches": 82,
+    "gamesPlayed": 4
   },
   {
     "saves": 0,
@@ -65,10 +65,10 @@
     "shotsAgainst": 0,
     "player": "Tendy41",
     "team": "GRZ",
-    "goals": 5,
+    "goals": 6,
     "assists": 1,
-    "hits": 224,
-    "touches": 194,
-    "gamesPlayed": 4
+    "hits": 327,
+    "touches": 275,
+    "gamesPlayed": 5
   }
 ]
