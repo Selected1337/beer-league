@@ -3,6 +3,19 @@
     "saves": 0,
     "goalsAgainst": 0,
     "shotsAgainst": 0,
+    "player": "_JacksonBlake",
+    "team": "Unknown",
+    "goals": 0,
+    "assists": 0,
+    "hits": 0,
+    "touches": 1,
+    "penalties": 0,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
     "player": "MeatBagFranks",
     "team": "YET",
     "goals": 5,
@@ -11,6 +24,19 @@
     "touches": 331,
     "penalties": 0,
     "gamesPlayed": 6
+  },
+  {
+    "saves": 1,
+    "goalsAgainst": 0,
+    "shotsAgainst": 1,
+    "player": "Pluds",
+    "team": "ADD",
+    "goals": 0,
+    "assists": 0,
+    "hits": 0,
+    "touches": 0,
+    "penalties": 0,
+    "gamesPlayed": 2
   },
   {
     "saves": 103,
@@ -70,11 +96,11 @@
     "shotsAgainst": 0,
     "player": "Tendy41",
     "team": "YET",
-    "goals": 14,
+    "goals": 15,
     "assists": 4,
     "hits": 554,
-    "touches": 449,
+    "touches": 452,
     "penalties": 1,
-    "gamesPlayed": 7
+    "gamesPlayed": 8
   }
 ]
