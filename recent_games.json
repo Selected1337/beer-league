@@ -4,13 +4,27 @@
     "status": "FINAL",
     "home": {
       "team": "GRZ",
-      "sog": 25,
-      "score": 3
+      "sog": 36,
+      "score": 4
     },
     "away": {
       "team": "YET",
-      "sog": 24,
-      "score": 2
+      "sog": 51,
+      "score": 5
+    }
+  },
+  {
+    "date": "Apr 16",
+    "status": "FINAL",
+    "home": {
+      "team": "GRZ",
+      "sog": 25.0,
+      "score": 3.0
+    },
+    "away": {
+      "team": "YET",
+      "sog": 24.0,
+      "score": 2.0
     }
   },
   {
