@@ -25,7 +25,6 @@
 
     <!-- Stats Grid -->
     <div class="grid md:grid-cols-2 gap-6 px-6 py-10">
-      <!-- Skater Stats -->
       <div class="bg-gray-100 dark:bg-card rounded-lg shadow p-6 text-sm space-y-6">
         <h2 class="text-xl font-bold mb-2">Skater Stats</h2>
         <div class="grid grid-cols-3 sm:grid-cols-6 gap-2 text-center">
@@ -38,7 +37,6 @@
         </div>
       </div>
 
-      <!-- Goalie Stats -->
       <div id="goalie-panel" class="bg-gray-100 dark:bg-card rounded-lg shadow p-6 text-sm space-y-6">
         <h2 class="text-xl font-bold mb-2">Goalie Stats</h2>
         <div class="grid grid-cols-3 sm:grid-cols-6 gap-2 text-center">
@@ -52,7 +50,7 @@
       </div>
     </div>
 
-    <!-- Player Bio Panel -->
+    <!-- Bio -->
     <div class="px-6 pb-10">
       <div class="bg-gray-100 dark:bg-card rounded-lg shadow p-6 flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
         <div class="text-sm space-y-2">
@@ -66,27 +64,26 @@
       </div>
     </div>
 
-      <!-- Tournament Stats Table -->
-  <div id="tournament-stats-panel" class="bg-gray-100 dark:bg-card rounded-lg shadow p-6 mx-6 mb-10 text-sm">
-    <h2 class="text-xl font-bold mb-4">Tournament Stats</h2>
-    <div class="overflow-x-auto">
-      <table class="w-full text-left border-collapse">
-        <thead class="bg-gray-200 dark:bg-gray-700 text-xs text-gray-600 dark:text-gray-300">
-          <tr>
-            <th class="p-2">Tournament</th>
-            <th class="p-2">GP</th>
-            <th class="p-2">G</th>
-            <th class="p-2">A</th>
-            <th class="p-2">PTS</th>
-            <th class="p-2">Hits</th>
-            <th class="p-2">Touches</th>
-          </tr>
-        </thead>
-        <tbody id="tournament-stats-body" class="text-sm text-black dark:text-white"></tbody>
-      </table>
+    <!-- Tournament Stats -->
+    <div id="tournament-stats-panel" class="bg-gray-100 dark:bg-card rounded-lg shadow p-6 mx-6 mb-10 text-sm">
+      <h2 class="text-xl font-bold mb-4">Tournament Stats</h2>
+      <div class="overflow-x-auto">
+        <table class="w-full text-left border-collapse">
+          <thead class="bg-gray-200 dark:bg-gray-700 text-xs text-gray-600 dark:text-gray-300">
+            <tr>
+              <th class="p-2">Tournament</th>
+              <th class="p-2">GP</th>
+              <th class="p-2">G</th>
+              <th class="p-2">A</th>
+              <th class="p-2">PTS</th>
+              <th class="p-2">Hits</th>
+              <th class="p-2">Touches</th>
+            </tr>
+          </thead>
+          <tbody id="tournament-stats-body" class="text-sm text-black dark:text-white"></tbody>
+        </table>
+      </div>
     </div>
-  </div>
-
 
     <div class="text-center mb-10">
       <a href="index.html" class="text-blue-500 hover:underline">&larr; Back to stats</a>
@@ -111,24 +108,44 @@
         fetch("player_bios.json").then(res => res.json()),
         fetch("tournament_stats.json").then(res => res.json())
       ]).then(([players, goalies, logos, bios, tournaments]) => {
-        const player = Array.isArray(players)
-          ? players.find(p => p.player === name)
-          : players[name];
+        const player = players[name];
+        const goalie = goalies[name];
+        const bio = bios[name];
+        const team = player?.team || goalie?.team;
 
-        const goalie = Array.isArray(goalies)
-          ? goalies.find(g => g.player === name)
-          : goalies[name];
-
-        const bio = Array.isArray(bios)
-          ? bios.find(b => b.player === name)
-          : bios[name];
-
-        if (!player && !goalie && !bio) {
-          document.body.innerHTML = '<div class="text-center text-white text-2xl mt-20">Player not found.</div>';
-          return;
+        if (player) {
+          document.getElementById("stat-gp").textContent = player.gp ?? 0;
+          document.getElementById("stat-goals").textContent = player.goals ?? 0;
+          document.getElementById("stat-assists").textContent = player.assists ?? 0;
+          document.getElementById("stat-pts").textContent = player.points ?? 0;
+          document.getElementById("stat-hits").textContent = player.hits ?? 0;
+          document.getElementById("stat-touches").textContent = player.touches ?? 0;
         }
-        const team = player?.team ?? goalie?.team ?? "Unknown";
-        const teamInfo = logos[team];
+
+        if (goalie) {
+          document.getElementById("gstat-gp").textContent = goalie.gp ?? 0;
+          document.getElementById("gstat-saves").textContent = goalie.saves ?? 0;
+          document.getElementById("gstat-ga").textContent = goalie.ga ?? 0;
+          document.getElementById("gstat-sa").textContent = goalie.sa ?? 0;
+          document.getElementById("gstat-sv").textContent = goalie.sv ?? ".000";
+          document.getElementById("gstat-gaa").textContent = goalie.gaa ?? "0.00";
+        } else {
+          document.getElementById("goalie-panel").classList.add("hidden");
+        }
+
+        if (bio) {
+          document.getElementById("player-jersey").textContent = bio.jersey ?? "N/A";
+          document.getElementById("player-nationality").textContent = bio.nationality ?? "N/A";
+          document.getElementById("player-draft").textContent = bio.draft ?? "N/A";
+          document.getElementById("player-champs").textContent = bio.championships ?? 0;
+          document.getElementById("player-awards").textContent = bio.awards ?? "None";
+        }
+
+        if (team && logos[team]) {
+          document.getElementById("player-team").textContent = team;
+          document.getElementById("team-logo").src = logos[team].logo;
+          document.getElementById("team-banner").src = logos[team].banner;
+        }
 
         const tournamentStats = tournaments[name];
         const tbody = document.getElementById("tournament-stats-body");
@@ -148,54 +165,7 @@
             tbody.appendChild(row);
           });
         } else {
-         document.getElementById("tournament-stats-panel").classList.add("hidden");
-        }
-
-
-        if (teamInfo) {
-          document.getElementById("player-team").textContent = teamInfo.name;
-          document.getElementById("team-logo").src = teamInfo.logo;
-          document.getElementById("team-banner").src = teamInfo.banner;
-          document.body.style.backgroundColor = teamInfo.color + "22";
-        } else {
-          document.getElementById("player-team").textContent = team;
-        }
-
-        // Skater Stats
-        if (player) {
-          document.getElementById("stat-gp").textContent = player.gamesPlayed ?? 0;
-          document.getElementById("stat-goals").textContent = player.goals ?? 0;
-          document.getElementById("stat-assists").textContent = player.assists ?? 0;
-          document.getElementById("stat-pts").textContent = (player.goals + player.assists) ?? 0;
-          document.getElementById("stat-hits").textContent = player.hits ?? 0;
-          document.getElementById("stat-touches").textContent = player.touches ?? 0;
-        }
-
-        // Goalie Stats
-        document.getElementById("goalie-panel").classList.remove("hidden");
-        if (goalie) {
-          document.getElementById("gstat-gp").textContent = goalie.gamesPlayed ?? 0;
-          document.getElementById("gstat-saves").textContent = goalie.saves ?? 0;
-          document.getElementById("gstat-ga").textContent = goalie.goalsAgainst ?? 0;
-          document.getElementById("gstat-sa").textContent = goalie.shotsAgainst ?? 0;
-          document.getElementById("gstat-sv").textContent = (goalie.savePercentage ?? 0).toFixed(3);
-          document.getElementById("gstat-gaa").textContent = (goalie.goalsAgainstAverage ?? 0).toFixed(2);
-        } else {
-          document.getElementById("gstat-gp").textContent = 0;
-          document.getElementById("gstat-saves").textContent = 0;
-          document.getElementById("gstat-ga").textContent = 0;
-          document.getElementById("gstat-sa").textContent = 0;
-          document.getElementById("gstat-sv").textContent = "0.000";
-          document.getElementById("gstat-gaa").textContent = "0.00";
-        }
-
-        // Player Bio
-        if (bio) {
-          document.getElementById("player-jersey").textContent = bio.jersey ?? "N/A";
-          document.getElementById("player-nationality").textContent = bio.nationality ?? "N/A";
-          document.getElementById("player-draft").textContent = bio.draftPosition ?? "N/A";
-          document.getElementById("player-champs").textContent = bio.championships ?? 0;
-          document.getElementById("player-awards").textContent = bio.awards ?? "None";
+          document.getElementById("tournament-stats-panel").classList.add("hidden");
         }
       });
     }
