@@ -1,0 +1,22 @@
+{
+  "Tendy41": [
+    {
+      "tournament": "Spring Showdown",
+      "gp": 5,
+      "goals": 3,
+      "assists": 4,
+      "points": 7,
+      "hits": 10,
+      "touches": 30
+    },
+    {
+      "tournament": "Winter Cup",
+      "gp": 4,
+      "goals": 2,
+      "assists": 1,
+      "points": 3,
+      "hits": 6,
+      "touches": 20
+    }
+  ]
+}
