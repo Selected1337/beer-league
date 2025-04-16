@@ -7,9 +7,9 @@
     "team": "MVL",
     "goals": 1,
     "assists": 5,
-    "hits": 202,
-    "touches": 128,
-    "gamesPlayed": 4
+    "hits": 203,
+    "touches": 129,
+    "gamesPlayed": 5
   },
   {
     "saves": 0,
@@ -24,16 +24,16 @@
     "gamesPlayed": 4
   },
   {
-    "saves": 87,
+    "saves": 88,
     "goalsAgainst": 21,
-    "shotsAgainst": 87,
+    "shotsAgainst": 88,
     "player": "CookieMnstr1616",
     "team": "MVL",
     "goals": 0,
     "assists": 0,
-    "hits": 99,
-    "touches": 91,
-    "gamesPlayed": 4
+    "hits": 100,
+    "touches": 92,
+    "gamesPlayed": 5
   },
   {
     "saves": 0,
@@ -43,9 +43,9 @@
     "team": "CHC",
     "goals": 8,
     "assists": 9,
-    "hits": 343,
-    "touches": 275,
-    "gamesPlayed": 4
+    "hits": 346,
+    "touches": 278,
+    "gamesPlayed": 5
   },
   {
     "saves": 52,
@@ -55,9 +55,9 @@
     "team": "CHC",
     "goals": 0,
     "assists": 0,
-    "hits": 70,
-    "touches": 56,
-    "gamesPlayed": 4
+    "hits": 71,
+    "touches": 57,
+    "gamesPlayed": 5
   },
   {
     "saves": 2,
