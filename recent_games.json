@@ -4,13 +4,27 @@
     "status": "FINAL",
     "home": {
       "team": "ADD",
-      "sog": 45,
-      "score": 6
+      "sog": 47,
+      "score": 9
     },
     "away": {
       "team": "YET",
-      "sog": 29,
-      "score": 6
+      "sog": 26,
+      "score": 3
+    }
+  },
+  {
+    "date": "Apr 16",
+    "status": "FINAL",
+    "home": {
+      "team": "ADD",
+      "sog": 45.0,
+      "score": 6.0
+    },
+    "away": {
+      "team": "YET",
+      "sog": 29.0,
+      "score": 6.0
     }
   },
   {
