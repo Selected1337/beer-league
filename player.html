@@ -109,8 +109,7 @@
         fetch("goalie_stats.json").then(res => res.json()),
         fetch("team_logos.json").then(res => res.json()),
         fetch("player_bios.json").then(res => res.json())
-        fetch("tournament_stats.json").then(res => res.json())
-      ]).then(([players, goalies, logos, bios, tournaments]) => {
+      ]).then(([players, goalies, logos, bios]) => {
         const player = Array.isArray(players)
           ? players.find(p => p.player === name)
           : players[name];
@@ -127,29 +126,6 @@
           document.body.innerHTML = '<div class="text-center text-white text-2xl mt-20">Player not found.</div>';
           return;
         }
-
-        // --- NEW: Tournament Stats ---
-  const tournamentStats = tournaments[name];
-  const tbody = document.getElementById("tournament-stats-body");
-
-  if (Array.isArray(tournamentStats) && tournamentStats.length > 0) {
-    tournamentStats.forEach(t => {
-      const row = document.createElement("tr");
-      row.innerHTML = `
-        <td class="p-2">${t.tournament}</td>
-        <td class="p-2">${t.gp ?? 0}</td>
-        <td class="p-2">${t.goals ?? 0}</td>
-        <td class="p-2">${t.assists ?? 0}</td>
-        <td class="p-2">${t.points ?? 0}</td>
-        <td class="p-2">${t.hits ?? 0}</td>
-        <td class="p-2">${t.touches ?? 0}</td>
-      `;
-      tbody.appendChild(row);
-    });
-  } else {
-    document.getElementById("tournament-stats-panel").classList.add("hidden");
-  }
-
         const team = player?.team ?? goalie?.team ?? "Unknown";
         const teamInfo = logos[team];
 
