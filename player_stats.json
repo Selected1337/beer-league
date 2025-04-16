@@ -1,1 +1,80 @@
-[]
+[
+  {
+    "saves": 30,
+    "goalsAgainst": 3,
+    "shotsAgainst": 30,
+    "player": "CookieMnstr1616",
+    "team": "YET",
+    "goals": 0,
+    "assists": 0,
+    "hits": 1,
+    "touches": 30,
+    "penalties": 1,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
+    "player": "Eclipae",
+    "team": "YET",
+    "goals": 2,
+    "assists": 1,
+    "hits": 13,
+    "touches": 32,
+    "penalties": 10,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
+    "player": "Icespillermc",
+    "team": "GRZ",
+    "goals": 0,
+    "assists": 0,
+    "hits": 14,
+    "touches": 45,
+    "penalties": 5,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
+    "player": "Pluds",
+    "team": "YET",
+    "goals": 2,
+    "assists": 1,
+    "hits": 40,
+    "touches": 78,
+    "penalties": 7,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 22,
+    "goalsAgainst": 3,
+    "shotsAgainst": 22,
+    "player": "rdubsss23",
+    "team": "GRZ",
+    "goals": 0,
+    "assists": 1,
+    "hits": 3,
+    "touches": 30,
+    "penalties": 0,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
+    "player": "Tendy41",
+    "team": "GRZ",
+    "goals": 2,
+    "assists": 0,
+    "hits": 27,
+    "touches": 102,
+    "penalties": 3,
+    "gamesPlayed": 2
+  }
+]
