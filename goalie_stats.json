@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "player": "CookieMnstr1616",
+    "team": "YET",
+    "gamesPlayed": 1,
+    "saves": 30,
+    "goalsAgainst": 3,
+    "shotsAgainst": 33,
+    "savePercentage": 0.909,
+    "goalsAgainstAverage": 3.0
+  },
+  {
+    "player": "rdubsss23",
+    "team": "GRZ",
+    "gamesPlayed": 1,
+    "saves": 22,
+    "goalsAgainst": 3,
+    "shotsAgainst": 25,
+    "savePercentage": 0.88,
+    "goalsAgainstAverage": 3.0
+  }
+]
