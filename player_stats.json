@@ -42,6 +42,19 @@
     "saves": 0,
     "goalsAgainst": 0,
     "shotsAgainst": 0,
+    "player": "MeatBagFranks",
+    "team": "YET",
+    "goals": 1,
+    "assists": 0,
+    "hits": 0,
+    "touches": 3,
+    "penalties": 0,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 0,
+    "goalsAgainst": 1,
+    "shotsAgainst": 0,
     "player": "Pluds",
     "team": "YET",
     "goals": 9,
@@ -49,7 +62,7 @@
     "hits": 169,
     "touches": 427,
     "penalties": 19,
-    "gamesPlayed": 5
+    "gamesPlayed": 6
   },
   {
     "saves": 119,
@@ -59,10 +72,10 @@
     "team": "GRZ",
     "goals": 0,
     "assists": 5,
-    "hits": 9,
+    "hits": 10,
     "touches": 137,
     "penalties": 0,
-    "gamesPlayed": 6
+    "gamesPlayed": 7
   },
   {
     "saves": 0,
