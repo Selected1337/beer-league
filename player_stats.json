@@ -1,1 +1,86 @@
-[]
+[
+  {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
+    "player": "_JacksonBlake",
+    "team": "DRP",
+    "goals": 1,
+    "assists": 2,
+    "hits": 71,
+    "touches": 50,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
+    "player": "Clifford82",
+    "team": "DRP",
+    "goals": 4,
+    "assists": 0,
+    "hits": 141,
+    "touches": 122,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 29,
+    "goalsAgainst": 5,
+    "shotsAgainst": 29,
+    "player": "CookieMnstr1616",
+    "team": "ADD",
+    "goals": 0,
+    "assists": 0,
+    "hits": 27,
+    "touches": 23,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
+    "player": "Icespillermc",
+    "team": "ADD",
+    "goals": 1,
+    "assists": 0,
+    "hits": 72,
+    "touches": 57,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 18,
+    "goalsAgainst": 3,
+    "shotsAgainst": 18,
+    "player": "rdubsss23",
+    "team": "DRP",
+    "goals": 0,
+    "assists": 0,
+    "hits": 37,
+    "touches": 33,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 0,
+    "goalsAgainst": 5,
+    "shotsAgainst": 0,
+    "player": "ShugShug22",
+    "team": "ADD",
+    "goals": 0,
+    "assists": 0,
+    "hits": 0,
+    "touches": 0,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
+    "player": "Tendy41",
+    "team": "ADD",
+    "goals": 2,
+    "assists": 0,
+    "hits": 111,
+    "touches": 85,
+    "gamesPlayed": 2
+  }
+]
