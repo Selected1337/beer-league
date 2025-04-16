@@ -1,1 +1,12 @@
-[]
+[
+  {
+    "player": "rdubsss23",
+    "team": "DRP",
+    "gamesPlayed": 1,
+    "saves": 5,
+    "goalsAgainst": 1,
+    "shotsAgainst": 6,
+    "savePercentage": 0.833,
+    "goalsAgainstAverage": 1.0
+  }
+]
