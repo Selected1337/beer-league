@@ -6,12 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="min-h-screen">
+<body class="min-h-screen bg-black text-white">
   <main class="max-w-5xl mx-auto">
     <!-- Banner -->
     <div class="relative">
-      <img id="team-banner" src="https://placehold.co/1200x400" class="w-full object-cover rounded-b-lg shadow" />
-      <div id="banner-overlay" class="absolute top-4 left-6 flex items-center gap-4 bg-white/90 dark:bg-black/80 p-4 rounded shadow">
+      <img id="team-banner" src="" class="w-full h-64 object-cover rounded-b-lg shadow" />
+      <div class="absolute top-4 left-6 flex items-center gap-4 bg-white/90 dark:bg-black/80 p-4 rounded shadow">
         <img id="player-head" class="w-20 h-20 rounded-full border-4 border-gray-300" />
         <div>
           <h1 id="player-name" class="text-3xl font-bold text-black dark:text-white"></h1>
@@ -25,7 +25,7 @@
 
     <!-- Stats Grid -->
     <div class="grid md:grid-cols-2 gap-6 px-6 py-10">
-      <div class="bg-gray-100 dark:bg-card rounded-lg shadow p-6 text-sm space-y-6">
+      <div class="bg-gray-100 dark:bg-zinc-800 rounded-lg shadow p-6 text-sm space-y-6">
         <h2 class="text-xl font-bold mb-2">Skater Stats</h2>
         <div class="grid grid-cols-3 sm:grid-cols-6 gap-2 text-center">
           <div><span class="font-bold text-xl" id="stat-gp">0</span><div class="text-xs">GP</div></div>
@@ -37,7 +37,7 @@
         </div>
       </div>
 
-      <div id="goalie-panel" class="bg-gray-100 dark:bg-card rounded-lg shadow p-6 text-sm space-y-6">
+      <div id="goalie-panel" class="bg-gray-100 dark:bg-zinc-800 rounded-lg shadow p-6 text-sm space-y-6">
         <h2 class="text-xl font-bold mb-2">Goalie Stats</h2>
         <div class="grid grid-cols-3 sm:grid-cols-6 gap-2 text-center">
           <div><span class="font-bold text-xl" id="gstat-gp">0</span><div class="text-xs">GP</div></div>
@@ -52,7 +52,7 @@
 
     <!-- Bio -->
     <div class="px-6 pb-10">
-      <div class="bg-gray-100 dark:bg-card rounded-lg shadow p-6 flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
+      <div class="bg-gray-100 dark:bg-zinc-800 rounded-lg shadow p-6 flex flex-col md:flex-row justify-between items-start md:items-center gap-6">
         <div class="text-sm space-y-2">
           <div><strong>Jersey #:</strong> <span id="player-jersey">N/A</span></div>
           <div><strong>Nationality:</strong> <span id="player-nationality">N/A</span></div>
@@ -65,7 +65,7 @@
     </div>
 
     <!-- Tournament Stats -->
-    <div id="tournament-stats-panel" class="bg-gray-100 dark:bg-card rounded-lg shadow p-6 mx-6 mb-10 text-sm">
+    <div id="tournament-stats-panel" class="bg-gray-100 dark:bg-zinc-800 rounded-lg shadow p-6 mx-6 mb-10 text-sm">
       <h2 class="text-xl font-bold mb-4">Tournament Stats</h2>
       <div class="overflow-x-auto">
         <table class="w-full text-left border-collapse">
@@ -91,38 +91,42 @@
   </main>
 
   <script>
-    const params = new URLSearchParams(window.location.search);
-    const name = params.get("name");
+    const name = new URLSearchParams(window.location.search).get("name");
 
     if (!name) {
       document.body.innerHTML = '<div class="text-center text-white text-2xl mt-20">Player not found.</div>';
     } else {
-      document.getElementById("player-head").src = `https://minotar.net/avatar/${name}/100.png`;
-      document.getElementById("player-name").textContent = name;
-      document.getElementById("player-body").src = `https://minotar.net/body/${name}/100.png`;
-
       Promise.all([
-        fetch("player_stats.json").then(res => res.json()),
-        fetch("goalie_stats.json").then(res => res.json()),
-        fetch("team_logos.json").then(res => res.json()),
-        fetch("player_bios.json").then(res => res.json()),
-        fetch("tournament_stats.json").then(res => res.json())
+        fetch("player_stats.json").then(r => r.json()),
+        fetch("goalie_stats.json").then(r => r.json()),
+        fetch("team_logos.json").then(r => r.json()),
+        fetch("player_bios.json").then(r => r.json()),
+        fetch("tournament_stats.json").then(r => r.json())
       ]).then(([players, goalies, logos, bios, tournaments]) => {
-        const player = players[name];
-        const goalie = goalies[name];
-        const bio = bios[name];
-        const team = player?.team || goalie?.team;
+        const player = players[name] || {};
+        const goalie = goalies[name] || {};
+        const bio = bios[name] || {};
+        const team = player.team || goalie.team;
+        const teamLogo = logos[team] || {};
+        
+        // Header info
+        document.getElementById("player-name").textContent = name;
+        document.getElementById("player-head").src = `https://minotar.net/avatar/${name}/100.png`;
+        document.getElementById("player-body").src = `https://minotar.net/armor/body/${name}`;
+        document.getElementById("team-logo").src = teamLogo.logo || "";
+        document.getElementById("team-banner").src = teamLogo.banner || "";
+        document.getElementById("player-team").textContent = team;
 
-        if (player) {
-          document.getElementById("stat-gp").textContent = player.gp ?? 0;
-          document.getElementById("stat-goals").textContent = player.goals ?? 0;
-          document.getElementById("stat-assists").textContent = player.assists ?? 0;
-          document.getElementById("stat-pts").textContent = player.points ?? 0;
-          document.getElementById("stat-hits").textContent = player.hits ?? 0;
-          document.getElementById("stat-touches").textContent = player.touches ?? 0;
-        }
+        // Player Stats
+        document.getElementById("stat-gp").textContent = player.gp ?? 0;
+        document.getElementById("stat-goals").textContent = player.goals ?? 0;
+        document.getElementById("stat-assists").textContent = player.assists ?? 0;
+        document.getElementById("stat-pts").textContent = (player.goals ?? 0) + (player.assists ?? 0);
+        document.getElementById("stat-hits").textContent = player.hits ?? 0;
+        document.getElementById("stat-touches").textContent = player.touches ?? 0;
 
-        if (goalie) {
+        // Goalie Stats
+        if (goalie && goalie.gp > 0) {
           document.getElementById("gstat-gp").textContent = goalie.gp ?? 0;
           document.getElementById("gstat-saves").textContent = goalie.saves ?? 0;
           document.getElementById("gstat-ga").textContent = goalie.ga ?? 0;
@@ -133,23 +137,16 @@
           document.getElementById("goalie-panel").classList.add("hidden");
         }
 
-        if (bio) {
-          document.getElementById("player-jersey").textContent = bio.jersey ?? "N/A";
-          document.getElementById("player-nationality").textContent = bio.nationality ?? "N/A";
-          document.getElementById("player-draft").textContent = bio.draft ?? "N/A";
-          document.getElementById("player-champs").textContent = bio.championships ?? 0;
-          document.getElementById("player-awards").textContent = bio.awards ?? "None";
-        }
+        // Bio
+        document.getElementById("player-jersey").textContent = bio.jersey ?? "N/A";
+        document.getElementById("player-nationality").textContent = bio.nationality ?? "N/A";
+        document.getElementById("player-draft").textContent = bio.draft ?? "N/A";
+        document.getElementById("player-champs").textContent = bio.championships ?? 0;
+        document.getElementById("player-awards").textContent = bio.awards?.join(", ") || "None";
 
-        if (team && logos[team]) {
-          document.getElementById("player-team").textContent = team;
-          document.getElementById("team-logo").src = logos[team].logo;
-          document.getElementById("team-banner").src = logos[team].banner;
-        }
-
+        // Tournament Stats
         const tournamentStats = tournaments[name];
         const tbody = document.getElementById("tournament-stats-body");
-
         if (Array.isArray(tournamentStats) && tournamentStats.length > 0) {
           tournamentStats.forEach(t => {
             const row = document.createElement("tr");
