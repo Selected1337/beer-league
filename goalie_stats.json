@@ -2,21 +2,21 @@
   {
     "player": "ShugShug22",
     "team": "GRZ",
-    "gamesPlayed": 1,
-    "saves": 21,
-    "goalsAgainst": 3,
-    "shotsAgainst": 24,
-    "savePercentage": 0.875,
+    "gamesPlayed": 2,
+    "saves": 47,
+    "goalsAgainst": 6,
+    "shotsAgainst": 53,
+    "savePercentage": 0.887,
     "goalsAgainstAverage": 3.0
   },
   {
     "player": "rdubsss23",
     "team": "DRP",
-    "gamesPlayed": 2,
-    "saves": 23,
-    "goalsAgainst": 10,
-    "shotsAgainst": 33,
-    "savePercentage": 0.697,
-    "goalsAgainstAverage": 5.0
+    "gamesPlayed": 3,
+    "saves": 36,
+    "goalsAgainst": 14,
+    "shotsAgainst": 50,
+    "savePercentage": 0.72,
+    "goalsAgainstAverage": 4.666666666666667
   }
 ]
