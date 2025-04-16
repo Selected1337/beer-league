@@ -1,22 +1,49 @@
 {
   "Tendy41": [
     {
-      "tournament": "Spring Showdown",
+      "tournament": "'23 National Miners Development Program",
       "gp": 5,
-      "goals": 3,
+      "goals": 14,
       "assists": 4,
-      "points": 7,
-      "hits": 10,
-      "touches": 30
+      "points": 18,
+      "hits": 108,
+      "touches": 446
     },
     {
-      "tournament": "Winter Cup",
+      "tournament": "'22 Woodland Hockey League",
+      "gp": 3,
+      "goals": 12,
+      "assists": 6,
+      "points": 18,
+      "hits": 80,
+      "touches": 277
+    },
+    {
+      "tournament": "'21 National Miners Development Program",
       "gp": 4,
-      "goals": 2,
+      "goals": 11,
+      "assists": 3,
+      "points": 14,
+      "hits": 82,
+      "touches": 374
+    },
+    {
+      "tournament": "'24 Ender City Hockey League",
+      "gp": 3,
+      "goals": 9,
       "assists": 1,
-      "points": 3,
-      "hits": 6,
-      "touches": 20
+      "points": 10,
+      "hits": 95,
+      "touches": 335
+    },
+    {
+      "tournament": "'24 Overworld Hockey League",
+      "gp": 6,
+      "goals": 12,
+      "assists": 9,
+      "points": 21,
+      "hits": 84,
+      "touches": 417
     }
   ]
 }
