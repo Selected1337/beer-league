@@ -1,16 +1,16 @@
 [
   {
-    "saves": 74,
-    "goalsAgainst": 9,
-    "shotsAgainst": 74,
+    "saves": 106,
+    "goalsAgainst": 13,
+    "shotsAgainst": 106,
     "player": "CookieMnstr1616",
     "team": "YET",
     "goals": 0,
-    "assists": 0,
-    "hits": 3,
-    "touches": 72,
-    "penalties": 1,
-    "gamesPlayed": 4
+    "assists": 1,
+    "hits": 4,
+    "touches": 100,
+    "penalties": 3,
+    "gamesPlayed": 5
   },
   {
     "saves": 0,
@@ -31,12 +31,12 @@
     "shotsAgainst": 0,
     "player": "Icespillermc",
     "team": "GRZ",
-    "goals": 3,
+    "goals": 7,
     "assists": 2,
-    "hits": 27,
-    "touches": 143,
-    "penalties": 11,
-    "gamesPlayed": 4
+    "hits": 48,
+    "touches": 223,
+    "penalties": 17,
+    "gamesPlayed": 5
   },
   {
     "saves": 0,
@@ -44,25 +44,25 @@
     "shotsAgainst": 0,
     "player": "Pluds",
     "team": "YET",
-    "goals": 4,
+    "goals": 9,
     "assists": 2,
-    "hits": 115,
-    "touches": 251,
-    "penalties": 15,
-    "gamesPlayed": 4
+    "hits": 169,
+    "touches": 427,
+    "penalties": 19,
+    "gamesPlayed": 5
   },
   {
-    "saves": 73,
-    "goalsAgainst": 7,
-    "shotsAgainst": 73,
+    "saves": 119,
+    "goalsAgainst": 11,
+    "shotsAgainst": 119,
     "player": "rdubsss23",
     "team": "GRZ",
     "goals": 0,
-    "assists": 3,
+    "assists": 5,
     "hits": 9,
-    "touches": 92,
+    "touches": 137,
     "penalties": 0,
-    "gamesPlayed": 4
+    "gamesPlayed": 5
   },
   {
     "saves": 0,
