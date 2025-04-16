@@ -1,5 +1,15 @@
 [
   {
+    "player": "Pluds",
+    "team": "GRZ",
+    "gamesPlayed": 1,
+    "saves": 0,
+    "goalsAgainst": 1,
+    "shotsAgainst": 1,
+    "savePercentage": 0.0,
+    "goalsAgainstAverage": 1.0
+  },
+  {
     "player": "CookieMnstr1616",
     "team": "YET",
     "gamesPlayed": 4,
