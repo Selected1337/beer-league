@@ -5,11 +5,11 @@
     "shotsAgainst": 0,
     "player": "_JacksonBlake",
     "team": "MVL",
-    "goals": 0,
-    "assists": 1,
-    "hits": 132,
-    "touches": 83,
-    "gamesPlayed": 3
+    "goals": 1,
+    "assists": 5,
+    "hits": 202,
+    "touches": 128,
+    "gamesPlayed": 4
   },
   {
     "saves": 0,
@@ -17,23 +17,23 @@
     "shotsAgainst": 0,
     "player": "Clifford82",
     "team": "MVL",
-    "goals": 6,
+    "goals": 11,
     "assists": 0,
-    "hits": 301,
-    "touches": 238,
-    "gamesPlayed": 3
+    "hits": 430,
+    "touches": 337,
+    "gamesPlayed": 4
   },
   {
-    "saves": 62,
-    "goalsAgainst": 13,
-    "shotsAgainst": 62,
+    "saves": 87,
+    "goalsAgainst": 21,
+    "shotsAgainst": 87,
     "player": "CookieMnstr1616",
     "team": "MVL",
     "goals": 0,
     "assists": 0,
-    "hits": 75,
-    "touches": 67,
-    "gamesPlayed": 3
+    "hits": 99,
+    "touches": 91,
+    "gamesPlayed": 4
   },
   {
     "saves": 0,
@@ -41,34 +41,34 @@
     "shotsAgainst": 0,
     "player": "OnlyBirb",
     "team": "CHC",
-    "goals": 3,
-    "assists": 8,
-    "hits": 233,
-    "touches": 195,
-    "gamesPlayed": 3
+    "goals": 8,
+    "assists": 9,
+    "hits": 343,
+    "touches": 275,
+    "gamesPlayed": 4
   },
   {
-    "saves": 29,
-    "goalsAgainst": 7,
-    "shotsAgainst": 29,
+    "saves": 52,
+    "goalsAgainst": 13,
+    "shotsAgainst": 52,
     "player": "rdubsss23",
     "team": "CHC",
     "goals": 0,
     "assists": 0,
-    "hits": 42,
-    "touches": 34,
-    "gamesPlayed": 3
+    "hits": 70,
+    "touches": 56,
+    "gamesPlayed": 4
   },
   {
-    "saves": 1,
-    "goalsAgainst": 0,
-    "shotsAgainst": 1,
+    "saves": 2,
+    "goalsAgainst": 1,
+    "shotsAgainst": 2,
     "player": "Tendy41",
     "team": "CHC",
-    "goals": 10,
-    "assists": 2,
-    "hits": 250,
-    "touches": 189,
-    "gamesPlayed": 3
+    "goals": 12,
+    "assists": 6,
+    "hits": 357,
+    "touches": 277,
+    "gamesPlayed": 4
   }
 ]
