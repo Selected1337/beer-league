@@ -4,13 +4,27 @@
     "status": "FINAL",
     "home": {
       "team": "CHC",
-      "sog": 39,
-      "score": 9
+      "sog": 33,
+      "score": 8
     },
     "away": {
       "team": "MVL",
-      "sog": 16,
-      "score": 4
+      "sog": 30,
+      "score": 6
+    }
+  },
+  {
+    "date": "Apr 16",
+    "status": "FINAL",
+    "home": {
+      "team": "CHC",
+      "sog": 39.0,
+      "score": 9.0
+    },
+    "away": {
+      "team": "MVL",
+      "sog": 16.0,
+      "score": 4.0
     }
   },
   {
