@@ -9,8 +9,22 @@
     },
     "away": {
       "team": "YET",
-      "sog": 1,
-      "score": 1
+      "sog": 0,
+      "score": 0
+    }
+  },
+  {
+    "date": "Apr 16",
+    "status": "FINAL",
+    "home": {
+      "team": "GRZ",
+      "sog": 0.0,
+      "score": 0.0
+    },
+    "away": {
+      "team": "YET",
+      "sog": 1.0,
+      "score": 1.0
     }
   },
   {
