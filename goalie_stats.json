@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "player": "ShugShug22",
+    "team": "ADD",
+    "gamesPlayed": 1,
+    "saves": 0,
+    "goalsAgainst": 5,
+    "shotsAgainst": 5,
+    "savePercentage": 0.0,
+    "goalsAgainstAverage": 5.0
+  },
+  {
+    "player": "CookieMnstr1616",
+    "team": "ADD",
+    "gamesPlayed": 1,
+    "saves": 29,
+    "goalsAgainst": 5,
+    "shotsAgainst": 34,
+    "savePercentage": 0.853,
+    "goalsAgainstAverage": 5.0
+  },
+  {
+    "player": "rdubsss23",
+    "team": "DRP",
+    "gamesPlayed": 1,
+    "saves": 18,
+    "goalsAgainst": 3,
+    "shotsAgainst": 21,
+    "savePercentage": 0.857,
+    "goalsAgainstAverage": 3.0
+  }
+]
