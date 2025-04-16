@@ -4,13 +4,27 @@
     "status": "FINAL",
     "home": {
       "team": "ADD",
-      "sog": 22,
-      "score": 3
+      "sog": 18,
+      "score": 5
     },
     "away": {
       "team": "DRP",
-      "sog": 35,
-      "score": 5
+      "sog": 42,
+      "score": 4
+    }
+  },
+  {
+    "date": "Apr 15",
+    "status": "FINAL",
+    "home": {
+      "team": "ADD",
+      "sog": 22.0,
+      "score": 3.0
+    },
+    "away": {
+      "team": "DRP",
+      "sog": 35.0,
+      "score": 5.0
     }
   },
   {
