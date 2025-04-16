@@ -66,6 +66,28 @@
       </div>
     </div>
 
+      <!-- Tournament Stats Table -->
+  <div id="tournament-stats-panel" class="bg-gray-100 dark:bg-card rounded-lg shadow p-6 mx-6 mb-10 text-sm">
+    <h2 class="text-xl font-bold mb-4">Tournament Stats</h2>
+    <div class="overflow-x-auto">
+      <table class="w-full text-left border-collapse">
+        <thead class="bg-gray-200 dark:bg-gray-700 text-xs text-gray-600 dark:text-gray-300">
+          <tr>
+            <th class="p-2">Tournament</th>
+            <th class="p-2">GP</th>
+            <th class="p-2">G</th>
+            <th class="p-2">A</th>
+            <th class="p-2">PTS</th>
+            <th class="p-2">Hits</th>
+            <th class="p-2">Touches</th>
+          </tr>
+        </thead>
+        <tbody id="tournament-stats-body" class="text-sm text-black dark:text-white"></tbody>
+      </table>
+    </div>
+  </div>
+
+
     <div class="text-center mb-10">
       <a href="index.html" class="text-blue-500 hover:underline">&larr; Back to stats</a>
     </div>
@@ -87,7 +109,8 @@
         fetch("goalie_stats.json").then(res => res.json()),
         fetch("team_logos.json").then(res => res.json()),
         fetch("player_bios.json").then(res => res.json())
-      ]).then(([players, goalies, logos, bios]) => {
+        fetch("tournament_stats.json").then(res => res.json())
+      ]).then(([players, goalies, logos, bios, tournaments]) => {
         const player = Array.isArray(players)
           ? players.find(p => p.player === name)
           : players[name];
@@ -104,6 +127,28 @@
           document.body.innerHTML = '<div class="text-center text-white text-2xl mt-20">Player not found.</div>';
           return;
         }
+
+        // --- NEW: Tournament Stats ---
+  const tournamentStats = tournaments[name];
+  const tbody = document.getElementById("tournament-stats-body");
+
+  if (Array.isArray(tournamentStats) && tournamentStats.length > 0) {
+    tournamentStats.forEach(t => {
+      const row = document.createElement("tr");
+      row.innerHTML = `
+        <td class="p-2">${t.tournament}</td>
+        <td class="p-2">${t.gp ?? 0}</td>
+        <td class="p-2">${t.goals ?? 0}</td>
+        <td class="p-2">${t.assists ?? 0}</td>
+        <td class="p-2">${t.points ?? 0}</td>
+        <td class="p-2">${t.hits ?? 0}</td>
+        <td class="p-2">${t.touches ?? 0}</td>
+      `;
+      tbody.appendChild(row);
+    });
+  } else {
+    document.getElementById("tournament-stats-panel").classList.add("hidden");
+  }
 
         const team = player?.team ?? goalie?.team ?? "Unknown";
         const teamInfo = logos[team];
