@@ -1,29 +1,29 @@
 [
   {
-    "saves": 0,
+    "saves": 1,
     "goalsAgainst": 0,
-    "shotsAgainst": 0,
+    "shotsAgainst": 1,
     "player": "Clifford82",
     "team": "GRZ",
-    "goals": 5,
-    "assists": 1,
-    "hits": 59,
-    "touches": 441,
-    "penalties": 6,
-    "gamesPlayed": 4
+    "goals": 8,
+    "assists": 2,
+    "hits": 86,
+    "touches": 584,
+    "penalties": 9,
+    "gamesPlayed": 5
   },
   {
-    "saves": 98,
-    "goalsAgainst": 4,
-    "shotsAgainst": 98,
+    "saves": 133,
+    "goalsAgainst": 9,
+    "shotsAgainst": 133,
     "player": "CookieMnstr1616",
     "team": "GRZ",
     "goals": 0,
-    "assists": 0,
-    "hits": 7,
-    "touches": 73,
-    "penalties": 0,
-    "gamesPlayed": 4
+    "assists": 1,
+    "hits": 10,
+    "touches": 106,
+    "penalties": 1,
+    "gamesPlayed": 5
   },
   {
     "saves": 0,
@@ -31,25 +31,25 @@
     "shotsAgainst": 0,
     "player": "Icespillermc",
     "team": "GRZ",
-    "goals": 1,
+    "goals": 2,
     "assists": 2,
-    "hits": 50,
-    "touches": 156,
-    "penalties": 8,
-    "gamesPlayed": 4
+    "hits": 64,
+    "touches": 199,
+    "penalties": 14,
+    "gamesPlayed": 5
   },
   {
-    "saves": 68,
-    "goalsAgainst": 6,
-    "shotsAgainst": 68,
+    "saves": 86,
+    "goalsAgainst": 10,
+    "shotsAgainst": 86,
     "player": "Pluds",
     "team": "CHC",
     "goals": 0,
-    "assists": 0,
-    "hits": 4,
-    "touches": 102,
+    "assists": 1,
+    "hits": 6,
+    "touches": 138,
     "penalties": 1,
-    "gamesPlayed": 4
+    "gamesPlayed": 5
   },
   {
     "saves": 3,
@@ -57,12 +57,12 @@
     "shotsAgainst": 3,
     "player": "Tendy41",
     "team": "CHC",
-    "goals": 4,
+    "goals": 7,
     "assists": 1,
-    "hits": 68,
-    "touches": 301,
-    "penalties": 9,
-    "gamesPlayed": 4
+    "hits": 107,
+    "touches": 420,
+    "penalties": 11,
+    "gamesPlayed": 5
   },
   {
     "saves": 0,
@@ -70,11 +70,11 @@
     "shotsAgainst": 0,
     "player": "ZaZPxl",
     "team": "CHC",
-    "goals": 1,
+    "goals": 2,
     "assists": 2,
-    "hits": 84,
-    "touches": 256,
-    "penalties": 8,
-    "gamesPlayed": 4
+    "hits": 105,
+    "touches": 343,
+    "penalties": 13,
+    "gamesPlayed": 5
   }
 ]
