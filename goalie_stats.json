@@ -2,22 +2,32 @@
   {
     "player": "Pluds",
     "team": "CHC",
-    "gamesPlayed": 3,
-    "saves": 68,
-    "goalsAgainst": 6,
-    "shotsAgainst": 74,
-    "savePercentage": 0.919,
-    "goalsAgainstAverage": 2.0
+    "gamesPlayed": 4,
+    "saves": 86,
+    "goalsAgainst": 10,
+    "shotsAgainst": 96,
+    "savePercentage": 0.896,
+    "goalsAgainstAverage": 2.5
+  },
+  {
+    "player": "Clifford82",
+    "team": "GRZ",
+    "gamesPlayed": 1,
+    "saves": 1,
+    "goalsAgainst": 0,
+    "shotsAgainst": 1,
+    "savePercentage": 1.0,
+    "goalsAgainstAverage": 0.0
   },
   {
     "player": "CookieMnstr1616",
     "team": "GRZ",
-    "gamesPlayed": 3,
-    "saves": 98,
-    "goalsAgainst": 4,
-    "shotsAgainst": 102,
-    "savePercentage": 0.961,
-    "goalsAgainstAverage": 1.3333333333333333
+    "gamesPlayed": 4,
+    "saves": 133,
+    "goalsAgainst": 9,
+    "shotsAgainst": 142,
+    "savePercentage": 0.937,
+    "goalsAgainstAverage": 2.25
   },
   {
     "player": "Tendy41",
