@@ -1,1 +1,80 @@
-[]
+[
+  {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
+    "player": "Clifford82",
+    "team": "GRZ",
+    "goals": 1,
+    "assists": 0,
+    "hits": 11,
+    "touches": 129,
+    "penalties": 1,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 21,
+    "goalsAgainst": 0,
+    "shotsAgainst": 21,
+    "player": "CookieMnstr1616",
+    "team": "GRZ",
+    "goals": 0,
+    "assists": 0,
+    "hits": 2,
+    "touches": 16,
+    "penalties": 0,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
+    "player": "Icespillermc",
+    "team": "GRZ",
+    "goals": 0,
+    "assists": 1,
+    "hits": 15,
+    "touches": 47,
+    "penalties": 1,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 20,
+    "goalsAgainst": 1,
+    "shotsAgainst": 20,
+    "player": "Pluds",
+    "team": "CHC",
+    "goals": 0,
+    "assists": 0,
+    "hits": 0,
+    "touches": 33,
+    "penalties": 1,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 3,
+    "goalsAgainst": 0,
+    "shotsAgainst": 3,
+    "player": "Tendy41",
+    "team": "CHC",
+    "goals": 0,
+    "assists": 0,
+    "hits": 19,
+    "touches": 74,
+    "penalties": 2,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
+    "player": "ZaZPxl",
+    "team": "CHC",
+    "goals": 0,
+    "assists": 0,
+    "hits": 18,
+    "touches": 72,
+    "penalties": 4,
+    "gamesPlayed": 2
+  }
+]
