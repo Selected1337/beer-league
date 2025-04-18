@@ -12,21 +12,21 @@
   {
     "player": "CookieMnstr1616",
     "team": "CHC",
-    "gamesPlayed": 2,
-    "saves": 60,
-    "goalsAgainst": 6,
-    "shotsAgainst": 66,
-    "savePercentage": 0.909,
-    "goalsAgainstAverage": 3.0
+    "gamesPlayed": 3,
+    "saves": 77,
+    "goalsAgainst": 10,
+    "shotsAgainst": 87,
+    "savePercentage": 0.885,
+    "goalsAgainstAverage": 3.3333333333333335
   },
   {
     "player": "rdubsss23",
     "team": "DRP",
-    "gamesPlayed": 2,
-    "saves": 48,
-    "goalsAgainst": 10,
-    "shotsAgainst": 58,
-    "savePercentage": 0.828,
+    "gamesPlayed": 3,
+    "saves": 60,
+    "goalsAgainst": 15,
+    "shotsAgainst": 75,
+    "savePercentage": 0.8,
     "goalsAgainstAverage": 5.0
   }
 ]
