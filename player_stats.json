@@ -33,36 +33,36 @@
     "team": "GRZ",
     "goals": 5,
     "assists": 7,
-    "hits": 124,
-    "touches": 424,
-    "penalties": 26,
-    "gamesPlayed": 9
+    "hits": 139,
+    "touches": 461,
+    "penalties": 30,
+    "gamesPlayed": 10
   },
   {
-    "saves": 149,
-    "goalsAgainst": 18,
-    "shotsAgainst": 149,
+    "saves": 167,
+    "goalsAgainst": 22,
+    "shotsAgainst": 167,
     "player": "Pluds",
     "team": "CHC",
     "goals": 0,
     "assists": 3,
-    "hits": 14,
-    "touches": 258,
+    "hits": 17,
+    "touches": 292,
     "penalties": 2,
-    "gamesPlayed": 9
+    "gamesPlayed": 10
   },
   {
-    "saves": 66,
-    "goalsAgainst": 7,
-    "shotsAgainst": 66,
+    "saves": 88,
+    "goalsAgainst": 8,
+    "shotsAgainst": 88,
     "player": "rdubsss23",
     "team": "FCF",
     "goals": 1,
     "assists": 2,
     "hits": 12,
-    "touches": 94,
+    "touches": 123,
     "penalties": 0,
-    "gamesPlayed": 4
+    "gamesPlayed": 5
   },
   {
     "saves": 0,
@@ -70,12 +70,12 @@
     "shotsAgainst": 0,
     "player": "Spray_23",
     "team": "FCF",
-    "goals": 2,
+    "goals": 3,
     "assists": 0,
-    "hits": 51,
-    "touches": 191,
+    "hits": 66,
+    "touches": 254,
     "penalties": 6,
-    "gamesPlayed": 4
+    "gamesPlayed": 5
   },
   {
     "saves": 3,
@@ -83,12 +83,12 @@
     "shotsAgainst": 3,
     "player": "Tendy41",
     "team": "CHC",
-    "goals": 15,
-    "assists": 2,
-    "hits": 177,
-    "touches": 896,
-    "penalties": 24,
-    "gamesPlayed": 11
+    "goals": 17,
+    "assists": 3,
+    "hits": 194,
+    "touches": 1010,
+    "penalties": 27,
+    "gamesPlayed": 12
   },
   {
     "saves": 0,
@@ -96,11 +96,11 @@
     "shotsAgainst": 0,
     "player": "ZaZPxl",
     "team": "CHC",
-    "goals": 7,
+    "goals": 8,
     "assists": 3,
-    "hits": 197,
-    "touches": 699,
-    "penalties": 27,
-    "gamesPlayed": 9
+    "hits": 221,
+    "touches": 790,
+    "penalties": 30,
+    "gamesPlayed": 10
   }
 ]
