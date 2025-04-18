@@ -4,13 +4,27 @@
     "status": "FINAL",
     "home": {
       "team": "MAV",
-      "sog": 35,
+      "sog": 19,
       "score": 3
     },
     "away": {
       "team": "FCF",
-      "sog": 11,
+      "sog": 13,
       "score": 1
+    }
+  },
+  {
+    "date": "Apr 17",
+    "status": "FINAL",
+    "home": {
+      "team": "MAV",
+      "sog": 35.0,
+      "score": 3.0
+    },
+    "away": {
+      "team": "FCF",
+      "sog": 11.0,
+      "score": 1.0
     }
   },
   {
