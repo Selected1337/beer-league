@@ -2,12 +2,12 @@
   {
     "player": "Pluds",
     "team": "CHC",
-    "gamesPlayed": 5,
-    "saves": 106,
-    "goalsAgainst": 12,
-    "shotsAgainst": 118,
-    "savePercentage": 0.898,
-    "goalsAgainstAverage": 2.4
+    "gamesPlayed": 6,
+    "saves": 116,
+    "goalsAgainst": 13,
+    "shotsAgainst": 129,
+    "savePercentage": 0.899,
+    "goalsAgainstAverage": 2.1666666666666665
   },
   {
     "player": "Clifford82",
@@ -28,6 +28,16 @@
     "shotsAgainst": 181,
     "savePercentage": 0.923,
     "goalsAgainstAverage": 2.8
+  },
+  {
+    "player": "rdubsss23",
+    "team": "FCF",
+    "gamesPlayed": 1,
+    "saves": 32,
+    "goalsAgainst": 3,
+    "shotsAgainst": 35,
+    "savePercentage": 0.914,
+    "goalsAgainstAverage": 3.0
   },
   {
     "player": "Tendy41",
