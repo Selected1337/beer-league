@@ -3,14 +3,28 @@
     "date": "Apr 17",
     "status": "FINAL",
     "home": {
-      "team": "SSP",
-      "sog": 1,
+      "team": "MAV",
+      "sog": 35,
+      "score": 3
+    },
+    "away": {
+      "team": "FCF",
+      "sog": 11,
       "score": 1
+    }
+  },
+  {
+    "date": "Apr 17",
+    "status": "FINAL",
+    "home": {
+      "team": "SSP",
+      "sog": 1.0,
+      "score": 1.0
     },
     "away": {
       "team": "YET",
-      "sog": 0,
-      "score": 0
+      "sog": 0.0,
+      "score": 0.0
     }
   },
   {
