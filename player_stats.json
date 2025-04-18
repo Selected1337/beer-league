@@ -5,25 +5,25 @@
     "shotsAgainst": 0,
     "player": "_JacksonBlake",
     "team": "CHC",
-    "goals": 3,
+    "goals": 4,
     "assists": 3,
-    "hits": 55,
-    "touches": 159,
-    "penalties": 7,
-    "gamesPlayed": 3
+    "hits": 85,
+    "touches": 214,
+    "penalties": 13,
+    "gamesPlayed": 4
   },
   {
-    "saves": 60,
-    "goalsAgainst": 6,
-    "shotsAgainst": 60,
+    "saves": 77,
+    "goalsAgainst": 10,
+    "shotsAgainst": 77,
     "player": "CookieMnstr1616",
     "team": "CHC",
     "goals": 0,
-    "assists": 2,
-    "hits": 6,
-    "touches": 76,
-    "penalties": 0,
-    "gamesPlayed": 3
+    "assists": 3,
+    "hits": 9,
+    "touches": 95,
+    "penalties": 1,
+    "gamesPlayed": 4
   },
   {
     "saves": 0,
@@ -31,25 +31,25 @@
     "shotsAgainst": 0,
     "player": "Pluds",
     "team": "CHC",
-    "goals": 6,
-    "assists": 3,
-    "hits": 77,
-    "touches": 239,
-    "penalties": 15,
-    "gamesPlayed": 3
+    "goals": 10,
+    "assists": 4,
+    "hits": 108,
+    "touches": 357,
+    "penalties": 19,
+    "gamesPlayed": 4
   },
   {
-    "saves": 48,
-    "goalsAgainst": 10,
-    "shotsAgainst": 48,
+    "saves": 60,
+    "goalsAgainst": 15,
+    "shotsAgainst": 60,
     "player": "rdubsss23",
     "team": "DRP",
-    "goals": 0,
+    "goals": 1,
     "assists": 0,
-    "hits": 14,
-    "touches": 91,
+    "hits": 17,
+    "touches": 113,
     "penalties": 2,
-    "gamesPlayed": 3
+    "gamesPlayed": 4
   },
   {
     "saves": 1,
@@ -57,12 +57,12 @@
     "shotsAgainst": 1,
     "player": "Spray_23",
     "team": "DRP",
-    "goals": 2,
+    "goals": 3,
     "assists": 1,
-    "hits": 57,
-    "touches": 117,
-    "penalties": 15,
-    "gamesPlayed": 3
+    "hits": 75,
+    "touches": 185,
+    "penalties": 18,
+    "gamesPlayed": 4
   },
   {
     "saves": 0,
@@ -70,11 +70,11 @@
     "shotsAgainst": 0,
     "player": "ZaZPxl",
     "team": "DRP",
-    "goals": 2,
+    "goals": 3,
     "assists": 1,
-    "hits": 67,
-    "touches": 265,
+    "hits": 88,
+    "touches": 356,
     "penalties": 9,
-    "gamesPlayed": 3
+    "gamesPlayed": 4
   }
 ]
