@@ -4,13 +4,27 @@
     "status": "FINAL",
     "home": {
       "team": "CHC",
-      "sog": 38,
-      "score": 8
+      "sog": 26,
+      "score": 2
     },
     "away": {
       "team": "OBO",
-      "sog": 29,
-      "score": 4
+      "sog": 39,
+      "score": 7
+    }
+  },
+  {
+    "date": "Apr 18",
+    "status": "FINAL",
+    "home": {
+      "team": "CHC",
+      "sog": 38.0,
+      "score": 8.0
+    },
+    "away": {
+      "team": "OBO",
+      "sog": 29.0,
+      "score": 4.0
     }
   },
   {
