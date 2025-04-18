@@ -1,1 +1,80 @@
-[]
+[
+  {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
+    "player": "_JacksonBlake",
+    "team": "OBO",
+    "goals": 1,
+    "assists": 1,
+    "hits": 24,
+    "touches": 46,
+    "penalties": 5,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 32,
+    "goalsAgainst": 4,
+    "shotsAgainst": 32,
+    "player": "CookieMnstr1616",
+    "team": "OBO",
+    "goals": 0,
+    "assists": 4,
+    "hits": 2,
+    "touches": 30,
+    "penalties": 0,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
+    "player": "Pluds",
+    "team": "OBO",
+    "goals": 9,
+    "assists": 0,
+    "hits": 39,
+    "touches": 139,
+    "penalties": 1,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 21,
+    "goalsAgainst": 10,
+    "shotsAgainst": 21,
+    "player": "rdubsss23",
+    "team": "CHC",
+    "goals": 0,
+    "assists": 0,
+    "hits": 4,
+    "touches": 30,
+    "penalties": 0,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
+    "player": "Spray_23",
+    "team": "CHC",
+    "goals": 1,
+    "assists": 2,
+    "hits": 17,
+    "touches": 37,
+    "penalties": 2,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
+    "player": "Tendy41",
+    "team": "CHC",
+    "goals": 2,
+    "assists": 0,
+    "hits": 37,
+    "touches": 111,
+    "penalties": 3,
+    "gamesPlayed": 2
+  }
+]
