@@ -4,13 +4,27 @@
     "status": "FINAL",
     "home": {
       "team": "DRP",
-      "sog": 30,
-      "score": 1
+      "sog": 21,
+      "score": 4
     },
     "away": {
       "team": "CHC",
-      "sog": 19,
-      "score": 4
+      "sog": 17,
+      "score": 5
+    }
+  },
+  {
+    "date": "Apr 17",
+    "status": "FINAL",
+    "home": {
+      "team": "DRP",
+      "sog": 30.0,
+      "score": 1.0
+    },
+    "away": {
+      "team": "CHC",
+      "sog": 19.0,
+      "score": 4.0
     }
   },
   {
