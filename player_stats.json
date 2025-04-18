@@ -5,25 +5,25 @@
     "shotsAgainst": 0,
     "player": "_JacksonBlake",
     "team": "CHC",
-    "goals": 2,
-    "assists": 2,
-    "hits": 32,
-    "touches": 97,
-    "penalties": 5,
-    "gamesPlayed": 2
+    "goals": 3,
+    "assists": 3,
+    "hits": 55,
+    "touches": 159,
+    "penalties": 7,
+    "gamesPlayed": 3
   },
   {
-    "saves": 31,
-    "goalsAgainst": 5,
-    "shotsAgainst": 31,
+    "saves": 60,
+    "goalsAgainst": 6,
+    "shotsAgainst": 60,
     "player": "CookieMnstr1616",
     "team": "CHC",
     "goals": 0,
-    "assists": 1,
-    "hits": 4,
-    "touches": 39,
+    "assists": 2,
+    "hits": 6,
+    "touches": 76,
     "penalties": 0,
-    "gamesPlayed": 2
+    "gamesPlayed": 3
   },
   {
     "saves": 0,
@@ -31,25 +31,25 @@
     "shotsAgainst": 0,
     "player": "Pluds",
     "team": "CHC",
-    "goals": 3,
-    "assists": 2,
-    "hits": 56,
-    "touches": 144,
-    "penalties": 10,
-    "gamesPlayed": 2
+    "goals": 6,
+    "assists": 3,
+    "hits": 77,
+    "touches": 239,
+    "penalties": 15,
+    "gamesPlayed": 3
   },
   {
-    "saves": 33,
-    "goalsAgainst": 5,
-    "shotsAgainst": 33,
+    "saves": 48,
+    "goalsAgainst": 10,
+    "shotsAgainst": 48,
     "player": "rdubsss23",
     "team": "DRP",
     "goals": 0,
     "assists": 0,
-    "hits": 4,
-    "touches": 59,
-    "penalties": 1,
-    "gamesPlayed": 2
+    "hits": 14,
+    "touches": 91,
+    "penalties": 2,
+    "gamesPlayed": 3
   },
   {
     "saves": 1,
@@ -59,10 +59,10 @@
     "team": "DRP",
     "goals": 2,
     "assists": 1,
-    "hits": 32,
-    "touches": 84,
-    "penalties": 6,
-    "gamesPlayed": 2
+    "hits": 57,
+    "touches": 117,
+    "penalties": 15,
+    "gamesPlayed": 3
   },
   {
     "saves": 0,
@@ -70,11 +70,11 @@
     "shotsAgainst": 0,
     "player": "ZaZPxl",
     "team": "DRP",
-    "goals": 1,
+    "goals": 2,
     "assists": 1,
-    "hits": 41,
-    "touches": 144,
-    "penalties": 7,
-    "gamesPlayed": 2
+    "hits": 67,
+    "touches": 265,
+    "penalties": 9,
+    "gamesPlayed": 3
   }
 ]
