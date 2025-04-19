@@ -29,65 +29,51 @@
     }
   </script>
   <style>
-    .goal-panel {
-      display: inline-flex;             /* This makes the panel grow horizontally based on its content */
-      align-items: center;             /* Vertically aligns the content in the center */
-      padding: 4px;                    /* Adds padding inside the panel */
-      border: 2px solid #ccc;          /* Border around the panel */
-      border-radius: 8px;              /* Rounded corners */
-      background-color: #f9f9f9;       /* Light background color */
-      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);  /* Subtle shadow */
-      margin-right: 10px;              /* Margin for spacing between goal panels */
-      width: auto;                     /* Allow width to adjust based on content */
-      max-width: 110%;                 /* Ensure it doesn't stretch beyond available space */
-    }
+   .goals-container {
+  display: flex;
+  flex-wrap: wrap;              /* Allow wrapping if necessary */
+  overflow-x: auto;             /* Allow horizontal scrolling */
+  padding: 3px 0;
+  gap: 10px;                    /* Space between panels */
+}
 
-    .goal-panel .goal-details {
-      display: inline-block;           /* Ensures the text behaves like inline text */
-    }
+.goal-panel {
+  display: flex;                /* Flexbox layout for goal panel */
+  flex-shrink: 0;               /* Prevent the panel from shrinking */
+  align-items: center;          /* Align text and images vertically */
+  padding: 4px;                 /* Padding for spacing */
+  border: 2px solid #ccc;       /* Border around the goal panel */
+  border-radius: 8px;           /* Rounded corners */
+  background-color: #f9f9f9;    /* Light background color */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);  /* Shadow effect */
+  min-width: 160px;             /* Set a min-width to ensure panels don’t get too narrow */
+  max-width: 100%;              /* Ensure the panel doesn’t exceed the container width */
+}
 
-    .goal-panel .goal-details .font-bold {
-      white-space: nowrap;             /* Prevents wrapping of text */
-    }
+.goal-panel .goal-details {
+  display: inline-block;        /* Keep text inline but still allow for wrapping */
+  word-wrap: break-word;        /* Break long words if necessary */
+  white-space: nowrap;          /* Prevent text from breaking to a new line */
+}
 
-    .headshot-container {
-      display: flex;
-      align-items: center;
-      gap: 8px;
-    }
+.goal-panel img {
+  max-width: 40px;              /* Keep the player headshot from expanding too much */
+  height: 40px;                 /* Maintain aspect ratio */
+}
 
-    .headshot-container img {
-      width: 30px; /* Set size for the headshot */
-      height: 30px;
-      border-radius: 50%; /* Circular headshot */
-    }
+.headshot-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
 
+.headshot-container img {
+  border-radius: 50%;           /* Make the images circular */
+}
 
-    hr {
-      border-color: #ccc; /* Lighter border color for the separator */
-      margin: 3px 0; /* Space above and below the line */
-    }
-
-    /* Make sure goals-container can scroll horizontally */
-    .goals-container {
-      display: flex;
-      overflow-x: auto; /* Allow scrolling horizontally */
-      padding: 3px 0;
-      white-space: nowrap; /* Prevent wrapping of panels */
-    }
-
-    /* Customize scrollbar appearance */
-    .goals-container::-webkit-scrollbar {
-      height: 5px; /* Customize the scrollbar height */
-    }
-
-    .goals-container::-webkit-scrollbar-thumb {
-      background-color: #888; /* Scrollbar thumb color */
-    }
-
-    .goals-container::-webkit-scrollbar-thumb:hover {
-      background-color: #555; /* Scrollbar thumb hover color */
-    }
+.goal-panel .goal-details .font-bold {
+  white-space: nowrap;          /* Prevent name wrapping inside the panel */
+}
     .sort-arrow {
       display: inline-block;
       margin-left: 4px;
