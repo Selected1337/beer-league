@@ -29,6 +29,57 @@
     }
   </script>
   <style>
+    /* Goal Panel styles */
+    .goal-panel {
+      border: 2px solid #ccc; /* Add a border around each goal panel */
+      border-radius: 8px; /* Rounded corners */
+      padding: 8px; /* Padding inside the goal panel */
+      background-color: #f9f9f9; /* Light background color */
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+      margin-right: 8px; /* Right margin for spacing between goal panels */
+    }
+
+    .headshot-container {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .headshot-container img {
+      width: 40px; /* Set size for the headshot */
+      height: 40px;
+      border-radius: 50%; /* Circular headshot */
+    }
+
+    .goal-details {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    hr {
+      border-color: #ccc; /* Lighter border color for the separator */
+      margin: 8px 0; /* Space above and below the line */
+    }
+
+    .goals-container {
+      display: flex;
+      overflow-x: auto;
+      padding: 8px 0;
+    }
+
+    .goals-container::-webkit-scrollbar {
+      height: 6px; /* Customize the scrollbar height */
+    }
+
+    .goals-container::-webkit-scrollbar-thumb {
+      background-color: #888; /* Scrollbar thumb color */
+    }
+
+    .goals-container::-webkit-scrollbar-thumb:hover {
+      background-color: #555; /* Scrollbar thumb hover color */
+    }
+    
     .sort-arrow {
       display: inline-block;
       margin-left: 4px;
@@ -265,11 +316,21 @@ Promise.all([
     // Home team goal scorers
     game.home.scorers.forEach(scorer => {
       goalScorersHTML += `
-        <div class="goal-panel flex flex-col items-center w-32 mx-2">
-          <img src="https://minotar.net/avatar/${scorer.player}/30.png" alt="${scorer.player}" class="w-12 h-12 rounded-full mb-1" />
-          <div class="goal-details text-xs text-center">
-            <span class="font-bold">${scorer.player}</span><br />
-            <span class="text-xs">Assists: ${scorer.assist.join(", ")}</span>
+        <div class="goal-panel flex flex-col items-start w-40 mx-2 p-2 border border-gray-400 rounded-lg">
+          <!-- Headshot on the left -->
+          <div class="headshot-container flex items-center gap-2">
+            <img src="https://minotar.net/avatar/${scorer.player}/30.png" alt="${scorer.player}" class="w-12 h-12 rounded-full" />
+            <div class="goal-details text-xs">
+              <span class="font-bold">${scorer.player}</span><br />
+              <span class="text-sm">${scorer.assist.length} Assists</span> <!-- Add total assists info -->
+            </div>
+          </div>
+          <!-- Line between goal scorer and assists -->
+          <hr class="my-1 w-full border-gray-300" />
+          <!-- Assists under the player's name -->
+          <div class="text-xs text-center mt-1">
+            <span class="font-bold">Assists:</span><br />
+            ${scorer.assist.join(", ")}
           </div>
         </div>
       `;
@@ -278,25 +339,32 @@ Promise.all([
     // Away team goal scorers
     game.away.scorers.forEach(scorer => {
       goalScorersHTML += `
-        <div class="goal-panel flex flex-col items-center w-32 mx-2">
-          <img src="https://minotar.net/avatar/${scorer.player}/30.png" alt="${scorer.player}" class="w-12 h-12 rounded-full mb-1" />
-          <div class="goal-details text-xs text-center">
-            <span class="font-bold">${scorer.player}</span><br />
-            <span class="text-xs">Assists: ${scorer.assist.join(", ")}</span>
+        <div class="goal-panel flex flex-col items-start w-40 mx-2 p-2 border border-gray-400 rounded-lg">
+          <!-- Headshot on the left -->
+          <div class="headshot-container flex items-center gap-2">
+            <img src="https://minotar.net/avatar/${scorer.player}/30.png" alt="${scorer.player}" class="w-12 h-12 rounded-full" />
+            <div class="goal-details text-xs">
+              <span class="font-bold">${scorer.player}</span><br />
+              <span class="text-sm">${scorer.assist.length} Assists</span> <!-- Add total assists info -->
+            </div>
+          </div>
+          <!-- Line between goal scorer and assists -->
+          <hr class="my-1 w-full border-gray-300" />
+          <!-- Assists under the player's name -->
+          <div class="text-xs text-center mt-1">
+            <span class="font-bold">Assists:</span><br />
+            ${scorer.assist.join(", ")}
           </div>
         </div>
       `;
     });
 
     container.innerHTML += `
-      <div class="bg-card rounded-xl shadow p-4 text-sm space-y-2 w-full">
-        <!-- Game Status and Date -->
-        <div class="flex justify-between items-center text-xs text-gray-400 mb-2">
+      <div class="bg-card rounded-xl shadow p-3 text-sm space-y-2 w-full">
+        <div class="flex justify-between items-center text-xs text-gray-400">
           <span class="bg-gray-700 text-white px-2 py-0.5 rounded text-[10px]">${game.status}</span>
           <span class="text-[11px]">${game.date}</span>
         </div>
-
-        <!-- Teams and Scores -->
         <div class="flex justify-between items-center">
           <div class="flex items-center gap-2">
             <img src="${awayLogo}" class="w-6 h-6 object-contain" />
@@ -317,7 +385,6 @@ Promise.all([
           </div>
           <span class="font-bold text-base">${game.home.score}</span>
         </div>
-
         <!-- Goals container with horizontal scroll -->
         <div class="goals-container flex overflow-x-auto py-2">
           ${goalScorersHTML}
@@ -326,6 +393,7 @@ Promise.all([
     `;
   });
 });
+
 
 
 
