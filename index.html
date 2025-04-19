@@ -298,7 +298,7 @@
       });
     }
 
- Promise.all([
+Promise.all([
   fetch("recent_games.json").then(res => res.json()),
   fetch("team_logos.json").then(res => res.json()),
   fetch("player_stats.json").then(res => res.json()) // Fetch player stats
@@ -318,32 +318,21 @@
       return player ? { goals: player.goals, assists: player.assists } : { goals: 0, assists: 0 };
     }
 
-    // Home team goal scorers
+    // Iterate through the goals (without duplicating the same goal)
     game.goals.forEach(goal => {
       const { scorer, assists } = goal; // `assists` is now a string
-      goalScorersHTML += `
-        <div class="goal-panel flex items-center p-2 border border-gray-400 rounded-lg">
-          <div class="headshot-container flex items-center gap-2">
-            <img src="https://minotar.net/avatar/${scorer}/40" alt="${scorer}" class="w-12 h-12 rounded-full" />
-            <div class="goal-details text-xs">
-              <span class="font-bold text-sm">${scorer} (${getPlayerStats(scorer).goals})</span><br />
-              <span class="text-sm">${assists}</span>  <!-- Display assists as string -->
-            </div>
-          </div>
-        </div>
-      `;
-    });
 
-    // Away team goal scorers
-    game.goals.forEach(goal => {
-      const { scorer, assists } = goal; // `assists` is now a string
+      // Get the total goals for the scorer and assist totals for each assist
+      const { goals: scorerGoals } = getPlayerStats(scorer);
+
+      // Generate goal scorer details
       goalScorersHTML += `
         <div class="goal-panel flex items-center p-2 border border-gray-400 rounded-lg">
           <div class="headshot-container flex items-center gap-2">
             <img src="https://minotar.net/avatar/${scorer}/40" alt="${scorer}" class="w-12 h-12 rounded-full" />
             <div class="goal-details text-xs">
-              <span class="font-bold text-sm">${scorer} (${getPlayerStats(scorer).goals})</span><br />
-              <span class="text-sm">${assists}</span>  <!-- Display assists as string -->
+              <span class="font-bold text-sm">${scorer} (${scorerGoals})</span><br />
+              <span class="text-sm">${assists}</span> <!-- Display assists as string -->
             </div>
           </div>
         </div>
@@ -384,7 +373,6 @@
     `;
   });
 });
-
 
 
     async function fetchData() {
