@@ -29,7 +29,7 @@
     }
   </script>
   <style>
-       /* Goal Panel styles */
+      /* Goal Panel styles */
     .goal-panel {
       border: 2px solid #ccc; /* Border around each goal panel */
       border-radius: 8px; /* Rounded corners */
@@ -37,8 +37,8 @@
       background-color: #f9f9f9; /* Light background color */
       box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
       margin-right: 8px; /* Right margin for spacing between goal panels */
-      min-width: 150px; /* Ensure panel is wide enough */
-      max-width: 200px; /* Limit the width to prevent extreme stretching */
+      min-width: 180px; /* Ensure panel is wide enough */
+      max-width: 220px; /* Limit the width to prevent extreme stretching */
       text-align: center; /* Center the text inside the goal panel */
     }
 
@@ -52,8 +52,8 @@
     }
 
     .headshot-container img {
-      width: 50px; /* Set size for the headshot */
-      height: 50px;
+      width: 35px; /* Set size for the headshot */
+      height: 35px;
       border-radius: 50%; /* Circular headshot */
     }
 
@@ -63,17 +63,18 @@
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      margin-top: 8px;
+      margin-top: 4px;
     }
 
     .goal-details span {
       font-weight: bold;
     }
 
-    /* Separator between goal scorer and assist text */
-    hr {
-      border-color: #ccc; /* Lighter border color for the separator */
-      margin: 8px 0; /* Space above and below the line */
+    /* Assists section directly below the goal scorer's name */
+    .assists {
+      font-size: 12px;
+      color: #555; /* A lighter color for assists */
+      margin-top: 5px;
     }
 
     /* Goal Scorers container - scrollable horizontally */
@@ -95,12 +96,6 @@
 
     .goals-container::-webkit-scrollbar-thumb:hover {
       background-color: #555;
-    }
-
-    /* Adjust the content */
-    .goal-panel p {
-      font-size: 12px;
-      color: #666;
     }
     
     .sort-arrow {
@@ -322,7 +317,6 @@
       });
     }
 
-    // Recent games render
 Promise.all([
       fetch("recent_games.json").then(res => res.json()),
       fetch("team_logos.json").then(res => res.json())
@@ -339,7 +333,7 @@ Promise.all([
         // Home team goal scorers
         game.home.scorers.forEach(scorer => {
           goalScorersHTML += `
-            <div class="goal-panel flex flex-col items-start w-40 mx-2 p-2 border border-gray-400 rounded-lg">
+            <div class="goal-panel flex flex-col items-center w-40 mx-2 p-2 border border-gray-400 rounded-lg">
               <!-- Headshot on the left -->
               <div class="headshot-container flex items-center gap-2">
                 <img src="https://minotar.net/avatar/${scorer.player}/30.png" alt="${scorer.player}" class="w-12 h-12 rounded-full" />
@@ -348,10 +342,8 @@ Promise.all([
                   <span class="text-sm">${scorer.assist.length} Assists</span>
                 </div>
               </div>
-              <!-- Line between goal scorer and assists -->
-              <hr class="my-1 w-full border-gray-300" />
-              <!-- Assists under the player's name -->
-              <div class="text-xs text-center mt-1">
+              <!-- Assists directly under the player's name -->
+              <div class="assists">
                 <span class="font-bold">Assists:</span><br />
                 ${scorer.assist.join(", ")}
               </div>
@@ -362,7 +354,7 @@ Promise.all([
         // Away team goal scorers
         game.away.scorers.forEach(scorer => {
           goalScorersHTML += `
-            <div class="goal-panel flex flex-col items-start w-40 mx-2 p-2 border border-gray-400 rounded-lg">
+            <div class="goal-panel flex flex-col items-center w-40 mx-2 p-2 border border-gray-400 rounded-lg">
               <!-- Headshot on the left -->
               <div class="headshot-container flex items-center gap-2">
                 <img src="https://minotar.net/avatar/${scorer.player}/30.png" alt="${scorer.player}" class="w-12 h-12 rounded-full" />
@@ -371,10 +363,8 @@ Promise.all([
                   <span class="text-sm">${scorer.assist.length} Assists</span>
                 </div>
               </div>
-              <!-- Line between goal scorer and assists -->
-              <hr class="my-1 w-full border-gray-300" />
-              <!-- Assists under the player's name -->
-              <div class="text-xs text-center mt-1">
+              <!-- Assists directly under the player's name -->
+              <div class="assists">
                 <span class="font-bold">Assists:</span><br />
                 ${scorer.assist.join(", ")}
               </div>
