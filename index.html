@@ -29,51 +29,51 @@
     }
   </script>
   <style>
-  .goals-container {
-  display: flex;                /* Use flexbox layout */
-  flex-wrap: wrap;              /* Allow panels to wrap to the next row */
-  gap: 10px;                    /* Add some space between the panels */
-  justify-content: flex-start;  /* Align items to the left */
-  align-items: flex-start;      /* Align items at the top of the container */
+   .goals-container {
+  display: flex;
+  flex-wrap: wrap;              /* Allow wrapping if necessary */
+  overflow-x: auto;             /* Allow horizontal scrolling */
   padding: 3px 0;
-  width: 100%;                  /* Make sure the container takes up full width */
+  gap: 10px;                    /* Space between panels */
 }
 
 .goal-panel {
-  display: flex;                /* Use flex to align items within each panel */
-  flex-shrink: 0;               /* Prevent the panels from shrinking */
-  align-items: center;          /* Center items vertically within the panel */
-  padding: 6px 10px;            /* Padding inside the panels */
-  border: 2px solid #ccc;       /* Border around the panels */
+  display: flex;                /* Flexbox layout for goal panel */
+  flex-shrink: 0;               /* Prevent the panel from shrinking */
+  align-items: center;          /* Align text and images vertically */
+  padding: 4px;                 /* Padding for spacing */
+  border: 2px solid #ccc;       /* Border around the goal panel */
   border-radius: 8px;           /* Rounded corners */
   background-color: #f9f9f9;    /* Light background color */
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
-  min-width: 160px;             /* Minimum width for each panel */
-  max-width: calc(33.33% - 10px); /* Panels take up max 1/3 of the width, adjusting as needed */
-  box-sizing: border-box;       /* Ensure padding and borders don't affect width */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);  /* Shadow effect */
+  min-width: 160px;             /* Set a min-width to ensure panels don’t get too narrow */
+  max-width: 100%;              /* Ensure the panel doesn’t exceed the container width */
+}
+
+.goal-panel .goal-details {
+  display: inline-block;        /* Keep text inline but still allow for wrapping */
+  word-wrap: break-word;        /* Break long words if necessary */
+  white-space: nowrap;          /* Prevent text from breaking to a new line */
 }
 
 .goal-panel img {
-  max-width: 40px;              /* Limit avatar size */
-  height: 40px;
-  border-radius: 50%;           /* Round avatars */
+  max-width: 40px;              /* Keep the player headshot from expanding too much */
+  height: 40px;                 /* Maintain aspect ratio */
 }
 
 .headshot-container {
   display: flex;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
 }
 
-.goal-details {
-  word-wrap: break-word;        /* Allow text to break if needed */
-  white-space: normal;          /* Allow wrapping */
+.headshot-container img {
+  border-radius: 50%;           /* Make the images circular */
 }
 
-.goal-details .font-bold {
-  white-space: nowrap;          /* Prevent name wrapping */
+.goal-panel .goal-details .font-bold {
+  white-space: nowrap;          /* Prevent name wrapping inside the panel */
 }
-
     .sort-arrow {
       display: inline-block;
       margin-left: 4px;
@@ -313,22 +313,21 @@ Promise.all([
       return player ? { goals: player.goals, assists: player.assists } : { goals: 0, assists: 0 };
     }
 
-    // Process all goals for the home team
+    // Iterate through the goals (without duplicating the same goal)
     game.goals.forEach(goal => {
-      const scorer = goal.scorer;
-      const { goals, assists } = getPlayerStats(scorer); // Get the player stats
+      const { scorer, assists } = goal; // `assists` is now a string
+
+      // Get the total goals for the scorer and assist totals for each assist
+      const { goals: scorerGoals } = getPlayerStats(scorer);
+
+      // Generate goal scorer details
       goalScorersHTML += `
         <div class="goal-panel flex items-center p-2 border border-gray-400 rounded-lg">
           <div class="headshot-container flex items-center gap-2">
             <img src="https://minotar.net/avatar/${scorer}/40" alt="${scorer}" class="w-12 h-12 rounded-full" />
             <div class="goal-details text-xs">
-              <span class="font-bold text-sm">${scorer} (${goals})</span><br />
-              ${goal.assists ? goal.assists.map(assistant => {
-                const { assists: assistTotal } = getPlayerStats(assistant); // Get the assistant's total assists
-                return `
-                  <span class="text-sm">${assistant} (${assistTotal})</span>
-                `;
-              }).join(", ") : "<span class='text-sm'>Unassisted</span>"}
+              <span class="font-bold text-sm">${scorer} (${scorerGoals})</span><br />
+              <span class="text-sm">${assists}</span> <!-- Display assists as string -->
             </div>
           </div>
         </div>
@@ -343,7 +342,7 @@ Promise.all([
         </div>
         <div class="flex justify-between items-center">
           <div class="flex items-center gap-2">
-            <img src="${awayLogo}" class="w-6 h-6 object-contain" />
+            <img src="${awayLogo}" class="w-8 h-8 object-contain" />
             <div class="flex flex-col">
               <span class="font-bold text-base">${game.away.team}</span>
               <span class="text-xs text-gray-400">${game.away.sog} SOG</span>
@@ -353,7 +352,7 @@ Promise.all([
         </div>
         <div class="flex justify-between items-center">
           <div class="flex items-center gap-2">
-            <img src="${homeLogo}" class="w-6 h-6 object-contain" />
+            <img src="${homeLogo}" class="w-8 h-8 object-contain" />
             <div class="flex flex-col">
               <span class="font-bold text-base">${game.home.team}</span>
               <span class="text-xs text-gray-400">${game.home.sog} SOG</span>
