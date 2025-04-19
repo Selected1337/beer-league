@@ -29,21 +29,25 @@
     }
   </script>
   <style>
-       .goal-panel {
-      border: 2px solid #ccc; /* Add a border around each goal panel */
-      border-radius: 8px; /* Rounded corners */
-      padding: 4px; /* Padding inside the goal panel */
-      background-color: #f9f9f9; /* Light background color */
-      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
-      margin-right: 10px; /* Right margin for spacing between goal panels */
-      width: 160px; /* Adjust width to your preference */
-      height: 50px; /* Adjust height */
-      flex-shrink: 0; /* Prevent shrinking */
-      white-space: nowrap;         /* Prevents the text from wrapping to the next line */
-      overflow: hidden;            /* Ensures any overflowing text is hidden */
-      text-overflow: ellipsis;     /* Adds "..." to the text if it's too long */
-      max-width: 100%;             /* Ensures the text will be confined within the container */
-      display: inline-block;
+    .goal-panel {
+      display: inline-flex;             /* This makes the panel grow horizontally based on its content */
+      align-items: center;             /* Vertically aligns the content in the center */
+      padding: 4px;                    /* Adds padding inside the panel */
+      border: 2px solid #ccc;          /* Border around the panel */
+      border-radius: 8px;              /* Rounded corners */
+      background-color: #f9f9f9;       /* Light background color */
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);  /* Subtle shadow */
+      margin-right: 10px;              /* Margin for spacing between goal panels */
+      width: auto;                     /* Allow width to adjust based on content */
+      max-width: 100%;                 /* Ensure it doesn't stretch beyond available space */
+    }
+
+    .goal-panel .goal-details {
+      display: inline-block;           /* Ensures the text behaves like inline text */
+    }
+
+    .goal-panel .goal-details .font-bold {
+      white-space: nowrap;             /* Prevents wrapping of text */
     }
 
     .headshot-container {
