@@ -39,6 +39,11 @@
       width: 160px; /* Adjust width to your preference */
       height: 50px; /* Adjust height */
       flex-shrink: 0; /* Prevent shrinking */
+      white-space: nowrap;         /* Prevents the text from wrapping to the next line */
+      overflow: hidden;            /* Ensures any overflowing text is hidden */
+      text-overflow: ellipsis;     /* Adds "..." to the text if it's too long */
+      max-width: 100%;             /* Ensures the text will be confined within the container */
+      display: inline-block;
     }
 
     .headshot-container {
