@@ -29,36 +29,30 @@
     }
   </script>
   <style>
-   .goals-container {
-  display: flex;
-  flex-wrap: wrap;              /* Allow wrapping if necessary */
-  overflow-x: auto;             /* Allow horizontal scrolling */
+  .goals-container {
+  display: flex;                 /* Use flexbox layout */
+  flex-wrap: wrap;               /* Allow panels to wrap to the next row if needed */
+  gap: 10px;                     /* Space between panels */
   padding: 3px 0;
-  gap: 10px;                    /* Space between panels */
+  justify-content: flex-start;   /* Align the panels at the start of the container */
 }
 
 .goal-panel {
-  display: flex;                /* Flexbox layout for goal panel */
-  flex-shrink: 0;               /* Prevent the panel from shrinking */
-  align-items: center;          /* Align text and images vertically */
-  padding: 4px;                 /* Padding for spacing */
-  border: 2px solid #ccc;       /* Border around the goal panel */
-  border-radius: 8px;           /* Rounded corners */
-  background-color: #f9f9f9;    /* Light background color */
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);  /* Shadow effect */
-  min-width: 160px;             /* Set a min-width to ensure panels don’t get too narrow */
-  max-width: 100%;              /* Ensure the panel doesn’t exceed the container width */
-}
-
-.goal-panel .goal-details {
-  display: inline-block;        /* Keep text inline but still allow for wrapping */
-  word-wrap: break-word;        /* Break long words if necessary */
-  white-space: nowrap;          /* Prevent text from breaking to a new line */
+  display: flex;                 /* Keep the goal panels as flex items */
+  flex-shrink: 0;                /* Prevent the panels from shrinking */
+  align-items: center;           /* Align items in the center vertically */
+  padding: 4px;                  /* Padding inside the panels */
+  border: 2px solid #ccc;        /* Border around the panels */
+  border-radius: 8px;            /* Rounded corners */
+  background-color: #f9f9f9;     /* Light background color */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  min-width: 160px;              /* Ensure panels don’t shrink too much */
+  max-width: 100%;               /* Panels can grow, but not exceed container width */
 }
 
 .goal-panel img {
-  max-width: 40px;              /* Keep the player headshot from expanding too much */
-  height: 40px;                 /* Maintain aspect ratio */
+  max-width: 40px;               /* Limit the size of player avatars */
+  height: 40px;                  /* Maintain aspect ratio */
 }
 
 .headshot-container {
@@ -68,11 +62,17 @@
 }
 
 .headshot-container img {
-  border-radius: 50%;           /* Make the images circular */
+  border-radius: 50%;            /* Make the images circular */
+}
+
+.goal-panel .goal-details {
+  display: inline-block;         /* Keep the text inline but allow wrapping */
+  word-wrap: break-word;         /* Break long words if necessary */
+  white-space: nowrap;           /* Prevent text from breaking to a new line */
 }
 
 .goal-panel .goal-details .font-bold {
-  white-space: nowrap;          /* Prevent name wrapping inside the panel */
+  white-space: nowrap;           /* Prevent name wrapping inside the panel */
 }
     .sort-arrow {
       display: inline-block;
