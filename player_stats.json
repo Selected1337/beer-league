@@ -109,12 +109,25 @@
     "shotsAgainst": 0,
     "player": "Tendy41",
     "team": "CHC",
-    "goals": 10,
-    "assists": 2,
+    "goals": 11,
+    "assists": 3,
     "hits": 142,
-    "touches": 560,
+    "touches": 563,
     "penalties": 17,
-    "gamesPlayed": 6
+    "gamesPlayed": 7
+  },
+  {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
+    "player": "winner16",
+    "team": "SSP",
+    "goals": 1,
+    "assists": 1,
+    "hits": 0,
+    "touches": 2,
+    "penalties": 0,
+    "gamesPlayed": 2
   },
   {
     "saves": 0,
