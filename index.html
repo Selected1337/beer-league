@@ -30,50 +30,50 @@
   </script>
   <style>
   .goals-container {
-  display: flex;                 /* Use flexbox layout */
-  flex-wrap: wrap;               /* Allow panels to wrap to the next row if needed */
-  gap: 10px;                     /* Space between panels */
+  display: flex;                /* Use flexbox layout */
+  flex-wrap: wrap;              /* Allow panels to wrap to the next row */
+  gap: 10px;                    /* Add some space between the panels */
+  justify-content: flex-start;  /* Align items to the left */
+  align-items: flex-start;      /* Align items at the top of the container */
   padding: 3px 0;
-  justify-content: flex-start;   /* Align the panels at the start of the container */
+  width: 100%;                  /* Make sure the container takes up full width */
 }
 
 .goal-panel {
-  display: flex;                 /* Keep the goal panels as flex items */
-  flex-shrink: 0;                /* Prevent the panels from shrinking */
-  align-items: center;           /* Align items in the center vertically */
-  padding: 4px;                  /* Padding inside the panels */
-  border: 2px solid #ccc;        /* Border around the panels */
-  border-radius: 8px;            /* Rounded corners */
-  background-color: #f9f9f9;     /* Light background color */
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Shadow effect */
-  min-width: 160px;              /* Ensure panels don’t shrink too much */
-  max-width: 100%;               /* Panels can grow, but not exceed container width */
+  display: flex;                /* Use flex to align items within each panel */
+  flex-shrink: 0;               /* Prevent the panels from shrinking */
+  align-items: center;          /* Center items vertically within the panel */
+  padding: 6px 10px;            /* Padding inside the panels */
+  border: 2px solid #ccc;       /* Border around the panels */
+  border-radius: 8px;           /* Rounded corners */
+  background-color: #f9f9f9;    /* Light background color */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+  min-width: 160px;             /* Minimum width for each panel */
+  max-width: calc(33.33% - 10px); /* Panels take up max 1/3 of the width, adjusting as needed */
+  box-sizing: border-box;       /* Ensure padding and borders don't affect width */
 }
 
 .goal-panel img {
-  max-width: 40px;               /* Limit the size of player avatars */
-  height: 40px;                  /* Maintain aspect ratio */
+  max-width: 40px;              /* Limit avatar size */
+  height: 40px;
+  border-radius: 50%;           /* Round avatars */
 }
 
 .headshot-container {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
 }
 
-.headshot-container img {
-  border-radius: 50%;            /* Make the images circular */
+.goal-details {
+  word-wrap: break-word;        /* Allow text to break if needed */
+  white-space: normal;          /* Allow wrapping */
 }
 
-.goal-panel .goal-details {
-  display: inline-block;         /* Keep the text inline but allow wrapping */
-  word-wrap: break-word;         /* Break long words if necessary */
-  white-space: nowrap;           /* Prevent text from breaking to a new line */
+.goal-details .font-bold {
+  white-space: nowrap;          /* Prevent name wrapping */
 }
 
-.goal-panel .goal-details .font-bold {
-  white-space: nowrap;           /* Prevent name wrapping inside the panel */
-}
     .sort-arrow {
       display: inline-block;
       margin-left: 4px;
@@ -313,21 +313,22 @@ Promise.all([
       return player ? { goals: player.goals, assists: player.assists } : { goals: 0, assists: 0 };
     }
 
-    // Iterate through the goals (without duplicating the same goal)
+    // Process all goals for the home team
     game.goals.forEach(goal => {
-      const { scorer, assists } = goal; // `assists` is now a string
-
-      // Get the total goals for the scorer and assist totals for each assist
-      const { goals: scorerGoals } = getPlayerStats(scorer);
-
-      // Generate goal scorer details
+      const scorer = goal.scorer;
+      const { goals, assists } = getPlayerStats(scorer); // Get the player stats
       goalScorersHTML += `
         <div class="goal-panel flex items-center p-2 border border-gray-400 rounded-lg">
           <div class="headshot-container flex items-center gap-2">
             <img src="https://minotar.net/avatar/${scorer}/40" alt="${scorer}" class="w-12 h-12 rounded-full" />
             <div class="goal-details text-xs">
-              <span class="font-bold text-sm">${scorer} (${scorerGoals})</span><br />
-              <span class="text-sm">${assists}</span> <!-- Display assists as string -->
+              <span class="font-bold text-sm">${scorer} (${goals})</span><br />
+              ${goal.assists ? goal.assists.map(assistant => {
+                const { assists: assistTotal } = getPlayerStats(assistant); // Get the assistant's total assists
+                return `
+                  <span class="text-sm">${assistant} (${assistTotal})</span>
+                `;
+              }).join(", ") : "<span class='text-sm'>Unassisted</span>"}
             </div>
           </div>
         </div>
@@ -342,7 +343,7 @@ Promise.all([
         </div>
         <div class="flex justify-between items-center">
           <div class="flex items-center gap-2">
-            <img src="${awayLogo}" class="w-8 h-8 object-contain" />
+            <img src="${awayLogo}" class="w-6 h-6 object-contain" />
             <div class="flex flex-col">
               <span class="font-bold text-base">${game.away.team}</span>
               <span class="text-xs text-gray-400">${game.away.sog} SOG</span>
@@ -352,7 +353,7 @@ Promise.all([
         </div>
         <div class="flex justify-between items-center">
           <div class="flex items-center gap-2">
-            <img src="${homeLogo}" class="w-8 h-8 object-contain" />
+            <img src="${homeLogo}" class="w-6 h-6 object-contain" />
             <div class="flex flex-col">
               <span class="font-bold text-base">${game.home.team}</span>
               <span class="text-xs text-gray-400">${game.home.sog} SOG</span>
