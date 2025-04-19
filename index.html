@@ -29,38 +29,62 @@
     }
   </script>
   <style>
-     .goal-panel {
-    border: 2px solid #ccc; /* Border around the goal panel */
-    border-radius: 8px; /* Rounded corners */
-    padding: 10px; /* Padding inside */
-    background-color: #f9f9f9; /* Light background color */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
-    display: flex; /* Use flex to arrange elements horizontally */
-    align-items: center; /* Vertically center-align the elements */
-    width: 200px; /* Adjust the width of each panel */
-  }
+       .goal-panel {
+      border: 2px solid #ccc; /* Add a border around each goal panel */
+      border-radius: 8px; /* Rounded corners */
+      padding: 4px; /* Padding inside the goal panel */
+      background-color: #f9f9f9; /* Light background color */
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+      margin-right: 10px; /* Right margin for spacing between goal panels */
+      width: 160px; /* Adjust width to your preference */
+      height: 50px; /* Adjust height */
+      flex-shrink: 0; /* Prevent shrinking */
+    }
 
-  .goal-panel img {
-    width: 40px; /* Set size for the headshot */
-    height: 40px; 
-    border-radius: 50%; /* Circular image */
-    margin-right: 10px; /* Space between image and text */
-  }
+    .headshot-container {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
 
-  .goal-details {
-    display: flex;
-    flex-direction: column;
-  }
+    .headshot-container img {
+      width: 40px; /* Set size for the headshot */
+      height: 40px;
+      border-radius: 50%; /* Circular headshot */
+    }
 
-  .goal-details span {
-    font-size: 14px; /* Font size for name and assist */
-    font-weight: bold;
-  }
+    .goal-details {
+      display: flex;
+      flex-direction: column;
+      align-items: center; /* Center the names */
+      justify-content: center; /* Vertically center the content */
+    }
 
-  .assist {
-    font-size: 12px;
-    color: #555; /* Light color for assists */
-  }
+    hr {
+      border-color: #ccc; /* Lighter border color for the separator */
+      margin: 3px 0; /* Space above and below the line */
+    }
+
+    /* Make sure goals-container can scroll horizontally */
+    .goals-container {
+      display: flex;
+      overflow-x: auto; /* Allow scrolling horizontally */
+      padding: 3px 0;
+      white-space: nowrap; /* Prevent wrapping of panels */
+    }
+
+    /* Customize scrollbar appearance */
+    .goals-container::-webkit-scrollbar {
+      height: 5px; /* Customize the scrollbar height */
+    }
+
+    .goals-container::-webkit-scrollbar-thumb {
+      background-color: #888; /* Scrollbar thumb color */
+    }
+
+    .goals-container::-webkit-scrollbar-thumb:hover {
+      background-color: #555; /* Scrollbar thumb hover color */
+    }
     .sort-arrow {
       display: inline-block;
       margin-left: 4px;
@@ -280,84 +304,83 @@
       });
     }
 
-Promise.all([
-  fetch("recent_games.json").then(res => res.json()),
-  fetch("team_logos.json").then(res => res.json())
-]).then(([games, logos]) => {
-  const container = document.getElementById("recent-games");
-  container.innerHTML = "";
+   Promise.all([
+      fetch("recent_games.json").then(res => res.json()),
+      fetch("team_logos.json").then(res => res.json())
+    ]).then(([games, logos]) => {
+      const container = document.getElementById("recent-games");
+      container.innerHTML = "";
 
-  games.forEach(game => {
-    const homeLogo = logos[game.home.team]?.logo || "";
-    const awayLogo = logos[game.away.team]?.logo || "";
+      games.forEach(game => {
+        const homeLogo = logos[game.home.team]?.logo || "";
+        const awayLogo = logos[game.away.team]?.logo || "";
 
-    let goalScorersHTML = '';  // Initialize a variable to hold all goal scorers
+        let goalScorersHTML = '';  // Initialize a variable to hold all goal scorers
 
-    // Home team goal scorers
-    game.home.scorers.forEach(scorer => {
-      goalScorersHTML += `
-        <div class="goal-panel flex items-center p-3 border border-gray-400 rounded-lg w-98 mx-4 h-19">
-          <!-- Headshot on the left -->
-          <img src="https://minotar.net/avatar/${scorer.player}/40" alt="${scorer.player}" class="w-12 h-12 rounded-full" />
-          <!-- Goal scorer name and assist below -->
-          <div class="goal-details text-xs ml-3 flex flex-col">
-            <span class="font-bold text-sm">${scorer.player}</span> <!-- Goal Scorer Name -->
-            <div class="assist text-xs text-gray-500 mt-1">Assists: ${scorer.assist.join(", ")}</div> <!-- Assister(s) Name -->
-          </div>
-        </div>
-      `;
-    });
+        // Home team goal scorers
+        game.home.scorers.forEach(scorer => {
+          goalScorersHTML += `
+            <div class="goal-panel flex items-center p-2 border border-gray-400 rounded-lg">
+              <div class="headshot-container flex items-center gap-2">
+                <img src="https://minotar.net/avatar/${scorer.player}/40" alt="${scorer.player}" class="w-12 h-12 rounded-full" />
+                <div class="goal-details text-xs">
+                  <span class="font-bold text-sm">${scorer.player}</span><br />
+                  <span class="text-sm">${scorer.assist.join(", ")}</span>
+                </div>
+              </div>
+            </div>
+          `;
+        });
 
-    // Away team goal scorers
-    game.away.scorers.forEach(scorer => {
-      goalScorersHTML += `
-        <div class="goal-panel flex items-center p-3 border border-gray-400 rounded-lg w-98 mx-4 h-19">
-          <!-- Headshot on the left -->
-          <img src="https://minotar.net/avatar/${scorer.player}/40" alt="${scorer.player}" class="w-12 h-12 rounded-full" />
-          <!-- Goal scorer name and assist below -->
-          <div class="goal-details text-xs ml-3 flex flex-col">
-            <span class="font-bold text-sm">${scorer.player}</span> <!-- Goal Scorer Name -->
-            <div class="assist text-xs text-gray-500 mt-1">Assists: ${scorer.assist.join(", ")}</div> <!-- Assister(s) Name -->
-          </div>
-        </div>
-      `;
-    });
+        // Away team goal scorers
+        game.away.scorers.forEach(scorer => {
+          goalScorersHTML += `
+            <div class="goal-panel flex items-center p-2 border border-gray-400 rounded-lg">
+              <div class="headshot-container flex items-center gap-2">
+                <img src="https://minotar.net/avatar/${scorer.player}/40" alt="${scorer.player}" class="w-12 h-12 rounded-full" />
+                <div class="goal-details text-xs">
+                  <span class="font-bold text-sm">${scorer.player}</span><br />
+                  <span class="text-sm">${scorer.assist.join(", ")}</span>
+                </div>
+              </div>
+            </div>
+          `;
+        });
 
-    container.innerHTML += `
-      <div class="bg-card rounded-xl shadow p-3 text-sm space-y-2 w-full">
-        <div class="flex justify-between items-center text-xs text-gray-400">
-          <span class="bg-gray-700 text-white px-2 py-0.5 rounded text-[10px]">${game.status}</span>
-          <span class="text-[11px]">${game.date}</span>
-        </div>
-        <div class="flex justify-between items-center">
-          <div class="flex items-center gap-2">
-            <img src="${awayLogo}" class="w-6 h-6 object-contain" />
-            <div class="flex flex-col">
-              <span class="font-bold text-base">${game.away.team}</span>
-              <span class="text-xs text-gray-400">${game.away.sog} SOG</span>
+        container.innerHTML += `
+          <div class="bg-card rounded-xl shadow p-3 text-sm space-y-2 w-full">
+            <div class="flex justify-between items-center text-xs text-gray-400">
+              <span class="bg-gray-700 text-white px-2 py-0.5 rounded text-[10px]">${game.status}</span>
+              <span class="text-[11px]">${game.date}</span>
+            </div>
+            <div class="flex justify-between items-center">
+              <div class="flex items-center gap-2">
+                <img src="${awayLogo}" class="w-6 h-6 object-contain" />
+                <div class="flex flex-col">
+                  <span class="font-bold text-base">${game.away.team}</span>
+                  <span class="text-xs text-gray-400">${game.away.sog} SOG</span>
+                </div>
+              </div>
+              <span class="font-bold text-base">${game.away.score}</span>
+            </div>
+            <div class="flex justify-between items-center">
+              <div class="flex items-center gap-2">
+                <img src="${homeLogo}" class="w-6 h-6 object-contain" />
+                <div class="flex flex-col">
+                  <span class="font-bold text-base">${game.home.team}</span>
+                  <span class="text-xs text-gray-400">${game.home.sog} SOG</span>
+                </div>
+              </div>
+              <span class="font-bold text-base">${game.home.score}</span>
+            </div>
+            <!-- Goals container with horizontal scroll -->
+            <div class="goals-container">
+              ${goalScorersHTML}
             </div>
           </div>
-          <span class="font-bold text-base">${game.away.score}</span>
-        </div>
-        <div class="flex justify-between items-center">
-          <div class="flex items-center gap-2">
-            <img src="${homeLogo}" class="w-6 h-6 object-contain" />
-            <div class="flex flex-col">
-              <span class="font-bold text-base">${game.home.team}</span>
-              <span class="text-xs text-gray-400">${game.home.sog} SOG</span>
-            </div>
-          </div>
-          <span class="font-bold text-base">${game.home.score}</span>
-        </div>
-        <!-- Goals container with horizontal scroll -->
-        <div class="goals-container flex overflow-x-auto py-3">
-          ${goalScorersHTML}
-        </div>
-      </div>
-    `;
-  });
-});
-
+        `;
+      });
+    });
 
 
 
