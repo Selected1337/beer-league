@@ -300,8 +300,9 @@
 
    Promise.all([
       fetch("recent_games.json").then(res => res.json()),
-      fetch("team_logos.json").then(res => res.json())
-    ]).then(([games, logos]) => {
+      fetch("team_logos.json").then(res => res.json()),
+      fetch("player_stats.json").then(res => res.json()) // Fetch player stats
+    ]).then(([games, logos, playerStats]) => {
       const container = document.getElementById("recent-games");
       container.innerHTML = "";
 
@@ -311,15 +312,22 @@
 
         let goalScorersHTML = '';  // Initialize a variable to hold all goal scorers
 
+        // Helper function to get player goals and assists
+        const getPlayerStats = (playerName) => {
+          const player = playerStats.find(p => p.player === playerName);
+          return player ? { goals: player.goals, assists: player.assists } : { goals: 0, assists: 0 };
+        }
+
         // Home team goal scorers
         game.home.scorers.forEach(scorer => {
+          const { goals, assists } = getPlayerStats(scorer.player); // Get the player stats
           goalScorersHTML += `
             <div class="goal-panel flex items-center p-2 border border-gray-400 rounded-lg">
               <div class="headshot-container flex items-center gap-2">
                 <img src="https://minotar.net/avatar/${scorer.player}/40" alt="${scorer.player}" class="w-12 h-12 rounded-full" />
                 <div class="goal-details text-xs">
-                  <span class="font-bold text-sm">${scorer.player}</span><br />
-                  <span class="text-sm">${scorer.assist.join(", ")}</span>
+                  <span class="font-bold text-sm">${scorer.player} (${goals})</span><br />
+                  <span class="text-sm">Assists: ${assists}</span>
                 </div>
               </div>
             </div>
@@ -328,13 +336,14 @@
 
         // Away team goal scorers
         game.away.scorers.forEach(scorer => {
+          const { goals, assists } = getPlayerStats(scorer.player); // Get the player stats
           goalScorersHTML += `
             <div class="goal-panel flex items-center p-2 border border-gray-400 rounded-lg">
               <div class="headshot-container flex items-center gap-2">
                 <img src="https://minotar.net/avatar/${scorer.player}/40" alt="${scorer.player}" class="w-12 h-12 rounded-full" />
                 <div class="goal-details text-xs">
-                  <span class="font-bold text-sm">${scorer.player}</span><br />
-                  <span class="text-sm">${scorer.assist.join(", ")}</span>
+                  <span class="font-bold text-sm">${scorer.player} (${goals})</span><br />
+                  <span class="text-sm">Assists: ${assists}</span>
                 </div>
               </div>
             </div>
