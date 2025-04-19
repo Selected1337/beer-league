@@ -69,7 +69,7 @@
   </div>
 </section>
 
-   <!-- Recent Games -->
+<!-- Recent Games -->
 <section>
   <h2 class="text-xl font-semibold mb-4">Recent Games</h2>
   <div id="recent-games" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
@@ -256,17 +256,18 @@ Promise.all([
   const container = document.getElementById("recent-games");
   container.innerHTML = "";
 
-    games.forEach(game => {
+  games.forEach(game => {
     const homeLogo = logos[game.home.team]?.logo || "";
     const awayLogo = logos[game.away.team]?.logo || "";
 
     let goalScorersHTML = '';  // Initialize a variable to hold all goal scorers
 
+    // Home team goal scorers
     game.home.scorers.forEach(scorer => {
       goalScorersHTML += `
-        <div class="goal-panel flex flex-col items-center w-1/2 mx-2">
-          <img src="https://minotar.net/avatar/${scorer.player}/30.png" alt="${scorer.player}" class="w-12 h-12 rounded-full" />
-          <div class="goal-details text-xs text-center mt-2">
+        <div class="goal-panel flex flex-col items-center w-32 mx-2">
+          <img src="https://minotar.net/avatar/${scorer.player}/30.png" alt="${scorer.player}" class="w-12 h-12 rounded-full mb-1" />
+          <div class="goal-details text-xs text-center">
             <span class="font-bold">${scorer.player}</span><br />
             <span class="text-xs">Assists: ${scorer.assist.join(", ")}</span>
           </div>
@@ -274,11 +275,12 @@ Promise.all([
       `;
     });
 
+    // Away team goal scorers
     game.away.scorers.forEach(scorer => {
       goalScorersHTML += `
-        <div class="goal-panel flex flex-col items-center w-1/2 mx-2">
-          <img src="https://minotar.net/avatar/${scorer.player}/30.png" alt="${scorer.player}" class="w-12 h-12 rounded-full" />
-          <div class="goal-details text-xs text-center mt-2">
+        <div class="goal-panel flex flex-col items-center w-32 mx-2">
+          <img src="https://minotar.net/avatar/${scorer.player}/30.png" alt="${scorer.player}" class="w-12 h-12 rounded-full mb-1" />
+          <div class="goal-details text-xs text-center">
             <span class="font-bold">${scorer.player}</span><br />
             <span class="text-xs">Assists: ${scorer.assist.join(", ")}</span>
           </div>
@@ -287,11 +289,14 @@ Promise.all([
     });
 
     container.innerHTML += `
-      <div class="bg-card rounded-xl shadow p-3 text-sm space-y-2 w-full">
-        <div class="flex justify-between items-center text-xs text-gray-400">
+      <div class="bg-card rounded-xl shadow p-4 text-sm space-y-2 w-full">
+        <!-- Game Status and Date -->
+        <div class="flex justify-between items-center text-xs text-gray-400 mb-2">
           <span class="bg-gray-700 text-white px-2 py-0.5 rounded text-[10px]">${game.status}</span>
           <span class="text-[11px]">${game.date}</span>
         </div>
+
+        <!-- Teams and Scores -->
         <div class="flex justify-between items-center">
           <div class="flex items-center gap-2">
             <img src="${awayLogo}" class="w-6 h-6 object-contain" />
@@ -312,6 +317,7 @@ Promise.all([
           </div>
           <span class="font-bold text-base">${game.home.score}</span>
         </div>
+
         <!-- Goals container with horizontal scroll -->
         <div class="goals-container flex overflow-x-auto py-2">
           ${goalScorersHTML}
@@ -320,6 +326,7 @@ Promise.all([
     `;
   });
 });
+
 
 
 
