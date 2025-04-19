@@ -5,68 +5,32 @@
     "home": {
       "team": "CHC",
       "sog": 23,
-      "score": 1
+      "score": 1,
+      "scorers": [
+        {
+          "player": "Tendy41",
+          "assist": ["Pluds"]
+        },
+        {
+          "player": "Pluds",
+          "assist": ["Tendy41"]
+        }
+      ]
     },
     "away": {
       "team": "OBO",
       "sog": 34,
-      "score": 10
-    }
-  },
-  {
-    "date": "Apr 18",
-    "status": "FINAL",
-    "home": {
-      "team": "CHC",
-      "sog": 26.0,
-      "score": 2.0
-    },
-    "away": {
-      "team": "OBO",
-      "sog": 39.0,
-      "score": 7.0
-    }
-  },
-  {
-    "date": "Apr 18",
-    "status": "FINAL",
-    "home": {
-      "team": "CHC",
-      "sog": 38.0,
-      "score": 8.0
-    },
-    "away": {
-      "team": "OBO",
-      "sog": 29.0,
-      "score": 4.0
-    }
-  },
-  {
-    "date": "Apr 18",
-    "status": "FINAL",
-    "home": {
-      "team": "CHC",
-      "sog": 21.0,
-      "score": 1.0
-    },
-    "away": {
-      "team": "OBO",
-      "sog": 27.0,
-      "score": 8.0
-    }
-  },
-  {
-    "date": "Apr 18",
-    "status": "FINAL",
-    "home": {
-      "team": "CHC",
-      "sog": 36.0,
-      "score": 4.0
-    },
-    "away": {
-      "team": "OBO",
-      "sog": 31.0,
-      "score": 10.0
+      "score": 10,
+      "scorers": [
+        {
+          "player": "Matvei Michkov",
+          "assist": ["T. Foerster", "S. Couturier"]
+        },
+        {
+          "player": "Owen Tippett",
+          "assist": ["J. Konecny", "S. Couturier"]
+        }
+      ]
     }
   }
 ]
