@@ -296,12 +296,12 @@ Promise.all([
     // Home team goal scorers
     game.home.scorers.forEach(scorer => {
       goalScorersHTML += `
-        <div class="goal-panel flex items-center p-3 border border-gray-400 rounded-lg w-44 mx-3">
+        <div class="goal-panel flex items-center p-3 border border-gray-400 rounded-lg w-48 mx-4 h-24">
           <!-- Headshot on the left -->
           <img src="https://minotar.net/avatar/${scorer.player}/40" alt="${scorer.player}" class="w-12 h-12 rounded-full" />
           <!-- Goal scorer name and assist below -->
-          <div class="goal-details text-xs ml-3">
-            <span class="font-bold">${scorer.player}</span> <!-- Goal Scorer Name -->
+          <div class="goal-details text-xs ml-3 flex flex-col">
+            <span class="font-bold text-sm">${scorer.player}</span> <!-- Goal Scorer Name -->
             <div class="assist text-xs text-gray-500 mt-1">Assists: ${scorer.assist.join(", ")}</div> <!-- Assister(s) Name -->
           </div>
         </div>
@@ -311,12 +311,12 @@ Promise.all([
     // Away team goal scorers
     game.away.scorers.forEach(scorer => {
       goalScorersHTML += `
-        <div class="goal-panel flex items-center p-3 border border-gray-400 rounded-lg w-44 mx-3">
+        <div class="goal-panel flex items-center p-3 border border-gray-400 rounded-lg w-48 mx-4 h-24">
           <!-- Headshot on the left -->
           <img src="https://minotar.net/avatar/${scorer.player}/40" alt="${scorer.player}" class="w-12 h-12 rounded-full" />
           <!-- Goal scorer name and assist below -->
-          <div class="goal-details text-xs ml-3">
-            <span class="font-bold">${scorer.player}</span> <!-- Goal Scorer Name -->
+          <div class="goal-details text-xs ml-3 flex flex-col">
+            <span class="font-bold text-sm">${scorer.player}</span> <!-- Goal Scorer Name -->
             <div class="assist text-xs text-gray-500 mt-1">Assists: ${scorer.assist.join(", ")}</div> <!-- Assister(s) Name -->
           </div>
         </div>
@@ -357,6 +357,7 @@ Promise.all([
     `;
   });
 });
+
 
 
 
