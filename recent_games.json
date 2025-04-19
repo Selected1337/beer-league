@@ -9,8 +9,8 @@
     },
     "away": {
       "team": "SSP",
-      "sog": 2,
-      "score": 2
+      "sog": 4,
+      "score": 4
     },
     "goals": [
       {
@@ -18,12 +18,48 @@
         "assists": "Unassisted"
       },
       {
-        "scorer": "CookieMnstr1616",
-        "assists": "Tendy41"
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
       },
       {
         "scorer": "Tendy41",
-        "assists": "CookieMnstr1616"
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      }
+    ]
+  },
+  {
+    "date": "Apr 19",
+    "status": "FINAL",
+    "home": {
+      "team": "YET",
+      "sog": 0.0,
+      "score": 0.0
+    },
+    "away": {
+      "team": "SSP",
+      "sog": 2.0,
+      "score": 2.0
+    },
+    "goals": [
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
       }
     ]
   },
