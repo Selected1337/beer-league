@@ -299,101 +299,88 @@
     }
 
   Promise.all([
-      fetch("recent_games.json").then(res => res.json()),
-      fetch("team_logos.json").then(res => res.json()),
-      fetch("player_stats.json").then(res => res.json()) // Fetch player stats
-    ]).then(([games, logos, playerStats]) => {
-      const container = document.getElementById("recent-games");
-      container.innerHTML = "";
+  fetch("recent_games.json").then(res => res.json()),
+  fetch("team_logos.json").then(res => res.json()),
+  fetch("player_stats.json").then(res => res.json()) // Fetch player stats
+]).then(([games, logos, playerStats]) => {
+  const container = document.getElementById("recent-games");
+  container.innerHTML = "";
 
-      games.forEach(game => {
-        const homeLogo = logos[game.home.team]?.logo || "";
-        const awayLogo = logos[game.away.team]?.logo || "";
+  games.forEach(game => {
+    const homeLogo = logos[game.home.team]?.logo || "";
+    const awayLogo = logos[game.away.team]?.logo || "";
 
-        let goalScorersHTML = '';  // Initialize a variable to hold all goal scorers
+    let goalScorersHTML = '';  // Initialize a variable to hold all goal scorers
 
-        // Helper function to get player goals and assists
-        const getPlayerStats = (playerName) => {
-          const player = playerStats.find(p => p.player === playerName);
-          return player ? { goals: player.goals, assists: player.assists } : { goals: 0, assists: 0 };
-        }
+    // Helper function to get player goals and assists
+    const getPlayerStats = (playerName) => {
+      const player = playerStats.find(p => p.player === playerName);
+      return player ? { goals: player.goals, assists: player.assists } : { goals: 0, assists: 0 };
+    };
 
-        // Home team goal scorers
-        game.home.scorers.forEach(scorer => {
-          const { goals, assists } = getPlayerStats(scorer.player); // Get the player stats
-          goalScorersHTML += `
-            <div class="goal-panel flex items-center p-2 border border-gray-400 rounded-lg">
-              <div class="headshot-container flex items-center gap-2">
-                <img src="https://minotar.net/avatar/${scorer.player}/40" alt="${scorer.player}" class="w-12 h-12 rounded-full" />
-                <div class="goal-details text-xs">
-                  <span class="font-bold text-sm">${scorer.player} (${goals})</span><br />
-                  ${scorer.assist.map(assistant => {
-                    const { assists: assistTotal } = getPlayerStats(assistant); // Get the assistant's total assists
-                    return `
-                      <span class="text-sm">${assistant} (${assistTotal})</span>
-                    `;
-                  }).join(", ")}
-                </div>
-              </div>
-            </div>
-          `;
-        });
+    // Loop through each goal in the game (goal scorer + assists)
+    game.goals.forEach(goal => {
+      const scorerName = goal.scorer; // The goal scorer
+      const assists = goal.assists; // List of assist players
 
-        // Away team goal scorers
-        game.away.scorers.forEach(scorer => {
-          const { goals, assists } = getPlayerStats(scorer.player); // Get the player stats
-          goalScorersHTML += `
-            <div class="goal-panel flex items-center p-2 border border-gray-400 rounded-lg">
-              <div class="headshot-container flex items-center gap-2">
-                <img src="https://minotar.net/avatar/${scorer.player}/40" alt="${scorer.player}" class="w-12 h-12 rounded-full" />
-                <div class="goal-details text-xs">
-                  <span class="font-bold text-sm">${scorer.player} (${goals})</span><br />
-                  ${scorer.assist.map(assistant => {
-                    const { assists: assistTotal } = getPlayerStats(assistant); // Get the assistant's total assists
-                    return `
-                      <span class="text-sm">${assistant} (${assistTotal})</span>
-                    `;
-                  }).join(", ")}
-                </div>
-              </div>
-            </div>
-          `;
-        });
+      // Get goal stats for the scorer
+      const { goals, assists: scorerAssists } = getPlayerStats(scorerName); 
 
-        container.innerHTML += `
-          <div class="bg-card rounded-xl shadow p-3 text-sm space-y-2 w-full">
-            <div class="flex justify-between items-center text-xs text-gray-400">
-              <span class="bg-gray-700 text-white px-2 py-0.5 rounded text-[10px]">${game.status}</span>
-              <span class="text-[11px]">${game.date}</span>
-            </div>
-            <div class="flex justify-between items-center">
-              <div class="flex items-center gap-2">
-                <img src="${awayLogo}" class="w-6 h-6 object-contain" />
-                <div class="flex flex-col">
-                  <span class="font-bold text-base">${game.away.team}</span>
-                  <span class="text-xs text-gray-400">${game.away.sog} SOG</span>
-                </div>
-              </div>
-              <span class="font-bold text-base">${game.away.score}</span>
-            </div>
-            <div class="flex justify-between items-center">
-              <div class="flex items-center gap-2">
-                <img src="${homeLogo}" class="w-6 h-6 object-contain" />
-                <div class="flex flex-col">
-                  <span class="font-bold text-base">${game.home.team}</span>
-                  <span class="text-xs text-gray-400">${game.home.sog} SOG</span>
-                </div>
-              </div>
-              <span class="font-bold text-base">${game.home.score}</span>
-            </div>
-            <!-- Goals container with horizontal scroll -->
-            <div class="goals-container">
-              ${goalScorersHTML}
+      // Build the goal scorer HTML
+      goalScorersHTML += `
+        <div class="goal-panel flex items-center p-2 border border-gray-400 rounded-lg">
+          <div class="headshot-container flex items-center gap-2">
+            <img src="https://minotar.net/avatar/${scorerName}/40" alt="${scorerName}" class="w-12 h-12 rounded-full" />
+            <div class="goal-details text-xs">
+              <span class="font-bold text-sm">${scorerName} (${goals})</span><br />
+              ${assists.map(assistant => {
+                // Get assist stats for each assistant
+                const { assists: assistTotal } = getPlayerStats(assistant); 
+                return `
+                  <span class="text-sm">${assistant} (${assistTotal})</span>
+                `;
+              }).join(", ")}
             </div>
           </div>
-        `;
-      });
+        </div>
+      `;
     });
+
+    container.innerHTML += `
+      <div class="bg-card rounded-xl shadow p-3 text-sm space-y-2 w-full">
+        <div class="flex justify-between items-center text-xs text-gray-400">
+          <span class="bg-gray-700 text-white px-2 py-0.5 rounded text-[10px]">${game.status}</span>
+          <span class="text-[11px]">${game.date}</span>
+        </div>
+        <div class="flex justify-between items-center">
+          <div class="flex items-center gap-2">
+            <img src="${awayLogo}" class="w-6 h-6 object-contain" />
+            <div class="flex flex-col">
+              <span class="font-bold text-base">${game.away.team}</span>
+              <span class="text-xs text-gray-400">${game.away.sog} SOG</span>
+            </div>
+          </div>
+          <span class="font-bold text-base">${game.away.score}</span>
+        </div>
+        <div class="flex justify-between items-center">
+          <div class="flex items-center gap-2">
+            <img src="${homeLogo}" class="w-6 h-6 object-contain" />
+            <div class="flex flex-col">
+              <span class="font-bold text-base">${game.home.team}</span>
+              <span class="text-xs text-gray-400">${game.home.sog} SOG</span>
+            </div>
+          </div>
+          <span class="font-bold text-base">${game.home.score}</span>
+        </div>
+        <!-- Goals container with horizontal scroll -->
+        <div class="goals-container">
+          ${goalScorersHTML}
+        </div>
+      </div>
+    `;
+  });
+});
+
 
 
     async function fetchData() {
