@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "date": "Apr 19",
+    "status": "FINAL",
+    "home": {
+      "team": "YET",
+      "sog": 0,
+      "score": 0
+    },
+    "away": {
+      "team": "SSP",
+      "sog": 2,
+      "score": 2
+    },
+    "goals": [
+      {
+        "scorer": "winner16",
+        "assists": "Tendy41"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "winner16"
+      }
+    ]
+  }
+]
