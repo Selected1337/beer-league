@@ -298,7 +298,7 @@
       });
     }
 
-   Promise.all([
+  Promise.all([
       fetch("recent_games.json").then(res => res.json()),
       fetch("team_logos.json").then(res => res.json()),
       fetch("player_stats.json").then(res => res.json()) // Fetch player stats
@@ -327,7 +327,12 @@
                 <img src="https://minotar.net/avatar/${scorer.player}/40" alt="${scorer.player}" class="w-12 h-12 rounded-full" />
                 <div class="goal-details text-xs">
                   <span class="font-bold text-sm">${scorer.player} (${goals})</span><br />
-                  <span class="text-sm">Assists: ${assists}</span>
+                  ${scorer.assist.map(assistant => {
+                    const { assists: assistTotal } = getPlayerStats(assistant); // Get the assistant's total assists
+                    return `
+                      <span class="text-sm">${assistant} (${assistTotal})</span>
+                    `;
+                  }).join(", ")}
                 </div>
               </div>
             </div>
@@ -343,7 +348,12 @@
                 <img src="https://minotar.net/avatar/${scorer.player}/40" alt="${scorer.player}" class="w-12 h-12 rounded-full" />
                 <div class="goal-details text-xs">
                   <span class="font-bold text-sm">${scorer.player} (${goals})</span><br />
-                  <span class="text-sm">Assists: ${assists}</span>
+                  ${scorer.assist.map(assistant => {
+                    const { assists: assistTotal } = getPlayerStats(assistant); // Get the assistant's total assists
+                    return `
+                      <span class="text-sm">${assistant} (${assistTotal})</span>
+                    `;
+                  }).join(", ")}
                 </div>
               </div>
             </div>
@@ -384,7 +394,6 @@
         `;
       });
     });
-
 
 
     async function fetchData() {
