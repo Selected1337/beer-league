@@ -298,7 +298,7 @@
       });
     }
 
-  Promise.all([
+ Promise.all([
   fetch("recent_games.json").then(res => res.json()),
   fetch("team_logos.json").then(res => res.json()),
   fetch("player_stats.json").then(res => res.json()) // Fetch player stats
@@ -316,30 +316,34 @@
     const getPlayerStats = (playerName) => {
       const player = playerStats.find(p => p.player === playerName);
       return player ? { goals: player.goals, assists: player.assists } : { goals: 0, assists: 0 };
-    };
+    }
 
-    // Loop through each goal in the game (goal scorer + assists)
+    // Home team goal scorers
     game.goals.forEach(goal => {
-      const scorerName = goal.scorer; // The goal scorer
-      const assists = goal.assists; // List of assist players
-
-      // Get goal stats for the scorer
-      const { goals, assists: scorerAssists } = getPlayerStats(scorerName); 
-
-      // Build the goal scorer HTML
+      const { scorer, assists } = goal; // `assists` is now a string
       goalScorersHTML += `
         <div class="goal-panel flex items-center p-2 border border-gray-400 rounded-lg">
           <div class="headshot-container flex items-center gap-2">
-            <img src="https://minotar.net/avatar/${scorerName}/40" alt="${scorerName}" class="w-12 h-12 rounded-full" />
+            <img src="https://minotar.net/avatar/${scorer}/40" alt="${scorer}" class="w-12 h-12 rounded-full" />
             <div class="goal-details text-xs">
-              <span class="font-bold text-sm">${scorerName} (${goals})</span><br />
-              ${assists.map(assistant => {
-                // Get assist stats for each assistant
-                const { assists: assistTotal } = getPlayerStats(assistant); 
-                return `
-                  <span class="text-sm">${assistant} (${assistTotal})</span>
-                `;
-              }).join(", ")}
+              <span class="font-bold text-sm">${scorer} (${getPlayerStats(scorer).goals})</span><br />
+              <span class="text-sm">${assists}</span>  <!-- Display assists as string -->
+            </div>
+          </div>
+        </div>
+      `;
+    });
+
+    // Away team goal scorers
+    game.goals.forEach(goal => {
+      const { scorer, assists } = goal; // `assists` is now a string
+      goalScorersHTML += `
+        <div class="goal-panel flex items-center p-2 border border-gray-400 rounded-lg">
+          <div class="headshot-container flex items-center gap-2">
+            <img src="https://minotar.net/avatar/${scorer}/40" alt="${scorer}" class="w-12 h-12 rounded-full" />
+            <div class="goal-details text-xs">
+              <span class="font-bold text-sm">${scorer} (${getPlayerStats(scorer).goals})</span><br />
+              <span class="text-sm">${assists}</span>  <!-- Display assists as string -->
             </div>
           </div>
         </div>
