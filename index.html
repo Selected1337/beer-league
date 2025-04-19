@@ -260,6 +260,32 @@ Promise.all([
     const homeLogo = logos[game.home.team]?.logo || "";
     const awayLogo = logos[game.away.team]?.logo || "";
 
+    let goalScorersHTML = '';  // Initialize a variable to hold all goal scorers
+
+    game.home.scorers.forEach(scorer => {
+      goalScorersHTML += `
+        <div class="goal-panel flex items-center space-x-2">
+          <img src="https://minotar.net/avatar/${scorer.player}/30.png" alt="${scorer.player}" class="w-8 h-8 rounded-full" />
+          <div class="goal-details text-sm">
+            <span class="font-bold">${scorer.player}</span><br />
+            <span class="text-xs">Assists: ${scorer.assist.join(", ")}</span>
+          </div>
+        </div>
+      `;
+    });
+
+    game.away.scorers.forEach(scorer => {
+      goalScorersHTML += `
+        <div class="goal-panel flex items-center space-x-2">
+          <img src="https://minotar.net/avatar/${scorer.player}/30.png" alt="${scorer.player}" class="w-8 h-8 rounded-full" />
+          <div class="goal-details text-sm">
+            <span class="font-bold">${scorer.player}</span><br />
+            <span class="text-xs">Assists: ${scorer.assist.join(", ")}</span>
+          </div>
+        </div>
+      `;
+    });
+
     container.innerHTML += `
       <div class="bg-card rounded-xl shadow p-3 text-sm space-y-2 w-full">
         <div class="flex justify-between items-center text-xs text-gray-400">
@@ -286,40 +312,9 @@ Promise.all([
           </div>
           <span class="font-bold text-base">${game.home.score}</span>
         </div>
-
-        <!-- Goal Scorers and Assists -->
-        <div class="mt-4">
-          <h3 class="font-bold text-lg mb-2">Home Team Goal Scorers</h3>
-          <div class="max-h-40 overflow-y-scroll">
-            ${game.home.scorers.map(scorer => {
-              return `
-                <div class="flex gap-4 mb-2">
-                  <img src="https://minotar.net/avatar/${scorer.player}/100.png" class="w-8 h-8 rounded-full" />
-                  <div>
-                    <span class="font-semibold">${scorer.player}</span>
-                    <div class="text-xs text-gray-500">Assists: ${scorer.assist.join(", ")}</div>
-                  </div>
-                </div>
-              `;
-            }).join('')}
-          </div>
-        </div>
-
-        <div class="mt-4">
-          <h3 class="font-bold text-lg mb-2">Away Team Goal Scorers</h3>
-          <div class="max-h-40 overflow-y-scroll">
-            ${game.away.scorers.map(scorer => {
-              return `
-                <div class="flex gap-4 mb-2">
-                  <img src="https://minotar.net/avatar/${scorer.player}/100.png" class="w-8 h-8 rounded-full" />
-                  <div>
-                    <span class="font-semibold">${scorer.player}</span>
-                    <div class="text-xs text-gray-500">Assists: ${scorer.assist.join(", ")}</div>
-                  </div>
-                </div>
-              `;
-            }).join('')}
-          </div>
+        <!-- Goals container with horizontal scroll -->
+        <div class="goals-container flex overflow-x-auto py-2">
+          ${goalScorersHTML}
         </div>
       </div>
     `;
