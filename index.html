@@ -296,7 +296,7 @@ Promise.all([
     // Home team goal scorers
     game.home.scorers.forEach(scorer => {
       goalScorersHTML += `
-        <div class="goal-panel flex items-center p-3 border border-gray-400 rounded-lg w-48 mx-4 h-24">
+        <div class="goal-panel flex items-center p-3 border border-gray-400 rounded-lg w-98 mx-4 h-19">
           <!-- Headshot on the left -->
           <img src="https://minotar.net/avatar/${scorer.player}/40" alt="${scorer.player}" class="w-12 h-12 rounded-full" />
           <!-- Goal scorer name and assist below -->
@@ -311,7 +311,7 @@ Promise.all([
     // Away team goal scorers
     game.away.scorers.forEach(scorer => {
       goalScorersHTML += `
-        <div class="goal-panel flex items-center p-3 border border-gray-400 rounded-lg w-48 mx-4 h-24">
+        <div class="goal-panel flex items-center p-3 border border-gray-400 rounded-lg w-98 mx-4 h-19">
           <!-- Headshot on the left -->
           <img src="https://minotar.net/avatar/${scorer.player}/40" alt="${scorer.player}" class="w-12 h-12 rounded-full" />
           <!-- Goal scorer name and assist below -->
