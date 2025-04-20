@@ -4,13 +4,137 @@
     "status": "FINAL",
     "home": {
       "team": "GRZ",
-      "sog": 28,
-      "score": 5
+      "sog": 0,
+      "score": 0
     },
     "away": {
       "team": "YET",
-      "sog": 32,
-      "score": 3
+      "sog": 0,
+      "score": 0
+    },
+    "goals": [
+      {
+        "scorer": "Unknown",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Unknown",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Sammythewhale",
+        "assists": [
+          "winner16"
+        ]
+      },
+      {
+        "scorer": "Clifford82",
+        "assists": [
+          "Tendy41"
+        ]
+      },
+      {
+        "scorer": "Clifford82",
+        "assists": [
+          "Tendy41"
+        ]
+      },
+      {
+        "scorer": "Clifford82",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Clifford82",
+        "assists": [
+          "CookieMnstr1616"
+        ]
+      },
+      {
+        "scorer": "Sammythewhale",
+        "assists": [
+          "winner16"
+        ]
+      },
+      {
+        "scorer": "Clifford82",
+        "assists": [
+          "Tendy41"
+        ]
+      },
+      {
+        "scorer": "Clifford82",
+        "assists": [
+          "Tendy41"
+        ]
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": [
+          "CookieMnstr1616"
+        ]
+      },
+      {
+        "scorer": "Sammythewhale",
+        "assists": [
+          "HerbeHumide"
+        ]
+      },
+      {
+        "scorer": "HerbeHumide",
+        "assists": [
+          "Sammythewhale"
+        ]
+      },
+      {
+        "scorer": "Clifford82",
+        "assists": [
+          "Tendy41"
+        ]
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": [
+          "Clifford82"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "Apr 19",
+    "status": "FINAL",
+    "home": {
+      "team": "GRZ",
+      "sog": 28.0,
+      "score": 5.0
+    },
+    "away": {
+      "team": "YET",
+      "sog": 32.0,
+      "score": 3.0
     },
     "goals": [
       {
