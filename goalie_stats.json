@@ -2,21 +2,21 @@
   {
     "player": "CookieMnstr1616",
     "team": "CHC",
-    "gamesPlayed": 1,
-    "saves": 41,
-    "goalsAgainst": 3,
-    "shotsAgainst": 44,
-    "savePercentage": 0.932,
-    "goalsAgainstAverage": 3.0
+    "gamesPlayed": 2,
+    "saves": 79,
+    "goalsAgainst": 7,
+    "shotsAgainst": 86,
+    "savePercentage": 0.919,
+    "goalsAgainstAverage": 3.5
   },
   {
     "player": "winner16",
     "team": "RAP",
-    "gamesPlayed": 1,
-    "saves": 21,
-    "goalsAgainst": 3,
-    "shotsAgainst": 24,
-    "savePercentage": 0.875,
-    "goalsAgainstAverage": 3.0
+    "gamesPlayed": 2,
+    "saves": 44,
+    "goalsAgainst": 7,
+    "shotsAgainst": 51,
+    "savePercentage": 0.863,
+    "goalsAgainstAverage": 3.5
   }
 ]
