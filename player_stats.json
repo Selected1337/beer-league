@@ -1,16 +1,16 @@
 [
   {
-    "saves": 0,
+    "saves": 1,
     "goalsAgainst": 0,
-    "shotsAgainst": 0,
+    "shotsAgainst": 1,
     "player": "_JacksonBlake",
     "team": "CHC",
-    "goals": 4,
+    "goals": 7,
     "assists": 3,
-    "hits": 137,
-    "touches": 352,
-    "penalties": 32,
-    "gamesPlayed": 6
+    "hits": 158,
+    "touches": 433,
+    "penalties": 33,
+    "gamesPlayed": 7
   },
   {
     "saves": 0,
@@ -18,38 +18,38 @@
     "shotsAgainst": 0,
     "player": "Clifford82",
     "team": "CHC",
-    "goals": 11,
-    "assists": 1,
-    "hits": 121,
-    "touches": 537,
-    "penalties": 18,
-    "gamesPlayed": 6
+    "goals": 15,
+    "assists": 2,
+    "hits": 144,
+    "touches": 646,
+    "penalties": 21,
+    "gamesPlayed": 7
   },
   {
-    "saves": 184,
-    "goalsAgainst": 22,
-    "shotsAgainst": 184,
+    "saves": 211,
+    "goalsAgainst": 26,
+    "shotsAgainst": 211,
     "player": "CookieMnstr1616",
     "team": "CHC",
     "goals": 0,
-    "assists": 4,
-    "hits": 7,
-    "touches": 145,
-    "penalties": 1,
-    "gamesPlayed": 6
+    "assists": 5,
+    "hits": 9,
+    "touches": 158,
+    "penalties": 2,
+    "gamesPlayed": 7
   },
   {
-    "saves": 2,
+    "saves": 3,
     "goalsAgainst": 0,
-    "shotsAgainst": 2,
+    "shotsAgainst": 3,
     "player": "HerbeHumide",
     "team": "RAP",
-    "goals": 6,
-    "assists": 5,
-    "hits": 173,
-    "touches": 286,
-    "penalties": 40,
-    "gamesPlayed": 7
+    "goals": 7,
+    "assists": 6,
+    "hits": 199,
+    "touches": 360,
+    "penalties": 50,
+    "gamesPlayed": 8
   },
   {
     "saves": 4,
@@ -57,24 +57,24 @@
     "shotsAgainst": 4,
     "player": "Tendy41",
     "team": "RAP",
-    "goals": 15,
+    "goals": 18,
     "assists": 1,
-    "hits": 148,
-    "touches": 690,
-    "penalties": 24,
-    "gamesPlayed": 6
+    "hits": 177,
+    "touches": 802,
+    "penalties": 29,
+    "gamesPlayed": 7
   },
   {
-    "saves": 94,
-    "goalsAgainst": 16,
-    "shotsAgainst": 94,
+    "saves": 127,
+    "goalsAgainst": 24,
+    "shotsAgainst": 127,
     "player": "winner16",
     "team": "RAP",
     "goals": 0,
-    "assists": 1,
-    "hits": 18,
-    "touches": 127,
-    "penalties": 4,
-    "gamesPlayed": 6
+    "assists": 2,
+    "hits": 26,
+    "touches": 155,
+    "penalties": 6,
+    "gamesPlayed": 7
   }
 ]
