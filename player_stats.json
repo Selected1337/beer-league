@@ -6,11 +6,11 @@
     "player": "_JacksonBlake",
     "team": "CHC",
     "goals": 1,
-    "assists": 1,
-    "hits": 62,
-    "touches": 169,
-    "penalties": 14,
-    "gamesPlayed": 3
+    "assists": 3,
+    "hits": 94,
+    "touches": 231,
+    "penalties": 19,
+    "gamesPlayed": 4
   },
   {
     "saves": 0,
@@ -18,25 +18,25 @@
     "shotsAgainst": 0,
     "player": "Clifford82",
     "team": "CHC",
-    "goals": 6,
+    "goals": 8,
     "assists": 0,
-    "hits": 40,
-    "touches": 247,
-    "penalties": 6,
-    "gamesPlayed": 3
+    "hits": 62,
+    "touches": 344,
+    "penalties": 11,
+    "gamesPlayed": 4
   },
   {
-    "saves": 79,
-    "goalsAgainst": 7,
-    "shotsAgainst": 79,
+    "saves": 125,
+    "goalsAgainst": 15,
+    "shotsAgainst": 125,
     "player": "CookieMnstr1616",
     "team": "CHC",
     "goals": 0,
     "assists": 2,
-    "hits": 4,
-    "touches": 69,
-    "penalties": 0,
-    "gamesPlayed": 3
+    "hits": 5,
+    "touches": 91,
+    "penalties": 1,
+    "gamesPlayed": 4
   },
   {
     "saves": 0,
@@ -44,12 +44,12 @@
     "shotsAgainst": 0,
     "player": "HerbeHumide",
     "team": "RAP",
-    "goals": 1,
-    "assists": 2,
-    "hits": 71,
-    "touches": 116,
-    "penalties": 20,
-    "gamesPlayed": 3
+    "goals": 2,
+    "assists": 5,
+    "hits": 103,
+    "touches": 176,
+    "penalties": 25,
+    "gamesPlayed": 4
   },
   {
     "saves": 0,
@@ -57,24 +57,24 @@
     "shotsAgainst": 0,
     "player": "Tendy41",
     "team": "RAP",
-    "goals": 6,
+    "goals": 13,
     "assists": 0,
-    "hits": 73,
-    "touches": 294,
-    "penalties": 13,
-    "gamesPlayed": 3
+    "hits": 94,
+    "touches": 428,
+    "penalties": 16,
+    "gamesPlayed": 4
   },
   {
-    "saves": 44,
-    "goalsAgainst": 7,
-    "shotsAgainst": 44,
+    "saves": 60,
+    "goalsAgainst": 9,
+    "shotsAgainst": 60,
     "player": "winner16",
     "team": "RAP",
     "goals": 0,
     "assists": 1,
-    "hits": 7,
-    "touches": 54,
-    "penalties": 1,
-    "gamesPlayed": 3
+    "hits": 12,
+    "touches": 78,
+    "penalties": 2,
+    "gamesPlayed": 4
   }
 ]
