@@ -2,21 +2,21 @@
   {
     "player": "CookieMnstr1616",
     "team": "GRZ",
-    "gamesPlayed": 1,
-    "saves": 24,
-    "goalsAgainst": 1,
-    "shotsAgainst": 25,
-    "savePercentage": 0.96,
-    "goalsAgainstAverage": 1.0
+    "gamesPlayed": 2,
+    "saves": 53,
+    "goalsAgainst": 4,
+    "shotsAgainst": 57,
+    "savePercentage": 0.93,
+    "goalsAgainstAverage": 2.0
   },
   {
     "player": "winner16",
     "team": "YET",
-    "gamesPlayed": 1,
-    "saves": 17,
-    "goalsAgainst": 4,
-    "shotsAgainst": 21,
-    "savePercentage": 0.81,
-    "goalsAgainstAverage": 4.0
+    "gamesPlayed": 2,
+    "saves": 40,
+    "goalsAgainst": 9,
+    "shotsAgainst": 49,
+    "savePercentage": 0.816,
+    "goalsAgainstAverage": 4.5
   }
 ]
