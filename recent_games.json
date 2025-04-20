@@ -4,13 +4,367 @@
     "status": "FINAL",
     "home": {
       "team": "CHC",
-      "sog": 20,
-      "score": 4
+      "sog": 0,
+      "score": 0
     },
     "away": {
       "team": "RAP",
-      "sog": 27,
-      "score": 2
+      "sog": 0,
+      "score": 0
+    },
+    "goals": [
+      {
+        "scorer": "Unknown",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Unknown",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Sammythewhale",
+        "assists": [
+          "winner16"
+        ]
+      },
+      {
+        "scorer": "Clifford82",
+        "assists": [
+          "Tendy41"
+        ]
+      },
+      {
+        "scorer": "Clifford82",
+        "assists": [
+          "Tendy41"
+        ]
+      },
+      {
+        "scorer": "Clifford82",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Clifford82",
+        "assists": [
+          "CookieMnstr1616"
+        ]
+      },
+      {
+        "scorer": "Sammythewhale",
+        "assists": [
+          "winner16"
+        ]
+      },
+      {
+        "scorer": "Clifford82",
+        "assists": [
+          "Tendy41"
+        ]
+      },
+      {
+        "scorer": "Clifford82",
+        "assists": [
+          "Tendy41"
+        ]
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": [
+          "CookieMnstr1616"
+        ]
+      },
+      {
+        "scorer": "Sammythewhale",
+        "assists": [
+          "HerbeHumide"
+        ]
+      },
+      {
+        "scorer": "HerbeHumide",
+        "assists": [
+          "Sammythewhale"
+        ]
+      },
+      {
+        "scorer": "Clifford82",
+        "assists": [
+          "Tendy41"
+        ]
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": [
+          "Clifford82"
+        ]
+      },
+      {
+        "scorer": "Unknown",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Unknown",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Unknown",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "HerbeHumide",
+        "assists": [
+          "Sammythewhale"
+        ]
+      },
+      {
+        "scorer": "Sammythewhale",
+        "assists": [
+          "HerbeHumide"
+        ]
+      },
+      {
+        "scorer": "Clifford82",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "HerbeHumide",
+        "assists": [
+          "Sammythewhale"
+        ]
+      },
+      {
+        "scorer": "Unknown",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Clifford82",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "HerbeHumide",
+        "assists": [
+          "Sammythewhale"
+        ]
+      },
+      {
+        "scorer": "Sammythewhale",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "HerbeHumide",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Sammythewhale",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Clifford82",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Unknown",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "_JacksonBlake",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": [
+          "HerbeHumide"
+        ]
+      },
+      {
+        "scorer": "Clifford82",
+        "assists": [
+          "CookieMnstr1616"
+        ]
+      },
+      {
+        "scorer": "Clifford82",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Clifford82",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": [
+          "winner16"
+        ]
+      },
+      {
+        "scorer": "Clifford82",
+        "assists": [
+          "_JacksonBlake"
+        ]
+      },
+      {
+        "scorer": "Clifford82",
+        "assists": [
+          "CookieMnstr1616"
+        ]
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": [
+          "HerbeHumide"
+        ]
+      },
+      {
+        "scorer": "HerbeHumide",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Clifford82",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Clifford82",
+        "assists": [
+          "_JacksonBlake"
+        ]
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "HerbeHumide",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": [
+          "HerbeHumide"
+        ]
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Clifford82",
+        "assists": [
+          "_JacksonBlake"
+        ]
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": [
+          "HerbeHumide"
+        ]
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": [
+          "HerbeHumide"
+        ]
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "_JacksonBlake",
+        "assists": [
+          "Clifford82"
+        ]
+      },
+      {
+        "scorer": "HerbeHumide",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "_JacksonBlake",
+        "assists": [
+          "CookieMnstr1616"
+        ]
+      },
+      {
+        "scorer": "_JacksonBlake",
+        "assists": [
+          "CookieMnstr1616"
+        ]
+      },
+      {
+        "scorer": "Clifford82",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "HerbeHumide",
+        "assists": [
+          "Tendy41"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "Apr 19",
+    "status": "FINAL",
+    "home": {
+      "team": "CHC",
+      "sog": 20.0,
+      "score": 4.0
+    },
+    "away": {
+      "team": "RAP",
+      "sog": 27.0,
+      "score": 2.0
     },
     "goals": [
       {
