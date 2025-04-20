@@ -1,1 +1,78 @@
-[]
+[
+  {
+    "date": "Apr 19",
+    "status": "FINAL",
+    "home": {
+      "team": "GRZ",
+      "sog": 21,
+      "score": 4
+    },
+    "away": {
+      "team": "YET",
+      "sog": 25,
+      "score": 1
+    },
+    "goals": [
+      {
+        "scorer": "Unknown",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Unknown",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Sammythewhale",
+        "assists": [
+          "winner16"
+        ]
+      },
+      {
+        "scorer": "Clifford82",
+        "assists": [
+          "Tendy41"
+        ]
+      },
+      {
+        "scorer": "Clifford82",
+        "assists": [
+          "Tendy41"
+        ]
+      },
+      {
+        "scorer": "Clifford82",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Clifford82",
+        "assists": [
+          "CookieMnstr1616"
+        ]
+      }
+    ]
+  }
+]
