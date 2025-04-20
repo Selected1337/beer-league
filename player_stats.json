@@ -1,1 +1,80 @@
-[]
+[
+  {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
+    "player": "_JacksonBlake",
+    "team": "CHC",
+    "goals": 1,
+    "assists": 0,
+    "hits": 35,
+    "touches": 87,
+    "penalties": 8,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
+    "player": "Clifford82",
+    "team": "CHC",
+    "goals": 3,
+    "assists": 0,
+    "hits": 23,
+    "touches": 159,
+    "penalties": 4,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 41,
+    "goalsAgainst": 3,
+    "shotsAgainst": 41,
+    "player": "CookieMnstr1616",
+    "team": "CHC",
+    "goals": 0,
+    "assists": 1,
+    "hits": 1,
+    "touches": 42,
+    "penalties": 0,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
+    "player": "HerbeHumide",
+    "team": "RAP",
+    "goals": 0,
+    "assists": 1,
+    "hits": 39,
+    "touches": 67,
+    "penalties": 10,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
+    "player": "Tendy41",
+    "team": "RAP",
+    "goals": 3,
+    "assists": 0,
+    "hits": 46,
+    "touches": 189,
+    "penalties": 4,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 21,
+    "goalsAgainst": 3,
+    "shotsAgainst": 21,
+    "player": "winner16",
+    "team": "RAP",
+    "goals": 0,
+    "assists": 0,
+    "hits": 4,
+    "touches": 29,
+    "penalties": 1,
+    "gamesPlayed": 2
+  }
+]
