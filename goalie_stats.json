@@ -2,30 +2,40 @@
   {
     "player": "CookieMnstr1616",
     "team": "CHC",
-    "gamesPlayed": 5,
-    "saves": 184,
-    "goalsAgainst": 22,
-    "shotsAgainst": 206,
-    "savePercentage": 0.893,
-    "goalsAgainstAverage": 4.4
+    "gamesPlayed": 6,
+    "saves": 211,
+    "goalsAgainst": 26,
+    "shotsAgainst": 237,
+    "savePercentage": 0.89,
+    "goalsAgainstAverage": 4.333333333333333
   },
   {
     "player": "winner16",
     "team": "RAP",
-    "gamesPlayed": 5,
-    "saves": 94,
-    "goalsAgainst": 16,
-    "shotsAgainst": 110,
-    "savePercentage": 0.855,
-    "goalsAgainstAverage": 3.2
+    "gamesPlayed": 6,
+    "saves": 127,
+    "goalsAgainst": 24,
+    "shotsAgainst": 151,
+    "savePercentage": 0.841,
+    "goalsAgainstAverage": 4.0
+  },
+  {
+    "player": "_JacksonBlake",
+    "team": "CHC",
+    "gamesPlayed": 1,
+    "saves": 1,
+    "goalsAgainst": 0,
+    "shotsAgainst": 1,
+    "savePercentage": 1.0,
+    "goalsAgainstAverage": 0.0
   },
   {
     "player": "HerbeHumide",
     "team": "RAP",
-    "gamesPlayed": 1,
-    "saves": 2,
+    "gamesPlayed": 2,
+    "saves": 3,
     "goalsAgainst": 0,
-    "shotsAgainst": 2,
+    "shotsAgainst": 3,
     "savePercentage": 1.0,
     "goalsAgainstAverage": 0.0
   },
