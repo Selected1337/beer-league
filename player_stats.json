@@ -5,12 +5,12 @@
     "shotsAgainst": 1,
     "player": "_JacksonBlake",
     "team": "CHC",
-    "goals": 7,
-    "assists": 3,
-    "hits": 158,
-    "touches": 433,
-    "penalties": 33,
-    "gamesPlayed": 7
+    "goals": 9,
+    "assists": 4,
+    "hits": 181,
+    "touches": 495,
+    "penalties": 39,
+    "gamesPlayed": 8
   },
   {
     "saves": 0,
@@ -18,25 +18,25 @@
     "shotsAgainst": 0,
     "player": "Clifford82",
     "team": "CHC",
-    "goals": 15,
+    "goals": 17,
     "assists": 2,
-    "hits": 144,
-    "touches": 646,
-    "penalties": 21,
-    "gamesPlayed": 7
+    "hits": 165,
+    "touches": 759,
+    "penalties": 24,
+    "gamesPlayed": 8
   },
   {
-    "saves": 211,
-    "goalsAgainst": 26,
-    "shotsAgainst": 211,
+    "saves": 246,
+    "goalsAgainst": 31,
+    "shotsAgainst": 246,
     "player": "CookieMnstr1616",
     "team": "CHC",
     "goals": 0,
     "assists": 5,
     "hits": 9,
-    "touches": 158,
+    "touches": 181,
     "penalties": 2,
-    "gamesPlayed": 7
+    "gamesPlayed": 8
   },
   {
     "saves": 3,
@@ -44,12 +44,12 @@
     "shotsAgainst": 3,
     "player": "HerbeHumide",
     "team": "RAP",
-    "goals": 7,
+    "goals": 10,
     "assists": 6,
-    "hits": 199,
-    "touches": 360,
-    "penalties": 50,
-    "gamesPlayed": 8
+    "hits": 227,
+    "touches": 413,
+    "penalties": 57,
+    "gamesPlayed": 9
   },
   {
     "saves": 4,
@@ -57,24 +57,24 @@
     "shotsAgainst": 4,
     "player": "Tendy41",
     "team": "RAP",
-    "goals": 18,
-    "assists": 1,
-    "hits": 177,
-    "touches": 802,
-    "penalties": 29,
-    "gamesPlayed": 7
+    "goals": 20,
+    "assists": 3,
+    "hits": 205,
+    "touches": 932,
+    "penalties": 31,
+    "gamesPlayed": 8
   },
   {
-    "saves": 127,
-    "goalsAgainst": 24,
-    "shotsAgainst": 127,
+    "saves": 149,
+    "goalsAgainst": 28,
+    "shotsAgainst": 149,
     "player": "winner16",
     "team": "RAP",
     "goals": 0,
-    "assists": 2,
-    "hits": 26,
-    "touches": 155,
+    "assists": 3,
+    "hits": 33,
+    "touches": 181,
     "penalties": 6,
-    "gamesPlayed": 7
+    "gamesPlayed": 8
   }
 ]
