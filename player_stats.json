@@ -6,11 +6,11 @@
     "player": "_JacksonBlake",
     "team": "CHC",
     "goals": 1,
-    "assists": 0,
-    "hits": 35,
-    "touches": 87,
-    "penalties": 8,
-    "gamesPlayed": 2
+    "assists": 1,
+    "hits": 62,
+    "touches": 169,
+    "penalties": 14,
+    "gamesPlayed": 3
   },
   {
     "saves": 0,
@@ -18,25 +18,25 @@
     "shotsAgainst": 0,
     "player": "Clifford82",
     "team": "CHC",
-    "goals": 3,
+    "goals": 6,
     "assists": 0,
-    "hits": 23,
-    "touches": 159,
-    "penalties": 4,
-    "gamesPlayed": 2
+    "hits": 40,
+    "touches": 247,
+    "penalties": 6,
+    "gamesPlayed": 3
   },
   {
-    "saves": 41,
-    "goalsAgainst": 3,
-    "shotsAgainst": 41,
+    "saves": 79,
+    "goalsAgainst": 7,
+    "shotsAgainst": 79,
     "player": "CookieMnstr1616",
     "team": "CHC",
     "goals": 0,
-    "assists": 1,
-    "hits": 1,
-    "touches": 42,
+    "assists": 2,
+    "hits": 4,
+    "touches": 69,
     "penalties": 0,
-    "gamesPlayed": 2
+    "gamesPlayed": 3
   },
   {
     "saves": 0,
@@ -44,12 +44,12 @@
     "shotsAgainst": 0,
     "player": "HerbeHumide",
     "team": "RAP",
-    "goals": 0,
-    "assists": 1,
-    "hits": 39,
-    "touches": 67,
-    "penalties": 10,
-    "gamesPlayed": 2
+    "goals": 1,
+    "assists": 2,
+    "hits": 71,
+    "touches": 116,
+    "penalties": 20,
+    "gamesPlayed": 3
   },
   {
     "saves": 0,
@@ -57,24 +57,24 @@
     "shotsAgainst": 0,
     "player": "Tendy41",
     "team": "RAP",
-    "goals": 3,
+    "goals": 6,
     "assists": 0,
-    "hits": 46,
-    "touches": 189,
-    "penalties": 4,
-    "gamesPlayed": 2
+    "hits": 73,
+    "touches": 294,
+    "penalties": 13,
+    "gamesPlayed": 3
   },
   {
-    "saves": 21,
-    "goalsAgainst": 3,
-    "shotsAgainst": 21,
+    "saves": 44,
+    "goalsAgainst": 7,
+    "shotsAgainst": 44,
     "player": "winner16",
     "team": "RAP",
     "goals": 0,
-    "assists": 0,
-    "hits": 4,
-    "touches": 29,
+    "assists": 1,
+    "hits": 7,
+    "touches": 54,
     "penalties": 1,
-    "gamesPlayed": 2
+    "gamesPlayed": 3
   }
 ]
