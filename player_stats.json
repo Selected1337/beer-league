@@ -1,1 +1,80 @@
-[]
+[
+  {
+    "saves": 35,
+    "goalsAgainst": 4,
+    "shotsAgainst": 35,
+    "player": "CookieMnstr1616",
+    "team": "WSH",
+    "goals": 0,
+    "assists": 1,
+    "hits": 6,
+    "touches": 34,
+    "penalties": 1,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
+    "player": "Icespillermc",
+    "team": "WSH",
+    "goals": 0,
+    "assists": 0,
+    "hits": 16,
+    "touches": 69,
+    "penalties": 3,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
+    "player": "Kuzy_God",
+    "team": "WSH",
+    "goals": 2,
+    "assists": 0,
+    "hits": 27,
+    "touches": 39,
+    "penalties": 9,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 21,
+    "goalsAgainst": 2,
+    "shotsAgainst": 21,
+    "player": "rdubsss23",
+    "team": "MTL",
+    "goals": 0,
+    "assists": 0,
+    "hits": 3,
+    "touches": 22,
+    "penalties": 0,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
+    "player": "Tendy41",
+    "team": "MTL",
+    "goals": 2,
+    "assists": 2,
+    "hits": 18,
+    "touches": 132,
+    "penalties": 1,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
+    "player": "winner16",
+    "team": "MTL",
+    "goals": 2,
+    "assists": 1,
+    "hits": 23,
+    "touches": 64,
+    "penalties": 5,
+    "gamesPlayed": 2
+  }
+]
