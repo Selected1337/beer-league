@@ -3,14 +3,116 @@
     "date": "Apr 20",
     "status": "FINAL",
     "home": {
+      "team": "MTL",
+      "sog": 53,
+      "score": 11
+    },
+    "away": {
+      "team": "LAK",
+      "sog": 30,
+      "score": 7
+    },
+    "goals": [
+      {
+        "scorer": "Clifford82",
+        "assists": [
+          "_JacksonBlake"
+        ]
+      },
+      {
+        "scorer": "Unknown",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": [
+          "rdubsss23"
+        ]
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Unknown",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Clifford82",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Clifford82",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": [
+          "rdubsss23"
+        ]
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "rdubsss23",
+        "assists": [
+          "Tendy41"
+        ]
+      },
+      {
+        "scorer": "Clifford82",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Clifford82",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "_JacksonBlake",
+        "assists": [
+          "Clifford82"
+        ]
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": [
+          "rdubsss23"
+        ]
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": [
+          "rdubsss23"
+        ]
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      }
+    ]
+  },
+  {
+    "date": "Apr 20",
+    "status": "FINAL",
+    "home": {
       "team": "WSH",
-      "sog": 18,
-      "score": 3
+      "sog": 18.0,
+      "score": 3.0
     },
     "away": {
       "team": "MTL",
-      "sog": 31,
-      "score": 4
+      "sog": 31.0,
+      "score": 4.0
     },
     "goals": [
       {
