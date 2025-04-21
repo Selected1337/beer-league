@@ -4,13 +4,95 @@
     "status": "FINAL",
     "home": {
       "team": "MTL",
-      "sog": 32,
-      "score": 4
+      "sog": 25,
+      "score": 8
     },
     "away": {
       "team": "LAK",
-      "sog": 48,
-      "score": 6
+      "sog": 23,
+      "score": 4
+    },
+    "goals": [
+      {
+        "scorer": "_JacksonBlake",
+        "assists": [
+          "Clifford82"
+        ]
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": [
+          "winner16"
+        ]
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": [
+          "rdubsss23"
+        ]
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": [
+          "rdubsss23"
+        ]
+      },
+      {
+        "scorer": "Clifford82",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "CookieMnstr1616",
+        "assists": [
+          "Clifford82"
+        ]
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Clifford82",
+        "assists": [
+          "CookieMnstr1616"
+        ]
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": [
+          "rdubsss23"
+        ]
+      },
+      {
+        "scorer": "rdubsss23",
+        "assists": [
+          "Tendy41"
+        ]
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": [
+          "rdubsss23"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "Apr 20",
+    "status": "FINAL",
+    "home": {
+      "team": "MTL",
+      "sog": 32.0,
+      "score": 4.0
+    },
+    "away": {
+      "team": "LAK",
+      "sog": 48.0,
+      "score": 6.0
     },
     "goals": [
       {
