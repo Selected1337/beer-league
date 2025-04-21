@@ -3,14 +3,96 @@
     "date": "Apr 20",
     "status": "FINAL",
     "home": {
+      "team": "MTL",
+      "sog": 63,
+      "score": 10
+    },
+    "away": {
       "team": "WSH",
-      "sog": 17,
-      "score": 3
+      "sog": 21,
+      "score": 4
+    },
+    "goals": [
+      {
+        "scorer": "Kuzy_God",
+        "assists": [
+          "Icespillermc"
+        ]
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "CookieMnstr1616",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": [
+          "winner16"
+        ]
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": [
+          "winner16"
+        ]
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Icespillermc",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "winner16",
+        "assists": [
+          "Tendy41"
+        ]
+      },
+      {
+        "scorer": "Icespillermc",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "winner16",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": [
+          "rdubsss23"
+        ]
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      }
+    ]
+  },
+  {
+    "date": "Apr 20",
+    "status": "FINAL",
+    "home": {
+      "team": "WSH",
+      "sog": 17.0,
+      "score": 3.0
     },
     "away": {
       "team": "MTL",
-      "sog": 27,
-      "score": 2
+      "sog": 27.0,
+      "score": 2.0
     },
     "goals": [
       {
