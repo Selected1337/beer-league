@@ -2,12 +2,12 @@
   {
     "player": "CookieMnstr1616",
     "team": "WSH",
-    "gamesPlayed": 5,
-    "saves": 171,
-    "goalsAgainst": 24,
-    "shotsAgainst": 195,
-    "savePercentage": 0.877,
-    "goalsAgainstAverage": 4.8
+    "gamesPlayed": 6,
+    "saves": 213,
+    "goalsAgainst": 35,
+    "shotsAgainst": 248,
+    "savePercentage": 0.859,
+    "goalsAgainstAverage": 5.833333333333333
   },
   {
     "player": "rdubsss23",
@@ -18,6 +18,16 @@
     "shotsAgainst": 96,
     "savePercentage": 0.865,
     "goalsAgainstAverage": 2.6
+  },
+  {
+    "player": "winner16",
+    "team": "MTL",
+    "gamesPlayed": 1,
+    "saves": 23,
+    "goalsAgainst": 7,
+    "shotsAgainst": 30,
+    "savePercentage": 0.767,
+    "goalsAgainstAverage": 7.0
   },
   {
     "player": "Icespillermc",
