@@ -5,12 +5,12 @@
     "shotsAgainst": 0,
     "player": "_JacksonBlake",
     "team": "LAK",
-    "goals": 1,
+    "goals": 4,
     "assists": 1,
-    "hits": 31,
-    "touches": 63,
-    "penalties": 5,
-    "gamesPlayed": 2
+    "hits": 52,
+    "touches": 137,
+    "penalties": 8,
+    "gamesPlayed": 3
   },
   {
     "saves": 0,
@@ -18,25 +18,25 @@
     "shotsAgainst": 0,
     "player": "Clifford82",
     "team": "LAK",
-    "goals": 5,
+    "goals": 7,
     "assists": 1,
-    "hits": 25,
-    "touches": 123,
-    "penalties": 2,
-    "gamesPlayed": 2
+    "hits": 50,
+    "touches": 270,
+    "penalties": 3,
+    "gamesPlayed": 3
   },
   {
-    "saves": 213,
-    "goalsAgainst": 35,
-    "shotsAgainst": 213,
+    "saves": 241,
+    "goalsAgainst": 39,
+    "shotsAgainst": 241,
     "player": "CookieMnstr1616",
     "team": "WSH",
     "goals": 1,
     "assists": 2,
-    "hits": 15,
-    "touches": 161,
+    "hits": 16,
+    "touches": 169,
     "penalties": 4,
-    "gamesPlayed": 7
+    "gamesPlayed": 8
   },
   {
     "saves": 2,
@@ -72,10 +72,10 @@
     "team": "MTL",
     "goals": 1,
     "assists": 6,
-    "hits": 37,
-    "touches": 127,
-    "penalties": 5,
-    "gamesPlayed": 7
+    "hits": 63,
+    "touches": 148,
+    "penalties": 17,
+    "gamesPlayed": 8
   },
   {
     "saves": 0,
@@ -83,24 +83,24 @@
     "shotsAgainst": 0,
     "player": "Tendy41",
     "team": "MTL",
-    "goals": 30,
+    "goals": 34,
     "assists": 4,
-    "hits": 143,
-    "touches": 973,
-    "penalties": 9,
-    "gamesPlayed": 7
+    "hits": 169,
+    "touches": 1100,
+    "penalties": 12,
+    "gamesPlayed": 8
   },
   {
-    "saves": 23,
-    "goalsAgainst": 7,
-    "shotsAgainst": 23,
+    "saves": 65,
+    "goalsAgainst": 13,
+    "shotsAgainst": 65,
     "player": "winner16",
     "team": "MTL",
     "goals": 5,
     "assists": 5,
-    "hits": 122,
-    "touches": 344,
-    "penalties": 24,
-    "gamesPlayed": 7
+    "hits": 130,
+    "touches": 386,
+    "penalties": 26,
+    "gamesPlayed": 8
   }
 ]
