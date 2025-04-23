@@ -87,8 +87,8 @@
   <header class="bg-black text-white p-4 shadow-md flex justify-between items-center">
     <h1 class="text-2xl font-bold">The Minecraft Beer Hockey League</h1>
     <div class="flex items-center gap-4">
-      <input id="player-search" type="text" placeholder="Search player" class="bg-gray-700 text-white p-1 rounded text-sm" oninput="renderPlayers()">
-      <button onclick="toggleTheme()" class="bg-gray-700 px-3 py-1 rounded text-sm hover:bg-gray-600">Toggle Dark/Light Mode</button>
+      <input id="player-search" type="text" placeholder="Search player" class="bg-black text-white p-1 rounded text-sm" oninput="renderPlayers()">
+      <button onclick="toggleTheme()" class="bg-black px-3 py-1 rounded text-sm hover:bg-gray-600">Toggle Dark/Light Mode</button>
     </div>
   </header>
 
@@ -106,7 +106,7 @@
     <section>
   <div class="flex justify-between items-center mb-2">
     <h2 class="text-xl font-semibold">Standings</h2>
-    <select id="standings-filter" class="bg-gray-700 text-white p-1 rounded text-sm">
+    <select id="standings-filter" class="bg-black text-white p-1 rounded text-sm">
       <option value="overall">Overall</option>
       <option value="conference">By Conference</option>
       <option value="division">By Division</option>
@@ -118,12 +118,12 @@
     <section>
       <div class="flex justify-between items-center mb-2">
         <h2 class="text-xl font-semibold">Player Stats</h2>
-        <select id="player-team-filter" class="bg-gray-700 text-white p-1 rounded">
+        <select id="player-team-filter" class="bg-black text-white p-1 rounded">
           <option value="">All Teams</option>
         </select>
       </div>
       <table class="min-w-full bg-card rounded shadow text-left">
-        <thead class="bg-gray-700 text-white">
+        <thead class="bg-black text-white">
           <tr>
             <th class="p-2 cursor-pointer" onclick="sortPlayers('player')">Player <span id="arrow-player" class="sort-arrow"></span></th>
             <th class="p-2 cursor-pointer" onclick="sortPlayers('team')">Team <span id="arrow-team" class="sort-arrow"></span></th>
@@ -142,12 +142,12 @@
     <section>
       <div class="flex justify-between items-center mb-2">
         <h2 class="text-xl font-semibold">Goalie Stats</h2>
-        <select id="goalie-team-filter" class="bg-gray-700 text-white p-1 rounded">
+        <select id="goalie-team-filter" class="bg-black text-white p-1 rounded">
           <option value="">All Teams</option>
         </select>
       </div>
       <table class="min-w-full bg-card rounded shadow text-left">
-        <thead class="bg-gray-700 text-white">
+        <thead class="bg-black text-white">
           <tr>
             <th class="p-2 cursor-pointer" onclick="sortGoalies('player')">Goalie <span id="arrow-goalie-player" class="sort-arrow"></span></th>
             <th class="p-2 cursor-pointer" onclick="sortGoalies('team')">Team <span id="arrow-goalie-team" class="sort-arrow"></span></th>
@@ -164,8 +164,8 @@
     <section>
       <h2 class="text-xl font-semibold mb-2">Player Comparison</h2>
       <div class="flex gap-4 mb-4">
-        <select id="compare1" class="bg-gray-700 text-white p-1 rounded"></select>
-        <select id="compare2" class="bg-gray-700 text-white p-1 rounded"></select>
+        <select id="compare1" class="bg-black text-white p-1 rounded"></select>
+        <select id="compare2" class="bg-black text-white p-1 rounded"></select>
       </div>
       <div id="comparison" class="grid grid-cols-2 gap-4 animate-fadeSlide"></div>
     </section>
@@ -318,7 +318,7 @@ Promise.all([
     container.innerHTML += `
       <div class="bg-card rounded-xl shadow p-3 text-sm space-y-2 w-full">
         <div class="flex justify-between items-center text-xs text-gray-400">
-          <span class="bg-gray-700 text-white px-2 py-0.5 rounded text-[10px]">${game.status}</span>
+          <span class="bg-black text-white px-2 py-0.5 rounded text-[10px]">${game.status}</span>
           <span class="text-[11px]">${game.date}</span>
         </div>
         <div class="flex justify-between items-center">
@@ -429,7 +429,7 @@ function renderStandings(type = "overall") {
       <div>
         <h3 class="text-lg font-semibold mb-1">${group}</h3>
         <table class="min-w-full bg-card rounded shadow text-left">
-          <thead class="bg-gray-700 text-white">
+          <thead class="bg-black text-white">
             <tr>
               <th class="p-2">Team</th>
               <th class="p-2">W</th>
