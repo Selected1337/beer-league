@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "player": "rdubsss23",
+    "team": "WSH",
+    "gamesPlayed": 1,
+    "saves": 17,
+    "goalsAgainst": 5,
+    "shotsAgainst": 22,
+    "savePercentage": 0.773,
+    "goalsAgainstAverage": 5.0
+  },
+  {
+    "player": "Tendy41",
+    "team": "LAK",
+    "gamesPlayed": 1,
+    "saves": 34,
+    "goalsAgainst": 7,
+    "shotsAgainst": 41,
+    "savePercentage": 0.829,
+    "goalsAgainstAverage": 7.0
+  }
+]
