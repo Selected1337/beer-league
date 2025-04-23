@@ -1,1 +1,60 @@
-[]
+[
+  {
+    "date": "Apr 23",
+    "status": "FINAL",
+    "home": {
+      "team": "MTL",
+      "sog": 24,
+      "score": 3
+    },
+    "away": {
+      "team": "LAK",
+      "sog": 33,
+      "score": 6
+    },
+    "goals": [
+      {
+        "scorer": "HerbeHumide",
+        "assists": [
+          "OnlyBirb"
+        ]
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Clifford82",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "HerbeHumide",
+        "assists": [
+          "OnlyBirb"
+        ]
+      },
+      {
+        "scorer": "OnlyBirb",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Clifford82",
+        "assists": [
+          "Tendy41"
+        ]
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Unknown",
+        "assists": "Unassisted"
+      }
+    ]
+  }
+]
