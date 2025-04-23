@@ -7,10 +7,10 @@
     "team": "LAK",
     "goals": 2,
     "assists": 0,
-    "hits": 24,
-    "touches": 112,
+    "hits": 25,
+    "touches": 113,
     "penalties": 2,
-    "gamesPlayed": 2
+    "gamesPlayed": 3
   },
   {
     "saves": 21,
@@ -21,9 +21,9 @@
     "goals": 0,
     "assists": 0,
     "hits": 1,
-    "touches": 15,
+    "touches": 16,
     "penalties": 0,
-    "gamesPlayed": 2
+    "gamesPlayed": 3
   },
   {
     "saves": 0,
@@ -46,10 +46,10 @@
     "team": "MTL",
     "goals": 1,
     "assists": 2,
-    "hits": 27,
-    "touches": 97,
+    "hits": 29,
+    "touches": 103,
     "penalties": 4,
-    "gamesPlayed": 2
+    "gamesPlayed": 3
   },
   {
     "saves": 0,
@@ -61,8 +61,8 @@
     "assists": 1,
     "hits": 28,
     "touches": 120,
-    "penalties": 3,
-    "gamesPlayed": 2
+    "penalties": 4,
+    "gamesPlayed": 3
   },
   {
     "saves": 27,
