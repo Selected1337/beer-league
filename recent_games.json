@@ -4,13 +4,57 @@
     "status": "FINAL",
     "home": {
       "team": "WSH",
-      "sog": 23,
-      "score": 5
+      "sog": 42,
+      "score": 3
     },
     "away": {
       "team": "LAK",
-      "sog": 33,
-      "score": 6
+      "sog": 19,
+      "score": 4
+    },
+    "goals": [
+      {
+        "scorer": "Icespillermc",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Icespillermc",
+        "assists": [
+          "Tendy41"
+        ]
+      },
+      {
+        "scorer": "_JacksonBlake",
+        "assists": [
+          "Scp999v2"
+        ]
+      },
+      {
+        "scorer": "_JacksonBlake",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "_JacksonBlake",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Icespillermc",
+        "assists": "Unassisted"
+      }
+    ]
+  },
+  {
+    "date": "Apr 22",
+    "status": "FINAL",
+    "home": {
+      "team": "WSH",
+      "sog": 23.0,
+      "score": 5.0
+    },
+    "away": {
+      "team": "LAK",
+      "sog": 33.0,
+      "score": 6.0
     },
     "goals": [
       {
