@@ -4,13 +4,28 @@
     "status": "FINAL",
     "home": {
       "team": "MTL",
-      "sog": 24,
-      "score": 3
+      "sog": 0,
+      "score": 0
     },
     "away": {
       "team": "LAK",
-      "sog": 33,
-      "score": 6
+      "sog": 0,
+      "score": 0
+    },
+    "goals": []
+  },
+  {
+    "date": "Apr 23",
+    "status": "FINAL",
+    "home": {
+      "team": "MTL",
+      "sog": 24.0,
+      "score": 3.0
+    },
+    "away": {
+      "team": "LAK",
+      "sog": 33.0,
+      "score": 6.0
     },
     "goals": [
       {
