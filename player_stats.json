@@ -3,14 +3,27 @@
     "saves": 0,
     "goalsAgainst": 0,
     "shotsAgainst": 0,
+    "player": "_JacksonBlake",
+    "team": "MTL",
+    "goals": 4,
+    "assists": 1,
+    "hits": 27,
+    "touches": 64,
+    "penalties": 2,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
     "player": "Clifford82",
     "team": "MTL",
-    "goals": 16,
-    "assists": 3,
-    "hits": 115,
-    "touches": 467,
-    "penalties": 17,
-    "gamesPlayed": 5
+    "goals": 21,
+    "assists": 7,
+    "hits": 141,
+    "touches": 614,
+    "penalties": 22,
+    "gamesPlayed": 6
   },
   {
     "saves": 40,
@@ -47,35 +60,35 @@
     "goals": 9,
     "assists": 4,
     "hits": 47,
-    "touches": 197,
+    "touches": 198,
     "penalties": 16,
-    "gamesPlayed": 5
+    "gamesPlayed": 6
   },
   {
-    "saves": 52,
-    "goalsAgainst": 14,
-    "shotsAgainst": 52,
+    "saves": 80,
+    "goalsAgainst": 23,
+    "shotsAgainst": 80,
     "player": "JavonBaker",
     "team": "NYI",
     "goals": 0,
     "assists": 0,
-    "hits": 8,
-    "touches": 62,
-    "penalties": 2,
-    "gamesPlayed": 4
+    "hits": 14,
+    "touches": 99,
+    "penalties": 3,
+    "gamesPlayed": 5
   },
   {
-    "saves": 45,
-    "goalsAgainst": 32,
-    "shotsAgainst": 45,
+    "saves": 54,
+    "goalsAgainst": 39,
+    "shotsAgainst": 54,
     "player": "rdubsss23",
     "team": "MTL",
     "goals": 1,
     "assists": 4,
-    "hits": 55,
-    "touches": 133,
+    "hits": 61,
+    "touches": 150,
     "penalties": 2,
-    "gamesPlayed": 5
+    "gamesPlayed": 6
   },
   {
     "saves": 0,
@@ -83,24 +96,24 @@
     "shotsAgainst": 0,
     "player": "Scp999v2",
     "team": "NYI",
-    "goals": 2,
+    "goals": 4,
     "assists": 7,
-    "hits": 79,
-    "touches": 179,
-    "penalties": 17,
-    "gamesPlayed": 5
+    "hits": 101,
+    "touches": 208,
+    "penalties": 24,
+    "gamesPlayed": 6
   },
   {
-    "saves": 0,
-    "goalsAgainst": 0,
-    "shotsAgainst": 0,
+    "saves": 1,
+    "goalsAgainst": 1,
+    "shotsAgainst": 1,
     "player": "Tendy41",
     "team": "NYI",
-    "goals": 27,
+    "goals": 32,
     "assists": 0,
-    "hits": 154,
-    "touches": 632,
-    "penalties": 21,
-    "gamesPlayed": 5
+    "hits": 195,
+    "touches": 764,
+    "penalties": 27,
+    "gamesPlayed": 6
   }
 ]
