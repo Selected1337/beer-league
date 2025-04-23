@@ -18,25 +18,25 @@
     "shotsAgainst": 0,
     "player": "Clifford82",
     "team": "MTL",
-    "goals": 21,
+    "goals": 29,
     "assists": 7,
-    "hits": 141,
-    "touches": 614,
-    "penalties": 22,
-    "gamesPlayed": 6
+    "hits": 157,
+    "touches": 721,
+    "penalties": 23,
+    "gamesPlayed": 7
   },
   {
-    "saves": 40,
-    "goalsAgainst": 8,
-    "shotsAgainst": 40,
+    "saves": 56,
+    "goalsAgainst": 11,
+    "shotsAgainst": 56,
     "player": "CookieMnstr1616",
     "team": "NYI",
     "goals": 0,
     "assists": 1,
-    "hits": 3,
-    "touches": 30,
+    "hits": 4,
+    "touches": 44,
     "penalties": 1,
-    "gamesPlayed": 3
+    "gamesPlayed": 4
   },
   {
     "saves": 0,
@@ -50,6 +50,19 @@
     "touches": 7,
     "penalties": 2,
     "gamesPlayed": 3
+  },
+  {
+    "saves": 1,
+    "goalsAgainst": 0,
+    "shotsAgainst": 1,
+    "player": "HerbeHumide",
+    "team": "MTL",
+    "goals": 0,
+    "assists": 1,
+    "hits": 44,
+    "touches": 53,
+    "penalties": 7,
+    "gamesPlayed": 2
   },
   {
     "saves": 0,
@@ -76,6 +89,19 @@
     "touches": 99,
     "penalties": 3,
     "gamesPlayed": 5
+  },
+  {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
+    "player": "OnlyBirb",
+    "team": "MTL",
+    "goals": 3,
+    "assists": 0,
+    "hits": 27,
+    "touches": 93,
+    "penalties": 7,
+    "gamesPlayed": 2
   },
   {
     "saves": 54,
@@ -109,11 +135,24 @@
     "shotsAgainst": 1,
     "player": "Tendy41",
     "team": "NYI",
-    "goals": 32,
-    "assists": 0,
-    "hits": 195,
-    "touches": 764,
-    "penalties": 27,
-    "gamesPlayed": 6
+    "goals": 34,
+    "assists": 3,
+    "hits": 220,
+    "touches": 884,
+    "penalties": 33,
+    "gamesPlayed": 7
+  },
+  {
+    "saves": 29,
+    "goalsAgainst": 10,
+    "shotsAgainst": 29,
+    "player": "winner16",
+    "team": "MTL",
+    "goals": 0,
+    "assists": 1,
+    "hits": 10,
+    "touches": 35,
+    "penalties": 1,
+    "gamesPlayed": 2
   }
 ]
