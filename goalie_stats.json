@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "player": "CookieMnstr1616",
+    "team": "LAK",
+    "gamesPlayed": 1,
+    "saves": 21,
+    "goalsAgainst": 3,
+    "shotsAgainst": 24,
+    "savePercentage": 0.875,
+    "goalsAgainstAverage": 3.0
+  },
+  {
+    "player": "winner16",
+    "team": "MTL",
+    "gamesPlayed": 1,
+    "saves": 27,
+    "goalsAgainst": 6,
+    "shotsAgainst": 33,
+    "savePercentage": 0.818,
+    "goalsAgainstAverage": 6.0
+  }
+]
