@@ -1,1 +1,93 @@
-[]
+[
+  {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
+    "player": "Clifford82",
+    "team": "MTL",
+    "goals": 3,
+    "assists": 1,
+    "hits": 24,
+    "touches": 110,
+    "penalties": 3,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 32,
+    "goalsAgainst": 5,
+    "shotsAgainst": 32,
+    "player": "CookieMnstr1616",
+    "team": "NYI",
+    "goals": 0,
+    "assists": 1,
+    "hits": 3,
+    "touches": 23,
+    "penalties": 0,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
+    "player": "Eclipae",
+    "team": "MTL",
+    "goals": 0,
+    "assists": 0,
+    "hits": 4,
+    "touches": 5,
+    "penalties": 0,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
+    "player": "Icespillermc",
+    "team": "MTL",
+    "goals": 2,
+    "assists": 1,
+    "hits": 13,
+    "touches": 47,
+    "penalties": 3,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 13,
+    "goalsAgainst": 9,
+    "shotsAgainst": 13,
+    "player": "rdubsss23",
+    "team": "MTL",
+    "goals": 0,
+    "assists": 0,
+    "hits": 3,
+    "touches": 34,
+    "penalties": 0,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
+    "player": "Scp999v2",
+    "team": "NYI",
+    "goals": 1,
+    "assists": 2,
+    "hits": 21,
+    "touches": 46,
+    "penalties": 4,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
+    "player": "Tendy41",
+    "team": "NYI",
+    "goals": 6,
+    "assists": 0,
+    "hits": 37,
+    "touches": 144,
+    "penalties": 5,
+    "gamesPlayed": 2
+  }
+]
