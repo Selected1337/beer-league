@@ -2,21 +2,41 @@
   {
     "player": "rdubsss23",
     "team": "WSH",
+    "gamesPlayed": 2,
+    "saves": 43,
+    "goalsAgainst": 11,
+    "shotsAgainst": 54,
+    "savePercentage": 0.796,
+    "goalsAgainstAverage": 5.5
+  },
+  {
+    "player": "Icespillermc",
+    "team": "LAK",
     "gamesPlayed": 1,
-    "saves": 17,
-    "goalsAgainst": 5,
-    "shotsAgainst": 22,
-    "savePercentage": 0.773,
-    "goalsAgainstAverage": 5.0
+    "saves": 5,
+    "goalsAgainst": 2,
+    "shotsAgainst": 7,
+    "savePercentage": 0.714,
+    "goalsAgainstAverage": 2.0
+  },
+  {
+    "player": "_JacksonBlake",
+    "team": "WSH",
+    "gamesPlayed": 1,
+    "saves": 1,
+    "goalsAgainst": 0,
+    "shotsAgainst": 1,
+    "savePercentage": 1.0,
+    "goalsAgainstAverage": 0.0
   },
   {
     "player": "Tendy41",
     "team": "LAK",
-    "gamesPlayed": 1,
-    "saves": 34,
-    "goalsAgainst": 7,
-    "shotsAgainst": 41,
-    "savePercentage": 0.829,
-    "goalsAgainstAverage": 7.0
+    "gamesPlayed": 2,
+    "saves": 47,
+    "goalsAgainst": 10,
+    "shotsAgainst": 57,
+    "savePercentage": 0.825,
+    "goalsAgainstAverage": 5.0
   }
 ]
