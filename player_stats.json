@@ -5,12 +5,12 @@
     "shotsAgainst": 0,
     "player": "Clifford82",
     "team": "MTL",
-    "goals": 14,
+    "goals": 16,
     "assists": 3,
-    "hits": 87,
-    "touches": 345,
-    "penalties": 12,
-    "gamesPlayed": 4
+    "hits": 115,
+    "touches": 467,
+    "penalties": 17,
+    "gamesPlayed": 5
   },
   {
     "saves": 40,
@@ -44,38 +44,38 @@
     "shotsAgainst": 0,
     "player": "Icespillermc",
     "team": "MTL",
-    "goals": 8,
-    "assists": 3,
-    "hits": 36,
-    "touches": 152,
-    "penalties": 11,
-    "gamesPlayed": 4
+    "goals": 9,
+    "assists": 4,
+    "hits": 47,
+    "touches": 197,
+    "penalties": 16,
+    "gamesPlayed": 5
   },
   {
-    "saves": 27,
-    "goalsAgainst": 11,
-    "shotsAgainst": 27,
+    "saves": 52,
+    "goalsAgainst": 14,
+    "shotsAgainst": 52,
     "player": "JavonBaker",
     "team": "NYI",
     "goals": 0,
     "assists": 0,
-    "hits": 3,
-    "touches": 37,
-    "penalties": 1,
-    "gamesPlayed": 3
+    "hits": 8,
+    "touches": 62,
+    "penalties": 2,
+    "gamesPlayed": 4
   },
   {
-    "saves": 35,
-    "goalsAgainst": 22,
-    "shotsAgainst": 35,
+    "saves": 45,
+    "goalsAgainst": 32,
+    "shotsAgainst": 45,
     "player": "rdubsss23",
     "team": "MTL",
     "goals": 1,
-    "assists": 3,
-    "hits": 39,
-    "touches": 99,
-    "penalties": 0,
-    "gamesPlayed": 4
+    "assists": 4,
+    "hits": 55,
+    "touches": 133,
+    "penalties": 2,
+    "gamesPlayed": 5
   },
   {
     "saves": 0,
@@ -84,11 +84,11 @@
     "player": "Scp999v2",
     "team": "NYI",
     "goals": 2,
-    "assists": 6,
-    "hits": 57,
-    "touches": 138,
-    "penalties": 14,
-    "gamesPlayed": 4
+    "assists": 7,
+    "hits": 79,
+    "touches": 179,
+    "penalties": 17,
+    "gamesPlayed": 5
   },
   {
     "saves": 0,
@@ -96,11 +96,11 @@
     "shotsAgainst": 0,
     "player": "Tendy41",
     "team": "NYI",
-    "goals": 18,
+    "goals": 27,
     "assists": 0,
-    "hits": 119,
-    "touches": 464,
-    "penalties": 17,
-    "gamesPlayed": 4
+    "hits": 154,
+    "touches": 632,
+    "penalties": 21,
+    "gamesPlayed": 5
   }
 ]
