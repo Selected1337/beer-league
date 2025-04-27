@@ -1,1 +1,32 @@
-[]
+[
+  {
+    "player": "_Kriptiv_",
+    "team": "GRZ",
+    "gamesPlayed": 1,
+    "saves": 21,
+    "goalsAgainst": 8,
+    "shotsAgainst": 29,
+    "savePercentage": 0.724,
+    "goalsAgainstAverage": 8.0
+  },
+  {
+    "player": "cam364",
+    "team": "MTL",
+    "gamesPlayed": 1,
+    "saves": 3,
+    "goalsAgainst": 2,
+    "shotsAgainst": 5,
+    "savePercentage": 0.6,
+    "goalsAgainstAverage": 2.0
+  },
+  {
+    "player": "_JacksonBlake",
+    "team": "MTL",
+    "gamesPlayed": 1,
+    "saves": 0,
+    "goalsAgainst": 1,
+    "shotsAgainst": 1,
+    "savePercentage": 0.0,
+    "goalsAgainstAverage": 1.0
+  }
+]
