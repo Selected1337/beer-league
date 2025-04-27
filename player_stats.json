@@ -5,12 +5,12 @@
     "shotsAgainst": 0,
     "player": "_JacksonBlake",
     "team": "MTL",
-    "goals": 5,
-    "assists": 1,
-    "hits": 51,
-    "touches": 157,
-    "penalties": 7,
-    "gamesPlayed": 3
+    "goals": 7,
+    "assists": 2,
+    "hits": 86,
+    "touches": 258,
+    "penalties": 13,
+    "gamesPlayed": 4
   },
   {
     "saves": 0,
@@ -18,12 +18,12 @@
     "shotsAgainst": 0,
     "player": "_Kriptiv_",
     "team": "GRZ",
-    "goals": 2,
+    "goals": 4,
     "assists": 3,
-    "hits": 63,
-    "touches": 137,
-    "penalties": 22,
-    "gamesPlayed": 3
+    "hits": 108,
+    "touches": 209,
+    "penalties": 28,
+    "gamesPlayed": 4
   },
   {
     "saves": 0,
@@ -31,38 +31,38 @@
     "shotsAgainst": 0,
     "player": "cam364",
     "team": "MTL",
-    "goals": 2,
-    "assists": 3,
-    "hits": 69,
-    "touches": 154,
-    "penalties": 10,
-    "gamesPlayed": 3
+    "goals": 3,
+    "assists": 4,
+    "hits": 101,
+    "touches": 198,
+    "penalties": 19,
+    "gamesPlayed": 4
   },
   {
-    "saves": 32,
-    "goalsAgainst": 12,
-    "shotsAgainst": 32,
+    "saves": 56,
+    "goalsAgainst": 17,
+    "shotsAgainst": 56,
     "player": "OnlyBirb",
     "team": "MTL",
     "goals": 0,
     "assists": 2,
-    "hits": 6,
-    "touches": 89,
+    "hits": 12,
+    "touches": 153,
     "penalties": 0,
-    "gamesPlayed": 3
+    "gamesPlayed": 4
   },
   {
-    "saves": 33,
-    "goalsAgainst": 7,
-    "shotsAgainst": 33,
+    "saves": 50,
+    "goalsAgainst": 10,
+    "shotsAgainst": 50,
     "player": "Scp999v2",
     "team": "GRZ",
     "goals": 0,
     "assists": 0,
-    "hits": 6,
-    "touches": 44,
+    "hits": 14,
+    "touches": 67,
     "penalties": 1,
-    "gamesPlayed": 3
+    "gamesPlayed": 4
   },
   {
     "saves": 0,
@@ -70,11 +70,11 @@
     "shotsAgainst": 0,
     "player": "Tendy41",
     "team": "GRZ",
-    "goals": 6,
+    "goals": 7,
     "assists": 1,
-    "hits": 70,
-    "touches": 251,
-    "penalties": 9,
-    "gamesPlayed": 3
+    "hits": 99,
+    "touches": 352,
+    "penalties": 12,
+    "gamesPlayed": 4
   }
 ]
