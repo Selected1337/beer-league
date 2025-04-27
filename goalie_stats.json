@@ -12,21 +12,21 @@
   {
     "player": "Tendy41",
     "team": "MTL",
-    "gamesPlayed": 3,
-    "saves": 70,
-    "goalsAgainst": 9,
-    "shotsAgainst": 79,
-    "savePercentage": 0.886,
-    "goalsAgainstAverage": 3.0
+    "gamesPlayed": 4,
+    "saves": 93,
+    "goalsAgainst": 11,
+    "shotsAgainst": 104,
+    "savePercentage": 0.894,
+    "goalsAgainstAverage": 2.75
   },
   {
     "player": "OnlyBirb",
     "team": "GRZ",
-    "gamesPlayed": 3,
-    "saves": 67,
-    "goalsAgainst": 8,
-    "shotsAgainst": 75,
-    "savePercentage": 0.893,
-    "goalsAgainstAverage": 2.6666666666666665
+    "gamesPlayed": 4,
+    "saves": 84,
+    "goalsAgainst": 9,
+    "shotsAgainst": 93,
+    "savePercentage": 0.903,
+    "goalsAgainstAverage": 2.25
   }
 ]
