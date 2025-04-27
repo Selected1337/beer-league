@@ -4,13 +4,53 @@
     "status": "FINAL",
     "home": {
       "team": "GRZ",
-      "sog": 28,
-      "score": 5
+      "sog": 20,
+      "score": 4
     },
     "away": {
       "team": "MTL",
-      "sog": 25,
-      "score": 2
+      "sog": 24,
+      "score": 1
+    },
+    "goals": [
+      {
+        "scorer": "_Kriptiv_",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "_Kriptiv_",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Scp999v2",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "_Kriptiv_",
+        "assists": [
+          "OnlyBirb"
+        ]
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": [
+          "Kuzy_God"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "Apr 26",
+    "status": "FINAL",
+    "home": {
+      "team": "GRZ",
+      "sog": 28.0,
+      "score": 5.0
+    },
+    "away": {
+      "team": "MTL",
+      "sog": 25.0,
+      "score": 2.0
     },
     "goals": [
       {
