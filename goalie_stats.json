@@ -2,21 +2,21 @@
   {
     "player": "Scp999v2",
     "team": "GRZ",
-    "gamesPlayed": 2,
-    "saves": 33,
-    "goalsAgainst": 7,
-    "shotsAgainst": 40,
-    "savePercentage": 0.825,
-    "goalsAgainstAverage": 3.5
+    "gamesPlayed": 3,
+    "saves": 50,
+    "goalsAgainst": 10,
+    "shotsAgainst": 60,
+    "savePercentage": 0.833,
+    "goalsAgainstAverage": 3.3333333333333335
   },
   {
     "player": "OnlyBirb",
     "team": "MTL",
-    "gamesPlayed": 2,
-    "saves": 32,
-    "goalsAgainst": 12,
-    "shotsAgainst": 44,
-    "savePercentage": 0.727,
-    "goalsAgainstAverage": 6.0
+    "gamesPlayed": 3,
+    "saves": 56,
+    "goalsAgainst": 17,
+    "shotsAgainst": 73,
+    "savePercentage": 0.767,
+    "goalsAgainstAverage": 5.666666666666667
   }
 ]
