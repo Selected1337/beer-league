@@ -5,12 +5,12 @@
     "shotsAgainst": 0,
     "player": "_Kriptiv_",
     "team": "GRZ",
-    "goals": 3,
+    "goals": 6,
     "assists": 0,
-    "hits": 56,
-    "touches": 102,
-    "penalties": 9,
-    "gamesPlayed": 2
+    "hits": 110,
+    "touches": 204,
+    "penalties": 19,
+    "gamesPlayed": 3
   },
   {
     "saves": 0,
@@ -20,10 +20,10 @@
     "team": "MTL",
     "goals": 2,
     "assists": 0,
-    "hits": 31,
-    "touches": 98,
-    "penalties": 6,
-    "gamesPlayed": 2
+    "hits": 51,
+    "touches": 182,
+    "penalties": 11,
+    "gamesPlayed": 3
   },
   {
     "saves": 0,
@@ -32,24 +32,24 @@
     "player": "Kuzy_God",
     "team": "MTL",
     "goals": 0,
-    "assists": 1,
-    "hits": 19,
-    "touches": 51,
-    "penalties": 5,
-    "gamesPlayed": 2
+    "assists": 2,
+    "hits": 38,
+    "touches": 95,
+    "penalties": 9,
+    "gamesPlayed": 3
   },
   {
-    "saves": 23,
-    "goalsAgainst": 2,
-    "shotsAgainst": 23,
+    "saves": 46,
+    "goalsAgainst": 3,
+    "shotsAgainst": 46,
     "player": "OnlyBirb",
     "team": "GRZ",
     "goals": 0,
-    "assists": 2,
-    "hits": 0,
-    "touches": 35,
+    "assists": 3,
+    "hits": 6,
+    "touches": 73,
     "penalties": 1,
-    "gamesPlayed": 2
+    "gamesPlayed": 3
   },
   {
     "saves": 0,
@@ -57,24 +57,24 @@
     "shotsAgainst": 0,
     "player": "Scp999v2",
     "team": "GRZ",
-    "goals": 1,
+    "goals": 2,
     "assists": 0,
-    "hits": 37,
-    "touches": 41,
-    "penalties": 4,
-    "gamesPlayed": 2
+    "hits": 62,
+    "touches": 89,
+    "penalties": 7,
+    "gamesPlayed": 3
   },
   {
-    "saves": 23,
-    "goalsAgainst": 4,
-    "shotsAgainst": 23,
+    "saves": 39,
+    "goalsAgainst": 6,
+    "shotsAgainst": 39,
     "player": "Tendy41",
     "team": "MTL",
-    "goals": 0,
+    "goals": 1,
     "assists": 1,
-    "hits": 2,
-    "touches": 53,
+    "hits": 7,
+    "touches": 109,
     "penalties": 0,
-    "gamesPlayed": 2
+    "gamesPlayed": 3
   }
 ]
