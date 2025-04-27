@@ -1,23 +1,33 @@
 [
   {
-    "player": "_Kriptiv_",
+    "player": "Scp999v2",
     "team": "GRZ",
     "gamesPlayed": 1,
-    "saves": 21,
-    "goalsAgainst": 8,
-    "shotsAgainst": 29,
-    "savePercentage": 0.724,
-    "goalsAgainstAverage": 8.0
+    "saves": 2,
+    "goalsAgainst": 0,
+    "shotsAgainst": 2,
+    "savePercentage": 1.0,
+    "goalsAgainstAverage": 0.0
+  },
+  {
+    "player": "_Kriptiv_",
+    "team": "GRZ",
+    "gamesPlayed": 2,
+    "saves": 33,
+    "goalsAgainst": 21,
+    "shotsAgainst": 54,
+    "savePercentage": 0.611,
+    "goalsAgainstAverage": 10.5
   },
   {
     "player": "cam364",
     "team": "MTL",
-    "gamesPlayed": 1,
-    "saves": 3,
+    "gamesPlayed": 2,
+    "saves": 13,
     "goalsAgainst": 2,
-    "shotsAgainst": 5,
-    "savePercentage": 0.6,
-    "goalsAgainstAverage": 2.0
+    "shotsAgainst": 15,
+    "savePercentage": 0.867,
+    "goalsAgainstAverage": 1.0
   },
   {
     "player": "_JacksonBlake",
