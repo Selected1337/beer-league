@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "player": "Tendy41",
+    "team": "MTL",
+    "gamesPlayed": 1,
+    "saves": 23,
+    "goalsAgainst": 4,
+    "shotsAgainst": 27,
+    "savePercentage": 0.852,
+    "goalsAgainstAverage": 4.0
+  },
+  {
+    "player": "OnlyBirb",
+    "team": "GRZ",
+    "gamesPlayed": 1,
+    "saves": 23,
+    "goalsAgainst": 2,
+    "shotsAgainst": 25,
+    "savePercentage": 0.92,
+    "goalsAgainstAverage": 2.0
+  }
+]
