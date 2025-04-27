@@ -4,13 +4,65 @@
     "status": "FINAL",
     "home": {
       "team": "GRZ",
-      "sog": 21,
-      "score": 8
+      "sog": 29,
+      "score": 5
     },
     "away": {
       "team": "MTL",
-      "sog": 18,
-      "score": 4
+      "sog": 20,
+      "score": 3
+    },
+    "goals": [
+      {
+        "scorer": "Unknown",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Unknown",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "_Kriptiv_",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "cam364",
+        "assists": [
+          "_JacksonBlake"
+        ]
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "_Kriptiv_",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "_JacksonBlake",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "_JacksonBlake",
+        "assists": [
+          "cam364"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "Apr 26",
+    "status": "FINAL",
+    "home": {
+      "team": "GRZ",
+      "sog": 21.0,
+      "score": 8.0
+    },
+    "away": {
+      "team": "MTL",
+      "sog": 18.0,
+      "score": 4.0
     },
     "goals": [
       {
