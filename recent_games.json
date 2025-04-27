@@ -1,1 +1,68 @@
-[]
+[
+  {
+    "date": "Apr 26",
+    "status": "FINAL",
+    "home": {
+      "team": "GRZ",
+      "sog": 5,
+      "score": 2
+    },
+    "away": {
+      "team": "MTL",
+      "sog": 29,
+      "score": 8
+    },
+    "goals": [
+      {
+        "scorer": "Unknown",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "_JacksonBlake",
+        "assists": [
+          "OnlyBirb"
+        ]
+      },
+      {
+        "scorer": "_JacksonBlake",
+        "assists": [
+          "OnlyBirb"
+        ]
+      },
+      {
+        "scorer": "Scp999v2",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Kuzy_God",
+        "assists": [
+          "Scp999v2"
+        ]
+      },
+      {
+        "scorer": "Unknown",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "OnlyBirb",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "_JacksonBlake",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "_JacksonBlake",
+        "assists": [
+          "OnlyBirb"
+        ]
+      },
+      {
+        "scorer": "OnlyBirb",
+        "assists": [
+          "_JacksonBlake"
+        ]
+      }
+    ]
+  }
+]
