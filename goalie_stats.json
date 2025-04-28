@@ -2,21 +2,21 @@
   {
     "player": "CookieMnstr1616",
     "team": "MTL",
-    "gamesPlayed": 2,
-    "saves": 40,
-    "goalsAgainst": 7,
-    "shotsAgainst": 47,
-    "savePercentage": 0.851,
-    "goalsAgainstAverage": 3.5
+    "gamesPlayed": 3,
+    "saves": 74,
+    "goalsAgainst": 10,
+    "shotsAgainst": 84,
+    "savePercentage": 0.881,
+    "goalsAgainstAverage": 3.3333333333333335
   },
   {
     "player": "_Kriptiv_",
     "team": "LAK",
-    "gamesPlayed": 2,
-    "saves": 21,
-    "goalsAgainst": 5,
-    "shotsAgainst": 26,
-    "savePercentage": 0.808,
-    "goalsAgainstAverage": 2.5
+    "gamesPlayed": 3,
+    "saves": 46,
+    "goalsAgainst": 10,
+    "shotsAgainst": 56,
+    "savePercentage": 0.821,
+    "goalsAgainstAverage": 3.3333333333333335
   }
 ]
