@@ -9,8 +9,80 @@
     },
     "away": {
       "team": "MTL",
-      "sog": 29,
-      "score": 3
+      "sog": 35,
+      "score": 5
+    },
+    "goals": [
+      {
+        "scorer": "Pluds",
+        "assists": [
+          "rdubsss23"
+        ]
+      },
+      {
+        "scorer": "cam364",
+        "assists": [
+          "CookieMnstr1616"
+        ]
+      },
+      {
+        "scorer": "rdubsss23",
+        "assists": [
+          "Pluds"
+        ]
+      },
+      {
+        "scorer": "Pluds",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Pluds",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": [
+          "CookieMnstr1616"
+        ]
+      },
+      {
+        "scorer": "Pluds",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": [
+          "cam364"
+        ]
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Pluds",
+        "assists": [
+          "rdubsss23"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "Apr 28",
+    "status": "FINAL",
+    "home": {
+      "team": "NYI",
+      "sog": 29.0,
+      "score": 6.0
+    },
+    "away": {
+      "team": "MTL",
+      "sog": 29.0,
+      "score": 3.0
     },
     "goals": [
       {
