@@ -4,13 +4,77 @@
     "status": "FINAL",
     "home": {
       "team": "NYI",
-      "sog": 29,
-      "score": 6
+      "sog": 28,
+      "score": 2
     },
     "away": {
       "team": "MTL",
-      "sog": 35,
-      "score": 5
+      "sog": 9,
+      "score": 9
+    },
+    "goals": [
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": [
+          "cam364"
+        ]
+      },
+      {
+        "scorer": "cam364",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "rdubsss23",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Pluds",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "cam364",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": [
+          "cam364"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "Apr 28",
+    "status": "FINAL",
+    "home": {
+      "team": "NYI",
+      "sog": 29.0,
+      "score": 6.0
+    },
+    "away": {
+      "team": "MTL",
+      "sog": 35.0,
+      "score": 5.0
     },
     "goals": [
       {
