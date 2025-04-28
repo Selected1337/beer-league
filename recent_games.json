@@ -4,13 +4,85 @@
     "status": "FINAL",
     "home": {
       "team": "MTL",
-      "sog": 20,
-      "score": 2
+      "sog": 21,
+      "score": 7
     },
     "away": {
       "team": "LAK",
-      "sog": 28,
-      "score": 3
+      "sog": 32,
+      "score": 4
+    },
+    "goals": [
+      {
+        "scorer": "cam364",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "cam364",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "_JacksonBlake",
+        "assists": [
+          "_Kriptiv_"
+        ]
+      },
+      {
+        "scorer": "cam364",
+        "assists": [
+          "OnlyBirb"
+        ]
+      },
+      {
+        "scorer": "Unknown",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "_JacksonBlake",
+        "assists": [
+          "Tendy41"
+        ]
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": [
+          "_JacksonBlake"
+        ]
+      },
+      {
+        "scorer": "OnlyBirb",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "cam364",
+        "assists": [
+          "CookieMnstr1616"
+        ]
+      },
+      {
+        "scorer": "OnlyBirb",
+        "assists": [
+          "cam364"
+        ]
+      },
+      {
+        "scorer": "OnlyBirb",
+        "assists": "Unassisted"
+      }
+    ]
+  },
+  {
+    "date": "Apr 27",
+    "status": "FINAL",
+    "home": {
+      "team": "MTL",
+      "sog": 20.0,
+      "score": 2.0
+    },
+    "away": {
+      "team": "LAK",
+      "sog": 28.0,
+      "score": 3.0
     },
     "goals": [
       {
