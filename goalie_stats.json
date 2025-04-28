@@ -12,11 +12,21 @@
   {
     "player": "CookieMnstr1616",
     "team": "MTL",
-    "gamesPlayed": 3,
-    "saves": 72,
-    "goalsAgainst": 13,
-    "shotsAgainst": 85,
-    "savePercentage": 0.847,
-    "goalsAgainstAverage": 4.333333333333333
+    "gamesPlayed": 4,
+    "saves": 94,
+    "goalsAgainst": 19,
+    "shotsAgainst": 113,
+    "savePercentage": 0.832,
+    "goalsAgainstAverage": 4.75
+  },
+  {
+    "player": "rdubsss23",
+    "team": "NYI",
+    "gamesPlayed": 1,
+    "saves": 15,
+    "goalsAgainst": 8,
+    "shotsAgainst": 23,
+    "savePercentage": 0.652,
+    "goalsAgainstAverage": 8.0
   }
 ]
