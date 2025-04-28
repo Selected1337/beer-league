@@ -4,13 +4,57 @@
     "status": "FINAL",
     "home": {
       "team": "MTL",
-      "sog": 30,
-      "score": 5
+      "sog": 20,
+      "score": 2
     },
     "away": {
       "team": "LAK",
-      "sog": 38,
-      "score": 4
+      "sog": 28,
+      "score": 3
+    },
+    "goals": [
+      {
+        "scorer": "OnlyBirb",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "_JacksonBlake",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "cam364",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "_JacksonBlake",
+        "assists": [
+          "Tendy41"
+        ]
+      },
+      {
+        "scorer": "OnlyBirb",
+        "assists": [
+          "cam364"
+        ]
+      }
+    ]
+  },
+  {
+    "date": "Apr 27",
+    "status": "FINAL",
+    "home": {
+      "team": "MTL",
+      "sog": 30.0,
+      "score": 5.0
+    },
+    "away": {
+      "team": "LAK",
+      "sog": 38.0,
+      "score": 4.0
     },
     "goals": [
       {
