@@ -9,8 +9,23 @@
     },
     "away": {
       "team": "MTL",
-      "sog": 1,
-      "score": 1
+      "sog": 0,
+      "score": 0
+    },
+    "goals": []
+  },
+  {
+    "date": "Apr 27",
+    "status": "FINAL",
+    "home": {
+      "team": "NYI",
+      "sog": 0.0,
+      "score": 0.0
+    },
+    "away": {
+      "team": "MTL",
+      "sog": 1.0,
+      "score": 1.0
     },
     "goals": [
       {
