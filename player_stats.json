@@ -1,7 +1,7 @@
 [
   {
     "saves": 0,
-    "goalsAgainst": 1,
+    "goalsAgainst": 2,
     "shotsAgainst": 0,
     "player": "_JacksonBlake",
     "team": "NYI",
@@ -10,7 +10,7 @@
     "hits": 23,
     "touches": 71,
     "penalties": 5,
-    "gamesPlayed": 2
+    "gamesPlayed": 3
   },
   {
     "saves": 0,
@@ -31,12 +31,12 @@
     "shotsAgainst": 0,
     "player": "cam364",
     "team": "MTL",
-    "goals": 3,
+    "goals": 4,
     "assists": 2,
     "hits": 22,
-    "touches": 66,
+    "touches": 68,
     "penalties": 4,
-    "gamesPlayed": 2
+    "gamesPlayed": 3
   },
   {
     "saves": 21,
