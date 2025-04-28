@@ -1,1 +1,56 @@
-[]
+[
+  {
+    "date": "Apr 27",
+    "status": "FINAL",
+    "home": {
+      "team": "NYI",
+      "sog": 22,
+      "score": 1
+    },
+    "away": {
+      "team": "MTL",
+      "sog": 7,
+      "score": 7
+    },
+    "goals": [
+      {
+        "scorer": "Sammythewhale",
+        "assists": [
+          "cam364"
+        ]
+      },
+      {
+        "scorer": "_JacksonBlake",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Sammythewhale",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Sammythewhale",
+        "assists": [
+          "cam364"
+        ]
+      },
+      {
+        "scorer": "Unknown",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "cam364",
+        "assists": [
+          "Sammythewhale"
+        ]
+      },
+      {
+        "scorer": "cam364",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "cam364",
+        "assists": "Unassisted"
+      }
+    ]
+  }
+]
