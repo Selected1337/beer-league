@@ -5,38 +5,38 @@
     "shotsAgainst": 0,
     "player": "cam364",
     "team": "MTL",
-    "goals": 6,
+    "goals": 7,
     "assists": 5,
-    "hits": 115,
-    "touches": 270,
-    "penalties": 17,
-    "gamesPlayed": 5
+    "hits": 153,
+    "touches": 330,
+    "penalties": 21,
+    "gamesPlayed": 6
   },
   {
-    "saves": 94,
-    "goalsAgainst": 19,
-    "shotsAgainst": 94,
+    "saves": 110,
+    "goalsAgainst": 21,
+    "shotsAgainst": 110,
     "player": "CookieMnstr1616",
     "team": "MTL",
     "goals": 0,
     "assists": 3,
-    "hits": 6,
-    "touches": 90,
+    "hits": 7,
+    "touches": 107,
     "penalties": 2,
-    "gamesPlayed": 5
+    "gamesPlayed": 6
   },
   {
-    "saves": 74,
-    "goalsAgainst": 17,
-    "shotsAgainst": 74,
+    "saves": 92,
+    "goalsAgainst": 21,
+    "shotsAgainst": 92,
     "player": "JavonBaker",
     "team": "NYI",
     "goals": 0,
-    "assists": 4,
-    "hits": 35,
-    "touches": 133,
+    "assists": 5,
+    "hits": 39,
+    "touches": 158,
     "penalties": 7,
-    "gamesPlayed": 5
+    "gamesPlayed": 6
   },
   {
     "saves": 0,
@@ -44,12 +44,12 @@
     "shotsAgainst": 0,
     "player": "Pluds",
     "team": "NYI",
-    "goals": 17,
+    "goals": 19,
     "assists": 1,
-    "hits": 123,
-    "touches": 442,
-    "penalties": 20,
-    "gamesPlayed": 5
+    "hits": 153,
+    "touches": 554,
+    "penalties": 27,
+    "gamesPlayed": 6
   },
   {
     "saves": 15,
@@ -59,10 +59,10 @@
     "team": "NYI",
     "goals": 2,
     "assists": 4,
-    "hits": 107,
-    "touches": 115,
-    "penalties": 24,
-    "gamesPlayed": 5
+    "hits": 143,
+    "touches": 144,
+    "penalties": 34,
+    "gamesPlayed": 6
   },
   {
     "saves": 0,
@@ -70,11 +70,11 @@
     "shotsAgainst": 0,
     "player": "Tendy41",
     "team": "MTL",
-    "goals": 19,
-    "assists": 1,
-    "hits": 157,
-    "touches": 527,
-    "penalties": 22,
-    "gamesPlayed": 5
+    "goals": 22,
+    "assists": 2,
+    "hits": 180,
+    "touches": 649,
+    "penalties": 27,
+    "gamesPlayed": 6
   }
 ]
