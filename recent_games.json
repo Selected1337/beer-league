@@ -1,1 +1,126 @@
-[]
+[
+  {
+    "date": "Apr 28",
+    "status": "FINAL",
+    "home": {
+      "team": "NYI",
+      "sog": 29,
+      "score": 6
+    },
+    "away": {
+      "team": "MTL",
+      "sog": 29,
+      "score": 3
+    },
+    "goals": [
+      {
+        "scorer": "Pluds",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Pluds",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "cam364",
+        "assists": [
+          "rdubsss23"
+        ]
+      },
+      {
+        "scorer": "Pluds",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "cam364",
+        "assists": [
+          "Tendy41"
+        ]
+      },
+      {
+        "scorer": "Pluds",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "cam364",
+        "assists": [
+          "rdubsss23"
+        ]
+      },
+      {
+        "scorer": "Pluds",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Pluds",
+        "assists": [
+          "JavonBaker"
+        ]
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": [
+          "rdubsss23"
+        ]
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": [
+          "rdubsss23"
+        ]
+      },
+      {
+        "scorer": "cam364",
+        "assists": [
+          "rdubsss23"
+        ]
+      },
+      {
+        "scorer": "cam364",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Pluds",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Pluds",
+        "assists": [
+          "JavonBaker"
+        ]
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Unknown",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Pluds",
+        "assists": [
+          "JavonBaker"
+        ]
+      },
+      {
+        "scorer": "Pluds",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Pluds",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": [
+          "cam364"
+        ]
+      }
+    ]
+  }
+]
