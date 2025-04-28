@@ -1,1 +1,80 @@
-[]
+[
+  {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
+    "player": "cam364",
+    "team": "MTL",
+    "goals": 0,
+    "assists": 1,
+    "hits": 21,
+    "touches": 79,
+    "penalties": 8,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 23,
+    "goalsAgainst": 5,
+    "shotsAgainst": 23,
+    "player": "CookieMnstr1616",
+    "team": "MTL",
+    "goals": 0,
+    "assists": 0,
+    "hits": 0,
+    "touches": 20,
+    "penalties": 1,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 26,
+    "goalsAgainst": 3,
+    "shotsAgainst": 26,
+    "player": "JavonBaker",
+    "team": "NYI",
+    "goals": 0,
+    "assists": 2,
+    "hits": 2,
+    "touches": 29,
+    "penalties": 0,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
+    "player": "Pluds",
+    "team": "NYI",
+    "goals": 5,
+    "assists": 0,
+    "hits": 30,
+    "touches": 97,
+    "penalties": 6,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
+    "player": "rdubsss23",
+    "team": "NYI",
+    "goals": 0,
+    "assists": 0,
+    "hits": 35,
+    "touches": 33,
+    "penalties": 7,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
+    "player": "Tendy41",
+    "team": "MTL",
+    "goals": 3,
+    "assists": 0,
+    "hits": 41,
+    "touches": 136,
+    "penalties": 3,
+    "gamesPlayed": 2
+  }
+]
