@@ -5,25 +5,25 @@
     "shotsAgainst": 0,
     "player": "_JacksonBlake",
     "team": "LAK",
-    "goals": 9,
-    "assists": 1,
-    "hits": 137,
-    "touches": 240,
-    "penalties": 21,
-    "gamesPlayed": 5
+    "goals": 11,
+    "assists": 2,
+    "hits": 163,
+    "touches": 321,
+    "penalties": 24,
+    "gamesPlayed": 6
   },
   {
-    "saves": 64,
-    "goalsAgainst": 13,
-    "shotsAgainst": 64,
+    "saves": 78,
+    "goalsAgainst": 19,
+    "shotsAgainst": 78,
     "player": "_Kriptiv_",
     "team": "LAK",
     "goals": 0,
-    "assists": 2,
-    "hits": 22,
-    "touches": 169,
-    "penalties": 1,
-    "gamesPlayed": 5
+    "assists": 3,
+    "hits": 31,
+    "touches": 203,
+    "penalties": 2,
+    "gamesPlayed": 6
   },
   {
     "saves": 0,
@@ -31,25 +31,25 @@
     "shotsAgainst": 0,
     "player": "cam364",
     "team": "MTL",
-    "goals": 7,
-    "assists": 3,
-    "hits": 131,
-    "touches": 270,
-    "penalties": 23,
-    "gamesPlayed": 5
+    "goals": 11,
+    "assists": 4,
+    "hits": 158,
+    "touches": 334,
+    "penalties": 28,
+    "gamesPlayed": 6
   },
   {
-    "saves": 99,
-    "goalsAgainst": 13,
-    "shotsAgainst": 99,
+    "saves": 127,
+    "goalsAgainst": 17,
+    "shotsAgainst": 127,
     "player": "CookieMnstr1616",
     "team": "MTL",
     "goals": 0,
-    "assists": 3,
-    "hits": 6,
-    "touches": 97,
+    "assists": 4,
+    "hits": 8,
+    "touches": 120,
     "penalties": 2,
-    "gamesPlayed": 5
+    "gamesPlayed": 6
   },
   {
     "saves": 0,
@@ -57,12 +57,12 @@
     "shotsAgainst": 0,
     "player": "OnlyBirb",
     "team": "MTL",
-    "goals": 6,
-    "assists": 2,
-    "hits": 119,
-    "touches": 399,
-    "penalties": 14,
-    "gamesPlayed": 5
+    "goals": 9,
+    "assists": 3,
+    "hits": 149,
+    "touches": 494,
+    "penalties": 20,
+    "gamesPlayed": 6
   },
   {
     "saves": 0,
@@ -70,11 +70,11 @@
     "shotsAgainst": 0,
     "player": "Tendy41",
     "team": "LAK",
-    "goals": 6,
-    "assists": 3,
-    "hits": 114,
-    "touches": 402,
-    "penalties": 28,
-    "gamesPlayed": 5
+    "goals": 7,
+    "assists": 4,
+    "hits": 156,
+    "touches": 490,
+    "penalties": 34,
+    "gamesPlayed": 6
   }
 ]
