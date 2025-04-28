@@ -2,21 +2,21 @@
   {
     "player": "JavonBaker",
     "team": "NYI",
-    "gamesPlayed": 1,
-    "saves": 26,
-    "goalsAgainst": 3,
-    "shotsAgainst": 29,
-    "savePercentage": 0.897,
-    "goalsAgainstAverage": 3.0
+    "gamesPlayed": 2,
+    "saves": 56,
+    "goalsAgainst": 8,
+    "shotsAgainst": 64,
+    "savePercentage": 0.875,
+    "goalsAgainstAverage": 4.0
   },
   {
     "player": "CookieMnstr1616",
     "team": "MTL",
-    "gamesPlayed": 1,
-    "saves": 23,
-    "goalsAgainst": 5,
-    "shotsAgainst": 28,
-    "savePercentage": 0.821,
-    "goalsAgainstAverage": 5.0
+    "gamesPlayed": 2,
+    "saves": 46,
+    "goalsAgainst": 11,
+    "shotsAgainst": 57,
+    "savePercentage": 0.807,
+    "goalsAgainstAverage": 5.5
   }
 ]
