@@ -9,8 +9,28 @@
     },
     "away": {
       "team": "MTL",
-      "sog": 0,
-      "score": 0
+      "sog": 1,
+      "score": 1
+    },
+    "goals": [
+      {
+        "scorer": "cam364",
+        "assists": "Unassisted"
+      }
+    ]
+  },
+  {
+    "date": "Apr 27",
+    "status": "FINAL",
+    "home": {
+      "team": "NYI",
+      "sog": 0.0,
+      "score": 0.0
+    },
+    "away": {
+      "team": "MTL",
+      "sog": 0.0,
+      "score": 0.0
     },
     "goals": []
   },
