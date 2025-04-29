@@ -6,37 +6,37 @@
     "player": "cam364",
     "team": "MTL",
     "goals": 4,
-    "assists": 2,
-    "hits": 66,
-    "touches": 129,
-    "penalties": 10,
-    "gamesPlayed": 4
+    "assists": 3,
+    "hits": 96,
+    "touches": 165,
+    "penalties": 17,
+    "gamesPlayed": 5
   },
   {
-    "saves": 65,
-    "goalsAgainst": 9,
-    "shotsAgainst": 65,
+    "saves": 117,
+    "goalsAgainst": 17,
+    "shotsAgainst": 117,
     "player": "CookieMnstr1616",
     "team": "MTL",
     "goals": 0,
-    "assists": 3,
-    "hits": 3,
-    "touches": 49,
+    "assists": 4,
+    "hits": 5,
+    "touches": 73,
     "penalties": 0,
-    "gamesPlayed": 4
+    "gamesPlayed": 5
   },
   {
-    "saves": 19,
-    "goalsAgainst": 2,
-    "shotsAgainst": 19,
+    "saves": 31,
+    "goalsAgainst": 4,
+    "shotsAgainst": 31,
     "player": "OnlyBirb",
     "team": "NYI",
     "goals": 1,
-    "assists": 3,
-    "hits": 28,
-    "touches": 106,
+    "assists": 5,
+    "hits": 32,
+    "touches": 125,
     "penalties": 6,
-    "gamesPlayed": 4
+    "gamesPlayed": 5
   },
   {
     "saves": 1,
@@ -44,12 +44,12 @@
     "shotsAgainst": 1,
     "player": "Pluds",
     "team": "NYI",
-    "goals": 7,
+    "goals": 15,
     "assists": 1,
-    "hits": 46,
-    "touches": 218,
-    "penalties": 5,
-    "gamesPlayed": 4
+    "hits": 81,
+    "touches": 336,
+    "penalties": 7,
+    "gamesPlayed": 5
   },
   {
     "saves": 13,
@@ -71,11 +71,11 @@
     "player": "Sammythewhale",
     "team": "NYI",
     "goals": 1,
-    "assists": 2,
-    "hits": 21,
-    "touches": 71,
-    "penalties": 2,
-    "gamesPlayed": 2
+    "assists": 6,
+    "hits": 42,
+    "touches": 175,
+    "penalties": 4,
+    "gamesPlayed": 3
   },
   {
     "saves": 0,
@@ -83,12 +83,12 @@
     "shotsAgainst": 0,
     "player": "Tendy41",
     "team": "MTL",
-    "goals": 9,
+    "goals": 11,
     "assists": 3,
-    "hits": 68,
-    "touches": 241,
-    "penalties": 9,
-    "gamesPlayed": 4
+    "hits": 107,
+    "touches": 340,
+    "penalties": 15,
+    "gamesPlayed": 5
   },
   {
     "saves": 0,
