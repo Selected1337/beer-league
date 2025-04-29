@@ -4,13 +4,49 @@
     "status": "FINAL",
     "home": {
       "team": "NYI",
-      "sog": 60,
-      "score": 8
+      "sog": 41,
+      "score": 2
     },
     "away": {
       "team": "MTL",
       "sog": 14,
-      "score": 2
+      "score": 3
+    },
+    "goals": [
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Pluds",
+        "assists": [
+          "Sammythewhale"
+        ]
+      },
+      {
+        "scorer": "Pluds",
+        "assists": [
+          "Sammythewhale"
+        ]
+      },
+      {
+        "scorer": "Unknown",
+        "assists": "Unassisted"
+      }
+    ]
+  },
+  {
+    "date": "Apr 28",
+    "status": "FINAL",
+    "home": {
+      "team": "NYI",
+      "sog": 60.0,
+      "score": 8.0
+    },
+    "away": {
+      "team": "MTL",
+      "sog": 14.0,
+      "score": 2.0
     },
     "goals": [
       {
