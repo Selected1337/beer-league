@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "date": "Apr 28",
+    "status": "FINAL",
+    "home": {
+      "team": "NYI",
+      "sog": 2,
+      "score": 0
+    },
+    "away": {
+      "team": "MTL",
+      "sog": 2,
+      "score": 2
+    },
+    "goals": [
+      {
+        "scorer": "Tendy41",
+        "assists": [
+          "CookieMnstr1616"
+        ]
+      },
+      {
+        "scorer": "cam364",
+        "assists": [
+          "Tendy41"
+        ]
+      }
+    ]
+  }
+]
