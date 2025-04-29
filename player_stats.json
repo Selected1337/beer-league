@@ -7,36 +7,36 @@
     "team": "MTL",
     "goals": 4,
     "assists": 3,
-    "hits": 96,
-    "touches": 165,
-    "penalties": 17,
-    "gamesPlayed": 5
+    "hits": 127,
+    "touches": 225,
+    "penalties": 22,
+    "gamesPlayed": 6
   },
   {
-    "saves": 117,
-    "goalsAgainst": 17,
-    "shotsAgainst": 117,
+    "saves": 156,
+    "goalsAgainst": 19,
+    "shotsAgainst": 156,
     "player": "CookieMnstr1616",
     "team": "MTL",
     "goals": 0,
     "assists": 4,
-    "hits": 5,
-    "touches": 73,
+    "hits": 8,
+    "touches": 105,
     "penalties": 0,
-    "gamesPlayed": 5
+    "gamesPlayed": 6
   },
   {
-    "saves": 31,
-    "goalsAgainst": 4,
-    "shotsAgainst": 31,
+    "saves": 42,
+    "goalsAgainst": 6,
+    "shotsAgainst": 42,
     "player": "OnlyBirb",
     "team": "NYI",
     "goals": 1,
     "assists": 5,
-    "hits": 32,
-    "touches": 125,
-    "penalties": 6,
-    "gamesPlayed": 5
+    "hits": 33,
+    "touches": 153,
+    "penalties": 7,
+    "gamesPlayed": 6
   },
   {
     "saves": 1,
@@ -44,12 +44,12 @@
     "shotsAgainst": 1,
     "player": "Pluds",
     "team": "NYI",
-    "goals": 15,
+    "goals": 17,
     "assists": 1,
-    "hits": 81,
-    "touches": 336,
-    "penalties": 7,
-    "gamesPlayed": 5
+    "hits": 113,
+    "touches": 458,
+    "penalties": 10,
+    "gamesPlayed": 6
   },
   {
     "saves": 13,
@@ -71,11 +71,11 @@
     "player": "Sammythewhale",
     "team": "NYI",
     "goals": 1,
-    "assists": 6,
-    "hits": 42,
-    "touches": 175,
-    "penalties": 4,
-    "gamesPlayed": 3
+    "assists": 8,
+    "hits": 66,
+    "touches": 277,
+    "penalties": 9,
+    "gamesPlayed": 4
   },
   {
     "saves": 0,
@@ -83,12 +83,12 @@
     "shotsAgainst": 0,
     "player": "Tendy41",
     "team": "MTL",
-    "goals": 11,
+    "goals": 13,
     "assists": 3,
-    "hits": 107,
-    "touches": 340,
-    "penalties": 15,
-    "gamesPlayed": 5
+    "hits": 159,
+    "touches": 445,
+    "penalties": 22,
+    "gamesPlayed": 6
   },
   {
     "saves": 0,
