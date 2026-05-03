@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>The Minecraft Beer Hockey League "That's 60."(</title>
+  <title>The Minecraft Beer Hockey League</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
@@ -29,92 +29,128 @@
     }
   </script>
   <style>
-   .goals-container {
-  display: flex;
-  flex-wrap: wrap;              /* Allow wrapping if necessary */
-  overflow-x: auto;             /* Allow horizontal scrolling */
-  padding: 3px 0;
-  gap: 10px;                    /* Space between panels */
-}
-
-.goal-panel {
-  display: flex;                /* Flexbox layout for goal panel */
-  flex-shrink: 0;               /* Prevent the panel from shrinking */
-  align-items: center;          /* Align text and images vertically */
-  padding: 4px;                 /* Padding for spacing */
-  border: 2px solid #ccc;       /* Border around the goal panel */
-  border-radius: 8px;           /* Rounded corners */
-  background-color: #f9f9f9;    /* Light background color */
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);  /* Shadow effect */
-  min-width: 160px;             /* Set a min-width to ensure panels don’t get too narrow */
-  max-width: 100%;              /* Ensure the panel doesn’t exceed the container width */
-}
-
-.goal-panel .goal-details {
-  display: inline-block;        /* Keep text inline but still allow for wrapping */
-  word-wrap: break-word;        /* Break long words if necessary */
-  white-space: nowrap;          /* Prevent text from breaking to a new line */
-}
-
-.goal-panel img {
-  max-width: 40px;              /* Keep the player headshot from expanding too much */
-  height: 40px;                 /* Maintain aspect ratio */
-}
-
-.headshot-container {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.headshot-container img {
-  border-radius: 50%;           /* Make the images circular */
-}
-
-.goal-panel .goal-details .font-bold {
-  white-space: nowrap;          /* Prevent name wrapping inside the panel */
-}
-    .sort-arrow {
-      display: inline-block;
-      margin-left: 4px;
+    /* ── Game card ─────────────────────────────────────────────────── */
+    .game-card {
+      border: 1.5px solid #111;
+      border-radius: 12px;
+      background: #f9f9f9;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.13);
+      padding: 12px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      min-width: 0;
     }
-    .gold { background-color: #ffd70022; }
+    .dark .game-card {
+      background: #1a1a1a;
+      border-color: #333;
+    }
+
+    /* ── Goal scroll strip ─────────────────────────────────────────── */
+    .goals-strip {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      gap: 8px;
+      padding: 4px 0 6px;
+      scrollbar-width: thin;
+      scrollbar-color: #555 transparent;
+      -webkit-overflow-scrolling: touch;
+    }
+    .goals-strip::-webkit-scrollbar {
+      height: 4px;
+    }
+    .goals-strip::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    .goals-strip::-webkit-scrollbar-thumb {
+      background: #aaa;
+      border-radius: 4px;
+    }
+
+    /* ── Individual goal pill ──────────────────────────────────────── */
+    .goal-pill {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      flex-shrink: 0;
+      background: #fff;
+      border: 1px solid #ddd;
+      border-radius: 20px;
+      padding: 4px 10px 4px 4px;
+      white-space: nowrap;
+    }
+    .dark .goal-pill {
+      background: #2a2a2a;
+      border-color: #444;
+    }
+    .goal-pill img {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    .goal-pill .scorer-name {
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 1.2;
+    }
+    .goal-pill .assist-line {
+      font-size: 10px;
+      color: #666;
+      line-height: 1.2;
+    }
+    .dark .goal-pill .assist-line {
+      color: #aaa;
+    }
+
+    /* ── Sort arrows ───────────────────────────────────────────────── */
+    .sort-arrow { display: inline-block; margin-left: 4px; }
+
+    /* ── Standings row highlights ──────────────────────────────────── */
+    .gold   { background-color: #ffd70022; }
     .silver { background-color: #c0c0c022; }
     .bronze { background-color: #cd7f3222; }
   </style>
 </head>
 <body class="bg-background text-text">
+
   <header class="bg-black text-white p-4 shadow-md flex justify-between items-center">
     <h1 class="text-2xl font-bold">The Minecraft Beer Hockey League</h1>
     <div class="flex items-center gap-4">
-      <input id="player-search" type="text" placeholder="Search player" class="bg-black text-white p-1 rounded text-sm" oninput="renderPlayers()">
-      <button onclick="toggleTheme()" class="bg-black px-3 py-1 rounded text-sm hover:bg-gray-600">Toggle Dark/Light Mode</button>
+      <input id="player-search" type="text" placeholder="Search player"
+             class="bg-gray-800 text-white p-1 rounded text-sm border border-gray-600"
+             oninput="renderPlayers()">
+      <button onclick="toggleTheme()"
+              class="bg-gray-800 border border-gray-600 px-3 py-1 rounded text-sm hover:bg-gray-600 transition">
+        Toggle Dark / Light
+      </button>
     </div>
   </header>
 
-  <main class="container mx-auto py-6 space-y-12">
+  <main class="container mx-auto py-6 space-y-12 px-4">
 
-
-<!-- Recent Games -->
-<section>
-  <h2 class="text-xl font-semibold mb-4">Recent Games</h2>
-  <div id="recent-games" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-    <!-- Game cards will be inserted here from JSON -->
-  </div>
-</section>
-    
+    <!-- ── Recent Games ────────────────────────────────────────────── -->
     <section>
-  <div class="flex justify-between items-center mb-2">
-    <h2 class="text-xl font-semibold">Standings</h2>
-    <select id="standings-filter" class="bg-black text-white p-1 rounded text-sm">
-      <option value="overall">Overall</option>
-      <option value="conference">By Conference</option>
-      <option value="division">By Division</option>
-    </select>
-  </div>
-  <div id="standings-tables" class="space-y-8"></div>
-</section>
+      <h2 class="text-xl font-semibold mb-4">Recent Games</h2>
+      <div id="recent-games" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4"></div>
+    </section>
 
+    <!-- ── Standings ──────────────────────────────────────────────── -->
+    <section>
+      <div class="flex justify-between items-center mb-2">
+        <h2 class="text-xl font-semibold">Standings</h2>
+        <select id="standings-filter" class="bg-black text-white p-1 rounded text-sm">
+          <option value="overall">Overall</option>
+          <option value="conference">By Conference</option>
+          <option value="division">By Division</option>
+        </select>
+      </div>
+      <div id="standings-tables" class="space-y-8"></div>
+    </section>
+
+    <!-- ── Player Stats ───────────────────────────────────────────── -->
     <section>
       <div class="flex justify-between items-center mb-2">
         <h2 class="text-xl font-semibold">Player Stats</h2>
@@ -139,6 +175,7 @@
       </table>
     </section>
 
+    <!-- ── Goalie Stats ───────────────────────────────────────────── -->
     <section>
       <div class="flex justify-between items-center mb-2">
         <h2 class="text-xl font-semibold">Goalie Stats</h2>
@@ -151,9 +188,9 @@
           <tr>
             <th class="p-2 cursor-pointer" onclick="sortGoalies('player')">Goalie <span id="arrow-goalie-player" class="sort-arrow"></span></th>
             <th class="p-2 cursor-pointer" onclick="sortGoalies('team')">Team <span id="arrow-goalie-team" class="sort-arrow"></span></th>
-            <th class="p-2 cursor-pointer" onclick="sortGoalies('shots_against')">SA <span id="arrow-goalie-shots_against" class="sort-arrow"></span></th>
-            <th class="p-2 cursor-pointer" onclick="sortGoalies('goals_against')">GA <span id="arrow-goalie-goals_against" class="sort-arrow"></span></th>
-            <th class="p-2 cursor-pointer" onclick="sortGoalies('savePct')">Save % <span id="arrow-goalie-savePct" class="sort-arrow"></span></th>
+            <th class="p-2 cursor-pointer" onclick="sortGoalies('shotsAgainst')">SA <span id="arrow-goalie-shotsAgainst" class="sort-arrow"></span></th>
+            <th class="p-2 cursor-pointer" onclick="sortGoalies('goalsAgainst')">GA <span id="arrow-goalie-goalsAgainst" class="sort-arrow"></span></th>
+            <th class="p-2 cursor-pointer" onclick="sortGoalies('savePct')">SV% <span id="arrow-goalie-savePct" class="sort-arrow"></span></th>
             <th class="p-2 cursor-pointer" onclick="sortGoalies('gaa')">GAA <span id="arrow-goalie-gaa" class="sort-arrow"></span></th>
           </tr>
         </thead>
@@ -161,6 +198,7 @@
       </table>
     </section>
 
+    <!-- ── Player Comparison ──────────────────────────────────────── -->
     <section>
       <h2 class="text-xl font-semibold mb-2">Player Comparison</h2>
       <div class="flex gap-4 mb-4">
@@ -169,6 +207,7 @@
       </div>
       <div id="comparison" class="grid grid-cols-2 gap-4 animate-fadeSlide"></div>
     </section>
+
   </main>
 
   <footer class="bg-black text-white p-4 text-center">
@@ -176,22 +215,25 @@
   </footer>
 
   <script>
-    let sortedPlayers = [], currentSortKey = 'pts', sortDirection = 'desc';
-    let sortedGoalies = [], goalieSortKey = 'savePct', goalieSortDirection = 'desc';
-
+    // ── Theme ────────────────────────────────────────────────────────
     function toggleTheme() {
       document.documentElement.classList.toggle('dark');
     }
 
+    // ── Sort state ───────────────────────────────────────────────────
+    let sortedPlayers = [], currentSortKey = 'pts', sortDirection = 'desc';
+    let sortedGoalies = [], goalieSortKey = 'savePct', goalieSortDirection = 'desc';
+
     function updateSortArrows() {
       ['player','team','gp','goals','assists','pts','hits','touches'].forEach(k => {
-        document.getElementById(`arrow-${k}`).textContent = (currentSortKey === k) ? (sortDirection === 'desc' ? '↓' : '↑') : '';
+        const el = document.getElementById(`arrow-${k}`);
+        if (el) el.textContent = currentSortKey === k ? (sortDirection === 'desc' ? '↓' : '↑') : '';
       });
     }
-
     function updateGoalieSortArrows() {
-      ['player','team','shots_against','goals_against','savePct','gaa'].forEach(k => {
-        document.getElementById(`arrow-goalie-${k}`).textContent = (goalieSortKey === k) ? (goalieSortDirection === 'desc' ? '↓' : '↑') : '';
+      ['player','team','shotsAgainst','goalsAgainst','savePct','gaa'].forEach(k => {
+        const el = document.getElementById(`arrow-goalie-${k}`);
+        if (el) el.textContent = goalieSortKey === k ? (goalieSortDirection === 'desc' ? '↓' : '↑') : '';
       });
     }
 
@@ -201,7 +243,6 @@
       sortedPlayers.sort((a,b) => sortDirection === 'desc' ? b[key] - a[key] : a[key] - b[key]);
       updateSortArrows(); renderPlayers();
     }
-
     function sortGoalies(key) {
       if (goalieSortKey === key) goalieSortDirection = goalieSortDirection === 'desc' ? 'asc' : 'desc';
       else { goalieSortKey = key; goalieSortDirection = 'desc'; }
@@ -209,18 +250,23 @@
       updateGoalieSortArrows(); renderGoalies();
     }
 
+    // ── Player table ─────────────────────────────────────────────────
     function renderPlayers() {
       const body = document.getElementById('player-stats-body');
       const search = document.getElementById('player-search').value.toLowerCase();
       const filter = document.getElementById('player-team-filter').value;
       body.innerHTML = '';
-      const filtered = sortedPlayers.filter(p => (!filter || p.team === filter) && p.player.toLowerCase().includes(search));
+      const filtered = sortedPlayers.filter(p =>
+        (!filter || p.team === filter) && p.player.toLowerCase().includes(search));
       filtered.forEach((p, i) => {
         const rowClass = i === 0 ? 'gold' : i === 1 ? 'silver' : i === 2 ? 'bronze' : '';
         body.innerHTML += `<tr class="${rowClass} animate-fadeSlide">
-          <td class="p-2 flex items-center gap-2">
-            <img src="https://minotar.net/avatar/${p.player}/100.png" class="w-6 h-6 rounded">
-            <a href="player.html?name=${encodeURIComponent(p.player)}" class="hover:underline text-blue-400">${p.player}</a>
+          <td class="p-2">
+            <div class="flex items-center gap-2">
+              <img src="https://minotar.net/avatar/${p.player}/100.png" class="w-6 h-6 rounded">
+              <a href="player.html?name=${encodeURIComponent(p.player)}"
+                 class="hover:underline text-blue-400">${p.player}</a>
+            </div>
           </td>
           <td class="p-2">${p.team}</td>
           <td class="p-2">${p.gamesPlayed}</td>
@@ -233,237 +279,235 @@
       });
     }
 
-
+    // ── Goalie table ─────────────────────────────────────────────────
     function renderGoalies() {
       const body = document.getElementById('goalie-stats-body');
       const filter = document.getElementById('goalie-team-filter').value;
       body.innerHTML = '';
       sortedGoalies.filter(g => !filter || g.team === filter).forEach(g => {
         body.innerHTML += `<tr class="animate-fadeSlide">
-          <td class="p-2 flex items-center gap-2">
-            <img src="https://minotar.net/avatar/${g.player}/100.png" class="w-6 h-6 rounded">
-            ${g.player}</td>
+          <td class="p-2">
+            <div class="flex items-center gap-2">
+              <img src="https://minotar.net/avatar/${g.player}/100.png" class="w-6 h-6 rounded">
+              ${g.player}
+            </div>
+          </td>
           <td class="p-2">${g.team}</td>
           <td class="p-2">${g.shotsAgainst}</td>
           <td class="p-2">${g.goalsAgainst}</td>
           <td class="p-2">${g.savePercentage}</td>
-          <td class="p-2">${g.goalsAgainstAverage}</td></tr>`;
+          <td class="p-2">${typeof g.gaa === 'number' ? g.gaa.toFixed(2) : g.gaa}</td>
+        </tr>`;
       });
     }
 
+    // ── Comparison ───────────────────────────────────────────────────
     function renderComparison(p1, p2) {
       const container = document.getElementById('comparison');
       container.innerHTML = '';
       if (!p1 || !p2) return;
       [p1, p2].forEach(player => {
         container.innerHTML += `
-          <div class="bg-gray-800 p-4 rounded flex gap-4 items-center animate-fadeSlide">
-            <img src="https://minotar.net/bust/${player.player}/100.png" class="rounded">
+          <div class="bg-gray-800 text-white p-4 rounded flex gap-4 items-center animate-fadeSlide">
+            <img src="https://minotar.net/bust/${player.player}/100.png" class="rounded w-16">
             <div>
               <h3 class="text-lg font-bold mb-2">${player.player}</h3>
-              <ul class="space-y-1">
+              <ul class="space-y-1 text-sm">
                 <li><strong>Team:</strong> ${player.team}</li>
-                <li><strong>gamesPlayed:</strong> ${player.gamesPlayed}</li>
+                <li><strong>GP:</strong> ${player.gamesPlayed}</li>
                 <li><strong>Goals:</strong> ${player.goals}</li>
                 <li><strong>Assists:</strong> ${player.assists}</li>
                 <li><strong>Points:</strong> ${player.pts}</li>
-                <li><strong>+/-:</strong> ${player.hits}</li>
+                <li><strong>Hits:</strong> ${player.hits}</li>
                 <li><strong>Touches:</strong> ${player.touches}</li>
               </ul>
-            </div></div>`;
+            </div>
+          </div>`;
       });
     }
 
-Promise.all([
-  fetch("recent_games.json").then(res => res.json()),
-  fetch("team_logos.json").then(res => res.json()),
-  fetch("player_stats.json").then(res => res.json()) // Fetch player stats
-]).then(([games, logos, playerStats]) => {
-  const container = document.getElementById("recent-games");
-  container.innerHTML = "";
+    // ── Recent games ─────────────────────────────────────────────────
+    function buildGoalPills(goals, playerStats) {
+      if (!goals || goals.length === 0) return '<span class="text-xs text-gray-400 px-1">No goal data</span>';
 
-  games.forEach(game => {
-    const homeLogo = logos[game.home.team]?.logo || "";
-    const awayLogo = logos[game.away.team]?.logo || "";
+      return goals.map(goal => {
+        const scorer  = goal.scorer  || 'Unknown';
+        const assists = goal.assists || 'Unassisted';
+        const stat    = playerStats.find(p => p.player === scorer);
+        const gTotal  = stat ? stat.goals : '—';
 
-    let goalScorersHTML = '';  // Initialize a variable to hold all goal scorers
+        const assistText = Array.isArray(assists)
+          ? assists.join(', ')
+          : assists;
 
-    // Helper function to get player goals and assists
-    const getPlayerStats = (playerName) => {
-      const player = playerStats.find(p => p.player === playerName);
-      return player ? { goals: player.goals, assists: player.assists } : { goals: 0, assists: 0 };
+        return `
+          <div class="goal-pill">
+            <img src="https://minotar.net/avatar/${scorer}/40" alt="${scorer}"
+                 onerror="this.src='https://minotar.net/avatar/MHF_Steve/40'" />
+            <div>
+              <div class="scorer-name">${scorer} (${gTotal})</div>
+              <div class="assist-line">${assistText}</div>
+            </div>
+          </div>`;
+      }).join('');
     }
 
-    // Iterate through the goals (without duplicating the same goal)
-    game.goals.forEach(goal => {
-      const { scorer, assists } = goal; // `assists` is now a string
-
-      // Get the total goals for the scorer and assist totals for each assist
-      const { goals: scorerGoals } = getPlayerStats(scorer);
-
-      // Generate goal scorer details
-      goalScorersHTML += `
-        <div class="goal-panel flex items-center p-2 border border-gray-400 rounded-lg">
-          <div class="headshot-container flex items-center gap-2">
-            <img src="https://minotar.net/avatar/${scorer}/40" alt="${scorer}" class="w-12 h-12 rounded-full" />
-            <div class="goal-details text-xs">
-              <span class="font-bold text-sm">${scorer} (${scorerGoals})</span><br />
-              <span class="text-sm">${assists}</span> <!-- Display assists as string -->
-            </div>
-          </div>
-        </div>
-      `;
-    });
-
-    container.innerHTML += `
-      <div class="bg-card rounded-xl shadow p-3 text-sm space-y-2 w-full">
-        <div class="flex justify-between items-center text-xs text-gray-400">
-          <span class="bg-black text-white px-2 py-0.5 rounded text-[10px]">${game.status}</span>
-          <span class="text-[11px]">${game.date}</span>
-        </div>
-        <div class="flex justify-between items-center">
-          <div class="flex items-center gap-2">
-            <img src="${awayLogo}" class="w-8 h-8 object-contain" />
-            <div class="flex flex-col">
-              <span class="font-bold text-base">${game.away.team}</span>
-              <span class="text-xs text-gray-400">${game.away.sog} SOG</span>
-            </div>
-          </div>
-          <span class="font-bold text-base">${game.away.score}</span>
-        </div>
-        <div class="flex justify-between items-center">
-          <div class="flex items-center gap-2">
-            <img src="${homeLogo}" class="w-8 h-8 object-contain" />
-            <div class="flex flex-col">
-              <span class="font-bold text-base">${game.home.team}</span>
-              <span class="text-xs text-gray-400">${game.home.sog} SOG</span>
-            </div>
-          </div>
-          <span class="font-bold text-base">${game.home.score}</span>
-        </div>
-        <!-- Goals container with horizontal scroll -->
-        <div class="goals-container">
-          <! -- ${goalScorersHTML} -->
-        </div>
-      </div>
-    `;
-  });
-});
-
-
+    // ── Main data fetch ───────────────────────────────────────────────
     async function fetchData() {
       const [players, goalies, standings] = await Promise.all([
-        fetch(`player_stats.json?cacheBust=${Date.now()}`).then(res => res.json()),
-        fetch(`goalie_stats.json?cacheBust=${Date.now()}`).then(res => res.json()),
-        fetch(`standings.json?cacheBust=${Date.now()}`).then(res => res.json())
+        fetch(`player_stats.json?cacheBust=${Date.now()}`).then(r => r.json()),
+        fetch(`goalie_stats.json?cacheBust=${Date.now()}`).then(r => r.json()),
+        fetch(`standings.json?cacheBust=${Date.now()}`).then(r => r.json())
       ]);
 
+      // ── Player stats setup ────────────────────────────────────────
       sortedPlayers = players.map(p => ({
         ...p,
-        pts: p.goals + p.assists,
-        hits: p.hits || 0,
+        pts:     p.goals + p.assists,
+        hits:    p.hits    || 0,
         touches: p.touches || 0
       })).sort((a,b) => b[currentSortKey] - a[currentSortKey]);
 
       const teams = [...new Set(players.map(p => p.team))];
-      const filter = document.getElementById('player-team-filter');
-      teams.forEach(t => filter.innerHTML += `<option value="${t}">${t}</option>`);
-      filter.onchange = renderPlayers;
+      const pFilter = document.getElementById('player-team-filter');
+      teams.forEach(t => pFilter.innerHTML += `<option value="${t}">${t}</option>`);
+      pFilter.onchange = renderPlayers;
 
-      const compare1 = document.getElementById('compare1');
-      const compare2 = document.getElementById('compare2');
+      const c1 = document.getElementById('compare1');
+      const c2 = document.getElementById('compare2');
       players.forEach(p => {
-        compare1.innerHTML += `<option value="${p.player}">${p.player}</option>`;
-        compare2.innerHTML += `<option value="${p.player}">${p.player}</option>`;
+        c1.innerHTML += `<option value="${p.player}">${p.player}</option>`;
+        c2.innerHTML += `<option value="${p.player}">${p.player}</option>`;
       });
-      compare1.onchange = () => {
-        const p1 = sortedPlayers.find(p => p.player === compare1.value);
-        const p2 = sortedPlayers.find(p => p.player === compare2.value);
+      const doCompare = () => {
+        const p1 = sortedPlayers.find(p => p.player === c1.value);
+        const p2 = sortedPlayers.find(p => p.player === c2.value);
         renderComparison(p1, p2);
-      }
-      compare2.onchange = compare1.onchange;
+      };
+      c1.onchange = doCompare;
+      c2.onchange = doCompare;
 
       renderPlayers(); updateSortArrows();
 
+      // ── Goalie stats setup ────────────────────────────────────────
       sortedGoalies = goalies.map(g => ({
         ...g,
-        savePct: 1 - g.goals_against / g.shots_against,
-        gaa: g.goals_against / g.games_played
+        savePct: g.shotsAgainst > 0 ? g.saves / g.shotsAgainst : 0,
+        gaa:     g.gamesPlayed  > 0 ? g.goalsAgainst / g.gamesPlayed : 0
       })).sort((a,b) => b[goalieSortKey] - a[goalieSortKey]);
 
       const gTeams = [...new Set(goalies.map(g => g.team))];
       const gFilter = document.getElementById('goalie-team-filter');
       gTeams.forEach(t => gFilter.innerHTML += `<option value="${t}">${t}</option>`);
       gFilter.onchange = renderGoalies;
-
       renderGoalies(); updateGoalieSortArrows();
 
-      const standingsContainer = document.getElementById("standings-tables");
+      // ── Standings ─────────────────────────────────────────────────
+      const standingsContainer = document.getElementById('standings-tables');
 
-function groupStandings(type) {
-  if (type === "overall") {
-    return { "League": standings };
-  } else if (type === "conference") {
-    return standings.reduce((acc, team) => {
-      acc[team.conference] = acc[team.conference] || [];
-      acc[team.conference].push(team);
-      return acc;
-    }, {});
-  } else if (type === "division") {
-    return standings.reduce((acc, team) => {
-      const key = `${team.conference} - ${team.division}`;
-      acc[key] = acc[key] || [];
-      acc[key].push(team);
-      return acc;
-    }, {});
-  }
-}
+      function groupStandings(type) {
+        if (type === 'overall') return { 'League': standings };
+        if (type === 'conference') return standings.reduce((acc, t) => {
+          (acc[t.conference] = acc[t.conference] || []).push(t); return acc; }, {});
+        if (type === 'division') return standings.reduce((acc, t) => {
+          const k = `${t.conference} — ${t.division}`;
+          (acc[k] = acc[k] || []).push(t); return acc; }, {});
+      }
 
-function renderStandings(type = "overall") {
-  const grouped = groupStandings(type);
-  standingsContainer.innerHTML = '';
+      function renderStandings(type = 'overall') {
+        const grouped = groupStandings(type);
+        standingsContainer.innerHTML = '';
+        Object.entries(grouped).forEach(([group, ts]) => {
+          ts.sort((a,b) => b.points - a.points);
+          standingsContainer.innerHTML += `
+            <div>
+              <h3 class="text-lg font-semibold mb-1">${group}</h3>
+              <table class="min-w-full bg-card rounded shadow text-left">
+                <thead class="bg-black text-white">
+                  <tr>
+                    <th class="p-2">Team</th><th class="p-2">W</th><th class="p-2">L</th>
+                    <th class="p-2">OTL</th><th class="p-2">PTS</th>
+                    <th class="p-2">GF</th><th class="p-2">GA</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  ${ts.map(t => `<tr class="animate-fadeSlide">
+                    <td class="p-2">${t.team}</td><td class="p-2">${t.wins}</td>
+                    <td class="p-2">${t.losses}</td><td class="p-2">${t.otl}</td>
+                    <td class="p-2">${t.points}</td><td class="p-2">${t.gf}</td>
+                    <td class="p-2">${t.ga}</td>
+                  </tr>`).join('')}
+                </tbody>
+              </table>
+            </div>`;
+        });
+      }
 
-  Object.entries(grouped).forEach(([group, teams]) => {
-    teams.sort((a,b) => b.points - a.points);
-    const table = `
-      <div>
-        <h3 class="text-lg font-semibold mb-1">${group}</h3>
-        <table class="min-w-full bg-card rounded shadow text-left">
-          <thead class="bg-black text-white">
-            <tr>
-              <th class="p-2">Team</th>
-              <th class="p-2">W</th>
-              <th class="p-2">L</th>
-              <th class="p-2">OTL</th>
-              <th class="p-2">PTS</th>
-              <th class="p-2">GF</th>
-              <th class="p-2">GA</th>
-            </tr>
-          </thead>
-          <tbody>
-            ${teams.map(t => `
-              <tr class="animate-fadeSlide">
-                <td class="p-2">${t.team}</td>
-                <td class="p-2">${t.wins}</td>
-                <td class="p-2">${t.losses}</td>
-                <td class="p-2">${t.otl}</td>
-                <td class="p-2">${t.points}</td>
-                <td class="p-2">${t.gf}</td>
-                <td class="p-2">${t.ga}</td>
-              </tr>`).join('')}
-          </tbody>
-        </table>
-      </div>`;
-    standingsContainer.innerHTML += table;
-  });
-}
+      document.getElementById('standings-filter').onchange = e => renderStandings(e.target.value);
+      renderStandings();
 
-document.getElementById("standings-filter").onchange = (e) => renderStandings(e.target.value);
-renderStandings();
+      // ── Recent games (needs player stats for goal counts) ─────────
+      try {
+        const [games, logos] = await Promise.all([
+          fetch('recent_games.json').then(r => r.json()),
+          fetch('team_logos.json').then(r => r.json())
+        ]);
+
+        const container = document.getElementById('recent-games');
+        container.innerHTML = '';
+
+        games.forEach(game => {
+          const homeLogo = logos[game.home.team]?.logo || '';
+          const awayLogo = logos[game.away.team]?.logo || '';
+          const goalPills = buildGoalPills(game.goals, players);
+
+          container.innerHTML += `
+            <div class="game-card">
+
+              <!-- Status + date -->
+              <div class="flex justify-between items-center">
+                <span class="bg-black text-white px-2 py-0.5 rounded text-[10px] font-semibold tracking-wide">
+                  ${game.status}
+                </span>
+                <span class="text-xs text-gray-400">${game.date}</span>
+              </div>
+
+              <!-- Away row -->
+              <div class="flex justify-between items-center">
+                <div class="flex items-center gap-2">
+                  ${awayLogo ? `<img src="${awayLogo}" class="w-8 h-8 object-contain" />` : ''}
+                  <div class="flex flex-col">
+                    <span class="font-bold text-sm">${game.away.team}</span>
+                    <span class="text-xs text-gray-400">${game.away.sog} SOG</span>
+                  </div>
+                </div>
+                <span class="font-bold text-lg">${game.away.score}</span>
+              </div>
+
+              <!-- Home row -->
+              <div class="flex justify-between items-center">
+                <div class="flex items-center gap-2">
+                  ${homeLogo ? `<img src="${homeLogo}" class="w-8 h-8 object-contain" />` : ''}
+                  <div class="flex flex-col">
+                    <span class="font-bold text-sm">${game.home.team}</span>
+                    <span class="text-xs text-gray-400">${game.home.sog} SOG</span>
+                  </div>
+                </div>
+                <span class="font-bold text-lg">${game.home.score}</span>
+              </div>
+
+              <!-- Goal pills — single row, horizontal scroll -->
+              <div class="goals-strip">${goalPills}</div>
+
+            </div>`;
+        });
+      } catch(e) {
+        console.warn('Could not load recent games or logos:', e);
+      }
     }
+
     fetchData();
   </script>
-  
+
 </body>
-</html>
 </html>
