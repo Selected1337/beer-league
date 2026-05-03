@@ -1,16 +1,65 @@
 [
   {
+    "arena": "chc",
+    "date": "May 3",
+    "status": "FINAL",
+    "home": {
+      "team": "WSH",
+      "sog": 2,
+      "score": 2
+    },
+    "away": {
+      "team": "NYI",
+      "sog": 0,
+      "score": 0
+    },
+    "goals": [
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      }
+    ]
+  },
+  {
+    "date": "May 1",
+    "status": "FINAL",
+    "home": {
+      "team": "LAK",
+      "sog": 0.0,
+      "score": 0.0
+    },
+    "away": {
+      "team": "MTL",
+      "sog": 1.0,
+      "score": 1.0
+    },
+    "goals": [
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      }
+    ]
+  },
+  {
     "date": "Apr 28",
     "status": "FINAL",
     "home": {
       "team": "NYI",
-      "sog": 41,
-      "score": 2
+      "sog": 41.0,
+      "score": 2.0
     },
     "away": {
       "team": "MTL",
-      "sog": 14,
-      "score": 3
+      "sog": 14.0,
+      "score": 3.0
     },
     "goals": [
       {
