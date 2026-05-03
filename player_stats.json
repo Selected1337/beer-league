@@ -1,1 +1,41 @@
-[]
+[
+  {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
+    "player": "Drxpski",
+    "team": "NYI",
+    "goals": 0,
+    "assists": 0,
+    "hits": 0,
+    "touches": 31,
+    "penalties": 0,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
+    "player": "Pluds",
+    "team": "LAK",
+    "goals": 0,
+    "assists": 0,
+    "hits": 0,
+    "touches": 493,
+    "penalties": 0,
+    "gamesPlayed": 9
+  },
+  {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
+    "player": "Tendy41",
+    "team": "LAK",
+    "goals": 0,
+    "assists": 0,
+    "hits": 0,
+    "touches": 109,
+    "penalties": 0,
+    "gamesPlayed": 7
+  }
+]
