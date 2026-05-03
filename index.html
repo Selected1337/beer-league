@@ -328,29 +328,32 @@
 
     // ── Recent games ─────────────────────────────────────────────────
     function buildGoalPills(goals, playerStats) {
-      if (!goals || goals.length === 0) return '<span class="text-xs text-gray-400 px-1">No goal data</span>';
+  if (!goals || goals.length === 0) return '<span class="text-xs text-gray-400 px-1">No goal data</span>';
 
-      return goals.map(goal => {
-        const scorer  = goal.scorer  || 'Unknown';
-        const assists = goal.assists || 'Unassisted';
-        const stat    = playerStats.find(p => p.player === scorer);
-        const gTotal  = stat ? stat.goals : '—';
+  return goals.map(goal => {
+    const scorer  = goal.scorer  || 'Unknown';
+    const assists = goal.assists || 'Unassisted';
+    const stat    = playerStats.find(p => p.player === scorer);
+    const gTotal  = stat ? stat.goals : '—';
 
-        const assistText = Array.isArray(assists)
-          ? assists.join(', ')
-          : assists;
+    const assistText = Array.isArray(assists)
+      ? assists.join(', ')
+      : assists;
 
-        return `
-          <div class="goal-pill">
-            <img src="https://minotar.net/avatar/${scorer}/40" alt="${scorer}"
-                 onerror="this.src='https://minotar.net/avatar/MHF_Steve/40'" />
-            <div>
-              <div class="scorer-name">${scorer} (${gTotal})</div>
-              <div class="assist-line">${assistText}</div>
-            </div>
-          </div>`;
-      }).join('');
-    }
+    return `
+      <div class="goal-pill">
+        <a href="player.html?name=${encodeURIComponent(scorer)}" title="View ${scorer}'s profile">
+          <img src="https://minotar.net/avatar/${scorer}/40" alt="${scorer}"
+               onerror="this.src='https://minotar.net/avatar/MHF_Steve/40'"
+               style="cursor:pointer;" />
+        </a>
+        <div>
+          <div class="scorer-name">${scorer} (${gTotal})</div>
+          <div class="assist-line">${assistText}</div>
+        </div>
+      </div>`;
+  }).join('');
+  }
 
     // ── Main data fetch ───────────────────────────────────────────────
     async function fetchData() {
