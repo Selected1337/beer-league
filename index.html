@@ -31,16 +31,18 @@
   <style>
     /* ── Game card ─────────────────────────────────────────────────── */
     .game-card {
-      border: 1.5px solid #111;
-      border-radius: 12px;
-      background: #f9f9f9;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.13);
-      padding: 12px;
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-      min-width: 0;
-    }
+  min-width: 260px;
+  max-width: 260px;
+  flex-shrink: 0;
+  border: 1.5px solid #111;
+  border-radius: 12px;
+  background: #f9f9f9;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.13);
+  padding: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
     .dark .game-card {
       background: #1a1a1a;
       border-color: #333;
@@ -133,9 +135,19 @@
 
     <!-- ── Recent Games ────────────────────────────────────────────── -->
     <section>
-      <h2 class="text-xl font-semibold mb-4">Recent Games</h2>
-      <div id="recent-games" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4"></div>
-    </section>
+  <h2 class="text-xl font-semibold mb-4">Recent Games</h2>
+  <div style="
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    gap: 12px;
+    padding-bottom: 8px;
+    scrollbar-width: thin;
+    scrollbar-color: #555 transparent;
+    -webkit-overflow-scrolling: touch;
+  " id="recent-games"></div>
+  </section>
 
     <!-- ── Standings ──────────────────────────────────────────────── -->
     <section>
