@@ -5,13 +5,50 @@
     "status": "FINAL",
     "home": {
       "team": "MTL",
-      "sog": 28,
-      "score": 8
+      "sog": 8,
+      "score": 1
     },
     "away": {
       "team": "NYI",
-      "sog": 19,
+      "sog": 17,
       "score": 3
+    },
+    "goals": [
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "cam364",
+        "assists": [
+          "LoganStankoven"
+        ]
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "PepperedndBaked",
+        "assists": [
+          "Tendy41"
+        ]
+      }
+    ]
+  },
+  {
+    "arena": "mtl",
+    "date": "May 4",
+    "status": "FINAL",
+    "home": {
+      "team": "MTL",
+      "sog": 28.0,
+      "score": 8.0
+    },
+    "away": {
+      "team": "NYI",
+      "sog": 19.0,
+      "score": 3.0
     },
     "goals": [
       {
@@ -469,31 +506,6 @@
       },
       {
         "scorer": "Pluds",
-        "assists": "Unassisted"
-      }
-    ]
-  },
-  {
-    "arena": "chc",
-    "date": "May 3",
-    "status": "FINAL",
-    "home": {
-      "team": "WSH",
-      "sog": 2.0,
-      "score": 2.0
-    },
-    "away": {
-      "team": "NYI",
-      "sog": 0.0,
-      "score": 0.0
-    },
-    "goals": [
-      {
-        "scorer": "Tendy41",
-        "assists": "Unassisted"
-      },
-      {
-        "scorer": "Tendy41",
         "assists": "Unassisted"
       }
     ]
