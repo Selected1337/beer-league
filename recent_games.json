@@ -5,13 +5,46 @@
     "status": "FINAL",
     "home": {
       "team": "MTL",
-      "sog": 12,
-      "score": 2
+      "sog": 11,
+      "score": 3
     },
     "away": {
       "team": "NYI",
-      "sog": 24,
-      "score": 3
+      "sog": 17,
+      "score": 1
+    },
+    "goals": [
+      {
+        "scorer": "cam364",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Unknown",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "cam364",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Unknown",
+        "assists": "Unassisted"
+      }
+    ]
+  },
+  {
+    "arena": "mtl",
+    "date": "May 4",
+    "status": "FINAL",
+    "home": {
+      "team": "MTL",
+      "sog": 12.0,
+      "score": 2.0
+    },
+    "away": {
+      "team": "NYI",
+      "sog": 24.0,
+      "score": 3.0
     },
     "goals": [
       {
@@ -474,65 +507,6 @@
       {
         "scorer": "Pluds",
         "assists": "Unassisted"
-      }
-    ]
-  },
-  {
-    "arena": "mtl",
-    "date": "May 3",
-    "status": "FINAL",
-    "home": {
-      "team": "MTL",
-      "sog": 27.0,
-      "score": 6.0
-    },
-    "away": {
-      "team": "NYI",
-      "sog": 3.0,
-      "score": 3.0
-    },
-    "goals": [
-      {
-        "scorer": "Pluds",
-        "assists": "Unassisted"
-      },
-      {
-        "scorer": "Pluds",
-        "assists": [
-          "HiMyNameIsRaided"
-        ]
-      },
-      {
-        "scorer": "Tendy41",
-        "assists": [
-          "Clifford82"
-        ]
-      },
-      {
-        "scorer": "Tendy41",
-        "assists": "Unassisted"
-      },
-      {
-        "scorer": "Pluds",
-        "assists": "Unassisted"
-      },
-      {
-        "scorer": "Pluds",
-        "assists": "Unassisted"
-      },
-      {
-        "scorer": "Pluds",
-        "assists": "Unassisted"
-      },
-      {
-        "scorer": "Pluds",
-        "assists": "Unassisted"
-      },
-      {
-        "scorer": "Tendy41",
-        "assists": [
-          "Clifford82"
-        ]
       }
     ]
   }
