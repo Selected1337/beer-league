@@ -1,17 +1,96 @@
 [
   {
+    "arena": "mtl",
+    "date": "May 3",
+    "status": "FINAL",
+    "home": {
+      "team": "MTL",
+      "sog": 3,
+      "score": 3
+    },
+    "away": {
+      "team": "NYI",
+      "sog": 42,
+      "score": 10
+    },
+    "goals": [
+      {
+        "scorer": "HiMyNameIsRaided",
+        "assists": [
+          "Pluds"
+        ]
+      },
+      {
+        "scorer": "Clifford82",
+        "assists": [
+          "_Kryl1s"
+        ]
+      },
+      {
+        "scorer": "Unknown",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Pluds",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "HiMyNameIsRaided",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Clifford82",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Pluds",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Unknown",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "HiMyNameIsRaided",
+        "assists": [
+          "Pluds"
+        ]
+      },
+      {
+        "scorer": "Clifford82",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Pluds",
+        "assists": [
+          "HiMyNameIsRaided"
+        ]
+      },
+      {
+        "scorer": "Pluds",
+        "assists": [
+          "HiMyNameIsRaided"
+        ]
+      },
+      {
+        "scorer": "Pluds",
+        "assists": "Unassisted"
+      }
+    ]
+  },
+  {
     "arena": "tft",
     "date": "May 3",
     "status": "FINAL",
     "home": {
       "team": "NYI",
-      "sog": 21,
-      "score": 9
+      "sog": 21.0,
+      "score": 9.0
     },
     "away": {
       "team": "WSH",
-      "sog": 0,
-      "score": 0
+      "sog": 0.0,
+      "score": 0.0
     },
     "goals": [
       {
@@ -418,82 +497,6 @@
         "scorer": "Pluds",
         "assists": [
           "OnlyBirb"
-        ]
-      }
-    ]
-  },
-  {
-    "date": "Apr 28",
-    "status": "FINAL",
-    "home": {
-      "team": "NYI",
-      "sog": 32.0,
-      "score": 4.0
-    },
-    "away": {
-      "team": "MTL",
-      "sog": 21.0,
-      "score": 8.0
-    },
-    "goals": [
-      {
-        "scorer": "Tendy41",
-        "assists": "Unassisted"
-      },
-      {
-        "scorer": "Tendy41",
-        "assists": "Unassisted"
-      },
-      {
-        "scorer": "Tendy41",
-        "assists": "Unassisted"
-      },
-      {
-        "scorer": "Pluds",
-        "assists": "Unassisted"
-      },
-      {
-        "scorer": "cam364",
-        "assists": [
-          "Tendy41"
-        ]
-      },
-      {
-        "scorer": "Tendy41",
-        "assists": "Unassisted"
-      },
-      {
-        "scorer": "Tendy41",
-        "assists": [
-          "cam364"
-        ]
-      },
-      {
-        "scorer": "cam364",
-        "assists": [
-          "Tendy41"
-        ]
-      },
-      {
-        "scorer": "Pluds",
-        "assists": [
-          "OnlyBirb"
-        ]
-      },
-      {
-        "scorer": "OnlyBirb",
-        "assists": [
-          "Pluds"
-        ]
-      },
-      {
-        "scorer": "Pluds",
-        "assists": "Unassisted"
-      },
-      {
-        "scorer": "Tendy41",
-        "assists": [
-          "CookieMnstr1616"
         ]
       }
     ]
