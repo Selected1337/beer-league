@@ -1,14 +1,14 @@
 {
-  "OBO": {
-    "name": "Obsidian Outlaws",
-    "color": "#5d0c6e",
-    "logo": "https://i.postimg.cc/WzdSX1CS/Layer-9.png",
+  "MTL": {
+    "name": "Montreal Canadians",
+    "color": "#8c1d0a",
+    "logo": "https://assets.nhle.com/logos/nhl/svg/MTL_light.svg",
     "banner": "https://i.postimg.cc/HLP65MPj/Untitled-design-3.png"
   },
-  "LLM": {
-    "name": "Lava Llamas",
-    "color": "#d94a1a",
-    "logo": "https://i.postimg.cc/5tWGyLTJ/Layer-11.png",
+  "NYI": {
+    "name": "New York Islanders",
+    "color": "#0c0e4f",
+    "logo": "https://assets.nhle.com/logos/nhl/svg/NYI_light.svg",
     "banner": "https://i.postimg.cc/prKCg6Vn/Untitled-design-5.png"
   },
   "MIS": {
