@@ -5,13 +5,52 @@
     "status": "FINAL",
     "home": {
       "team": "MTL",
-      "sog": 11,
-      "score": 3
+      "sog": 10,
+      "score": 2
     },
     "away": {
       "team": "NYI",
-      "sog": 17,
-      "score": 1
+      "sog": 28,
+      "score": 3
+    },
+    "goals": [
+      {
+        "scorer": "cam364",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "cam364",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "PepperedndBaked",
+        "assists": [
+          "Tendy41"
+        ]
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      }
+    ]
+  },
+  {
+    "arena": "mtl",
+    "date": "May 4",
+    "status": "FINAL",
+    "home": {
+      "team": "MTL",
+      "sog": 11.0,
+      "score": 3.0
+    },
+    "away": {
+      "team": "NYI",
+      "sog": 17.0,
+      "score": 1.0
     },
     "goals": [
       {
@@ -444,65 +483,6 @@
         "assists": [
           "HiMyNameIsRaided"
         ]
-      },
-      {
-        "scorer": "Pluds",
-        "assists": "Unassisted"
-      }
-    ]
-  },
-  {
-    "arena": "tft",
-    "date": "May 3",
-    "status": "FINAL",
-    "home": {
-      "team": "NYI",
-      "sog": 21.0,
-      "score": 9.0
-    },
-    "away": {
-      "team": "WSH",
-      "sog": 0.0,
-      "score": 0.0
-    },
-    "goals": [
-      {
-        "scorer": "HiMyNameIsRaided",
-        "assists": [
-          "Pluds"
-        ]
-      },
-      {
-        "scorer": "Pluds",
-        "assists": "Unassisted"
-      },
-      {
-        "scorer": "HiMyNameIsRaided",
-        "assists": [
-          "Pluds"
-        ]
-      },
-      {
-        "scorer": "Pluds",
-        "assists": "Unassisted"
-      },
-      {
-        "scorer": "Pluds",
-        "assists": "Unassisted"
-      },
-      {
-        "scorer": "Pluds",
-        "assists": "Unassisted"
-      },
-      {
-        "scorer": "HiMyNameIsRaided",
-        "assists": [
-          "Pluds"
-        ]
-      },
-      {
-        "scorer": "Pluds",
-        "assists": "Unassisted"
       },
       {
         "scorer": "Pluds",
