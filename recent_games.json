@@ -1,17 +1,80 @@
 [
   {
+    "arena": "grz",
+    "date": "May 3",
+    "status": "FINAL",
+    "home": {
+      "team": "GRZ",
+      "sog": 9,
+      "score": 9
+    },
+    "away": {
+      "team": "COORS",
+      "sog": 2,
+      "score": 1
+    },
+    "goals": [
+      {
+        "scorer": "DaGeekBob",
+        "assists": [
+          "Pluds"
+        ]
+      },
+      {
+        "scorer": "Pluds",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "DaGeekBob",
+        "assists": [
+          "Pluds"
+        ]
+      },
+      {
+        "scorer": "Pluds",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Pluds",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Pluds",
+        "assists": [
+          "DaGeekBob"
+        ]
+      },
+      {
+        "scorer": "Pluds",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Pluds",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Pluds",
+        "assists": "Unassisted"
+      }
+    ]
+  },
+  {
     "arena": "chc",
     "date": "May 3",
     "status": "FINAL",
     "home": {
       "team": "WSH",
-      "sog": 2,
-      "score": 2
+      "sog": 2.0,
+      "score": 2.0
     },
     "away": {
       "team": "NYI",
-      "sog": 0,
-      "score": 0
+      "sog": 0.0,
+      "score": 0.0
     },
     "goals": [
       {
