@@ -10,6 +10,16 @@
     "goalsAgainstAverage": 0.0
   },
   {
+    "player": "HiMyNameIsRaided",
+    "team": "GRZ",
+    "gamesPlayed": 1,
+    "saves": 1,
+    "goalsAgainst": 1,
+    "shotsAgainst": 2,
+    "savePercentage": 0.5,
+    "goalsAgainstAverage": 1.0
+  },
+  {
     "player": "CookieMnstr1616",
     "team": "MTL",
     "gamesPlayed": 5,
