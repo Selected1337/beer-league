@@ -3,14 +3,27 @@
     "saves": 0,
     "goalsAgainst": 0,
     "shotsAgainst": 0,
+    "player": "Clifford82",
+    "team": "NYI",
+    "goals": 0,
+    "assists": 0,
+    "hits": 30,
+    "touches": 94,
+    "penalties": 0,
+    "gamesPlayed": 2
+  },
+  {
+    "saves": 9,
+    "goalsAgainst": 1,
+    "shotsAgainst": 9,
     "player": "DaGeekBob",
     "team": "GRZ",
     "goals": 2,
     "assists": 1,
     "hits": 10,
-    "touches": 55,
-    "penalties": 3,
-    "gamesPlayed": 2
+    "touches": 74,
+    "penalties": 4,
+    "gamesPlayed": 3
   },
   {
     "saves": 0,
@@ -33,10 +46,10 @@
     "team": "GRZ",
     "goals": 0,
     "assists": 0,
-    "hits": 0,
-    "touches": 16,
-    "penalties": 4,
-    "gamesPlayed": 2
+    "hits": 12,
+    "touches": 55,
+    "penalties": 7,
+    "gamesPlayed": 3
   },
   {
     "saves": 0,
@@ -59,10 +72,10 @@
     "team": "LAK",
     "goals": 7,
     "assists": 2,
-    "hits": 30,
-    "touches": 763,
+    "hits": 59,
+    "touches": 934,
     "penalties": 2,
-    "gamesPlayed": 10
+    "gamesPlayed": 11
   },
   {
     "saves": 0,
@@ -70,11 +83,11 @@
     "shotsAgainst": 0,
     "player": "Tendy41",
     "team": "LAK",
-    "goals": 3,
+    "goals": 4,
     "assists": 0,
-    "hits": 34,
-    "touches": 284,
-    "penalties": 8,
-    "gamesPlayed": 9
+    "hits": 52,
+    "touches": 353,
+    "penalties": 12,
+    "gamesPlayed": 10
   }
 ]
