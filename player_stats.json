@@ -23,9 +23,9 @@
     "goals": 1,
     "assists": 0,
     "hits": 20,
-    "touches": 134,
+    "touches": 150,
     "penalties": 4,
-    "gamesPlayed": 2
+    "gamesPlayed": 3
   },
   {
     "saves": 0,
@@ -42,6 +42,20 @@
     "gamesPlayed": 5
   },
   {
+    "saves": 0,
+    "goalsAgainst": 0,
+    "shotsAgainst": 0,
+    "blocks": 0,
+    "player": "CookieMnstr1616",
+    "team": "MTL",
+    "goals": 0,
+    "assists": 0,
+    "hits": 0,
+    "touches": 2,
+    "penalties": 0,
+    "gamesPlayed": 2
+  },
+  {
     "saves": 54,
     "goalsAgainst": 19,
     "shotsAgainst": 54,
@@ -51,9 +65,9 @@
     "goals": 2,
     "assists": 1,
     "hits": 25,
-    "touches": 275,
+    "touches": 276,
     "penalties": 5,
-    "gamesPlayed": 7
+    "gamesPlayed": 8
   },
   {
     "saves": 0,
@@ -93,9 +107,9 @@
     "goals": 0,
     "assists": 0,
     "hits": 25,
-    "touches": 37,
+    "touches": 68,
     "penalties": 9,
-    "gamesPlayed": 2
+    "gamesPlayed": 3
   },
   {
     "saves": 0,
@@ -106,10 +120,10 @@
     "team": "NYI",
     "goals": 1,
     "assists": 0,
-    "hits": 12,
-    "touches": 71,
+    "hits": 20,
+    "touches": 79,
     "penalties": 2,
-    "gamesPlayed": 2
+    "gamesPlayed": 3
   },
   {
     "saves": 0,
@@ -134,9 +148,9 @@
     "team": "LAK",
     "goals": 8,
     "assists": 1,
-    "hits": 118,
-    "touches": 698,
+    "hits": 120,
+    "touches": 706,
     "penalties": 16,
-    "gamesPlayed": 14
+    "gamesPlayed": 15
   }
 ]
