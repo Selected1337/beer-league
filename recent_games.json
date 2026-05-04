@@ -5,13 +5,70 @@
     "status": "FINAL",
     "home": {
       "team": "MTL",
-      "sog": 3,
-      "score": 3
+      "sog": 1,
+      "score": 1
     },
     "away": {
       "team": "NYI",
-      "sog": 42,
-      "score": 10
+      "sog": 2,
+      "score": 2
+    },
+    "goals": [
+      {
+        "scorer": "cam364",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "DaGeekBob",
+        "assists": [
+          "cam364"
+        ]
+      },
+      {
+        "scorer": "cam364",
+        "assists": [
+          "DaGeekBob"
+        ]
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": [
+          "PepperedndBaked"
+        ]
+      },
+      {
+        "scorer": "cam364",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "PepperedndBaked",
+        "assists": [
+          "Tendy41"
+        ]
+      }
+    ]
+  },
+  {
+    "arena": "mtl",
+    "date": "May 3",
+    "status": "FINAL",
+    "home": {
+      "team": "MTL",
+      "sog": 3.0,
+      "score": 3.0
+    },
+    "away": {
+      "team": "NYI",
+      "sog": 42.0,
+      "score": 10.0
     },
     "goals": [
       {
@@ -437,66 +494,6 @@
         "scorer": "Tendy41",
         "assists": [
           "cam364"
-        ]
-      }
-    ]
-  },
-  {
-    "date": "Apr 28",
-    "status": "FINAL",
-    "home": {
-      "team": "NYI",
-      "sog": 40.0,
-      "score": 5.0
-    },
-    "away": {
-      "team": "MTL",
-      "sog": 23.0,
-      "score": 3.0
-    },
-    "goals": [
-      {
-        "scorer": "Tendy41",
-        "assists": [
-          "cam364"
-        ]
-      },
-      {
-        "scorer": "Tendy41",
-        "assists": "Unassisted"
-      },
-      {
-        "scorer": "cam364",
-        "assists": [
-          "CookieMnstr1616"
-        ]
-      },
-      {
-        "scorer": "Pluds",
-        "assists": [
-          "Sammythewhale"
-        ]
-      },
-      {
-        "scorer": "Pluds",
-        "assists": [
-          "Sammythewhale"
-        ]
-      },
-      {
-        "scorer": "Pluds",
-        "assists": [
-          "OnlyBirb"
-        ]
-      },
-      {
-        "scorer": "Sammythewhale",
-        "assists": "Unassisted"
-      },
-      {
-        "scorer": "Pluds",
-        "assists": [
-          "OnlyBirb"
         ]
       }
     ]
