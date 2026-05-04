@@ -7,23 +7,23 @@
     "team": "NYI",
     "goals": 0,
     "assists": 2,
-    "hits": 85,
-    "touches": 250,
+    "hits": 101,
+    "touches": 319,
     "penalties": 0,
-    "gamesPlayed": 3
+    "gamesPlayed": 4
   },
   {
-    "saves": 30,
-    "goalsAgainst": 7,
-    "shotsAgainst": 30,
+    "saves": 42,
+    "goalsAgainst": 16,
+    "shotsAgainst": 42,
     "player": "DaGeekBob",
     "team": "GRZ",
     "goals": 2,
     "assists": 1,
     "hits": 10,
-    "touches": 104,
+    "touches": 142,
     "penalties": 4,
-    "gamesPlayed": 4
+    "gamesPlayed": 5
   },
   {
     "saves": 0,
@@ -44,12 +44,12 @@
     "shotsAgainst": 1,
     "player": "HiMyNameIsRaided",
     "team": "GRZ",
-    "goals": 0,
+    "goals": 3,
     "assists": 1,
-    "hits": 39,
-    "touches": 142,
-    "penalties": 9,
-    "gamesPlayed": 4
+    "hits": 56,
+    "touches": 191,
+    "penalties": 10,
+    "gamesPlayed": 5
   },
   {
     "saves": 0,
@@ -70,12 +70,12 @@
     "shotsAgainst": 0,
     "player": "Pluds",
     "team": "LAK",
-    "goals": 13,
-    "assists": 2,
-    "hits": 101,
-    "touches": 1213,
+    "goals": 19,
+    "assists": 5,
+    "hits": 115,
+    "touches": 1478,
     "penalties": 2,
-    "gamesPlayed": 12
+    "gamesPlayed": 13
   },
   {
     "saves": 0,
@@ -85,9 +85,9 @@
     "team": "LAK",
     "goals": 7,
     "assists": 0,
-    "hits": 85,
-    "touches": 436,
-    "penalties": 14,
-    "gamesPlayed": 11
+    "hits": 104,
+    "touches": 495,
+    "penalties": 15,
+    "gamesPlayed": 12
   }
 ]
