@@ -2,12 +2,12 @@
   {
     "player": "DaGeekBob",
     "team": "NYI",
-    "gamesPlayed": 3,
-    "saves": 42,
-    "goalsAgainst": 16,
-    "shotsAgainst": 58,
-    "savePercentage": 0.724,
-    "goalsAgainstAverage": 5.333333333333333
+    "gamesPlayed": 4,
+    "saves": 54,
+    "goalsAgainst": 19,
+    "shotsAgainst": 73,
+    "savePercentage": 0.74,
+    "goalsAgainstAverage": 4.75
   },
   {
     "player": "Pluds",
@@ -58,5 +58,15 @@
     "shotsAgainst": 48,
     "savePercentage": 0.875,
     "goalsAgainstAverage": 2.0
+  },
+  {
+    "player": "Tendy41",
+    "team": "MTL",
+    "gamesPlayed": 1,
+    "saves": 32,
+    "goalsAgainst": 10,
+    "shotsAgainst": 42,
+    "savePercentage": 0.762,
+    "goalsAgainstAverage": 10.0
   }
 ]
