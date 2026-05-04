@@ -17,15 +17,15 @@
     "saves": 0,
     "goalsAgainst": 0,
     "shotsAgainst": 0,
-    "blocks": 51,
+    "blocks": 65,
     "player": "cam364",
     "team": "MTL",
-    "goals": 13,
+    "goals": 15,
     "assists": 1,
     "hits": 42,
-    "touches": 893,
+    "touches": 1135,
     "penalties": 4,
-    "gamesPlayed": 8
+    "gamesPlayed": 9
   },
   {
     "saves": 0,
@@ -42,32 +42,32 @@
     "gamesPlayed": 5
   },
   {
-    "saves": 101,
-    "goalsAgainst": 18,
-    "shotsAgainst": 101,
+    "saves": 117,
+    "goalsAgainst": 19,
+    "shotsAgainst": 117,
     "blocks": 0,
     "player": "CookieMnstr1616",
     "team": "MTL",
     "goals": 1,
     "assists": 2,
     "hits": 0,
-    "touches": 109,
+    "touches": 121,
     "penalties": 0,
-    "gamesPlayed": 7
+    "gamesPlayed": 8
   },
   {
-    "saves": 120,
-    "goalsAgainst": 42,
-    "shotsAgainst": 120,
+    "saves": 128,
+    "goalsAgainst": 45,
+    "shotsAgainst": 128,
     "blocks": 6,
     "player": "DaGeekBob",
     "team": "GRZ",
     "goals": 2,
     "assists": 2,
     "hits": 25,
-    "touches": 429,
+    "touches": 464,
     "penalties": 5,
-    "gamesPlayed": 13
+    "gamesPlayed": 14
   },
   {
     "saves": 0,
@@ -101,29 +101,29 @@
     "saves": 0,
     "goalsAgainst": 0,
     "shotsAgainst": 0,
-    "blocks": 1,
+    "blocks": 2,
     "player": "LoganStankoven",
     "team": "COORS",
     "goals": 2,
     "assists": 2,
-    "hits": 120,
-    "touches": 839,
+    "hits": 141,
+    "touches": 977,
     "penalties": 9,
-    "gamesPlayed": 8
+    "gamesPlayed": 9
   },
   {
     "saves": 0,
     "goalsAgainst": 0,
     "shotsAgainst": 0,
-    "blocks": 75,
+    "blocks": 90,
     "player": "PepperedndBaked",
     "team": "NYI",
     "goals": 5,
     "assists": 1,
-    "hits": 42,
-    "touches": 404,
+    "hits": 45,
+    "touches": 471,
     "penalties": 2,
-    "gamesPlayed": 8
+    "gamesPlayed": 9
   },
   {
     "saves": 0,
@@ -143,14 +143,14 @@
     "saves": 32,
     "goalsAgainst": 10,
     "shotsAgainst": 32,
-    "blocks": 90,
+    "blocks": 125,
     "player": "Tendy41",
     "team": "LAK",
     "goals": 19,
     "assists": 3,
-    "hits": 185,
-    "touches": 1769,
+    "hits": 199,
+    "touches": 2003,
     "penalties": 16,
-    "gamesPlayed": 20
+    "gamesPlayed": 21
   }
 ]
