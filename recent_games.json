@@ -5,13 +5,54 @@
     "status": "FINAL",
     "home": {
       "team": "MTL",
-      "sog": 22,
-      "score": 9
+      "sog": 12,
+      "score": 2
     },
     "away": {
       "team": "NYI",
-      "sog": 39,
-      "score": 5
+      "sog": 24,
+      "score": 3
+    },
+    "goals": [
+      {
+        "scorer": "Tendy41",
+        "assists": [
+          "PepperedndBaked"
+        ]
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "LoganStankoven",
+        "assists": [
+          "cam364"
+        ]
+      },
+      {
+        "scorer": "cam364",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      }
+    ]
+  },
+  {
+    "arena": "mtl",
+    "date": "May 4",
+    "status": "FINAL",
+    "home": {
+      "team": "MTL",
+      "sog": 22.0,
+      "score": 9.0
+    },
+    "away": {
+      "team": "NYI",
+      "sog": 39.0,
+      "score": 5.0
     },
     "goals": [
       {
@@ -492,31 +533,6 @@
         "assists": [
           "Clifford82"
         ]
-      }
-    ]
-  },
-  {
-    "arena": "mtl",
-    "date": "May 3",
-    "status": "FINAL",
-    "home": {
-      "team": "MTL",
-      "sog": 10.0,
-      "score": 1.0
-    },
-    "away": {
-      "team": "NYI",
-      "sog": 1.0,
-      "score": 1.0
-    },
-    "goals": [
-      {
-        "scorer": "Tendy41",
-        "assists": "Unassisted"
-      },
-      {
-        "scorer": "Unknown",
-        "assists": "Unassisted"
       }
     ]
   }
