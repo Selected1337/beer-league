@@ -1,5 +1,15 @@
 [
   {
+    "player": "DaGeekBob",
+    "team": "NYI",
+    "gamesPlayed": 1,
+    "saves": 9,
+    "goalsAgainst": 1,
+    "shotsAgainst": 10,
+    "savePercentage": 0.9,
+    "goalsAgainstAverage": 1.0
+  },
+  {
     "player": "Pluds",
     "team": "NYI",
     "gamesPlayed": 1,
