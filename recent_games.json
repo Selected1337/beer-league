@@ -1,6 +1,6 @@
 [
   {
-    "arena": "mcd",
+    "arena": "mtl",
     "date": "May 5",
     "status": "FINAL",
     "home": {
@@ -10,8 +10,29 @@
     },
     "away": {
       "team": "NYI",
-      "sog": 1,
+      "sog": 10,
       "score": 0
+    },
+    "goals": [
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      }
+    ]
+  },
+  {
+    "arena": "mcd",
+    "date": "May 5",
+    "status": "FINAL",
+    "home": {
+      "team": "MTL",
+      "sog": 1.0,
+      "score": 1.0
+    },
+    "away": {
+      "team": "NYI",
+      "sog": 1.0,
+      "score": 0.0
     },
     "goals": [
       {
