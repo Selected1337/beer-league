@@ -1,5 +1,15 @@
 [
   {
+    "player": "Pluds",
+    "team": "MTL",
+    "gamesPlayed": 1,
+    "saves": 0,
+    "goalsAgainst": 1,
+    "shotsAgainst": 1,
+    "savePercentage": 0.0,
+    "goalsAgainstAverage": 1.0
+  },
+  {
     "player": "Tendy41",
     "team": "NYI",
     "gamesPlayed": 1,
