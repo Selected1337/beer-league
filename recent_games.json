@@ -1,1 +1,23 @@
-
+[
+  {
+    "arena": "mtl",
+    "date": "May 4",
+    "status": "FINAL",
+    "home": {
+      "team": "MTL",
+      "sog": 1,
+      "score": 0
+    },
+    "away": {
+      "team": "NYI",
+      "sog": 17,
+      "score": 1
+    },
+    "goals": [
+      {
+        "scorer": "Icespillermc",
+        "assists": "Unassisted"
+      }
+    ]
+  }
+]
