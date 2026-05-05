@@ -5,13 +5,34 @@
     "status": "FINAL",
     "home": {
       "team": "MTL",
-      "sog": 5,
+      "sog": 3,
       "score": 0
     },
     "away": {
       "team": "NYI",
       "sog": 1,
       "score": 1
+    },
+    "goals": [
+      {
+        "scorer": "Unknown",
+        "assists": "Unassisted"
+      }
+    ]
+  },
+  {
+    "arena": "mtl",
+    "date": "May 5",
+    "status": "FINAL",
+    "home": {
+      "team": "MTL",
+      "sog": 5.0,
+      "score": 0.0
+    },
+    "away": {
+      "team": "NYI",
+      "sog": 1.0,
+      "score": 1.0
     },
     "goals": [
       {
