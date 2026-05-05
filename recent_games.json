@@ -5,13 +5,54 @@
     "status": "FINAL",
     "home": {
       "team": "MTL",
-      "sog": 26,
-      "score": 4
+      "sog": 10,
+      "score": 1
     },
     "away": {
       "team": "NYI",
-      "sog": 26,
+      "sog": 14,
       "score": 5
+    },
+    "goals": [
+      {
+        "scorer": "cam364",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "cam364",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "cam364",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "cam364",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Unknown",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      }
+    ]
+  },
+  {
+    "arena": "mtl",
+    "date": "May 4",
+    "status": "FINAL",
+    "home": {
+      "team": "MTL",
+      "sog": 26.0,
+      "score": 4.0
+    },
+    "away": {
+      "team": "NYI",
+      "sog": 26.0,
+      "score": 5.0
     },
     "goals": [
       {
