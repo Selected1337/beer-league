@@ -2,21 +2,21 @@
   {
     "player": "CookieMnstr1616",
     "team": "MTL",
-    "gamesPlayed": 3,
-    "saves": 69,
-    "goalsAgainst": 7,
-    "shotsAgainst": 76,
-    "savePercentage": 0.908,
-    "goalsAgainstAverage": 2.3333333333333335
+    "gamesPlayed": 4,
+    "saves": 78,
+    "goalsAgainst": 12,
+    "shotsAgainst": 90,
+    "savePercentage": 0.867,
+    "goalsAgainstAverage": 3.0
   },
   {
     "player": "Tendy41",
     "team": "NYI",
-    "gamesPlayed": 3,
-    "saves": 37,
+    "gamesPlayed": 4,
+    "saves": 46,
     "goalsAgainst": 12,
-    "shotsAgainst": 49,
-    "savePercentage": 0.755,
-    "goalsAgainstAverage": 4.0
+    "shotsAgainst": 58,
+    "savePercentage": 0.793,
+    "goalsAgainstAverage": 3.0
   }
 ]
