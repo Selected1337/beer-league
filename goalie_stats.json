@@ -2,12 +2,12 @@
   {
     "player": "DaGeekBob",
     "team": "MTL",
-    "gamesPlayed": 1,
-    "saves": 13,
-    "goalsAgainst": 6,
-    "shotsAgainst": 19,
-    "savePercentage": 0.684,
-    "goalsAgainstAverage": 6.0
+    "gamesPlayed": 2,
+    "saves": 25,
+    "goalsAgainst": 14,
+    "shotsAgainst": 39,
+    "savePercentage": 0.641,
+    "goalsAgainstAverage": 7.0
   },
   {
     "player": "Pluds",
@@ -18,5 +18,15 @@
     "shotsAgainst": 8,
     "savePercentage": 0.75,
     "goalsAgainstAverage": 2.0
+  },
+  {
+    "player": "RoyalCyrus",
+    "team": "NYI",
+    "gamesPlayed": 1,
+    "saves": 20,
+    "goalsAgainst": 3,
+    "shotsAgainst": 23,
+    "savePercentage": 0.87,
+    "goalsAgainstAverage": 3.0
   }
 ]
