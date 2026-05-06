@@ -5,13 +5,29 @@
     "status": "FINAL",
     "home": {
       "team": "NYI",
-      "sog": 1,
-      "score": 1
+      "sog": 0,
+      "score": 0
     },
     "away": {
       "team": "WSH",
-      "sog": 2,
-      "score": 2
+      "sog": 0,
+      "score": 0
+    },
+    "goals": []
+  },
+  {
+    "arena": "tft",
+    "date": "May 6",
+    "status": "FINAL",
+    "home": {
+      "team": "NYI",
+      "sog": 1.0,
+      "score": 1.0
+    },
+    "away": {
+      "team": "WSH",
+      "sog": 2.0,
+      "score": 2.0
     },
     "goals": [
       {
@@ -361,80 +377,5 @@
       "score": 0.0
     },
     "goals": []
-  },
-  {
-    "arena": "mcd",
-    "date": "May 6",
-    "status": "FINAL",
-    "home": {
-      "team": "MTL",
-      "sog": 23.0,
-      "score": 4.0
-    },
-    "away": {
-      "team": "NYI",
-      "sog": 20.0,
-      "score": 8.0
-    },
-    "goals": [
-      {
-        "scorer": "Tendy41",
-        "assists": [
-          "Cromwill"
-        ]
-      },
-      {
-        "scorer": "LoganStankoven",
-        "assists": [
-          "cam364"
-        ]
-      },
-      {
-        "scorer": "cam364",
-        "assists": "Unassisted"
-      },
-      {
-        "scorer": "cam364",
-        "assists": "Unassisted"
-      },
-      {
-        "scorer": "Cromwill",
-        "assists": [
-          "Tendy41"
-        ]
-      },
-      {
-        "scorer": "cam364",
-        "assists": "Unassisted"
-      },
-      {
-        "scorer": "cam364",
-        "assists": "Unassisted"
-      },
-      {
-        "scorer": "cam364",
-        "assists": "Unassisted"
-      },
-      {
-        "scorer": "cam364",
-        "assists": "Unassisted"
-      },
-      {
-        "scorer": "cam364",
-        "assists": "Unassisted"
-      },
-      {
-        "scorer": "Cromwill",
-        "assists": [
-          "Tendy41"
-        ]
-      },
-      {
-        "scorer": "Cromwill",
-        "assists": [
-          "Tendy41"
-        ]
-      }
-    ]
   }
 ]
