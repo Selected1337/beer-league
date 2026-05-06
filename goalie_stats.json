@@ -22,11 +22,21 @@
   {
     "player": "RoyalCyrus",
     "team": "NYI",
+    "gamesPlayed": 2,
+    "saves": 37,
+    "goalsAgainst": 9,
+    "shotsAgainst": 46,
+    "savePercentage": 0.804,
+    "goalsAgainstAverage": 4.5
+  },
+  {
+    "player": "Tendy41",
+    "team": "MTL",
     "gamesPlayed": 1,
     "saves": 20,
-    "goalsAgainst": 3,
-    "shotsAgainst": 23,
-    "savePercentage": 0.87,
-    "goalsAgainstAverage": 3.0
+    "goalsAgainst": 7,
+    "shotsAgainst": 27,
+    "savePercentage": 0.741,
+    "goalsAgainstAverage": 7.0
   }
 ]
