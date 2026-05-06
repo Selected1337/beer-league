@@ -10,8 +10,24 @@
     },
     "away": {
       "team": "WSH",
-      "sog": 1,
-      "score": 1
+      "sog": 0,
+      "score": 0
+    },
+    "goals": []
+  },
+  {
+    "arena": "tft",
+    "date": "May 6",
+    "status": "FINAL",
+    "home": {
+      "team": "NYI",
+      "sog": 0.0,
+      "score": 0.0
+    },
+    "away": {
+      "team": "WSH",
+      "sog": 1.0,
+      "score": 1.0
     },
     "goals": [
       {
@@ -407,52 +423,5 @@
       "score": 0.0
     },
     "goals": []
-  },
-  {
-    "arena": "grz",
-    "date": "May 6",
-    "status": "FINAL",
-    "home": {
-      "team": "MTL",
-      "sog": 1.0,
-      "score": 1.0
-    },
-    "away": {
-      "team": "NYI",
-      "sog": 19.0,
-      "score": 6.0
-    },
-    "goals": [
-      {
-        "scorer": "cam364",
-        "assists": "Unassisted"
-      },
-      {
-        "scorer": "cam364",
-        "assists": "Unassisted"
-      },
-      {
-        "scorer": "cam364",
-        "assists": "Unassisted"
-      },
-      {
-        "scorer": "Tendy41",
-        "assists": "Unassisted"
-      },
-      {
-        "scorer": "cam364",
-        "assists": [
-          "LoganStankoven"
-        ]
-      },
-      {
-        "scorer": "cam364",
-        "assists": "Unassisted"
-      },
-      {
-        "scorer": "cam364",
-        "assists": "Unassisted"
-      }
-    ]
   }
 ]
