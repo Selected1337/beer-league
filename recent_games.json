@@ -1,17 +1,92 @@
 [
   {
+    "arena": "mcd",
+    "date": "May 6",
+    "status": "FINAL",
+    "home": {
+      "team": "MTL",
+      "sog": 23,
+      "score": 4
+    },
+    "away": {
+      "team": "NYI",
+      "sog": 20,
+      "score": 8
+    },
+    "goals": [
+      {
+        "scorer": "Tendy41",
+        "assists": [
+          "Cromwill"
+        ]
+      },
+      {
+        "scorer": "LoganStankoven",
+        "assists": [
+          "cam364"
+        ]
+      },
+      {
+        "scorer": "cam364",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "cam364",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Cromwill",
+        "assists": [
+          "Tendy41"
+        ]
+      },
+      {
+        "scorer": "cam364",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "cam364",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "cam364",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "cam364",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "cam364",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Cromwill",
+        "assists": [
+          "Tendy41"
+        ]
+      },
+      {
+        "scorer": "Cromwill",
+        "assists": [
+          "Tendy41"
+        ]
+      }
+    ]
+  },
+  {
     "arena": "grz",
     "date": "May 6",
     "status": "FINAL",
     "home": {
       "team": "MTL",
-      "sog": 0,
-      "score": 0
+      "sog": 0.0,
+      "score": 0.0
     },
     "away": {
       "team": "NYI",
-      "sog": 0,
-      "score": 0
+      "sog": 0.0,
+      "score": 0.0
     },
     "goals": []
   },
