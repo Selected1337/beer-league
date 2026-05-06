@@ -5,13 +5,29 @@
     "status": "FINAL",
     "home": {
       "team": "MTL",
-      "sog": 1,
-      "score": 1
+      "sog": 0,
+      "score": 0
     },
     "away": {
       "team": "NYI",
-      "sog": 19,
-      "score": 6
+      "sog": 0,
+      "score": 0
+    },
+    "goals": []
+  },
+  {
+    "arena": "grz",
+    "date": "May 6",
+    "status": "FINAL",
+    "home": {
+      "team": "MTL",
+      "sog": 1.0,
+      "score": 1.0
+    },
+    "away": {
+      "team": "NYI",
+      "sog": 19.0,
+      "score": 6.0
     },
     "goals": [
       {
