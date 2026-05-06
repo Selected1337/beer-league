@@ -1,17 +1,90 @@
 [
   {
+    "arena": "fgd",
+    "date": "May 6",
+    "status": "FINAL",
+    "home": {
+      "team": "NYI",
+      "sog": 37,
+      "score": 4
+    },
+    "away": {
+      "team": "BU",
+      "sog": 39,
+      "score": 7
+    },
+    "goals": [
+      {
+        "scorer": "cam364",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Cromwill",
+        "assists": [
+          "DaGeekBob"
+        ]
+      },
+      {
+        "scorer": "Cromwill",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "cam364",
+        "assists": [
+          "RoyalCyrus"
+        ]
+      },
+      {
+        "scorer": "Cromwill",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "DaGeekBob",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "LoganStankoven",
+        "assists": [
+          "RoyalCyrus"
+        ]
+      },
+      {
+        "scorer": "cam364",
+        "assists": [
+          "LoganStankoven"
+        ]
+      },
+      {
+        "scorer": "cam364",
+        "assists": [
+          "LoganStankoven"
+        ]
+      },
+      {
+        "scorer": "cam364",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "cam364",
+        "assists": [
+          "LoganStankoven"
+        ]
+      }
+    ]
+  },
+  {
     "arena": "trn",
     "date": "May 6",
     "status": "FINAL",
     "home": {
       "team": "MTL",
-      "sog": 0,
-      "score": 0
+      "sog": 0.0,
+      "score": 0.0
     },
     "away": {
       "team": "NYI",
-      "sog": 0,
-      "score": 0
+      "sog": 0.0,
+      "score": 0.0
     },
     "goals": []
   },
