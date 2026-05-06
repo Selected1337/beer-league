@@ -5,41 +5,17 @@
     "status": "FINAL",
     "home": {
       "team": "MTL",
-      "sog": 6,
-      "score": 6
+      "sog": 0,
+      "score": 0
     },
     "away": {
       "team": "NYI",
-      "sog": 13,
+      "sog": 10,
       "score": 2
     },
     "goals": [
       {
         "scorer": "Tendy41",
-        "assists": "Unassisted"
-      },
-      {
-        "scorer": "Unknown",
-        "assists": "Unassisted"
-      },
-      {
-        "scorer": "Tendy41",
-        "assists": "Unassisted"
-      },
-      {
-        "scorer": "Tendy41",
-        "assists": "Unassisted"
-      },
-      {
-        "scorer": "Tendy41",
-        "assists": "Unassisted"
-      },
-      {
-        "scorer": "Pluds",
-        "assists": "Unassisted"
-      },
-      {
-        "scorer": "Unknown",
         "assists": "Unassisted"
       },
       {
