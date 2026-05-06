@@ -21,6 +21,22 @@
     "status": "FINAL",
     "home": {
       "team": "NYI",
+      "sog": 0.0,
+      "score": 0.0
+    },
+    "away": {
+      "team": "WSH",
+      "sog": 0.0,
+      "score": 0.0
+    },
+    "goals": []
+  },
+  {
+    "arena": "tft",
+    "date": "May 6",
+    "status": "FINAL",
+    "home": {
+      "team": "NYI",
       "sog": 1.0,
       "score": 1.0
     },
@@ -361,21 +377,5 @@
         ]
       }
     ]
-  },
-  {
-    "arena": "mcd",
-    "date": "May 6",
-    "status": "FINAL",
-    "home": {
-      "team": "MTL",
-      "sog": 0.0,
-      "score": 0.0
-    },
-    "away": {
-      "team": "NYI",
-      "sog": 0.0,
-      "score": 0.0
-    },
-    "goals": []
   }
 ]
