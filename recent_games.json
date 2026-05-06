@@ -5,13 +5,42 @@
     "status": "FINAL",
     "home": {
       "team": "NYI",
-      "sog": 0,
-      "score": 0
+      "sog": 1,
+      "score": 1
     },
     "away": {
       "team": "WSH",
-      "sog": 0,
-      "score": 0
+      "sog": 2,
+      "score": 2
+    },
+    "goals": [
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Unknown",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      }
+    ]
+  },
+  {
+    "arena": "tft",
+    "date": "May 6",
+    "status": "FINAL",
+    "home": {
+      "team": "NYI",
+      "sog": 0.0,
+      "score": 0.0
+    },
+    "away": {
+      "team": "WSH",
+      "sog": 0.0,
+      "score": 0.0
     },
     "goals": []
   },
@@ -407,21 +436,5 @@
         ]
       }
     ]
-  },
-  {
-    "arena": "grz",
-    "date": "May 6",
-    "status": "FINAL",
-    "home": {
-      "team": "MTL",
-      "sog": 0.0,
-      "score": 0.0
-    },
-    "away": {
-      "team": "NYI",
-      "sog": 0.0,
-      "score": 0.0
-    },
-    "goals": []
   }
 ]
