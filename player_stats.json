@@ -8,10 +8,10 @@
     "team": "NYI",
     "goals": 6,
     "assists": 0,
-    "hits": 21,
-    "touches": 140,
+    "hits": 22,
+    "touches": 142,
     "penalties": 0,
-    "gamesPlayed": 2
+    "gamesPlayed": 3
   },
   {
     "saves": 0,
@@ -22,10 +22,10 @@
     "team": "MTL",
     "goals": 0,
     "assists": 0,
-    "hits": 34,
-    "touches": 209,
+    "hits": 38,
+    "touches": 223,
     "penalties": 2,
-    "gamesPlayed": 2
+    "gamesPlayed": 3
   },
   {
     "saves": 13,
@@ -51,9 +51,9 @@
     "goals": 0,
     "assists": 1,
     "hits": 0,
-    "touches": 120,
+    "touches": 137,
     "penalties": 0,
-    "gamesPlayed": 2
+    "gamesPlayed": 3
   },
   {
     "saves": 0,
@@ -65,8 +65,8 @@
     "goals": 1,
     "assists": 0,
     "hits": 0,
-    "touches": 195,
+    "touches": 197,
     "penalties": 0,
-    "gamesPlayed": 2
+    "gamesPlayed": 3
   }
 ]
