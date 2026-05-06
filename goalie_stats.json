@@ -1,5 +1,15 @@
 [
   {
+    "player": "DaGeekBob",
+    "team": "MTL",
+    "gamesPlayed": 1,
+    "saves": 13,
+    "goalsAgainst": 6,
+    "shotsAgainst": 19,
+    "savePercentage": 0.684,
+    "goalsAgainstAverage": 6.0
+  },
+  {
     "player": "Pluds",
     "team": "MTL",
     "gamesPlayed": 1,
