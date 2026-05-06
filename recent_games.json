@@ -1,17 +1,96 @@
 [
   {
+    "arena": "chc",
+    "date": "May 6",
+    "status": "FINAL",
+    "home": {
+      "team": "MTL",
+      "sog": 23,
+      "score": 6
+    },
+    "away": {
+      "team": "NYI",
+      "sog": 27,
+      "score": 7
+    },
+    "goals": [
+      {
+        "scorer": "Unknown",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Cromwill",
+        "assists": [
+          "Tendy41"
+        ]
+      },
+      {
+        "scorer": "LoganStankoven",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "LoganStankoven",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Cromwill",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "cam364",
+        "assists": [
+          "RoyalCyrus"
+        ]
+      },
+      {
+        "scorer": "Cromwill",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "DaGeekBob",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "cam364",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "cam364",
+        "assists": [
+          "LoganStankoven"
+        ]
+      },
+      {
+        "scorer": "cam364",
+        "assists": [
+          "LoganStankoven"
+        ]
+      },
+      {
+        "scorer": "DaGeekBob",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Cromwill",
+        "assists": [
+          "Tendy41"
+        ]
+      }
+    ]
+  },
+  {
     "arena": "mcd",
     "date": "May 6",
     "status": "FINAL",
     "home": {
       "team": "MTL",
-      "sog": 0,
-      "score": 0
+      "sog": 0.0,
+      "score": 0.0
     },
     "away": {
       "team": "NYI",
-      "sog": 0,
-      "score": 0
+      "sog": 0.0,
+      "score": 0.0
     },
     "goals": []
   },
