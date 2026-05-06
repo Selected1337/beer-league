@@ -1,17 +1,38 @@
 [
   {
+    "arena": "tft",
+    "date": "May 6",
+    "status": "FINAL",
+    "home": {
+      "team": "NYI",
+      "sog": 0,
+      "score": 0
+    },
+    "away": {
+      "team": "WSH",
+      "sog": 1,
+      "score": 1
+    },
+    "goals": [
+      {
+        "scorer": "Tendy41",
+        "assists": "Unassisted"
+      }
+    ]
+  },
+  {
     "arena": "fgd",
     "date": "May 6",
     "status": "FINAL",
     "home": {
       "team": "NYI",
-      "sog": 37,
-      "score": 4
+      "sog": 37.0,
+      "score": 4.0
     },
     "away": {
       "team": "BU",
-      "sog": 39,
-      "score": 7
+      "sog": 39.0,
+      "score": 7.0
     },
     "goals": [
       {
