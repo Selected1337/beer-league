@@ -5,13 +5,29 @@
     "status": "FINAL",
     "home": {
       "team": "MTL",
-      "sog": 23,
-      "score": 6
+      "sog": 0,
+      "score": 0
     },
     "away": {
       "team": "NYI",
-      "sog": 27,
-      "score": 7
+      "sog": 0,
+      "score": 0
+    },
+    "goals": []
+  },
+  {
+    "arena": "chc",
+    "date": "May 6",
+    "status": "FINAL",
+    "home": {
+      "team": "MTL",
+      "sog": 23.0,
+      "score": 6.0
+    },
+    "away": {
+      "team": "NYI",
+      "sog": 27.0,
+      "score": 7.0
     },
     "goals": [
       {
