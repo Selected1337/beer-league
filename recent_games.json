@@ -1,17 +1,114 @@
 [
   {
+    "arena": "trn",
+    "date": "May 6",
+    "status": "FINAL",
+    "home": {
+      "team": "MTL",
+      "sog": 33,
+      "score": 10
+    },
+    "away": {
+      "team": "NYI",
+      "sog": 29,
+      "score": 6
+    },
+    "goals": [
+      {
+        "scorer": "cam364",
+        "assists": [
+          "LoganStankoven"
+        ]
+      },
+      {
+        "scorer": "Cromwill",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Cromwill",
+        "assists": [
+          "DaGeekBob"
+        ]
+      },
+      {
+        "scorer": "cam364",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "DaGeekBob",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "LoganStankoven",
+        "assists": [
+          "RoyalCyrus"
+        ]
+      },
+      {
+        "scorer": "cam364",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Cromwill",
+        "assists": [
+          "DaGeekBob"
+        ]
+      },
+      {
+        "scorer": "LoganStankoven",
+        "assists": [
+          "cam364"
+        ]
+      },
+      {
+        "scorer": "DaGeekBob",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "DaGeekBob",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "DaGeekBob",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "DaGeekBob",
+        "assists": "Unassisted"
+      },
+      {
+        "scorer": "Cromwill",
+        "assists": [
+          "DaGeekBob"
+        ]
+      },
+      {
+        "scorer": "DaGeekBob",
+        "assists": [
+          "Cromwill"
+        ]
+      },
+      {
+        "scorer": "cam364",
+        "assists": [
+          "LoganStankoven"
+        ]
+      }
+    ]
+  },
+  {
     "arena": "chc",
     "date": "May 6",
     "status": "FINAL",
     "home": {
       "team": "MTL",
-      "sog": 0,
-      "score": 0
+      "sog": 0.0,
+      "score": 0.0
     },
     "away": {
       "team": "NYI",
-      "sog": 0,
-      "score": 0
+      "sog": 0.0,
+      "score": 0.0
     },
     "goals": []
   },
